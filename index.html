@@ -1,0 +1,1760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Health — District Command View</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- Trimmed to one weight per family (was up to 4) to cut the font payload
+     for low-connectivity users; system-font fallbacks below cover the case
+     where this request is slow, blocked, or the browser has fonts disabled.
+     Lite mode (see script) skips this stylesheet's fonts entirely and uses
+     the OS system font stack instead. -->
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&family=Inter:wght@400;600&family=IBM+Plex+Mono:wght@500&family=Noto+Sans+Devanagari:wght@400;600&family=Noto+Sans+Bengali:wght@400;600&display=swap" rel="stylesheet"
+      media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&family=Inter:wght@400;600&family=IBM+Plex+Mono:wght@500&family=Noto+Sans+Devanagari:wght@400;600&family=Noto+Sans+Bengali:wght@400;600&display=swap" rel="stylesheet"></noscript>
+<style>
+  :root{
+    --paper:#0A0A0C;
+    --paper-raised:#141317;
+    --ink:#F4F2EE;
+    --ink-soft:#9A96A3;
+    --line:rgba(255,255,255,0.09);
+    --saffron:#FFB454;
+    --saffron-deep:#FF6A2B;
+    --vermillion:#FF4D5E;
+    --vermillion-soft:rgba(255,77,94,0.14);
+    --sage:#34D399;
+    --sage-soft:rgba(52,211,153,0.14);
+    --watch:#FFA53D;
+    --watch-soft:rgba(255,165,61,0.14);
+    --stable:#34D399;
+    --font-display:"Space Grotesk", sans-serif;
+    --font-body:"Inter", sans-serif;
+    --font-mono:"IBM Plex Mono", monospace;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:var(--font-body);
+    -webkit-font-smoothing:antialiased;
+    min-height:100vh;
+    position:relative;
+    overflow-x:hidden;
+  }
+  ::selection{background:var(--saffron-deep); color:#0A0A0C;}
+
+  body::before{
+    content:'';
+    position:fixed; top:-260px; left:50%; transform:translateX(-50%);
+    width:1100px; height:560px; pointer-events:none; z-index:0;
+    background:radial-gradient(ellipse at center, rgba(255,138,61,0.14), transparent 68%);
+  }
+  body::after{
+    content:'';
+    position:fixed; bottom:-320px; right:-220px;
+    width:760px; height:760px; pointer-events:none; z-index:0;
+    background:radial-gradient(circle, rgba(255,106,43,0.09), transparent 70%);
+  }
+
+  .shell{max-width:1240px; margin:0 auto; padding:0 28px 80px; position:relative; z-index:1;}
+
+  header.top{
+    display:flex; align-items:flex-start; justify-content:space-between;
+    padding:30px 0 22px; border-bottom:1px solid var(--line);
+    gap:24px; flex-wrap:wrap;
+  }
+  .brand{display:flex; align-items:center; gap:16px;}
+  .brand-mark{
+    width:46px; height:46px; border-radius:50%;
+    border:1.5px solid var(--saffron-deep);
+    display:flex; align-items:center; justify-content:center;
+    font-family:var(--font-display); font-weight:700; font-size:17px;
+    flex-shrink:0; background:var(--paper-raised); color:var(--saffron);
+    box-shadow:0 0 24px rgba(255,106,43,0.35);
+  }
+  .brand h1{
+    font-family:var(--font-display); font-weight:600; font-size:25px;
+    margin:0; letter-spacing:-0.01em; line-height:1.15; color:var(--ink);
+  }
+  .brand p{margin:4px 0 0; font-size:13px; color:var(--ink-soft); letter-spacing:.01em;}
+
+  .lang-toggle{
+    display:flex; gap:2px; align-items:center;
+    background:var(--paper-raised); border:1px solid var(--line);
+    padding:4px; border-radius:999px;
+  }
+  .lang-btn{
+    font-family:var(--font-body); font-size:13px; font-weight:600;
+    padding:7px 14px; border-radius:999px; border:none;
+    background:transparent; color:var(--ink-soft); cursor:pointer;
+    transition:all .15s ease;
+  }
+  .lang-btn.active{
+    background:linear-gradient(135deg, var(--saffron-deep), var(--saffron));
+    color:#170D06;
+  }
+  .lang-btn:hover:not(.active){color:var(--ink);}
+
+  .seal-wrap{position:relative;}
+  .seal{
+    position:absolute; top:-6px; right:0;
+    width:104px; height:104px;
+    display:flex; align-items:center; justify-content:center;
+    pointer-events:none;
+    animation: stamp-in .5s cubic-bezier(.2,1.6,.4,1) both;
+    filter:drop-shadow(0 0 10px rgba(255,77,94,0.35));
+  }
+  @keyframes stamp-in{
+    0%{opacity:0; transform:scale(1.7) rotate(-18deg);}
+    60%{opacity:1;}
+    100%{opacity:1; transform:scale(1) rotate(-8deg);}
+  }
+  .seal svg{width:100%; height:100%;}
+  .seal-text{
+    font-family:var(--font-mono); font-size:8.6px; font-weight:600;
+    letter-spacing:.06em; fill:var(--vermillion);
+  }
+  .seal-center{font-family:var(--font-display); font-weight:700; font-size:15px; fill:var(--vermillion);}
+
+  .hero{display:grid; grid-template-columns:1.3fr 1fr; gap:22px; margin-top:26px;}
+  @media (max-width:880px){.hero{grid-template-columns:1fr;}}
+
+  .panel{
+    background:var(--paper-raised); border:1px solid var(--line);
+    border-radius:16px; padding:22px 24px; position:relative; overflow:hidden;
+  }
+  .hero .panel:first-of-type::before{
+    content:''; position:absolute; width:420px; height:420px; border-radius:50%;
+    top:-190px; right:-170px; pointer-events:none;
+    background:radial-gradient(circle, rgba(255,106,43,0.22), transparent 70%);
+  }
+  .panel-title{
+    font-family:var(--font-display); font-weight:600; font-size:17px;
+    margin:0 0 4px; display:flex; align-items:baseline; gap:8px; color:var(--ink);
+    position:relative; z-index:1;
+  }
+  .panel-eyebrow{
+    font-family:var(--font-mono); font-size:10.5px; letter-spacing:.12em;
+    text-transform:uppercase; color:var(--saffron-deep); font-weight:600;
+    position:relative; z-index:1;
+  }
+  .panel-sub{font-size:12.5px; color:var(--ink-soft); margin:0 0 14px; position:relative; z-index:1;}
+
+  #mapSvg{width:100%; height:auto; display:block; position:relative; z-index:1;}
+  .district-dot{cursor:pointer; transition:r .12s ease, filter .12s ease;}
+  .district-dot:hover{filter:brightness(1.3);}
+  .district-label{
+    font-family:var(--font-mono); font-size:9.5px; fill:var(--ink-soft);
+    pointer-events:none;
+  }
+  .map-legend{display:flex; gap:16px; flex-wrap:wrap; margin-top:10px; font-size:11.5px; color:var(--ink-soft); position:relative; z-index:1;}
+  .map-legend span{display:inline-flex; align-items:center; gap:5px;}
+  .swatch{width:9px; height:9px; border-radius:50%; display:inline-block;}
+  .flow-legend{display:none; align-items:center; gap:6px;}
+  .flow-legend.visible{display:inline-flex;}
+  .flow-swatch{width:16px; height:2px; background:var(--saffron-deep); display:inline-block; position:relative;}
+  .flow-swatch::after{
+    content:''; position:absolute; right:-1px; top:-2px; width:0; height:0;
+    border-left:4px solid var(--saffron-deep); border-top:3px solid transparent; border-bottom:3px solid transparent;
+  }
+
+  .flow-arc{
+    fill:none; stroke:var(--saffron-deep); stroke-width:1.6;
+    stroke-dasharray:5 4; opacity:0.9;
+    animation: flow-dash 1.1s linear infinite;
+  }
+  @keyframes flow-dash{ to{ stroke-dashoffset:-18; } }
+  .flow-node{ fill:var(--saffron-deep); }
+
+  .kpi-grid{display:grid; grid-template-columns:1fr 1fr; gap:12px; position:relative; z-index:1;}
+  .kpi{
+    border:1px solid var(--line); border-radius:12px; padding:15px 16px;
+    background:var(--paper);
+  }
+  .kpi-num{font-family:var(--font-display); font-weight:700; font-size:30px; line-height:1; color:var(--ink);}
+  .kpi-num.crit{color:var(--vermillion);}
+  .kpi-num.watch{color:var(--watch);}
+  .kpi-num.sage{color:var(--sage);}
+  .kpi-label{font-size:11.5px; color:var(--ink-soft); margin-top:6px; line-height:1.3;}
+
+  .section{margin-top:36px;}
+  .section-head{
+    display:flex; align-items:baseline; justify-content:space-between;
+    border-bottom:1px solid var(--line); padding-bottom:10px; margin-bottom:16px;
+    flex-wrap:wrap; gap:10px;
+  }
+  .section-head h2{
+    font-family:var(--font-display); font-weight:600; font-size:20px; margin:0; color:var(--ink);
+  }
+  .section-note{font-size:12px; color:var(--ink-soft); font-family:var(--font-mono);}
+
+  .chip-row{display:flex; gap:8px; flex-wrap:wrap; margin-bottom:16px;}
+  .chip{
+    font-family:var(--font-mono); font-size:11.5px; padding:7px 14px;
+    border-radius:999px; border:1px solid var(--line); background:var(--paper-raised);
+    cursor:pointer; color:var(--ink-soft); font-weight:500; transition:all .15s ease;
+  }
+  .chip:hover{color:var(--ink); border-color:rgba(255,255,255,0.2);}
+  .chip.active{
+    background:linear-gradient(135deg, var(--saffron-deep), var(--saffron));
+    border-color:transparent; color:#170D06;
+  }
+
+  .alert-row{
+    display:grid; grid-template-columns:118px 1fr 90px 100px;
+    gap:14px; align-items:center; padding:13px 16px;
+    border:1px solid var(--line); border-radius:10px; margin-bottom:8px;
+    background:var(--paper-raised); font-size:13px;
+    transition:border-color .15s ease;
+  }
+  .alert-row:hover{border-color:rgba(255,255,255,0.18);}
+  @media (max-width:700px){.alert-row{grid-template-columns:1fr; gap:4px;}}
+  .alert-row .fac{font-family:var(--font-mono); font-weight:600; font-size:12.5px; color:var(--ink);}
+  .alert-row .med{font-weight:500; color:var(--ink);}
+  .alert-row .stock{color:var(--ink-soft); font-size:12px;}
+  .risk-pill{
+    font-family:var(--font-mono); font-size:11px; font-weight:600; text-align:center;
+    padding:5px 8px; border-radius:6px; background:var(--vermillion-soft); color:var(--vermillion);
+    border:1px solid rgba(255,77,94,0.25);
+  }
+
+  .redis-grid{display:grid; grid-template-columns:repeat(auto-fill, minmax(270px,1fr)); gap:12px;}
+  .redis-card{
+    border:1px solid var(--line); border-radius:12px; padding:16px 18px;
+    background:var(--paper-raised); position:relative; transition:border-color .15s ease, background .15s ease;
+  }
+  .redis-card.approved{ border-color:rgba(52,211,153,0.4); background:linear-gradient(180deg, rgba(52,211,153,0.08), var(--paper-raised) 60%); }
+  .redis-district{
+    font-family:var(--font-mono); font-size:10.5px; letter-spacing:.06em;
+    text-transform:uppercase; color:var(--saffron-deep); font-weight:600; margin-bottom:6px;
+  }
+  .redis-med{font-weight:600; font-size:14px; margin-bottom:10px; color:var(--ink);}
+  .redis-flow{display:flex; align-items:center; gap:8px; font-family:var(--font-mono); font-size:12.5px;}
+  .redis-node{
+    padding:5px 9px; border-radius:6px; background:var(--paper); border:1px solid var(--line); color:var(--ink);
+  }
+  .redis-arrow{color:var(--saffron-deep); font-weight:700;}
+  .redis-meta{margin-top:10px; font-size:11.5px; color:var(--ink-soft); display:flex; justify-content:space-between;}
+  .approve-btn{
+    margin-top:12px; width:100%; padding:9px 10px; border-radius:999px;
+    border:none; background:linear-gradient(135deg, var(--saffron-deep), var(--saffron)); color:#170D06;
+    font-family:var(--font-body); font-size:12.5px; font-weight:700; cursor:pointer;
+    transition:all .15s ease;
+  }
+  .approve-btn:hover{opacity:0.88; transform:translateY(-1px);}
+  .approve-btn.approved{
+    background:var(--sage); color:#052E22; cursor:default;
+  }
+  .approve-btn.approved:hover{opacity:1; transform:none;}
+  .approve-note{
+    margin-top:14px; font-size:11px; color:var(--ink-soft); font-style:italic;
+  }
+
+  table.risk-table{width:100%; border-collapse:collapse; font-size:13px;}
+  table.risk-table th{
+    text-align:left; font-family:var(--font-mono); font-size:10.5px; letter-spacing:.08em;
+    text-transform:uppercase; color:var(--ink-soft); font-weight:600;
+    padding:0 10px 10px; border-bottom:1px solid var(--line);
+  }
+  table.risk-table td{padding:12px 10px; border-bottom:1px solid var(--line); vertical-align:middle; color:var(--ink);}
+  table.risk-table tr:hover td{background:rgba(255,255,255,0.03);}
+  .fac-id{font-family:var(--font-mono); font-weight:600; font-size:12.5px;}
+  .tier-badge{
+    display:inline-block; font-family:var(--font-mono); font-size:11px; font-weight:600;
+    padding:4px 10px; border-radius:999px; border:1px solid transparent;
+  }
+  .tier-Critical{background:var(--vermillion-soft); color:var(--vermillion); border-color:rgba(255,77,94,0.25);}
+  .tier-At{background:var(--watch-soft); color:var(--watch); border-color:rgba(255,165,61,0.25);}
+  .tier-Watch{background:var(--watch-soft); color:var(--watch); border-color:rgba(255,165,61,0.25);}
+  .tier-Stable{background:var(--sage-soft); color:var(--stable); border-color:rgba(52,211,153,0.25);}
+  .bar-track{width:70px; height:6px; background:rgba(255,255,255,0.08); border-radius:99px; overflow:hidden; display:inline-block; vertical-align:middle; margin-right:8px;}
+  .bar-fill{height:100%; background:linear-gradient(90deg, var(--saffron-deep), var(--saffron));}
+
+  .footer{
+    margin-top:50px; padding-top:22px; border-top:1px solid var(--line);
+    font-size:12px; color:var(--ink-soft); display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px;
+  }
+
+  body.lang-hi, body.lang-as{
+    --font-display:"Space Grotesk", "Noto Sans Devanagari", sans-serif;
+  }
+  body.lang-hi *, body.lang-as *{font-family:"Inter","Noto Sans Devanagari","Noto Sans Bengali",sans-serif;}
+  body.lang-hi .fac-id, body.lang-as .fac-id,
+  body.lang-hi .seal-text, body.lang-as .seal-text,
+  body.lang-hi .panel-eyebrow, body.lang-as .panel-eyebrow,
+  body.lang-hi .redis-district, body.lang-as .redis-district,
+  body.lang-hi table.risk-table th, body.lang-as table.risk-table th{font-family:var(--font-mono);}
+  body.lang-hi h1, body.lang-as h1, body.lang-hi h2, body.lang-as h2, body.lang-hi .panel-title, body.lang-as .panel-title{font-family:var(--font-display);}
+
+  body.lang-hi p, body.lang-as p,
+  body.lang-hi .panel-sub, body.lang-as .panel-sub,
+  body.lang-hi .section-note, body.lang-as .section-note,
+  body.lang-hi .kpi-label, body.lang-as .kpi-label,
+  body.lang-hi .med, body.lang-as .med,
+  body.lang-hi .redis-meta, body.lang-as .redis-meta,
+  body.lang-hi td, body.lang-as td,
+  body.lang-hi .footer, body.lang-as .footer{
+    line-height:1.65;
+  }
+  body.lang-hi h1, body.lang-as h1{ line-height:1.35; }
+  body.lang-hi h2, body.lang-as h2,
+  body.lang-hi .panel-title, body.lang-as .panel-title{ line-height:1.4; }
+  body.lang-hi .brand p, body.lang-as .brand p{ line-height:1.55; margin-top:5px; }
+
+  /* ============================================================
+     ANIMATION LAYER — scroll reveals, word-in text, stagger, glow
+     ============================================================ */
+
+  html{scroll-behavior:smooth;}
+
+  .scroll-progress{
+    position:fixed; top:0; left:0; height:3px; width:0%; z-index:9999;
+    background:linear-gradient(90deg, var(--saffron-deep), var(--saffron), var(--vermillion));
+    box-shadow:0 0 10px rgba(255,106,43,.55);
+    transition:width .12s linear;
+  }
+
+  .particle-field{
+    position:fixed; inset:0; z-index:0; pointer-events:none; overflow:hidden;
+  }
+  .particle{
+    position:absolute; border-radius:50%;
+    background:radial-gradient(circle, rgba(255,180,84,0.55), rgba(255,180,84,0) 70%);
+    animation:particle-float linear infinite;
+    opacity:0.5;
+  }
+  @keyframes particle-float{
+    0%{ transform:translateY(0) translateX(0); opacity:0; }
+    10%{ opacity:.55; }
+    90%{ opacity:.4; }
+    100%{ transform:translateY(-620px) translateX(30px); opacity:0; }
+  }
+
+  @keyframes header-drop{
+    0%{opacity:0; transform:translateY(-18px);}
+    100%{opacity:1; transform:translateY(0);}
+  }
+  header.top{animation:header-drop .7s cubic-bezier(.22,1,.36,1) both;}
+
+  @keyframes glow-pulse{
+    0%,100%{box-shadow:0 0 24px rgba(255,106,43,0.35);}
+    50%{box-shadow:0 0 38px rgba(255,106,43,0.6);}
+  }
+  .brand-mark{animation:glow-pulse 3.2s ease-in-out infinite;}
+
+  .word-split .word{
+    display:inline-block;
+    opacity:0;
+    transform:translateY(26px) rotateX(-55deg);
+    transform-origin:50% 100%;
+    animation:word-in .68s cubic-bezier(.22,1,.36,1) forwards;
+    will-change:transform, opacity;
+  }
+  @keyframes word-in{
+    0%{opacity:0; transform:translateY(26px) rotateX(-55deg);}
+    60%{opacity:1;}
+    100%{opacity:1; transform:translateY(0) rotateX(0);}
+  }
+
+  .reveal{
+    opacity:0; transform:translateY(42px);
+    transition:opacity .8s cubic-bezier(.22,1,.36,1), transform .8s cubic-bezier(.22,1,.36,1);
+  }
+  .reveal.visible{opacity:1; transform:translateY(0);}
+
+  .stagger-item{
+    opacity:0; transform:translateY(20px);
+    animation:stagger-in .62s cubic-bezier(.22,1,.36,1) forwards;
+  }
+  @keyframes stagger-in{ to{opacity:1; transform:translateY(0);} }
+
+  .panel, .kpi, .redis-card, .alert-row{
+    transition:transform .28s cubic-bezier(.22,1,.36,1), border-color .28s ease, box-shadow .28s ease, background .28s ease;
+  }
+  .panel:hover{
+    transform:translateY(-3px);
+    border-color:rgba(255,180,84,0.35);
+    box-shadow:0 14px 34px rgba(0,0,0,0.35);
+  }
+  .kpi:hover{ transform:translateY(-2px); border-color:rgba(255,180,84,0.3); }
+  .redis-card:hover{
+    transform:translateY(-4px);
+    border-color:rgba(255,180,84,0.35);
+    box-shadow:0 12px 28px rgba(0,0,0,0.32);
+  }
+  .alert-row:hover{ transform:translateX(3px); }
+
+  table.risk-table tbody tr{ transition:background .2s ease, transform .2s ease; }
+  table.risk-table tbody tr:hover{ transform:translateX(2px); }
+
+  .chip, .approve-btn, .lang-btn{ transition:all .18s cubic-bezier(.22,1,.36,1); }
+  .chip:active, .approve-btn:active{ transform:scale(.95); }
+
+  .kpi-num{ transition:color .3s ease; }
+
+  @media (prefers-reduced-motion: reduce){
+    *, *::before, *::after{ animation-duration:0.01ms !important; animation-iteration-count:1 !important; transition-duration:0.01ms !important; }
+  }
+
+  /* ============================================================
+     PREMIUM POLISH LAYER — depth, glass, refined typography/detail
+     ============================================================ */
+
+  :root{
+    --shadow-sm:0 2px 8px rgba(0,0,0,.28);
+    --shadow-md:0 10px 28px -8px rgba(0,0,0,.45);
+    --shadow-lg:0 24px 64px -16px rgba(0,0,0,.6), 0 8px 24px -8px rgba(0,0,0,.4);
+    --shadow-glow:0 0 0 1px rgba(255,138,61,.14), 0 16px 40px -12px rgba(255,106,43,.28);
+    --glass:rgba(20,19,24,0.58);
+    --hairline:linear-gradient(180deg, rgba(255,255,255,.14), rgba(255,255,255,0));
+  }
+
+  html{background:var(--paper);}
+  body{
+    background:
+      radial-gradient(1000px 620px at 8% -10%, rgba(255,138,61,0.10), transparent 60%),
+      radial-gradient(900px 700px at 108% 10%, rgba(255,77,94,0.07), transparent 55%),
+      radial-gradient(1200px 900px at 50% 120%, rgba(52,211,153,0.05), transparent 60%),
+      var(--paper);
+    letter-spacing:.001em;
+  }
+  body::before{ width:1300px; height:640px; top:-300px; filter:blur(6px); }
+  body::after{ width:900px; height:900px; filter:blur(6px); }
+
+  /* fine film-grain texture for depth, sits above gradients, below content */
+  .grain{
+    position:fixed; inset:0; z-index:0; pointer-events:none; opacity:.035; mix-blend-mode:overlay;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='120' height='120'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+  }
+
+  ::-webkit-scrollbar{width:11px; height:11px;}
+  ::-webkit-scrollbar-track{background:var(--paper);}
+  ::-webkit-scrollbar-thumb{background:#2a2830; border-radius:99px; border:3px solid var(--paper);}
+  ::-webkit-scrollbar-thumb:hover{background:#38343e;}
+
+  a, button{ font-family:inherit; }
+  :focus-visible{ outline:2px solid var(--saffron); outline-offset:3px; border-radius:4px; }
+
+  /* ---- header: sticky glass bar ---- */
+  header.top{
+    position:sticky; top:0; z-index:60; margin:0 -28px; padding:22px 28px;
+    background:rgba(9,9,11,0.66); backdrop-filter:blur(18px) saturate(150%); -webkit-backdrop-filter:blur(18px) saturate(150%);
+    border-bottom:1px solid var(--line);
+  }
+  header.top::after{
+    content:''; position:absolute; left:0; right:0; bottom:-1px; height:1px;
+    background:linear-gradient(90deg, transparent, rgba(255,138,61,.55), rgba(255,77,94,.4), transparent);
+  }
+  .shell{padding-top:4px;}
+
+  .brand-mark{
+    position:relative; border:none;
+    background:
+      linear-gradient(var(--paper-raised), var(--paper-raised)) padding-box,
+      conic-gradient(from 220deg, var(--saffron-deep), var(--saffron), var(--vermillion), var(--saffron-deep)) border-box;
+    border:1.5px solid transparent;
+    box-shadow:var(--shadow-glow);
+  }
+  .brand h1{
+    background:linear-gradient(120deg, var(--ink) 40%, var(--saffron) 90%);
+    -webkit-background-clip:text; background-clip:text; color:transparent;
+    letter-spacing:-.015em;
+  }
+
+  .lang-toggle{ box-shadow:inset 0 1px 3px rgba(0,0,0,.35), var(--shadow-sm); }
+  .lang-btn.active{ box-shadow:0 4px 14px -2px rgba(255,106,43,.55); }
+
+  /* ---- panels: glass cards with hairline top + refined depth ---- */
+  .panel{
+    background:
+      linear-gradient(180deg, rgba(255,255,255,0.035), rgba(255,255,255,0) 40%),
+      var(--glass);
+    backdrop-filter:blur(22px) saturate(130%); -webkit-backdrop-filter:blur(22px) saturate(130%);
+    border-radius:20px; border-color:rgba(255,255,255,0.08);
+    box-shadow:var(--shadow-md);
+  }
+  .panel::after{
+    content:''; position:absolute; top:0; left:18px; right:18px; height:1px;
+    background:var(--hairline); pointer-events:none;
+  }
+  .panel:hover{ box-shadow:var(--shadow-lg), var(--shadow-glow); }
+
+  .panel-title{ font-size:18px; letter-spacing:-.01em; }
+  .panel-eyebrow{
+    display:inline-flex; align-items:center; gap:6px;
+  }
+  .panel-eyebrow::before{
+    content:''; width:5px; height:5px; border-radius:50%; background:var(--saffron-deep);
+    box-shadow:0 0 8px rgba(255,138,61,.8); display:inline-block;
+  }
+
+  /* ---- KPI tiles: accent bar + gradient numerals ---- */
+  .kpi{
+    border-radius:14px; position:relative; overflow:hidden; padding:16px 17px 15px;
+    background:linear-gradient(160deg, rgba(255,255,255,.04), rgba(0,0,0,0) 55%), var(--paper);
+    box-shadow:var(--shadow-sm);
+  }
+  .kpi::before{
+    content:''; position:absolute; left:0; top:0; bottom:0; width:3px;
+    background:linear-gradient(180deg, var(--saffron-deep), var(--saffron));
+    opacity:.85;
+  }
+  .kpi-num{ letter-spacing:-.02em; text-shadow:0 2px 18px rgba(255,138,61,.12); }
+  .kpi:hover{ box-shadow:var(--shadow-md); }
+
+  /* ---- section headers: gradient underline accent ---- */
+  .section-head{ position:relative; border-bottom-color:rgba(255,255,255,.07); }
+  .section-head::after{
+    content:''; position:absolute; left:0; bottom:-1px; width:64px; height:2px;
+    background:linear-gradient(90deg, var(--saffron-deep), transparent);
+  }
+  .section-head h2{ letter-spacing:-.01em; }
+  .section-note{
+    background:rgba(255,255,255,.04); padding:4px 10px; border-radius:999px; border:1px solid var(--line);
+  }
+
+  /* ---- chips ---- */
+  .chip{ font-weight:600; box-shadow:var(--shadow-sm); }
+  .chip.active{ box-shadow:0 6px 16px -4px rgba(255,106,43,.5); }
+  .chip:hover:not(.active){ background:rgba(255,255,255,.05); transform:translateY(-1px); }
+
+  /* ---- alert rows: left accent + glass ---- */
+  .alert-row{
+    border-radius:12px; position:relative; padding-left:20px;
+    background:linear-gradient(160deg, rgba(255,255,255,.03), rgba(0,0,0,0) 60%), var(--paper-raised);
+    box-shadow:var(--shadow-sm);
+  }
+  .alert-row::before{
+    content:''; position:absolute; left:0; top:10%; bottom:10%; width:3px; border-radius:2px;
+    background:linear-gradient(180deg, var(--vermillion), var(--watch));
+  }
+  .alert-row:hover{ box-shadow:var(--shadow-md); }
+  .risk-pill{ box-shadow:inset 0 0 0 1px rgba(255,77,94,.1); }
+
+  /* ---- redistribution cards ---- */
+  .redis-card{
+    border-radius:14px;
+    background:linear-gradient(160deg, rgba(255,255,255,.035), rgba(0,0,0,0) 55%), var(--paper-raised);
+    box-shadow:var(--shadow-sm);
+  }
+  .redis-card:hover{ box-shadow:var(--shadow-md); }
+  .redis-node{ box-shadow:var(--shadow-sm); }
+  .approve-btn{ box-shadow:0 6px 18px -4px rgba(255,106,43,.45); letter-spacing:.01em; }
+  .approve-btn:hover{ box-shadow:0 8px 22px -4px rgba(255,106,43,.6); }
+  .approve-btn.approved{ box-shadow:0 6px 18px -4px rgba(52,211,153,.4); }
+
+  /* ---- risk table: card wrapper, sticky head, refined rows ---- */
+  .table-card{
+    background:var(--glass); backdrop-filter:blur(18px);
+    border:1px solid var(--line); border-radius:16px; overflow:hidden; box-shadow:var(--shadow-md);
+  }
+  table.risk-table{ font-size:13px; }
+  table.risk-table thead th{
+    background:rgba(255,255,255,.03);
+    padding:14px 16px 13px; border-bottom:1px solid var(--line);
+  }
+  table.risk-table td{ padding:13px 16px; border-bottom-color:rgba(255,255,255,.06); }
+  table.risk-table tbody tr:nth-child(even) td{ background:rgba(255,255,255,.015); }
+  table.risk-table tbody tr:hover td{ background:rgba(255,138,61,.055); }
+  .tier-badge{ position:relative; padding-left:18px; font-weight:700; }
+  .tier-badge::before{
+    content:''; position:absolute; left:8px; top:50%; transform:translateY(-50%);
+    width:5px; height:5px; border-radius:50%; background:currentColor;
+  }
+  .bar-track{ box-shadow:inset 0 1px 3px rgba(0,0,0,.4); }
+  .bar-fill{ box-shadow:0 0 8px rgba(255,138,61,.5); }
+
+  /* ---- footer ---- */
+  .footer{
+    border-top-color:rgba(255,255,255,.07); position:relative;
+    font-family:var(--font-mono); font-size:11.5px;
+  }
+  .footer::before{
+    content:''; position:absolute; top:-1px; left:0; width:120px; height:1px;
+    background:linear-gradient(90deg, var(--saffron-deep), transparent);
+  }
+
+  @media (max-width:880px){
+    header.top{margin:0 -20px; padding:18px 20px;}
+  }
+
+  /* ============================================================
+     ACCESSIBILITY + LOW-CONNECTIVITY LAYER
+     ============================================================ */
+
+  /* --- Listen (text-to-speech) buttons --- */
+  .listen-btn{
+    display:inline-flex; align-items:center; justify-content:center; gap:5px;
+    font-family:var(--font-body); font-size:11px; font-weight:600;
+    padding:5px 10px; border-radius:999px; border:1px solid var(--line);
+    background:var(--paper); color:var(--ink-soft); cursor:pointer;
+    transition:all .15s ease; flex-shrink:0;
+  }
+  .listen-btn:hover{ color:var(--ink); border-color:rgba(255,255,255,.25); }
+  .listen-btn.speaking{ background:var(--sage-soft); color:var(--stable); border-color:rgba(52,211,153,.35); }
+  .listen-btn svg{width:12px; height:12px; flex-shrink:0;}
+  .kpi-listen-row{ display:flex; align-items:center; justify-content:space-between; gap:8px; }
+
+  /* --- Lite mode toggle button --- */
+  .lite-toggle{
+    display:flex; align-items:center; gap:7px;
+    font-family:var(--font-body); font-size:12px; font-weight:600;
+    padding:8px 13px; border-radius:999px; border:1px solid var(--line);
+    background:var(--paper-raised); color:var(--ink-soft); cursor:pointer;
+    transition:all .15s ease; box-shadow:var(--shadow-sm);
+  }
+  .lite-toggle:hover{ color:var(--ink); }
+  .lite-toggle.active{
+    background:var(--sage-soft); color:var(--stable); border-color:rgba(52,211,153,.35);
+  }
+  .lite-toggle .dot{ width:7px; height:7px; border-radius:50%; background:currentColor; flex-shrink:0; }
+  .conn-note{
+    font-family:var(--font-mono); font-size:10px; color:var(--ink-soft);
+    margin-top:6px; text-align:right;
+  }
+
+  /* --- Lite mode: strip every decorative/heavy layer, keep only data --- */
+  body.lite-mode{
+    --font-display:-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+    --font-body:-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+    --font-mono:ui-monospace,Consolas,monospace;
+    background:var(--paper) !important;
+  }
+  body.lite-mode .particle-field,
+  body.lite-mode .grain,
+  body.lite-mode body::before,
+  body.lite-mode body::after{ display:none !important; }
+  body.lite-mode *{
+    animation:none !important;
+    transition:none !important;
+    backdrop-filter:none !important;
+    -webkit-backdrop-filter:none !important;
+    text-shadow:none !important;
+    box-shadow:none !important;
+  }
+  body.lite-mode .panel,
+  body.lite-mode .kpi,
+  body.lite-mode .alert-row,
+  body.lite-mode .redis-card,
+  body.lite-mode .table-card,
+  body.lite-mode header.top{
+    background:var(--paper-raised) !important;
+    backdrop-filter:none !important;
+  }
+  body.lite-mode .brand h1{
+    background:none !important; -webkit-text-fill-color:initial !important; color:var(--ink) !important;
+  }
+  body.lite-mode .word-split .word{ opacity:1 !important; transform:none !important; }
+  body.lite-mode .reveal{ opacity:1 !important; transform:none !important; }
+  body.lite-mode .seal{ display:none !important; }
+  body.lite-mode header.top{ position:static; }
+  body.lite-mode .scroll-progress{ display:none !important; }
+
+  @media (prefers-reduced-data: reduce){
+    .lite-toggle{ display:none; }
+  }
+</style>
+</head>
+<body class="lang-en">
+<div class="scroll-progress" id="scrollProgress"></div>
+<div class="particle-field" id="particleField"></div>
+<div class="grain"></div>
+<div class="shell">
+
+  <header class="top">
+    <div class="brand seal-wrap">
+      <div class="brand-mark">स्व</div>
+      <div>
+        <h1 data-i="title">Smart Health — District Command View</h1>
+        <p data-i="subtitle">Real-time PHC / CHC network status, grounded in NFHS-5 &amp; Census 2011</p>
+      </div>
+      <div class="seal" id="sealBox"></div>
+    </div>
+    <div style="display:flex; flex-direction:column; align-items:flex-end; gap:8px;">
+      <div style="display:flex; gap:10px; flex-wrap:wrap; align-items:center;">
+        <div class="lang-toggle">
+          <button class="lang-btn active" data-lang="en" onclick="setLang('en')">English</button>
+          <button class="lang-btn" data-lang="hi" onclick="setLang('hi')">हिन्दी</button>
+          <button class="lang-btn" data-lang="as" onclick="setLang('as')">অসমীয়া</button>
+        </div>
+        <button class="lite-toggle" id="liteToggle" onclick="toggleLiteMode()" title="Reduce data usage: turns off fonts, effects, and animation for slow connections">
+          <span class="dot"></span><span id="liteToggleLabel" data-i="liteToggleOff">Lite mode: off</span>
+        </button>
+      </div>
+      <div class="conn-note" id="connNote"></div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="panel reveal">
+      <div class="panel-eyebrow" data-i="mapEyebrow">Network snapshot — 16 districts, 64 facilities</div>
+      <span id="liveStatusBadge" style="display:inline-block; margin-left:8px; font-family:var(--font-mono); font-size:9.5px; font-weight:700; letter-spacing:.06em; padding:2px 8px; border-radius:999px; background:var(--watch-soft); color:var(--watch); vertical-align:middle; border:1px solid rgba(255,165,61,0.25);">DEMO SNAPSHOT</span>
+      <div class="panel-title" data-i="mapTitle">Facility risk map</div>
+      <p class="panel-sub" data-i="mapSub">Positioned by real district centroid (Census 2011). Click a district to filter everything below.</p>
+      <svg id="mapSvg" viewBox="0 0 520 460"></svg>
+      <div class="map-legend">
+        <span><i class="swatch" style="background:var(--vermillion)"></i><span data-i="legCrit">Critical</span></span>
+        <span><i class="swatch" style="background:var(--watch)"></i><span data-i="legAtRisk">At risk / watch</span></span>
+        <span><i class="swatch" style="background:var(--stable)"></i><span data-i="legStable">Stable</span></span>
+        <span class="flow-legend" id="flowLegend"><i class="flow-swatch"></i><span data-i="legFlow">Redistribution move</span></span>
+      </div>
+    </div>
+
+    <div class="panel reveal">
+      <div class="kpi-listen-row">
+        <div class="panel-eyebrow" data-i="kpiEyebrow">As of this morning's sync</div>
+        <button class="listen-btn" id="listenKpiBtn" onclick="toggleSpeak('kpi')">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
+          <span id="listenKpiLabel" data-i="listenBtn">Listen</span>
+        </button>
+      </div>
+      <div class="panel-title" data-i="kpiTitle">District snapshot</div>
+      <p class="panel-sub" data-i="kpiSub" id="kpiFilterNote">All districts</p>
+      <div class="kpi-grid" id="kpiGrid"></div>
+    </div>
+  </section>
+
+  <section class="section reveal">
+    <div class="section-head">
+      <h2 data-i="alertsTitle">Predicted stock-outs — next 7 days</h2>
+      <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
+        <span class="section-note" data-i="alertsNote">LightGBM forecaster · AUC 0.947 on held-out days</span>
+        <button class="listen-btn" id="listenAlertsBtn" onclick="toggleSpeak('alerts')">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
+          <span data-i="listenBtn">Listen</span>
+        </button>
+      </div>
+    </div>
+    <div id="alertsList"></div>
+  </section>
+
+  <section class="section reveal">
+    <div class="section-head">
+      <h2 data-i="redisTitle">Recommended redistribution</h2>
+      <span class="section-note" data-i="redisNote">Linear program (PuLP/CBC) · real haversine transport cost</span>
+    </div>
+    <div class="redis-grid" id="redisGrid"></div>
+    <p class="approve-note" id="approveNote" data-i="approveNote">Approvals shown here are recorded locally in this browser tab for demo purposes only — they are not yet saved back to a server. Wiring this to a real "confirm transfer" endpoint is a next step, not implemented in this prototype.</p>
+  </section>
+
+  <section class="section reveal">
+    <div class="section-head">
+      <h2 data-i="riskTitle">Facility risk register</h2>
+      <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
+        <span class="section-note" data-i="riskNote">Composite z-score across stock, beds, doctors, diagnostics</span>
+        <button class="listen-btn" id="listenRiskBtn" onclick="toggleSpeak('risk')">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
+          <span data-i="listenBtn">Listen</span>
+        </button>
+      </div>
+    </div>
+    <div class="chip-row" id="tierChips"></div>
+    <div class="table-card">
+    <table class="risk-table">
+      <thead>
+        <tr>
+          <th data-i="thFacility">Facility</th>
+          <th data-i="thDistrict">District</th>
+          <th data-i="thScore">Risk score</th>
+          <th data-i="thTier">Tier</th>
+          <th data-i="thFactor">Top driver</th>
+        </tr>
+      </thead>
+      <tbody id="riskBody"></tbody>
+    </table>
+    </div>
+  </section>
+
+  <div class="footer reveal">
+    <span data-i="footerLeft">Data pipeline: NFHS-5 · Census 2011 district boundaries · WHO Essential Medicines List · PHC/CHC bed norms (fitted, NNLS)</span>
+    <span data-i="footerRight">Prototype API: FastAPI · Deployment target: Cloud Run</span>
+  </div>
+</div>
+
+<script>
+const FACILITIES = [
+{id:"BHAG-CHC-1",type:"CHC",district:"Bhagalpur",state:"Bihar",tier:"Critical",lat:25.264,lon:87.072,beds:31},
+{id:"BHAG-PHC-2",type:"PHC",district:"Bhagalpur",state:"Bihar",tier:"Critical",lat:25.249,lon:87.066,beds:14},
+{id:"BHAG-PHC-3",type:"PHC",district:"Bhagalpur",state:"Bihar",tier:"Critical",lat:25.288,lon:87.094,beds:12},
+{id:"BHAG-PHC-4",type:"PHC",district:"Bhagalpur",state:"Bihar",tier:"Critical",lat:25.287,lon:87.082,beds:9},
+{id:"JALN-CHC-1",type:"CHC",district:"Jalna",state:"Maharashtra",tier:"Critical",lat:19.797,lon:75.959,beds:25},
+{id:"JALN-PHC-2",type:"PHC",district:"Jalna",state:"Maharashtra",tier:"Critical",lat:19.816,lon:75.986,beds:10},
+{id:"JALN-PHC-3",type:"PHC",district:"Jalna",state:"Maharashtra",tier:"Critical",lat:19.826,lon:75.985,beds:11},
+{id:"JALN-PHC-4",type:"PHC",district:"Jalna",state:"Maharashtra",tier:"Critical",lat:19.806,lon:75.954,beds:14},
+{id:"BARA-CHC-1",type:"CHC",district:"Bara Banki",state:"Uttar Pradesh",tier:"Critical",lat:26.922,lon:81.322,beds:26},
+{id:"BARA-PHC-2",type:"PHC",district:"Bara Banki",state:"Uttar Pradesh",tier:"Critical",lat:26.923,lon:81.301,beds:9},
+{id:"BARA-PHC-3",type:"PHC",district:"Bara Banki",state:"Uttar Pradesh",tier:"Critical",lat:26.926,lon:81.337,beds:13},
+{id:"BARA-PHC-4",type:"PHC",district:"Bara Banki",state:"Uttar Pradesh",tier:"Critical",lat:26.956,lon:81.337,beds:11},
+{id:"ARAR-CHC-1",type:"CHC",district:"Araria",state:"Bihar",tier:"Critical",lat:26.218,lon:87.334,beds:27},
+{id:"ARAR-PHC-2",type:"PHC",district:"Araria",state:"Bihar",tier:"Critical",lat:26.175,lon:87.368,beds:11},
+{id:"ARAR-PHC-3",type:"PHC",district:"Araria",state:"Bihar",tier:"Critical",lat:26.179,lon:87.354,beds:13},
+{id:"ARAR-PHC-4",type:"PHC",district:"Araria",state:"Bihar",tier:"Critical",lat:26.211,lon:87.351,beds:13},
+{id:"DARB-CHC-1",type:"CHC",district:"Darbhanga",state:"Bihar",tier:"High",lat:26.102,lon:86.033,beds:29},
+{id:"DARB-PHC-2",type:"PHC",district:"Darbhanga",state:"Bihar",tier:"High",lat:26.089,lon:86.002,beds:8},
+{id:"DARB-PHC-3",type:"PHC",district:"Darbhanga",state:"Bihar",tier:"High",lat:26.138,lon:86.037,beds:10},
+{id:"DARB-PHC-4",type:"PHC",district:"Darbhanga",state:"Bihar",tier:"High",lat:26.142,lon:86.042,beds:11},
+{id:"VADO-CHC-1",type:"CHC",district:"Vadodara",state:"Gujarat",tier:"High",lat:22.230,lon:73.518,beds:34},
+{id:"VADO-PHC-2",type:"PHC",district:"Vadodara",state:"Gujarat",tier:"High",lat:22.257,lon:73.529,beds:10},
+{id:"VADO-PHC-3",type:"PHC",district:"Vadodara",state:"Gujarat",tier:"High",lat:22.221,lon:73.537,beds:8},
+{id:"VADO-PHC-4",type:"PHC",district:"Vadodara",state:"Gujarat",tier:"High",lat:22.254,lon:73.547,beds:11},
+{id:"GHAZ-CHC-1",type:"CHC",district:"Ghazipur",state:"Uttar Pradesh",tier:"High",lat:25.618,lon:83.564,beds:26},
+{id:"GHAZ-PHC-2",type:"PHC",district:"Ghazipur",state:"Uttar Pradesh",tier:"High",lat:25.631,lon:83.531,beds:16},
+{id:"GHAZ-PHC-3",type:"PHC",district:"Ghazipur",state:"Uttar Pradesh",tier:"High",lat:25.595,lon:83.556,beds:12},
+{id:"GHAZ-PHC-4",type:"PHC",district:"Ghazipur",state:"Uttar Pradesh",tier:"High",lat:25.601,lon:83.532,beds:14},
+{id:"AZAM-CHC-1",type:"CHC",district:"Azamgarh",state:"Uttar Pradesh",tier:"High",lat:26.027,lon:83.095,beds:22},
+{id:"AZAM-PHC-2",type:"PHC",district:"Azamgarh",state:"Uttar Pradesh",tier:"High",lat:26.038,lon:83.075,beds:11},
+{id:"AZAM-PHC-3",type:"PHC",district:"Azamgarh",state:"Uttar Pradesh",tier:"High",lat:26.075,lon:83.069,beds:11},
+{id:"AZAM-PHC-4",type:"PHC",district:"Azamgarh",state:"Uttar Pradesh",tier:"High",lat:26.022,lon:83.069,beds:13},
+{id:"PUDU-CHC-1",type:"CHC",district:"Pudukkottai",state:"Tamil Nadu",tier:"Moderate",lat:10.385,lon:78.886,beds:46},
+{id:"PUDU-PHC-2",type:"PHC",district:"Pudukkottai",state:"Tamil Nadu",tier:"Moderate",lat:10.345,lon:78.871,beds:7},
+{id:"PUDU-PHC-3",type:"PHC",district:"Pudukkottai",state:"Tamil Nadu",tier:"Moderate",lat:10.355,lon:78.853,beds:11},
+{id:"PUDU-PHC-4",type:"PHC",district:"Pudukkottai",state:"Tamil Nadu",tier:"Moderate",lat:10.382,lon:78.860,beds:15},
+{id:"SANG-CHC-1",type:"CHC",district:"Sangareddy",state:"Telangana",tier:"Moderate",lat:17.62,lon:78.08,beds:23},
+{id:"SANG-PHC-2",type:"PHC",district:"Sangareddy",state:"Telangana",tier:"Moderate",lat:17.63,lon:78.09,beds:8},
+{id:"SANG-PHC-3",type:"PHC",district:"Sangareddy",state:"Telangana",tier:"Moderate",lat:17.64,lon:78.07,beds:11},
+{id:"SANG-PHC-4",type:"PHC",district:"Sangareddy",state:"Telangana",tier:"Moderate",lat:17.61,lon:78.10,beds:12},
+{id:"SRI-CHC-1",type:"CHC",district:"S.P.S. Nellore",state:"Andhra Pradesh",tier:"Moderate",lat:14.443,lon:79.711,beds:40},
+{id:"SRI-PHC-2",type:"PHC",district:"S.P.S. Nellore",state:"Andhra Pradesh",tier:"Moderate",lat:14.411,lon:79.707,beds:11},
+{id:"SRI-PHC-3",type:"PHC",district:"S.P.S. Nellore",state:"Andhra Pradesh",tier:"Moderate",lat:14.419,lon:79.754,beds:10},
+{id:"SRI-PHC-4",type:"PHC",district:"S.P.S. Nellore",state:"Andhra Pradesh",tier:"Moderate",lat:14.416,lon:79.762,beds:14},
+{id:"ALLA-CHC-1",type:"CHC",district:"Allahabad",state:"Uttar Pradesh",tier:"Moderate",lat:25.300,lon:81.957,beds:31},
+{id:"ALLA-PHC-2",type:"PHC",district:"Allahabad",state:"Uttar Pradesh",tier:"Moderate",lat:25.279,lon:81.944,beds:10},
+{id:"ALLA-PHC-3",type:"PHC",district:"Allahabad",state:"Uttar Pradesh",tier:"Moderate",lat:25.328,lon:81.995,beds:9},
+{id:"ALLA-PHC-4",type:"PHC",district:"Allahabad",state:"Uttar Pradesh",tier:"Moderate",lat:25.322,lon:81.995,beds:16},
+{id:"SHIM-CHC-1",type:"CHC",district:"Shimla",state:"Himachal Pradesh",tier:"Low",lat:31.186,lon:77.649,beds:31},
+{id:"SHIM-PHC-2",type:"PHC",district:"Shimla",state:"Himachal Pradesh",tier:"Low",lat:31.189,lon:77.608,beds:11},
+{id:"SHIM-PHC-3",type:"PHC",district:"Shimla",state:"Himachal Pradesh",tier:"Low",lat:31.183,lon:77.659,beds:16},
+{id:"SHIM-PHC-4",type:"PHC",district:"Shimla",state:"Himachal Pradesh",tier:"Low",lat:31.174,lon:77.652,beds:9},
+{id:"UTTA-CHC-1",type:"CHC",district:"Uttar Bastar Kanker",state:"Chhattisgarh",tier:"Low",lat:20.128,lon:81.135,beds:28},
+{id:"UTTA-PHC-2",type:"PHC",district:"Uttar Bastar Kanker",state:"Chhattisgarh",tier:"Low",lat:20.136,lon:81.146,beds:9},
+{id:"UTTA-PHC-3",type:"PHC",district:"Uttar Bastar Kanker",state:"Chhattisgarh",tier:"Low",lat:20.148,lon:81.108,beds:11},
+{id:"UTTA-PHC-4",type:"PHC",district:"Uttar Bastar Kanker",state:"Chhattisgarh",tier:"Low",lat:20.132,lon:81.107,beds:13},
+{id:"KOZH-CHC-1",type:"CHC",district:"Kozhikode",state:"Kerala",tier:"Low",lat:11.462,lon:75.835,beds:33},
+{id:"KOZH-PHC-2",type:"PHC",district:"Kozhikode",state:"Kerala",tier:"Low",lat:11.490,lon:75.816,beds:10},
+{id:"KOZH-PHC-3",type:"PHC",district:"Kozhikode",state:"Kerala",tier:"Low",lat:11.498,lon:75.849,beds:11},
+{id:"KOZH-PHC-4",type:"PHC",district:"Kozhikode",state:"Kerala",tier:"Low",lat:11.462,lon:75.860,beds:12},
+{id:"JODH-CHC-1",type:"CHC",district:"Jodhpur",state:"Rajasthan",tier:"Low",lat:26.739,lon:72.787,beds:26},
+{id:"JODH-PHC-2",type:"PHC",district:"Jodhpur",state:"Rajasthan",tier:"Low",lat:26.778,lon:72.775,beds:13},
+{id:"JODH-PHC-3",type:"PHC",district:"Jodhpur",state:"Rajasthan",tier:"Low",lat:26.722,lon:72.791,beds:10},
+{id:"JODH-PHC-4",type:"PHC",district:"Jodhpur",state:"Rajasthan",tier:"Low",lat:26.727,lon:72.766,beds:12},
+];
+
+const RISK = [
+{id:"JALN-PHC-4",district:"Jalna",score:100.0,tier:"Critical",factor:"Doctor absenteeism"},
+{id:"DARB-CHC-1",district:"Darbhanga",score:93.6,tier:"Critical",factor:"Doctor absenteeism"},
+{id:"BARA-PHC-4",district:"Bara Banki",score:93.0,tier:"Critical",factor:"Non-functional diagnostic equipment"},
+{id:"ARAR-PHC-4",district:"Araria",score:92.6,tier:"Critical",factor:"Doctor absenteeism"},
+{id:"JALN-CHC-1",district:"Jalna",score:92.4,tier:"Critical",factor:"Doctor absenteeism"},
+{id:"JALN-PHC-3",district:"Jalna",score:91.3,tier:"Critical",factor:"Doctor absenteeism"},
+{id:"BARA-PHC-2",district:"Bara Banki",score:88.2,tier:"Critical",factor:"Doctor absenteeism"},
+{id:"JALN-PHC-2",district:"Jalna",score:87.9,tier:"Critical",factor:"Doctor absenteeism"},
+{id:"ARAR-CHC-1",district:"Araria",score:87.7,tier:"Critical",factor:"Medicine stock-out risk"},
+{id:"DARB-PHC-2",district:"Darbhanga",score:83.2,tier:"At",factor:"Doctor absenteeism"},
+{id:"BARA-PHC-3",district:"Bara Banki",score:82.2,tier:"At",factor:"Doctor absenteeism"},
+{id:"BARA-CHC-1",district:"Bara Banki",score:82.1,tier:"At",factor:"Non-functional diagnostic equipment"},
+{id:"BHAG-CHC-1",district:"Bhagalpur",score:81.0,tier:"At",factor:"Bed occupancy overload"},
+{id:"ARAR-PHC-3",district:"Araria",score:77.9,tier:"At",factor:"Bed occupancy overload"},
+{id:"ARAR-PHC-2",district:"Araria",score:71.8,tier:"At",factor:"Non-functional diagnostic equipment"},
+{id:"BHAG-PHC-3",district:"Bhagalpur",score:71.1,tier:"At",factor:"Bed occupancy overload"},
+{id:"AZAM-PHC-4",district:"Azamgarh",score:68.5,tier:"At",factor:"Doctor absenteeism"},
+{id:"GHAZ-CHC-1",district:"Ghazipur",score:67.7,tier:"At",factor:"Doctor absenteeism"},
+{id:"BHAG-PHC-2",district:"Bhagalpur",score:67.5,tier:"At",factor:"Medicine stock-out risk"},
+{id:"BHAG-PHC-4",district:"Bhagalpur",score:67.0,tier:"At",factor:"Non-functional diagnostic equipment"},
+{id:"ALLA-CHC-1",district:"Allahabad",score:66.3,tier:"At",factor:"Doctor absenteeism"},
+{id:"VADO-CHC-1",district:"Vadodara",score:64.8,tier:"Watch",factor:"Doctor absenteeism"},
+{id:"GHAZ-PHC-3",district:"Ghazipur",score:62.2,tier:"Watch",factor:"Doctor absenteeism"},
+{id:"AZAM-PHC-3",district:"Azamgarh",score:61.6,tier:"Watch",factor:"Medicine stock-out risk"},
+{id:"GHAZ-PHC-2",district:"Ghazipur",score:61.5,tier:"Watch",factor:"Medicine stock-out risk"},
+{id:"DARB-PHC-3",district:"Darbhanga",score:60.6,tier:"Watch",factor:"Medicine stock-out risk"},
+{id:"AZAM-CHC-1",district:"Azamgarh",score:54.7,tier:"Watch",factor:"Doctor absenteeism"},
+{id:"SANG-CHC-1",district:"Sangareddy",score:41.0,tier:"Watch",factor:"Doctor absenteeism"},
+{id:"JODH-CHC-1",district:"Jodhpur",score:34.3,tier:"Stable",factor:"Medicine stock-out risk"},
+{id:"PUDU-PHC-4",district:"Pudukkottai",score:29.9,tier:"Stable",factor:"Medicine stock-out risk"},
+{id:"SHIM-PHC-3",district:"Shimla",score:17.2,tier:"Stable",factor:"Doctor absenteeism"},
+{id:"UTTA-CHC-1",district:"Uttar Bastar Kanker",score:6.6,tier:"Stable",factor:"Doctor absenteeism"},
+{id:"KOZH-CHC-1",district:"Kozhikode",score:4.2,tier:"Stable",factor:"Doctor absenteeism"},
+{id:"KOZH-PHC-4",district:"Kozhikode",score:0.0,tier:"Stable",factor:"Doctor absenteeism"},
+];
+
+const ALERTS = [
+{fac:"BHAG-CHC-1",district:"Bhagalpur",med:"Rifapentine",risk:0.9995,stock:"0 units on hand"},
+{fac:"ARAR-PHC-2",district:"Araria",med:"Influenza Vaccine (Seasonal)",risk:0.9995,stock:"0 units on hand"},
+{fac:"JALN-CHC-1",district:"Jalna",med:"Artemether",risk:0.9995,stock:"0 units on hand"},
+{fac:"JALN-CHC-1",district:"Jalna",med:"Pertussis Vaccine",risk:0.9994,stock:"0 units on hand"},
+{fac:"BHAG-PHC-3",district:"Bhagalpur",med:"Amoxicillin",risk:0.9994,stock:"0 units on hand"},
+{fac:"ARAR-PHC-3",district:"Araria",med:"Pneumococcal Vaccine",risk:0.9994,stock:"0 units on hand"},
+{fac:"BARA-CHC-1",district:"Bara Banki",med:"Influenza Vaccine (Seasonal)",risk:0.9993,stock:"0 units on hand"},
+{fac:"JALN-PHC-3",district:"Jalna",med:"Influenza Vaccine (Seasonal)",risk:0.9993,stock:"0 units on hand"},
+{fac:"ARAR-PHC-2",district:"Araria",med:"Meropenem",risk:0.9992,stock:"0 units on hand"},
+{fac:"JALN-PHC-2",district:"Jalna",med:"Insulin (Rapid-Acting)",risk:0.9992,stock:"0 units on hand"},
+];
+
+/* Illustrative sample of the 956 real redistribution moves, deliberately
+   spanning the true range (0.7-200 units, mean 126.2) rather than only
+   showing rows that happened to hit the 200-unit courier-capacity cap. */
+const REDIS = [
+{district:"Azamgarh",med:"Mometasone + Formoterol",from:"AZAM-PHC-2",to:"AZAM-PHC-4",units:11.2,km:1.9},
+{district:"Shimla",med:"Human Papilloma Virus (HPV) Vaccine",from:"SHIM-CHC-1",to:"SHIM-PHC-4",units:47.2,km:1.3},
+{district:"Sangareddy",med:"Haemophilus Influenzae Type B Vaccine",from:"SANG-CHC-1",to:"SANG-PHC-4",units:85.1,km:15.0},
+{district:"Pudukkottai",med:"Phenytoin",from:"PUDU-PHC-3",to:"PUDU-PHC-2",units:134.9,km:2.3},
+{district:"Jalna",med:"Ethionamide",from:"JALN-PHC-3",to:"JALN-CHC-1",units:200,km:4.3},
+{district:"Ghazipur",med:"Quinine",from:"GHAZ-CHC-1",to:"GHAZ-PHC-3",units:200,km:2.7},
+{district:"Uttar Bastar Kanker",med:"Mometasone + Formoterol",from:"UTTA-CHC-1",to:"UTTA-PHC-2",units:200,km:1.4},
+{district:"Jodhpur",med:"Umeclidinium",from:"JODH-CHC-1",to:"JODH-PHC-2",units:200,km:4.5},
+];
+
+const TIER_COLOR = {Critical:"var(--vermillion)","At":"var(--watch)",Watch:"var(--watch)",Stable:"var(--stable)",High:"var(--watch)",Moderate:"var(--saffron)",Low:"var(--stable)"};
+
+/* =========================================================
+   REAL district-level aggregates — computed directly from this
+   project's own pipeline output (current_stockout_alerts.csv,
+   redistribution_recommendations.csv, doctor_attendance_timeseries.csv).
+   These replace an earlier placeholder that used a hashed/synthetic
+   formula for attendance; every number below is a genuine average
+   or count from the simulated operational layer.
+========================================================= */
+const DISTRICT_STATS = {
+  "Allahabad": { "alerts": 100, "redistribution": 58, "attendance": 87 },
+  "Araria": { "alerts": 124, "redistribution": 31, "attendance": 77 },
+  "Azamgarh": { "alerts": 97, "redistribution": 68, "attendance": 80 },
+  "Bara Banki": { "alerts": 121, "redistribution": 29, "attendance": 59 },
+  "Bhagalpur": { "alerts": 122, "redistribution": 39, "attendance": 88 },
+  "Darbhanga": { "alerts": 115, "redistribution": 49, "attendance": 79 },
+  "Ghazipur": { "alerts": 111, "redistribution": 56, "attendance": 76 },
+  "Jalna": { "alerts": 126, "redistribution": 39, "attendance": 57 },
+  "Jodhpur": { "alerts": 75, "redistribution": 74, "attendance": 96 },
+  "Kozhikode": { "alerts": 51, "redistribution": 62, "attendance": 95 },
+  "Pudukkottai": { "alerts": 68, "redistribution": 78, "attendance": 89 },
+  "Sangareddy": { "alerts": 82, "redistribution": 89, "attendance": 85 },
+  "Shimla": { "alerts": 66, "redistribution": 81, "attendance": 94 },
+  "S.P.S. Nellore": { "alerts": 99, "redistribution": 71, "attendance": 84 },
+  "Uttar Bastar Kanker": { "alerts": 57, "redistribution": 79, "attendance": 94 },
+  "Vadodara": { "alerts": 103, "redistribution": 53, "attendance": 92 }
+};
+const TOTAL_STATS = { "alerts": 1517, "redistribution": 956, "attendance": 83 };
+
+const I18N = {
+  en:{
+    title:"Smart Health — District Command View",
+    subtitle:"Real-time PHC / CHC network status, grounded in NFHS-5 & Census 2011",
+    mapEyebrow:"Network snapshot — 16 districts, 64 facilities",
+    mapTitle:"Facility risk map",
+    mapSub:"Positioned by real district centroid (Census 2011). Click a district to filter everything below.",
+    legCrit:"Critical", legAtRisk:"At risk / watch", legStable:"Stable", legFlow:"Redistribution move",
+    kpiEyebrow:"As of this morning's sync", kpiTitle:"District snapshot", kpiSub:"All districts",
+    kpi1:"Facilities flagged critical", kpi2:"Active stock-out alerts",
+    kpi3:"Redistribution moves ready", kpi4:"Avg. doctor attendance",
+    alertsTitle:"Predicted stock-outs — next 7 days",
+    alertsNote:"LightGBM forecaster · AUC 0.947 on held-out days",
+    redisTitle:"Recommended redistribution",
+    redisNote:"Linear program (PuLP/CBC) · real haversine transport cost",
+    riskTitle:"Facility risk register",
+    riskNote:"Composite z-score across stock, beds, doctors, diagnostics",
+    thFacility:"Facility", thDistrict:"District", thScore:"Risk score", thTier:"Tier", thFactor:"Top driver",
+    footerLeft:"Data pipeline: NFHS-5 · Census 2011 district boundaries · WHO Essential Medicines List · PHC/CHC bed norms (fitted, NNLS)",
+    footerRight:"Prototype API: FastAPI · Deployment target: Cloud Run",
+    allDistricts:"All districts", showingDistrict:"Showing: ",
+    tierAll:"All tiers", units:"units", moveTo:"to", verified:"VERIFIED",
+    approveBtn:"Approve transfer", approvedBtn:"Approved ✓",
+    approveNote:"Approvals shown here are recorded locally in this browser tab for demo purposes only — they are not yet saved back to a server. Wiring this to a real \u201cconfirm transfer\u201d endpoint is a next step, not implemented in this prototype.",
+    listenBtn:"Listen", stopBtn:"Stop", liteToggleOn:"Lite mode: on", liteToggleOff:"Lite mode: off",
+    ttsUnsupported:"Voice read-out isn't supported in this browser.",
+    ttsNoVoices:"No voice is installed on this device for text-to-speech. On Android: Settings → Accessibility (or System) → Text-to-speech output → install/enable a Google or system voice.",
+    ttsErrorGeneric:"Voice read-out didn't start — this device may not have a working text-to-speech engine set up.",
+    speechLangCode:"en-IN",
+    kpiSpeech: (c,a,r,att) => `District snapshot. ${c} facilities are flagged critical. There are ${a} active stock-out alerts. ${r} redistribution moves are ready. Average doctor attendance is ${att} percent.`,
+    alertsSpeechIntro: (n) => `Top ${n} predicted stock-outs, next 7 days.`,
+    alertsSpeechItem: (a) => `${a.med} at ${a.fac} in ${a.district}, ${(a.risk*100).toFixed(0)} percent risk, ${a.stock}.`,
+    alertsSpeechEmpty:"No active alerts for this district.",
+    riskSpeechIntro: (n) => `Top ${n} facilities by risk score.`,
+    riskSpeechItem: (r) => `${r.id} in ${r.district}, risk score ${r.score.toFixed(0)} out of 100, main driver: ${r.factor}.`,
+    riskSpeechEmpty:"No facilities match this filter.",
+    connFast:"Connection looks fine — lite mode is optional.",
+    connSlow:"Slow connection detected — lite mode turned on automatically.",
+  },
+  hi:{
+    title:"स्मार्ट हेल्थ — जिला नियंत्रण दृश्य",
+    subtitle:"NFHS-5 और जनगणना 2011 पर आधारित PHC/CHC नेटवर्क की वास्तविक-समय स्थिति",
+    mapEyebrow:"नेटवर्क स्नैपशॉट — 16 जिले, 64 केंद्र",
+    mapTitle:"केंद्र जोखिम मानचित्र",
+    mapSub:"वास्तविक जिला केंद्रबिंदु (जनगणना 2011) पर आधारित। नीचे सब कुछ फ़िल्टर करने के लिए किसी जिले पर क्लिक करें।",
+    legCrit:"गंभीर", legAtRisk:"जोखिम में / निगरानी", legStable:"स्थिर", legFlow:"पुनर्वितरण गतिविधि",
+    kpiEyebrow:"आज सुबह के अद्यतन अनुसार", kpiTitle:"जिला सारांश", kpiSub:"सभी जिले",
+    kpi1:"गंभीर चिह्नित केंद्र", kpi2:"सक्रिय स्टॉक-आउट अलर्ट",
+    kpi3:"पुनर्वितरण हेतु तैयार", kpi4:"औसत डॉक्टर उपस्थिति",
+    alertsTitle:"अनुमानित स्टॉक-आउट — अगले 7 दिन",
+    alertsNote:"LightGBM पूर्वानुमान मॉडल · AUC 0.947",
+    redisTitle:"अनुशंसित पुनर्वितरण",
+    redisNote:"लीनियर प्रोग्राम (PuLP/CBC) · वास्तविक दूरी लागत सहित",
+    riskTitle:"केंद्र जोखिम पंजी",
+    riskNote:"स्टॉक, बेड, डॉक्टर, जांच उपकरण का समग्र स्कोर",
+    thFacility:"केंद्र", thDistrict:"जिला", thScore:"जोखिम स्कोर", thTier:"श्रेणी", thFactor:"मुख्य कारण",
+    footerLeft:"डेटा स्रोत: NFHS-5 · जनगणना 2011 सीमाएं · WHO आवश्यक दवा सूची · PHC/CHC बेड मानक",
+    footerRight:"प्रोटोटाइप API: FastAPI · परिनियोजन लक्ष्य: Cloud Run",
+    allDistricts:"सभी जिले", showingDistrict:"दिखा रहा है: ",
+    tierAll:"सभी श्रेणियाँ", units:"इकाइयाँ", moveTo:"→", verified:"सत्यापित",
+    approveBtn:"स्थानांतरण स्वीकृत करें", approvedBtn:"स्वीकृत ✓",
+    approveNote:"यहां दिखाई गई स्वीकृतियां केवल प्रदर्शन हेतु इस ब्राउज़र टैब में स्थानीय रूप से दर्ज की जाती हैं — ये अभी सर्वर पर सहेजी नहीं जातीं। इसे वास्तविक 'ट्रांसफर पुष्टि' एंडपॉइंट से जोड़ना अगला कदम है, यह अभी इस प्रोटोटाइप में लागू नहीं है।",
+    listenBtn:"सुनें", stopBtn:"रोकें", liteToggleOn:"लाइट मोड: चालू", liteToggleOff:"लाइट मोड: बंद",
+    ttsUnsupported:"इस ब्राउज़र में आवाज़ में सुनने की सुविधा उपलब्ध नहीं है।",
+    ttsNoVoices:"इस डिवाइस में आवाज़ हेतु कोई voice इंस्टॉल नहीं है। Android पर: Settings → Accessibility (या System) → Text-to-speech output में जाकर Google या system voice इंस्टॉल/चालू करें।",
+    ttsErrorGeneric:"आवाज़ शुरू नहीं हो पाई — इस डिवाइस में text-to-speech ठीक से सेट नहीं है।",
+    speechLangCode:"hi-IN",
+    kpiSpeech: (c,a,r,att) => `जिला सारांश। ${c} केंद्र गंभीर श्रेणी में चिह्नित हैं। ${a} सक्रिय स्टॉक-आउट अलर्ट हैं। ${r} पुनर्वितरण गतिविधियाँ तैयार हैं। औसत डॉक्टर उपस्थिति ${att} प्रतिशत है।`,
+    alertsSpeechIntro: (n) => `अगले 7 दिनों के शीर्ष ${n} अनुमानित स्टॉक-आउट।`,
+    alertsSpeechItem: (a) => `${a.district} के ${a.fac} केंद्र में ${a.med}, जोखिम ${(a.risk*100).toFixed(0)} प्रतिशत, ${a.stock}।`,
+    alertsSpeechEmpty:"इस जिले के लिए कोई सक्रिय अलर्ट नहीं है।",
+    riskSpeechIntro: (n) => `जोखिम स्कोर अनुसार शीर्ष ${n} केंद्र।`,
+    riskSpeechItem: (r) => `${r.district} का ${r.id}, जोखिम स्कोर 100 में से ${r.score.toFixed(0)}, मुख्य कारण: ${r.factor}।`,
+    riskSpeechEmpty:"इस फ़िल्टर से कोई केंद्र मेल नहीं खाता।",
+    connFast:"कनेक्शन ठीक लग रहा है — लाइट मोड वैकल्पिक है।",
+    connSlow:"धीमा कनेक्शन मिला — लाइट मोड स्वतः चालू कर दिया गया है।",
+  },
+  as:{
+    title:"স্মাৰ্ট হেল্থ — জিলা নিয়ন্ত্ৰণ দৃশ্য",
+    subtitle:"NFHS-5 আৰু আদমশুমাৰী 2011 ৰ ওপৰত ভিত্তি কৰি বাস্তৱ-সময়ৰ PHC/CHC নেটৱৰ্ক অৱস্থা",
+    mapEyebrow:"নেটৱৰ্ক স্নেপশ্বট — 16 জিলা, 64 কেন্দ্ৰ",
+    mapTitle:"কেন্দ্ৰৰ বিপদ মানচিত্ৰ",
+    mapSub:"প্ৰকৃত জিলা কেন্দ্ৰবিন্দুৰ (আদমশুমাৰী 2011) ওপৰত ভিত্তি কৰি। তলৰ সকলো ফিল্টাৰ কৰিবলৈ এটা জিলাত ক্লিক কৰক।",
+    legCrit:"গুৰুতৰ", legAtRisk:"বিপদত / নিৰীক্ষণ", legStable:"স্থিৰ", legFlow:"পুনৰবিতৰণ গতিবিধি",
+    kpiEyebrow:"আজি৴ৰ পুৱাৰ তথ্য অনুসাৰে", kpiTitle:"জিলাৰ সাৰাংশ", kpiSub:"সকলো জিলা",
+    kpi1:"গুৰুতৰ চিহ্নিত কেন্দ্ৰ", kpi2:"সক্ৰিয় ষ্টক-আউট সতৰ্কবাণী",
+    kpi3:"পুনৰবিতৰণৰ বাবে সাজু", kpi4:"গড় চিকিৎসকৰ উপস্থিতি",
+    alertsTitle:"পূৰ্বানুমানিত ষ্টক-আউট — আহিব লগা 7 দিন",
+    alertsNote:"LightGBM পূৰ্বানুমান মডেল · AUC 0.947",
+    redisTitle:"পৰামৰ্শিত পুনৰবিতৰণ",
+    redisNote:"লিনিয়াৰ প্ৰগ্ৰাম (PuLP/CBC) · প্ৰকৃত দূৰত্ব খৰচসহ",
+    riskTitle:"কেন্দ্ৰ বিপদ পঞ্জী",
+    riskNote:"ষ্টক, বেড, চিকিৎসক, ৰোগ নিৰ্ণয় সঁজুলিৰ সামগ্ৰিক স্কোৰ",
+    thFacility:"কেন্দ্ৰ", thDistrict:"জিলা", thScore:"বিপদ স্কোৰ", thTier:"শ্ৰেণী", thFactor:"মুখ্য কাৰণ",
+    footerLeft:"তথ্য উৎস: NFHS-5 · আদমশুমাৰী 2011 সীমা · WHO প্ৰয়োজনীয় ঔষধ তালিকা · PHC/CHC বেড মান",
+    footerRight:"প্ৰটোটাইপ API: FastAPI · Cloud Run",
+    allDistricts:"সকলো জিলা", showingDistrict:"দেখুৱাই আছে: ",
+    tierAll:"সকলো শ্ৰেণী", units:"একক", moveTo:"→", verified:"সত্যাপিত",
+    approveBtn:"স্থানান্তৰ অনুমোদন কৰক", approvedBtn:"অনুমোদিত ✓",
+    approveNote:"ইয়াত দেখুওৱা অনুমোদনসমূহ কেৱল প্ৰদৰ্শনৰ বাবে এই ব্ৰাউজাৰ টেবত স্থানীয়ভাৱে ৰেকৰ্ড কৰা হয় — সেইবোৰ এতিয়াও চাৰ্ভাৰত সংৰক্ষিত নহয়। ইয়াক প্ৰকৃত 'নিশ্চিতকৰণ' এণ্ডপইণ্টৰ সৈতে সংযোগ কৰাটো পৰৱৰ্তী পদক্ষেপ, এই প্ৰটোটাইপত ইয়াক বাস্তৱায়িত কৰা হোৱা নাই।",
+    listenBtn:"শুনক", stopBtn:"বন্ধ কৰক", liteToggleOn:"লাইট মোড: অন", liteToggleOff:"লাইট মোড: অফ",
+    ttsUnsupported:"এই ব্ৰাউজাৰত কণ্ঠস্বৰত শুনাৰ সুবিধা উপলব্ধ নহয়।",
+    ttsNoVoices:"এই ডিভাইচত কণ্ঠস্বৰৰ বাবে কোনো voice ইনষ্টল কৰা নাই। Android ত: Settings → Accessibility (বা System) → Text-to-speech output লৈ গৈ Google বা system voice ইনষ্টল/অন কৰক।",
+    ttsErrorGeneric:"কণ্ঠস্বৰ আৰম্ভ নহ'ল — এই ডিভাইচত text-to-speech সঠিকভাৱে ছেট কৰা নাই।",
+    speechLangCode:"as-IN",
+    kpiSpeech: (c,a,r,att) => `জিলাৰ সাৰাংশ। ${c} টা কেন্দ্ৰ গুৰুতৰ শ্ৰেণীত চিহ্নিত। ${a} টা সক্ৰিয় ষ্টক-আউট সতৰ্কবাণী আছে। ${r} টা পুনৰবিতৰণ কাৰ্য সাজু আছে। গড় চিকিৎসকৰ উপস্থিতি ${att} শতাংশ।`,
+    alertsSpeechIntro: (n) => `আহিব লগা 7 দিনৰ শীৰ্ষ ${n} টা পূৰ্বানুমানিত ষ্টক-আউট।`,
+    alertsSpeechItem: (a) => `${a.district} ৰ ${a.fac} কেন্দ্ৰত ${a.med}, বিপদ ${(a.risk*100).toFixed(0)} শতাংশ, ${a.stock}।`,
+    alertsSpeechEmpty:"এই জিলাৰ বাবে কোনো সক্ৰিয় সতৰ্কবাণী নাই।",
+    riskSpeechIntro: (n) => `বিপদ স্কোৰ অনুসৰি শীৰ্ষ ${n} টা কেন্দ্ৰ।`,
+    riskSpeechItem: (r) => `${r.district} ৰ ${r.id}, বিপদ স্কোৰ 100 ৰ ${r.score.toFixed(0)}, মুখ্য কাৰণ: ${r.factor}।`,
+    riskSpeechEmpty:"এই ফিল্টাৰৰ সৈতে কোনো কেন্দ্ৰ মিল নাই।",
+    connFast:"সংযোগ ঠিকেই আছে — লাইট মোড ঐচ্ছিক।",
+    connSlow:"লেহেমীয়া সংযোগ ধৰা পৰিছে — লাইট মোড স্বয়ংক্ৰিয়ভাৱে অন কৰা হ'ল।",
+  }
+};
+
+let currentLang = "en";
+let currentDistrictFilter = null;
+let currentTierFilter = "all";
+const approvedTransfers = new Set();
+let liteMode = false;
+let liteModeAutoSet = false;
+let currentSpeakingSection = null; // "kpi" | "alerts" | "risk" | null
+
+function setLang(lang){
+  currentLang = lang;
+  document.body.className = "lang-" + lang;
+  document.querySelectorAll(".lang-btn").forEach(b=>b.classList.toggle("active", b.dataset.lang===lang));
+  document.querySelectorAll("[data-i]").forEach(el=>{
+    const key = el.getAttribute("data-i");
+    if(I18N[lang][key]) el.textContent = I18N[lang][key];
+  });
+  document.title = I18N[lang].title;
+  renderSeal();
+  renderAll();
+  animateHeadlineText();
+  updateLiteToggleLabel();
+  window.speechSynthesis && window.speechSynthesis.cancel();
+  currentSpeakingSection = null;
+  updateListenButtons();
+}
+
+function renderSeal(){
+  const t = I18N[currentLang];
+  document.getElementById("sealBox").innerHTML = `
+  <svg viewBox="0 0 120 120">
+    <circle cx="60" cy="60" r="52" fill="none" stroke="var(--vermillion)" stroke-width="2.2"/>
+    <circle cx="60" cy="60" r="44" fill="none" stroke="var(--vermillion)" stroke-width="1"/>
+    <path id="sealArcTop" d="M 60 60 m -52 0 a 52 52 0 1 1 104 0" fill="none"/>
+    <text class="seal-text"><textPath href="#sealArcTop" startOffset="50%" text-anchor="middle">${t.verified} · ${t.verified}</textPath></text>
+    <text x="60" y="57" text-anchor="middle" class="seal-center">DHVI</text>
+    <text x="60" y="72" text-anchor="middle" class="seal-text" style="font-size:7.5px">NFHS-5 · 2011</text>
+  </svg>`;
+}
+
+function projectPoint(lat, lon){
+  const lonMin=68, lonMax=97.5, latMin=7.5, latMax=36.5;
+  const W=520, H=460, pad=30;
+  const x = pad + (lon-lonMin)/(lonMax-lonMin) * (W-2*pad);
+  const y = pad + (latMax-lat)/(latMax-latMin) * (H-2*pad);
+  return [x,y];
+}
+
+function districtSummary(){
+  const map = {};
+  FACILITIES.forEach(f=>{
+    if(!map[f.district]) map[f.district] = {lat:f.lat, lon:f.lon, tier:f.tier, count:0};
+    map[f.district].count++;
+  });
+  return map;
+}
+
+function facilityById(id){ return FACILITIES.find(f=>f.id===id); }
+
+function dotColor(tier){
+  if(tier==="Critical") return "var(--vermillion)";
+  if(tier==="High") return "var(--watch)";
+  if(tier==="Moderate") return "var(--saffron)";
+  return "var(--stable)";
+}
+
+function renderMap(){
+  const svg = document.getElementById("mapSvg");
+  const summary = districtSummary();
+  let html = "";
+  for(let i=1;i<4;i++){
+    html += `<line x1="${30+i*115}" y1="20" x2="${30+i*115}" y2="440" stroke="var(--line)" stroke-width="0.6" stroke-dasharray="3,4"/>`;
+  }
+
+  const flowLegend = document.getElementById("flowLegend");
+  let flowsShown = false;
+  if(currentDistrictFilter){
+    const moves = REDIS.filter(r=>r.district===currentDistrictFilter);
+    moves.forEach(m=>{
+      const fromFac = facilityById(m.from), toFac = facilityById(m.to);
+      if(!fromFac || !toFac) return;
+      flowsShown = true;
+      const [x1,y1] = projectPoint(fromFac.lat, fromFac.lon);
+      const [x2,y2] = projectPoint(toFac.lat, toFac.lon);
+      const mx=(x1+x2)/2, my=(y1+y2)/2;
+      const dx=x2-x1, dy=y2-y1;
+      const cx = mx - dy*0.12, cy = my + dx*0.12;
+      html += `<path class="flow-arc" d="M ${x1} ${y1} Q ${cx} ${cy} ${x2} ${y2}"
+                 stroke="${approvedTransfers.has(moveKey(m)) ? 'var(--sage)' : 'var(--saffron-deep)'}"/>`;
+      html += `<circle class="flow-node" cx="${x1}" cy="${y1}" r="2.6"/>`;
+      html += `<circle class="flow-node" cx="${x2}" cy="${y2}" r="2.6"
+                 fill="${approvedTransfers.has(moveKey(m)) ? 'var(--sage)' : 'var(--saffron-deep)'}"/>`;
+    });
+  }
+  flowLegend.classList.toggle("visible", flowsShown);
+
+  Object.entries(summary).forEach(([district, d])=>{
+    const [x,y] = projectPoint(d.lat, d.lon);
+    const r = 7 + d.count*0.6;
+    const isSelected = currentDistrictFilter === district;
+    html += `<g data-district="${district}" onclick="selectDistrict('${district.replace(/'/g,"\\'")}')">
+      <circle class="district-dot" cx="${x}" cy="${y}" r="${r}" fill="${dotColor(d.tier)}"
+        opacity="${isSelected || !currentDistrictFilter ? 0.88 : 0.28}"
+        stroke="${isSelected? 'var(--ink)':'none'}" stroke-width="2"/>
+      <text class="district-label" x="${x}" y="${y - r - 5}" text-anchor="middle">${district}</text>
+    </g>`;
+  });
+  svg.innerHTML = html;
+}
+
+function selectDistrict(d){
+  currentDistrictFilter = (currentDistrictFilter === d) ? null : d;
+  renderAll();
+}
+
+function renderKPIs(){
+  const t = I18N[currentLang];
+  const filteredRisk = currentDistrictFilter ? RISK.filter(r=>r.district===currentDistrictFilter) : RISK;
+  const critCount = filteredRisk.filter(r=>r.tier==="Critical").length;
+
+  // Real counts/averages from DISTRICT_STATS / TOTAL_STATS (pipeline output),
+  // not the length of the embedded top-10/top-8 example lists below —
+  // those lists are illustrative excerpts, not the full real totals.
+  const stats = currentDistrictFilter ? (DISTRICT_STATS[currentDistrictFilter] || {alerts:0, redistribution:0, attendance:0}) : TOTAL_STATS;
+  const alertsCount = stats.alerts;
+  const redisCount = stats.redistribution;
+  const avgAttendance = stats.attendance;
+
+  document.getElementById("kpiFilterNote").textContent = currentDistrictFilter
+    ? t.showingDistrict + currentDistrictFilter
+    : t.allDistricts;
+
+  document.getElementById("kpiGrid").innerHTML = `
+    <div class="kpi"><div class="kpi-num crit">${critCount}</div><div class="kpi-label">${t.kpi1}</div></div>
+    <div class="kpi"><div class="kpi-num watch">${alertsCount.toLocaleString()}</div><div class="kpi-label">${t.kpi2}</div></div>
+    <div class="kpi"><div class="kpi-num sage">${redisCount.toLocaleString()}</div><div class="kpi-label">${t.kpi3}</div></div>
+    <div class="kpi"><div class="kpi-num" style="color:var(--ink)">${avgAttendance}%</div><div class="kpi-label">${t.kpi4}</div></div>
+  `;
+}
+
+function renderAlerts(){
+  const list = currentDistrictFilter ? ALERTS.filter(a=>a.district===currentDistrictFilter) : ALERTS;
+  const totalReal = currentDistrictFilter ? (DISTRICT_STATS[currentDistrictFilter]?.alerts ?? 0) : TOTAL_STATS.alerts;
+  const note = list.length && totalReal > list.length
+    ? `<p style="color:var(--ink-soft); font-size:11.5px; margin:-4px 0 12px;">Showing top ${list.length} of ${totalReal.toLocaleString()} real alerts at ≥50% risk — see the risk register below for the fuller facility-level picture.</p>`
+    : "";
+  document.getElementById("alertsList").innerHTML = note + (list.map(a=>`
+    <div class="alert-row">
+      <div class="fac">${a.fac}</div>
+      <div class="med">${a.med} <span class="stock">— ${a.district}, ${a.stock}</span></div>
+      <div class="risk-pill">${(a.risk*100).toFixed(1)}%</div>
+      <div style="font-size:11.5px; color:var(--ink-soft); font-family:var(--font-mono);">7-day risk</div>
+    </div>
+  `).join("") || `<p style="color:var(--ink-soft); font-size:13px;">No active alerts for this district.</p>`);
+}
+
+function moveKey(r){ return `${r.district}|${r.med}|${r.from}|${r.to}`; }
+
+function renderRedis(){
+  const t = I18N[currentLang];
+  const list = currentDistrictFilter ? REDIS.filter(r=>r.district===currentDistrictFilter) : REDIS;
+  const totalReal = currentDistrictFilter ? (DISTRICT_STATS[currentDistrictFilter]?.redistribution ?? 0) : TOTAL_STATS.redistribution;
+  const note = list.length && totalReal > list.length
+    ? `<p style="color:var(--ink-soft); font-size:11.5px; grid-column:1/-1; margin:-4px 0 4px;">Showing ${list.length} example move${list.length===1?'':'s'} of ${totalReal.toLocaleString()} the optimizer actually generated for this view.</p>`
+    : "";
+  document.getElementById("redisGrid").innerHTML = note + (list.map(r=>{
+    const key = moveKey(r);
+    const isApproved = approvedTransfers.has(key);
+    return `
+    <div class="redis-card ${isApproved?'approved':''}">
+      <div class="redis-district">${r.district}</div>
+      <div class="redis-med">${r.med}</div>
+      <div class="redis-flow">
+        <span class="redis-node">${r.from}</span>
+        <span class="redis-arrow">${t.moveTo}</span>
+        <span class="redis-node">${r.to}</span>
+      </div>
+      <div class="redis-meta"><span>${r.units} ${t.units}</span><span>${r.km} km</span></div>
+      <button class="approve-btn ${isApproved?'approved':''}" onclick="toggleApprove('${key.replace(/'/g,"\\'")}')">
+        ${isApproved ? t.approvedBtn : t.approveBtn}
+      </button>
+    </div>`;
+  }).join("") || `<p style="color:var(--ink-soft); font-size:13px;">No redistribution needed for this district right now.</p>`);
+  const approveNoteEl = document.getElementById("approveNote");
+  if (approveNoteEl) approveNoteEl.style.display = list.length ? "block" : "none";
+}
+
+function toggleApprove(key){
+  if(approvedTransfers.has(key)) approvedTransfers.delete(key);
+  else approvedTransfers.add(key);
+  renderRedis();
+  renderMap();
+}
+
+function renderTierChips(){
+  const t = I18N[currentLang];
+  const tiers = [["all", t.tierAll], ["Critical", t.legCrit], ["At", t.legAtRisk], ["Stable", t.legStable]];
+  document.getElementById("tierChips").innerHTML = tiers.map(([key,label])=>`
+    <div class="chip ${currentTierFilter===key?'active':''}" onclick="selectTier('${key}')">${label}</div>
+  `).join("");
+}
+function selectTier(t){
+  currentTierFilter = t;
+  renderAll();
+}
+
+function tierClass(tier){
+  if(tier==="Critical") return "tier-Critical";
+  if(tier==="At" || tier==="Watch") return "tier-At";
+  return "tier-Stable";
+}
+function tierLabel(tier){
+  const t = I18N[currentLang];
+  if(tier==="Critical") return t.legCrit.split(" / ")[0];
+  if(tier==="At"||tier==="Watch") return t.legAtRisk;
+  return t.legStable;
+}
+
+function renderRiskTable(){
+  let list = RISK;
+  if(currentDistrictFilter) list = list.filter(r=>r.district===currentDistrictFilter);
+  if(currentTierFilter !== "all") list = list.filter(r=>r.tier===currentTierFilter);
+  document.getElementById("riskBody").innerHTML = list.map(r=>`
+    <tr>
+      <td class="fac-id">${r.id}</td>
+      <td>${r.district}</td>
+      <td><span class="bar-track"><span class="bar-fill" style="width:${r.score}%"></span></span>${r.score.toFixed(1)}</td>
+      <td><span class="tier-badge ${tierClass(r.tier)}">${tierLabel(r.tier)}</span></td>
+      <td style="color:var(--ink-soft)">${r.factor}</td>
+    </tr>
+  `).join("") || `<tr><td colspan="5" style="color:var(--ink-soft); padding:16px 10px;">No facilities match this filter.</td></tr>`;
+}
+
+function renderAll(){
+  renderMap();
+  renderKPIs();
+  renderAlerts();
+  renderRedis();
+  renderTierChips();
+  renderRiskTable();
+  applyEntranceAnimations();
+  updateListenButtons();
+}
+
+/* ===================== animation helpers ===================== */
+
+function splitWords(el){
+  if(!el) return;
+  const text = el.textContent;
+  el.innerHTML = text.split(/(\s+)/).map((chunk,i)=>{
+    if(chunk.trim()==="") return chunk;
+    return `<span class="word" style="animation-delay:${(i*0.05).toFixed(2)}s">${chunk}</span>`;
+  }).join("");
+  el.classList.add("word-split");
+}
+
+function animateHeadlineText(){
+  splitWords(document.querySelector('h1[data-i="title"]'));
+  splitWords(document.querySelector('p[data-i="subtitle"]'));
+  splitWords(document.querySelector('.panel-title[data-i="mapTitle"]'));
+  splitWords(document.querySelector('.panel-title[data-i="kpiTitle"]'));
+  splitWords(document.querySelector('h2[data-i="alertsTitle"]'));
+  splitWords(document.querySelector('h2[data-i="redisTitle"]'));
+  splitWords(document.querySelector('h2[data-i="riskTitle"]'));
+}
+
+function applyStagger(containerSelector, itemSelector, baseDelay){
+  const container = document.querySelector(containerSelector);
+  if(!container) return;
+  container.querySelectorAll(itemSelector).forEach((it,i)=>{
+    it.classList.add("stagger-item");
+    it.style.animationDelay = (i*baseDelay).toFixed(2)+"s";
+  });
+}
+
+function animateCounters(){
+  document.querySelectorAll(".kpi-num").forEach(el=>{
+    const raw = el.textContent.trim();
+    const match = raw.match(/^(-?\d+(?:\.\d+)?)(%?)$/);
+    if(!match) return;
+    const end = parseFloat(match[1]);
+    const suffix = match[2];
+    const isInt = !raw.includes(".");
+    const duration = 900;
+    let startTime = null;
+    function step(ts){
+      if(!startTime) startTime = ts;
+      const progress = Math.min((ts-startTime)/duration, 1);
+      const eased = 1-Math.pow(1-progress, 3);
+      const current = end*eased;
+      el.textContent = (isInt ? Math.round(current) : current.toFixed(1)) + suffix;
+      if(progress<1) requestAnimationFrame(step);
+      else el.textContent = raw;
+    }
+    requestAnimationFrame(step);
+  });
+}
+
+function applyEntranceAnimations(){
+  applyStagger("#kpiGrid", ".kpi", 0.07);
+  applyStagger("#alertsList", ".alert-row", 0.06);
+  applyStagger("#redisGrid", ".redis-card", 0.06);
+  applyStagger("#riskBody", "tr", 0.035);
+  animateCounters();
+}
+
+let scrollRevealObserver = null;
+function initScrollReveal(){
+  if(scrollRevealObserver) return;
+  scrollRevealObserver = new IntersectionObserver((entries)=>{
+    entries.forEach(entry=>{
+      if(entry.isIntersecting){
+        entry.target.classList.add("visible");
+        scrollRevealObserver.unobserve(entry.target);
+      }
+    });
+  }, {threshold:0, rootMargin:"0px 0px -10% 0px"});
+  document.querySelectorAll(".reveal").forEach(el=>scrollRevealObserver.observe(el));
+
+  // Safety net: if an element is already in (or very near) the viewport on load —
+  // or is taller than the viewport so the observer fires late — reveal it immediately.
+  requestAnimationFrame(()=>{
+    document.querySelectorAll(".reveal:not(.visible)").forEach(el=>{
+      const r = el.getBoundingClientRect();
+      if(r.top < window.innerHeight && r.bottom > 0){
+        el.classList.add("visible");
+        scrollRevealObserver.unobserve(el);
+      }
+    });
+  });
+}
+
+function initParticleField(){
+  const field = document.getElementById("particleField");
+  if(!field || field.childElementCount) return;
+  const count = 22;
+  for(let i=0;i<count;i++){
+    const p = document.createElement("div");
+    p.className = "particle";
+    const size = 3 + Math.random()*7;
+    p.style.width = size+"px";
+    p.style.height = size+"px";
+    p.style.left = Math.random()*100+"vw";
+    p.style.top = 40 + Math.random()*60+"vh";
+    p.style.animationDuration = (10+Math.random()*14).toFixed(1)+"s";
+    p.style.animationDelay = (Math.random()*12).toFixed(1)+"s";
+    field.appendChild(p);
+  }
+}
+
+function initScrollProgress(){
+  const bar = document.getElementById("scrollProgress");
+  if(!bar) return;
+  window.addEventListener("scroll", ()=>{
+    const h = document.documentElement;
+    const scrolled = (h.scrollTop) / (h.scrollHeight - h.clientHeight || 1) * 100;
+    bar.style.width = scrolled+"%";
+  }, {passive:true});
+}
+
+const RISK_TIER_MAP = {
+  "Critical - Needs Intervention": "Critical",
+  "At Risk": "At",
+  "Watch": "Watch",
+  "Stable": "Stable",
+};
+
+async function fetchLive(baseUrl) {
+  const base = baseUrl.replace(/\/$/, "");
+  try {
+    const [allFacilities, geojson, risk, alerts, redis] = await Promise.all([
+      fetch(base + "/facilities").then(r => r.json()),
+      fetch(base + "/facilities/geojson").then(r => r.json()),
+      fetch(base + "/risk-scores").then(r => r.json()),
+      fetch(base + "/alerts/stockout?min_risk=0.5&limit=100").then(r => r.json()),
+      fetch(base + "/redistribution").then(r => r.json()),
+    ]);
+
+    const districtByFacility = {};
+    allFacilities.forEach(f => { districtByFacility[f.facility_id] = f.district; });
+
+    const newFacilities = geojson.features.map(f => {
+      const p = f.properties;
+      return {
+        id: p.facility_id, type: p.facility_type, district: p.district, state: p.state,
+        tier: p.dhvi_tier, lat: f.geometry.coordinates[1], lon: f.geometry.coordinates[0],
+        beds: p.total_beds,
+      };
+    });
+    FACILITIES.length = 0; FACILITIES.push(...newFacilities);
+
+    const newRisk = risk.map(r => ({
+      id: r.facility_id, district: r.district, score: r.facility_risk_score,
+      tier: RISK_TIER_MAP[r.risk_tier] || r.risk_tier, factor: r.top_contributing_factor,
+    }));
+    RISK.length = 0; RISK.push(...newRisk);
+
+    const newAlerts = alerts.map(a => ({
+      fac: a.facility_id, district: districtByFacility[a.facility_id] || "—",
+      med: a.medicine, risk: a.stockout_risk_score,
+      stock: a.stock_level > 0 ? `${a.stock_level} units on hand` : "0 units on hand",
+    }));
+    ALERTS.length = 0; ALERTS.push(...newAlerts);
+
+    const newRedis = redis.map(r => ({
+      district: r.district, med: r.medicine, from: r.from_facility,
+      to: r.to_facility, units: r.units_to_transfer, km: r.distance_km,
+    }));
+    REDIS.length = 0; REDIS.push(...newRedis);
+
+    document.title = "Smart Health — LIVE — " + I18N[currentLang].title;
+    const badge = document.getElementById("liveStatusBadge");
+    if (badge) {
+      badge.textContent = "LIVE — " + base;
+      badge.style.background = "var(--sage-soft)";
+      badge.style.color = "var(--stable)";
+    }
+    console.log(`Connected to ${base} — ${FACILITIES.length} facilities, ${RISK.length} risk scores, ${ALERTS.length} alerts, ${REDIS.length} redistribution moves.`);
+    renderAll();
+    return true;
+  } catch (err) {
+    console.error("fetchLive failed — check the URL is reachable and CORS is enabled on the API:", err);
+    const badge = document.getElementById("liveStatusBadge");
+    if (badge) badge.textContent = "DEMO SNAPSHOT (live connection failed)";
+    return false;
+  }
+}
+
+window.connectLive = fetchLive;
+
+/* Auto-attempt a live connection on load. Set LIVE_API_URL below once the
+   backend is deployed (e.g. Render/Cloud Run URL) — leave it blank to run
+   purely on the bundled demo snapshot, in which case the badge above stays
+   on "DEMO SNAPSHOT" so it's never ambiguous which mode is showing. */
+const LIVE_API_URL = "https://smart-health-project-1h9e.onrender.com";
+
+/* =========================================================
+   TEXT-TO-SPEECH (voice / low-literacy access)
+   Uses the browser's built-in SpeechSynthesis API — no network
+   call, no extra dependency, works offline once the page has
+   loaded. Reads the same data already on screen, in whichever
+   of the three UI languages is currently selected.
+========================================================= */
+
+function speechSupported(){
+  return typeof window !== "undefined" && "speechSynthesis" in window;
+}
+
+/* Chrome (desktop + Android) can report zero voices for a few hundred ms
+   after the page loads, and only fires 'voiceschanged' once they're ready.
+   Cache them here and keep listening for updates so the first click always
+   has something to pick from. */
+let cachedVoices = [];
+function refreshVoiceCache(){
+  if(!speechSupported()) return;
+  const v = window.speechSynthesis.getVoices();
+  if(v && v.length) cachedVoices = v;
+}
+if(speechSupported()){
+  refreshVoiceCache();
+  window.speechSynthesis.onvoiceschanged = refreshVoiceCache;
+}
+
+/* Pick the closest installed voice for a given lang code (e.g. "hi-IN").
+   Falls back to any voice sharing the 2-letter language prefix, then to
+   the engine's default voice, rather than leaving utter.voice unset —
+   on some Android/Chrome builds an unset voice for an uninstalled locale
+   fails silently instead of falling back on its own. */
+function pickVoice(langCode){
+  if(!cachedVoices.length) refreshVoiceCache();
+  if(!cachedVoices.length) return null;
+  const exact = cachedVoices.find(v => v.lang && v.lang.toLowerCase() === langCode.toLowerCase());
+  if(exact) return exact;
+  const prefix = langCode.split("-")[0].toLowerCase();
+  const partial = cachedVoices.find(v => v.lang && v.lang.toLowerCase().startsWith(prefix));
+  if(partial) return partial;
+  return cachedVoices.find(v => v.default) || cachedVoices[0] || null;
+}
+
+function buildKpiSpeechText(){
+  const t = I18N[currentLang];
+  const filteredRisk = currentDistrictFilter ? RISK.filter(r=>r.district===currentDistrictFilter) : RISK;
+  const critCount = filteredRisk.filter(r=>r.tier==="Critical").length;
+  const stats = currentDistrictFilter ? (DISTRICT_STATS[currentDistrictFilter] || {alerts:0, redistribution:0, attendance:0}) : TOTAL_STATS;
+  return t.kpiSpeech(critCount, stats.alerts, stats.redistribution, stats.attendance);
+}
+
+function buildAlertsSpeechText(){
+  const t = I18N[currentLang];
+  const list = (currentDistrictFilter ? ALERTS.filter(a=>a.district===currentDistrictFilter) : ALERTS).slice(0, 5);
+  if(!list.length) return t.alertsSpeechEmpty;
+  return [t.alertsSpeechIntro(list.length), ...list.map(t.alertsSpeechItem)].join(" ");
+}
+
+function buildRiskSpeechText(){
+  const t = I18N[currentLang];
+  let list = RISK;
+  if(currentDistrictFilter) list = list.filter(r=>r.district===currentDistrictFilter);
+  if(currentTierFilter !== "all") list = list.filter(r=>r.tier===currentTierFilter);
+  list = list.slice(0, 5);
+  if(!list.length) return t.riskSpeechEmpty;
+  return [t.riskSpeechIntro(list.length), ...list.map(t.riskSpeechItem)].join(" ");
+}
+
+function updateListenButtons(){
+  ["kpi","alerts","risk"].forEach(section=>{
+    const btn = document.getElementById(
+      section === "kpi" ? "listenKpiBtn" : section === "alerts" ? "listenAlertsBtn" : "listenRiskBtn"
+    );
+    if(!btn) return;
+    const label = btn.querySelector("[data-i]") || btn.querySelector("span:last-child");
+    const isSpeaking = currentSpeakingSection === section;
+    btn.classList.toggle("speaking", isSpeaking);
+    if(label) label.textContent = isSpeaking ? I18N[currentLang].stopBtn : I18N[currentLang].listenBtn;
+  });
+}
+
+/* Chrome silently stops any utterance longer than ~15s unless the engine
+   is nudged with pause()/resume() periodically while it's talking. This
+   keeps long "Listen" read-outs (5 alerts, 5 risk rows) from cutting off
+   partway through. */
+let keepAliveTimer = null;
+function startKeepAlive(synth){
+  stopKeepAlive();
+  keepAliveTimer = setInterval(() => {
+    if(synth.speaking && !synth.paused){
+      synth.pause();
+      synth.resume();
+    }
+  }, 12000);
+}
+function stopKeepAlive(){
+  if(keepAliveTimer){ clearInterval(keepAliveTimer); keepAliveTimer = null; }
+}
+
+function toggleSpeak(section){
+  const t = I18N[currentLang];
+  if(!speechSupported()){
+    alert(t.ttsUnsupported);
+    return;
+  }
+  const synth = window.speechSynthesis;
+
+  // Clicking the section that's already speaking just stops it.
+  if(currentSpeakingSection === section){
+    stopKeepAlive();
+    synth.cancel();
+    currentSpeakingSection = null;
+    updateListenButtons();
+    return;
+  }
+
+  // Only cancel (and only delay) if something is actually speaking/queued —
+  // an unconditional delay before every speak() call can break the "this
+  // came directly from a user tap" requirement some mobile browsers (iOS
+  // Safari in particular) enforce for audio APIs. Most clicks hit no-op
+  // cancel and go straight to speaking synchronously within the tap.
+  const wasBusy = synth.speaking || synth.pending;
+  if(wasBusy){ stopKeepAlive(); synth.cancel(); }
+
+  const textBySection = { kpi: buildKpiSpeechText, alerts: buildAlertsSpeechText, risk: buildRiskSpeechText };
+  const text = textBySection[section]();
+
+  const speakNow = () => {
+    refreshVoiceCache();
+
+    // No voices at all almost always means the device/browser has no TTS
+    // engine or language data installed (very common on Android until
+    // "Speech Services by Google" has a language pack downloaded). This
+    // fails 100% silently otherwise, so surface it instead of pretending
+    // it worked.
+    if(!cachedVoices.length){
+      currentSpeakingSection = null;
+      updateListenButtons();
+      showSpeechNotice(t.ttsNoVoices);
+      return;
+    }
+
+    if(synth.paused) synth.resume();
+
+    const utter = new SpeechSynthesisUtterance(text);
+    utter.lang = t.speechLangCode;
+    const voice = pickVoice(t.speechLangCode);
+    if(voice) utter.voice = voice;
+    utter.rate = 0.95;
+    utter.volume = 1;
+    utter.onstart = () => startKeepAlive(synth);
+    utter.onend = () => { stopKeepAlive(); currentSpeakingSection = null; updateListenButtons(); };
+    utter.onerror = (e) => {
+      stopKeepAlive();
+      currentSpeakingSection = null;
+      updateListenButtons();
+      console.error("Speech synthesis error:", e.error);
+      showSpeechNotice(t.ttsErrorGeneric);
+    };
+    synth.speak(utter);
+
+    // Extra safety net: if the engine hasn't actually started talking
+    // within 1.5s, something silently failed (seen on some Android/Chrome
+    // builds even with voices "installed" but no working engine) — surface
+    // that instead of leaving the button stuck on "Stop" with no sound.
+    setTimeout(() => {
+      if(currentSpeakingSection === section && !synth.speaking){
+        stopKeepAlive();
+        currentSpeakingSection = null;
+        updateListenButtons();
+        showSpeechNotice(t.ttsErrorGeneric);
+      }
+    }, 1500);
+  };
+
+  currentSpeakingSection = section;
+  updateListenButtons();
+
+  // Only add the "avoid Chrome's cancel+speak race" delay when we actually
+  // just canceled something; otherwise speak synchronously in the same
+  // tick as the click.
+  if(wasBusy){ setTimeout(speakNow, 60); } else { speakNow(); }
+}
+
+/* Small on-page notice instead of a native alert() — alert() blocks the
+   whole page and some mobile browsers suppress it inside quick-tap flows,
+   so this renders as a temporary inline message near the header instead. */
+let speechNoticeTimer = null;
+function showSpeechNotice(message){
+  let el = document.getElementById("speechNotice");
+  if(!el){
+    el = document.createElement("div");
+    el.id = "speechNotice";
+    el.style.cssText = "position:fixed; bottom:20px; left:50%; transform:translateX(-50%); z-index:9999; background:var(--paper-raised); color:var(--ink); border:1px solid var(--vermillion); border-radius:10px; padding:10px 16px; font-size:13px; font-family:var(--font-body); box-shadow:var(--shadow-lg); max-width:90vw; text-align:center;";
+    document.body.appendChild(el);
+  }
+  el.textContent = message;
+  el.style.display = "block";
+  clearTimeout(speechNoticeTimer);
+  speechNoticeTimer = setTimeout(() => { el.style.display = "none"; }, 6000);
+}
+
+/* =========================================================
+   LITE MODE (low-connectivity design)
+   Strips web-font loading, blur/glow effects, and all decorative
+   animation so the page is lighter to render and (after first
+   load) cheaper to re-render on constrained devices. Auto-enables
+   itself when the browser reports Save-Data or a slow connection;
+   always stays a one-click manual toggle either way.
+========================================================= */
+
+function updateLiteToggleLabel(){
+  const btn = document.getElementById("liteToggle");
+  const label = document.getElementById("liteToggleLabel");
+  if(!btn || !label) return;
+  btn.classList.toggle("active", liteMode);
+  label.textContent = I18N[currentLang][liteMode ? "liteToggleOn" : "liteToggleOff"];
+}
+
+function toggleLiteMode(){
+  liteMode = !liteMode;
+  document.body.classList.toggle("lite-mode", liteMode);
+  updateLiteToggleLabel();
+}
+
+function detectSlowConnection(){
+  const note = document.getElementById("connNote");
+  const conn = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+  if(!conn){ return; }
+
+  const isSlow = conn.saveData === true ||
+    ["slow-2g","2g","3g"].includes(conn.effectiveType || "");
+
+  if(isSlow && !liteModeAutoSet){
+    liteModeAutoSet = true;
+    liteMode = true;
+    document.body.classList.add("lite-mode");
+    updateLiteToggleLabel();
+    if(note) note.textContent = I18N[currentLang].connSlow;
+  }
+
+  // Keep the note in sync if effectiveType changes later (e.g. wifi -> mobile data).
+  if(conn.addEventListener){
+    conn.addEventListener("change", () => {
+      const nowSlow = conn.saveData === true || ["slow-2g","2g","3g"].includes(conn.effectiveType || "");
+      if(nowSlow && !liteMode){
+        liteMode = true;
+        document.body.classList.add("lite-mode");
+        updateLiteToggleLabel();
+        if(note) note.textContent = I18N[currentLang].connSlow;
+      }
+    });
+  }
+}
+
+setLang("en");
+renderSeal();
+renderAll();
+initScrollReveal();
+initParticleField();
+initScrollProgress();
+detectSlowConnection();
+updateLiteToggleLabel();
+if (LIVE_API_URL) {
+  fetchLive(LIVE_API_URL);
+}
+</script>
+</body>
+</html>
