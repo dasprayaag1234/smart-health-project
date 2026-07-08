@@ -1,0 +1,65 @@
+facility_id,facility_type,district,state,dhvi_score,dhvi_tier,total_beds,lat,lon
+BHAG-CHC-1,CHC,Bhagalpur,Bihar,75.8,Critical,31,25.26373,87.07167
+BHAG-PHC-2,PHC,Bhagalpur,Bihar,75.8,Critical,14,25.24887,87.06636
+BHAG-PHC-3,PHC,Bhagalpur,Bihar,75.8,Critical,12,25.2877,87.09426
+BHAG-PHC-4,PHC,Bhagalpur,Bihar,75.8,Critical,9,25.28732,87.0819
+JALN-CHC-1,CHC,Jalna,Maharastra,75.8,Critical,25,19.79658,75.95876
+JALN-PHC-2,PHC,Jalna,Maharastra,75.8,Critical,10,19.81646,75.9858
+JALN-PHC-3,PHC,Jalna,Maharastra,75.8,Critical,11,19.82627,75.9851
+JALN-PHC-4,PHC,Jalna,Maharastra,75.8,Critical,14,19.80643,75.95374
+BARA-CHC-1,CHC,Bara Banki,Uttar Pradesh,77.6,Critical,26,26.92152,81.32191
+BARA-PHC-2,PHC,Bara Banki,Uttar Pradesh,77.6,Critical,9,26.92268,81.3009
+BARA-PHC-3,PHC,Bara Banki,Uttar Pradesh,77.6,Critical,13,26.92626,81.33711
+BARA-PHC-4,PHC,Bara Banki,Uttar Pradesh,77.6,Critical,11,26.95567,81.33726
+ARAR-CHC-1,CHC,Araria,Bihar,81.7,Critical,27,26.21834,87.33436
+ARAR-PHC-2,PHC,Araria,Bihar,81.7,Critical,11,26.1749,87.36768
+ARAR-PHC-3,PHC,Araria,Bihar,81.7,Critical,13,26.17918,87.3544
+ARAR-PHC-4,PHC,Araria,Bihar,81.7,Critical,13,26.21128,87.35111
+DARB-CHC-1,CHC,Darbhanga,Bihar,70.0,High,29,26.10189,86.03311
+DARB-PHC-2,PHC,Darbhanga,Bihar,70.0,High,8,26.08906,86.00237
+DARB-PHC-3,PHC,Darbhanga,Bihar,70.0,High,10,26.13831,86.03727
+DARB-PHC-4,PHC,Darbhanga,Bihar,70.0,High,11,26.14195,86.04202
+VADO-CHC-1,CHC,Vadodara,Gujarat,52.9,High,34,22.23004,73.51825
+VADO-PHC-2,PHC,Vadodara,Gujarat,52.9,High,10,22.25724,73.52927
+VADO-PHC-3,PHC,Vadodara,Gujarat,52.9,High,8,22.22144,73.53667
+VADO-PHC-4,PHC,Vadodara,Gujarat,52.9,High,11,22.25448,73.54743
+GHAZ-CHC-1,CHC,Ghazipur,Uttar Pradesh,57.3,High,26,25.61838,83.56385
+GHAZ-PHC-2,PHC,Ghazipur,Uttar Pradesh,57.3,High,16,25.63144,83.53128
+GHAZ-PHC-3,PHC,Ghazipur,Uttar Pradesh,57.3,High,12,25.59495,83.55585
+GHAZ-PHC-4,PHC,Ghazipur,Uttar Pradesh,57.3,High,14,25.60112,83.53241
+AZAM-CHC-1,CHC,Azamgarh,Uttar Pradesh,52.7,High,22,26.02728,83.09517
+AZAM-PHC-2,PHC,Azamgarh,Uttar Pradesh,52.7,High,11,26.03785,83.07511
+AZAM-PHC-3,PHC,Azamgarh,Uttar Pradesh,52.7,High,11,26.07455,83.0686
+AZAM-PHC-4,PHC,Azamgarh,Uttar Pradesh,52.7,High,13,26.022,83.06886
+PUDU-CHC-1,CHC,Pudukkottai,Tamil Nadu,25.5,Moderate,46,10.38489,78.88554
+PUDU-PHC-2,PHC,Pudukkottai,Tamil Nadu,25.5,Moderate,7,10.34464,78.87113
+PUDU-PHC-3,PHC,Pudukkottai,Tamil Nadu,25.5,Moderate,11,10.35495,78.85254
+PUDU-PHC-4,PHC,Pudukkottai,Tamil Nadu,25.5,Moderate,15,10.38239,78.85965
+SANG-CHC-1,CHC,Sangareddy,Telangana,39.0,Moderate,23,,
+SANG-PHC-2,PHC,Sangareddy,Telangana,39.0,Moderate,8,,
+SANG-PHC-3,PHC,Sangareddy,Telangana,39.0,Moderate,11,,
+SANG-PHC-4,PHC,Sangareddy,Telangana,39.0,Moderate,12,,
+SRI-CHC-1,CHC,Sri Potti Sriramulu Nello,Andhra Pradesh,41.9,Moderate,40,14.44292,79.71086
+SRI-PHC-2,PHC,Sri Potti Sriramulu Nello,Andhra Pradesh,41.9,Moderate,11,14.41061,79.70664
+SRI-PHC-3,PHC,Sri Potti Sriramulu Nello,Andhra Pradesh,41.9,Moderate,10,14.41906,79.75419
+SRI-PHC-4,PHC,Sri Potti Sriramulu Nello,Andhra Pradesh,41.9,Moderate,14,14.41583,79.76157
+ALLA-CHC-1,CHC,Allahabad,Uttar Pradesh,49.5,Moderate,31,25.2998,81.95708
+ALLA-PHC-2,PHC,Allahabad,Uttar Pradesh,49.5,Moderate,10,25.27878,81.94441
+ALLA-PHC-3,PHC,Allahabad,Uttar Pradesh,49.5,Moderate,9,25.32844,81.99522
+ALLA-PHC-4,PHC,Allahabad,Uttar Pradesh,49.5,Moderate,16,25.32235,81.99533
+SHIM-CHC-1,CHC,Shimla,Himachal Pradesh,20.3,Low,31,31.186,77.64871
+SHIM-PHC-2,PHC,Shimla,Himachal Pradesh,20.3,Low,11,31.18946,77.60806
+SHIM-PHC-3,PHC,Shimla,Himachal Pradesh,20.3,Low,16,31.18279,77.6586
+SHIM-PHC-4,PHC,Shimla,Himachal Pradesh,20.3,Low,9,31.17441,77.65226
+UTTA-CHC-1,CHC,Uttar Bastar Kanker,Chhattisgarh,15.7,Low,28,20.12848,81.13515
+UTTA-PHC-2,PHC,Uttar Bastar Kanker,Chhattisgarh,15.7,Low,9,20.13634,81.14583
+UTTA-PHC-3,PHC,Uttar Bastar Kanker,Chhattisgarh,15.7,Low,11,20.14776,81.10782
+UTTA-PHC-4,PHC,Uttar Bastar Kanker,Chhattisgarh,15.7,Low,13,20.1315,81.1071
+KOZH-CHC-1,CHC,Kozhikode,Kerala,10.7,Low,33,11.46211,75.83474
+KOZH-PHC-2,PHC,Kozhikode,Kerala,10.7,Low,10,11.48967,75.81635
+KOZH-PHC-3,PHC,Kozhikode,Kerala,10.7,Low,11,11.49772,75.8487
+KOZH-PHC-4,PHC,Kozhikode,Kerala,10.7,Low,12,11.46223,75.86001
+JODH-CHC-1,CHC,Jodhpur,Rajasthan,23.9,Low,26,26.73889,72.78735
+JODH-PHC-2,PHC,Jodhpur,Rajasthan,23.9,Low,13,26.77817,72.77522
+JODH-PHC-3,PHC,Jodhpur,Rajasthan,23.9,Low,10,26.72232,72.79134
+JODH-PHC-4,PHC,Jodhpur,Rajasthan,23.9,Low,12,26.72718,72.76645

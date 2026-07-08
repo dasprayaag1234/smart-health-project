@@ -1,0 +1,4993 @@
+facility_id,day,test_name,functional
+BHAG-CHC-1,0,Blood Glucose,False
+BHAG-CHC-1,7,Blood Glucose,False
+BHAG-CHC-1,14,Blood Glucose,False
+BHAG-CHC-1,21,Blood Glucose,True
+BHAG-CHC-1,28,Blood Glucose,False
+BHAG-CHC-1,35,Blood Glucose,True
+BHAG-CHC-1,42,Blood Glucose,False
+BHAG-CHC-1,49,Blood Glucose,True
+BHAG-CHC-1,56,Blood Glucose,False
+BHAG-CHC-1,63,Blood Glucose,False
+BHAG-CHC-1,70,Blood Glucose,True
+BHAG-CHC-1,77,Blood Glucose,False
+BHAG-CHC-1,84,Blood Glucose,False
+BHAG-CHC-1,0,Hemoglobin,True
+BHAG-CHC-1,7,Hemoglobin,True
+BHAG-CHC-1,14,Hemoglobin,True
+BHAG-CHC-1,21,Hemoglobin,True
+BHAG-CHC-1,28,Hemoglobin,True
+BHAG-CHC-1,35,Hemoglobin,True
+BHAG-CHC-1,42,Hemoglobin,False
+BHAG-CHC-1,49,Hemoglobin,True
+BHAG-CHC-1,56,Hemoglobin,False
+BHAG-CHC-1,63,Hemoglobin,False
+BHAG-CHC-1,70,Hemoglobin,True
+BHAG-CHC-1,77,Hemoglobin,True
+BHAG-CHC-1,84,Hemoglobin,True
+BHAG-CHC-1,0,Malaria RDT,True
+BHAG-CHC-1,7,Malaria RDT,True
+BHAG-CHC-1,14,Malaria RDT,False
+BHAG-CHC-1,21,Malaria RDT,False
+BHAG-CHC-1,28,Malaria RDT,False
+BHAG-CHC-1,35,Malaria RDT,True
+BHAG-CHC-1,42,Malaria RDT,True
+BHAG-CHC-1,49,Malaria RDT,True
+BHAG-CHC-1,56,Malaria RDT,False
+BHAG-CHC-1,63,Malaria RDT,True
+BHAG-CHC-1,70,Malaria RDT,False
+BHAG-CHC-1,77,Malaria RDT,False
+BHAG-CHC-1,84,Malaria RDT,True
+BHAG-CHC-1,0,Pregnancy Test,True
+BHAG-CHC-1,7,Pregnancy Test,True
+BHAG-CHC-1,14,Pregnancy Test,True
+BHAG-CHC-1,21,Pregnancy Test,False
+BHAG-CHC-1,28,Pregnancy Test,True
+BHAG-CHC-1,35,Pregnancy Test,True
+BHAG-CHC-1,42,Pregnancy Test,True
+BHAG-CHC-1,49,Pregnancy Test,False
+BHAG-CHC-1,56,Pregnancy Test,True
+BHAG-CHC-1,63,Pregnancy Test,True
+BHAG-CHC-1,70,Pregnancy Test,True
+BHAG-CHC-1,77,Pregnancy Test,True
+BHAG-CHC-1,84,Pregnancy Test,False
+BHAG-CHC-1,0,TB Sputum,True
+BHAG-CHC-1,7,TB Sputum,True
+BHAG-CHC-1,14,TB Sputum,False
+BHAG-CHC-1,21,TB Sputum,False
+BHAG-CHC-1,28,TB Sputum,True
+BHAG-CHC-1,35,TB Sputum,True
+BHAG-CHC-1,42,TB Sputum,True
+BHAG-CHC-1,49,TB Sputum,True
+BHAG-CHC-1,56,TB Sputum,True
+BHAG-CHC-1,63,TB Sputum,True
+BHAG-CHC-1,70,TB Sputum,True
+BHAG-CHC-1,77,TB Sputum,True
+BHAG-CHC-1,84,TB Sputum,True
+BHAG-CHC-1,0,X-Ray,False
+BHAG-CHC-1,7,X-Ray,True
+BHAG-CHC-1,14,X-Ray,False
+BHAG-CHC-1,21,X-Ray,True
+BHAG-CHC-1,28,X-Ray,True
+BHAG-CHC-1,35,X-Ray,True
+BHAG-CHC-1,42,X-Ray,False
+BHAG-CHC-1,49,X-Ray,False
+BHAG-CHC-1,56,X-Ray,True
+BHAG-CHC-1,63,X-Ray,False
+BHAG-CHC-1,70,X-Ray,False
+BHAG-CHC-1,77,X-Ray,False
+BHAG-CHC-1,84,X-Ray,True
+BHAG-PHC-2,0,Blood Glucose,True
+BHAG-PHC-2,7,Blood Glucose,True
+BHAG-PHC-2,14,Blood Glucose,True
+BHAG-PHC-2,21,Blood Glucose,True
+BHAG-PHC-2,28,Blood Glucose,False
+BHAG-PHC-2,35,Blood Glucose,True
+BHAG-PHC-2,42,Blood Glucose,False
+BHAG-PHC-2,49,Blood Glucose,True
+BHAG-PHC-2,56,Blood Glucose,True
+BHAG-PHC-2,63,Blood Glucose,False
+BHAG-PHC-2,70,Blood Glucose,False
+BHAG-PHC-2,77,Blood Glucose,False
+BHAG-PHC-2,84,Blood Glucose,False
+BHAG-PHC-2,0,Hemoglobin,False
+BHAG-PHC-2,7,Hemoglobin,True
+BHAG-PHC-2,14,Hemoglobin,True
+BHAG-PHC-2,21,Hemoglobin,True
+BHAG-PHC-2,28,Hemoglobin,True
+BHAG-PHC-2,35,Hemoglobin,True
+BHAG-PHC-2,42,Hemoglobin,True
+BHAG-PHC-2,49,Hemoglobin,False
+BHAG-PHC-2,56,Hemoglobin,True
+BHAG-PHC-2,63,Hemoglobin,True
+BHAG-PHC-2,70,Hemoglobin,True
+BHAG-PHC-2,77,Hemoglobin,True
+BHAG-PHC-2,84,Hemoglobin,True
+BHAG-PHC-2,0,Malaria RDT,False
+BHAG-PHC-2,7,Malaria RDT,True
+BHAG-PHC-2,14,Malaria RDT,True
+BHAG-PHC-2,21,Malaria RDT,True
+BHAG-PHC-2,28,Malaria RDT,False
+BHAG-PHC-2,35,Malaria RDT,False
+BHAG-PHC-2,42,Malaria RDT,True
+BHAG-PHC-2,49,Malaria RDT,True
+BHAG-PHC-2,56,Malaria RDT,False
+BHAG-PHC-2,63,Malaria RDT,False
+BHAG-PHC-2,70,Malaria RDT,True
+BHAG-PHC-2,77,Malaria RDT,True
+BHAG-PHC-2,84,Malaria RDT,True
+BHAG-PHC-2,0,Pregnancy Test,True
+BHAG-PHC-2,7,Pregnancy Test,False
+BHAG-PHC-2,14,Pregnancy Test,False
+BHAG-PHC-2,21,Pregnancy Test,True
+BHAG-PHC-2,28,Pregnancy Test,True
+BHAG-PHC-2,35,Pregnancy Test,False
+BHAG-PHC-2,42,Pregnancy Test,False
+BHAG-PHC-2,49,Pregnancy Test,True
+BHAG-PHC-2,56,Pregnancy Test,False
+BHAG-PHC-2,63,Pregnancy Test,True
+BHAG-PHC-2,70,Pregnancy Test,False
+BHAG-PHC-2,77,Pregnancy Test,True
+BHAG-PHC-2,84,Pregnancy Test,False
+BHAG-PHC-2,0,TB Sputum,False
+BHAG-PHC-2,7,TB Sputum,False
+BHAG-PHC-2,14,TB Sputum,False
+BHAG-PHC-2,21,TB Sputum,True
+BHAG-PHC-2,28,TB Sputum,True
+BHAG-PHC-2,35,TB Sputum,True
+BHAG-PHC-2,42,TB Sputum,True
+BHAG-PHC-2,49,TB Sputum,True
+BHAG-PHC-2,56,TB Sputum,False
+BHAG-PHC-2,63,TB Sputum,False
+BHAG-PHC-2,70,TB Sputum,True
+BHAG-PHC-2,77,TB Sputum,False
+BHAG-PHC-2,84,TB Sputum,True
+BHAG-PHC-2,0,X-Ray,True
+BHAG-PHC-2,7,X-Ray,True
+BHAG-PHC-2,14,X-Ray,True
+BHAG-PHC-2,21,X-Ray,False
+BHAG-PHC-2,28,X-Ray,False
+BHAG-PHC-2,35,X-Ray,True
+BHAG-PHC-2,42,X-Ray,False
+BHAG-PHC-2,49,X-Ray,False
+BHAG-PHC-2,56,X-Ray,True
+BHAG-PHC-2,63,X-Ray,True
+BHAG-PHC-2,70,X-Ray,False
+BHAG-PHC-2,77,X-Ray,False
+BHAG-PHC-2,84,X-Ray,True
+BHAG-PHC-3,0,Blood Glucose,True
+BHAG-PHC-3,7,Blood Glucose,True
+BHAG-PHC-3,14,Blood Glucose,True
+BHAG-PHC-3,21,Blood Glucose,True
+BHAG-PHC-3,28,Blood Glucose,False
+BHAG-PHC-3,35,Blood Glucose,False
+BHAG-PHC-3,42,Blood Glucose,True
+BHAG-PHC-3,49,Blood Glucose,False
+BHAG-PHC-3,56,Blood Glucose,True
+BHAG-PHC-3,63,Blood Glucose,True
+BHAG-PHC-3,70,Blood Glucose,False
+BHAG-PHC-3,77,Blood Glucose,False
+BHAG-PHC-3,84,Blood Glucose,True
+BHAG-PHC-3,0,Hemoglobin,True
+BHAG-PHC-3,7,Hemoglobin,False
+BHAG-PHC-3,14,Hemoglobin,True
+BHAG-PHC-3,21,Hemoglobin,False
+BHAG-PHC-3,28,Hemoglobin,True
+BHAG-PHC-3,35,Hemoglobin,True
+BHAG-PHC-3,42,Hemoglobin,False
+BHAG-PHC-3,49,Hemoglobin,True
+BHAG-PHC-3,56,Hemoglobin,True
+BHAG-PHC-3,63,Hemoglobin,True
+BHAG-PHC-3,70,Hemoglobin,True
+BHAG-PHC-3,77,Hemoglobin,False
+BHAG-PHC-3,84,Hemoglobin,True
+BHAG-PHC-3,0,Malaria RDT,True
+BHAG-PHC-3,7,Malaria RDT,False
+BHAG-PHC-3,14,Malaria RDT,False
+BHAG-PHC-3,21,Malaria RDT,True
+BHAG-PHC-3,28,Malaria RDT,False
+BHAG-PHC-3,35,Malaria RDT,True
+BHAG-PHC-3,42,Malaria RDT,False
+BHAG-PHC-3,49,Malaria RDT,True
+BHAG-PHC-3,56,Malaria RDT,False
+BHAG-PHC-3,63,Malaria RDT,True
+BHAG-PHC-3,70,Malaria RDT,True
+BHAG-PHC-3,77,Malaria RDT,False
+BHAG-PHC-3,84,Malaria RDT,True
+BHAG-PHC-3,0,Pregnancy Test,True
+BHAG-PHC-3,7,Pregnancy Test,True
+BHAG-PHC-3,14,Pregnancy Test,False
+BHAG-PHC-3,21,Pregnancy Test,False
+BHAG-PHC-3,28,Pregnancy Test,True
+BHAG-PHC-3,35,Pregnancy Test,False
+BHAG-PHC-3,42,Pregnancy Test,True
+BHAG-PHC-3,49,Pregnancy Test,False
+BHAG-PHC-3,56,Pregnancy Test,True
+BHAG-PHC-3,63,Pregnancy Test,False
+BHAG-PHC-3,70,Pregnancy Test,False
+BHAG-PHC-3,77,Pregnancy Test,True
+BHAG-PHC-3,84,Pregnancy Test,True
+BHAG-PHC-3,0,TB Sputum,True
+BHAG-PHC-3,7,TB Sputum,True
+BHAG-PHC-3,14,TB Sputum,False
+BHAG-PHC-3,21,TB Sputum,True
+BHAG-PHC-3,28,TB Sputum,True
+BHAG-PHC-3,35,TB Sputum,True
+BHAG-PHC-3,42,TB Sputum,True
+BHAG-PHC-3,49,TB Sputum,True
+BHAG-PHC-3,56,TB Sputum,False
+BHAG-PHC-3,63,TB Sputum,True
+BHAG-PHC-3,70,TB Sputum,False
+BHAG-PHC-3,77,TB Sputum,True
+BHAG-PHC-3,84,TB Sputum,True
+BHAG-PHC-3,0,X-Ray,True
+BHAG-PHC-3,7,X-Ray,True
+BHAG-PHC-3,14,X-Ray,False
+BHAG-PHC-3,21,X-Ray,True
+BHAG-PHC-3,28,X-Ray,True
+BHAG-PHC-3,35,X-Ray,False
+BHAG-PHC-3,42,X-Ray,True
+BHAG-PHC-3,49,X-Ray,True
+BHAG-PHC-3,56,X-Ray,True
+BHAG-PHC-3,63,X-Ray,True
+BHAG-PHC-3,70,X-Ray,True
+BHAG-PHC-3,77,X-Ray,True
+BHAG-PHC-3,84,X-Ray,True
+BHAG-PHC-4,0,Blood Glucose,True
+BHAG-PHC-4,7,Blood Glucose,True
+BHAG-PHC-4,14,Blood Glucose,False
+BHAG-PHC-4,21,Blood Glucose,False
+BHAG-PHC-4,28,Blood Glucose,True
+BHAG-PHC-4,35,Blood Glucose,True
+BHAG-PHC-4,42,Blood Glucose,True
+BHAG-PHC-4,49,Blood Glucose,True
+BHAG-PHC-4,56,Blood Glucose,True
+BHAG-PHC-4,63,Blood Glucose,False
+BHAG-PHC-4,70,Blood Glucose,False
+BHAG-PHC-4,77,Blood Glucose,True
+BHAG-PHC-4,84,Blood Glucose,True
+BHAG-PHC-4,0,Hemoglobin,True
+BHAG-PHC-4,7,Hemoglobin,False
+BHAG-PHC-4,14,Hemoglobin,False
+BHAG-PHC-4,21,Hemoglobin,False
+BHAG-PHC-4,28,Hemoglobin,True
+BHAG-PHC-4,35,Hemoglobin,False
+BHAG-PHC-4,42,Hemoglobin,True
+BHAG-PHC-4,49,Hemoglobin,True
+BHAG-PHC-4,56,Hemoglobin,False
+BHAG-PHC-4,63,Hemoglobin,True
+BHAG-PHC-4,70,Hemoglobin,True
+BHAG-PHC-4,77,Hemoglobin,False
+BHAG-PHC-4,84,Hemoglobin,True
+BHAG-PHC-4,0,Malaria RDT,True
+BHAG-PHC-4,7,Malaria RDT,True
+BHAG-PHC-4,14,Malaria RDT,True
+BHAG-PHC-4,21,Malaria RDT,False
+BHAG-PHC-4,28,Malaria RDT,False
+BHAG-PHC-4,35,Malaria RDT,False
+BHAG-PHC-4,42,Malaria RDT,False
+BHAG-PHC-4,49,Malaria RDT,True
+BHAG-PHC-4,56,Malaria RDT,True
+BHAG-PHC-4,63,Malaria RDT,False
+BHAG-PHC-4,70,Malaria RDT,False
+BHAG-PHC-4,77,Malaria RDT,True
+BHAG-PHC-4,84,Malaria RDT,True
+BHAG-PHC-4,0,Pregnancy Test,True
+BHAG-PHC-4,7,Pregnancy Test,True
+BHAG-PHC-4,14,Pregnancy Test,True
+BHAG-PHC-4,21,Pregnancy Test,False
+BHAG-PHC-4,28,Pregnancy Test,True
+BHAG-PHC-4,35,Pregnancy Test,True
+BHAG-PHC-4,42,Pregnancy Test,True
+BHAG-PHC-4,49,Pregnancy Test,False
+BHAG-PHC-4,56,Pregnancy Test,False
+BHAG-PHC-4,63,Pregnancy Test,True
+BHAG-PHC-4,70,Pregnancy Test,False
+BHAG-PHC-4,77,Pregnancy Test,True
+BHAG-PHC-4,84,Pregnancy Test,False
+BHAG-PHC-4,0,TB Sputum,False
+BHAG-PHC-4,7,TB Sputum,False
+BHAG-PHC-4,14,TB Sputum,True
+BHAG-PHC-4,21,TB Sputum,False
+BHAG-PHC-4,28,TB Sputum,True
+BHAG-PHC-4,35,TB Sputum,True
+BHAG-PHC-4,42,TB Sputum,True
+BHAG-PHC-4,49,TB Sputum,False
+BHAG-PHC-4,56,TB Sputum,True
+BHAG-PHC-4,63,TB Sputum,True
+BHAG-PHC-4,70,TB Sputum,False
+BHAG-PHC-4,77,TB Sputum,True
+BHAG-PHC-4,84,TB Sputum,False
+BHAG-PHC-4,0,X-Ray,False
+BHAG-PHC-4,7,X-Ray,True
+BHAG-PHC-4,14,X-Ray,False
+BHAG-PHC-4,21,X-Ray,False
+BHAG-PHC-4,28,X-Ray,True
+BHAG-PHC-4,35,X-Ray,False
+BHAG-PHC-4,42,X-Ray,False
+BHAG-PHC-4,49,X-Ray,False
+BHAG-PHC-4,56,X-Ray,False
+BHAG-PHC-4,63,X-Ray,False
+BHAG-PHC-4,70,X-Ray,True
+BHAG-PHC-4,77,X-Ray,False
+BHAG-PHC-4,84,X-Ray,False
+JALN-CHC-1,0,Blood Glucose,True
+JALN-CHC-1,7,Blood Glucose,True
+JALN-CHC-1,14,Blood Glucose,True
+JALN-CHC-1,21,Blood Glucose,True
+JALN-CHC-1,28,Blood Glucose,True
+JALN-CHC-1,35,Blood Glucose,True
+JALN-CHC-1,42,Blood Glucose,True
+JALN-CHC-1,49,Blood Glucose,True
+JALN-CHC-1,56,Blood Glucose,False
+JALN-CHC-1,63,Blood Glucose,True
+JALN-CHC-1,70,Blood Glucose,True
+JALN-CHC-1,77,Blood Glucose,False
+JALN-CHC-1,84,Blood Glucose,False
+JALN-CHC-1,0,Hemoglobin,True
+JALN-CHC-1,7,Hemoglobin,False
+JALN-CHC-1,14,Hemoglobin,True
+JALN-CHC-1,21,Hemoglobin,True
+JALN-CHC-1,28,Hemoglobin,True
+JALN-CHC-1,35,Hemoglobin,True
+JALN-CHC-1,42,Hemoglobin,False
+JALN-CHC-1,49,Hemoglobin,False
+JALN-CHC-1,56,Hemoglobin,True
+JALN-CHC-1,63,Hemoglobin,True
+JALN-CHC-1,70,Hemoglobin,True
+JALN-CHC-1,77,Hemoglobin,True
+JALN-CHC-1,84,Hemoglobin,True
+JALN-CHC-1,0,Malaria RDT,True
+JALN-CHC-1,7,Malaria RDT,True
+JALN-CHC-1,14,Malaria RDT,False
+JALN-CHC-1,21,Malaria RDT,True
+JALN-CHC-1,28,Malaria RDT,True
+JALN-CHC-1,35,Malaria RDT,False
+JALN-CHC-1,42,Malaria RDT,False
+JALN-CHC-1,49,Malaria RDT,False
+JALN-CHC-1,56,Malaria RDT,True
+JALN-CHC-1,63,Malaria RDT,True
+JALN-CHC-1,70,Malaria RDT,True
+JALN-CHC-1,77,Malaria RDT,True
+JALN-CHC-1,84,Malaria RDT,True
+JALN-CHC-1,0,Pregnancy Test,True
+JALN-CHC-1,7,Pregnancy Test,False
+JALN-CHC-1,14,Pregnancy Test,False
+JALN-CHC-1,21,Pregnancy Test,False
+JALN-CHC-1,28,Pregnancy Test,False
+JALN-CHC-1,35,Pregnancy Test,False
+JALN-CHC-1,42,Pregnancy Test,True
+JALN-CHC-1,49,Pregnancy Test,False
+JALN-CHC-1,56,Pregnancy Test,False
+JALN-CHC-1,63,Pregnancy Test,False
+JALN-CHC-1,70,Pregnancy Test,False
+JALN-CHC-1,77,Pregnancy Test,False
+JALN-CHC-1,84,Pregnancy Test,True
+JALN-CHC-1,0,TB Sputum,False
+JALN-CHC-1,7,TB Sputum,True
+JALN-CHC-1,14,TB Sputum,True
+JALN-CHC-1,21,TB Sputum,False
+JALN-CHC-1,28,TB Sputum,True
+JALN-CHC-1,35,TB Sputum,True
+JALN-CHC-1,42,TB Sputum,True
+JALN-CHC-1,49,TB Sputum,True
+JALN-CHC-1,56,TB Sputum,True
+JALN-CHC-1,63,TB Sputum,True
+JALN-CHC-1,70,TB Sputum,True
+JALN-CHC-1,77,TB Sputum,True
+JALN-CHC-1,84,TB Sputum,True
+JALN-CHC-1,0,X-Ray,False
+JALN-CHC-1,7,X-Ray,True
+JALN-CHC-1,14,X-Ray,True
+JALN-CHC-1,21,X-Ray,True
+JALN-CHC-1,28,X-Ray,False
+JALN-CHC-1,35,X-Ray,False
+JALN-CHC-1,42,X-Ray,True
+JALN-CHC-1,49,X-Ray,True
+JALN-CHC-1,56,X-Ray,False
+JALN-CHC-1,63,X-Ray,False
+JALN-CHC-1,70,X-Ray,False
+JALN-CHC-1,77,X-Ray,True
+JALN-CHC-1,84,X-Ray,True
+JALN-PHC-2,0,Blood Glucose,False
+JALN-PHC-2,7,Blood Glucose,False
+JALN-PHC-2,14,Blood Glucose,False
+JALN-PHC-2,21,Blood Glucose,False
+JALN-PHC-2,28,Blood Glucose,True
+JALN-PHC-2,35,Blood Glucose,True
+JALN-PHC-2,42,Blood Glucose,False
+JALN-PHC-2,49,Blood Glucose,True
+JALN-PHC-2,56,Blood Glucose,False
+JALN-PHC-2,63,Blood Glucose,False
+JALN-PHC-2,70,Blood Glucose,True
+JALN-PHC-2,77,Blood Glucose,False
+JALN-PHC-2,84,Blood Glucose,False
+JALN-PHC-2,0,Hemoglobin,True
+JALN-PHC-2,7,Hemoglobin,True
+JALN-PHC-2,14,Hemoglobin,True
+JALN-PHC-2,21,Hemoglobin,True
+JALN-PHC-2,28,Hemoglobin,True
+JALN-PHC-2,35,Hemoglobin,True
+JALN-PHC-2,42,Hemoglobin,False
+JALN-PHC-2,49,Hemoglobin,False
+JALN-PHC-2,56,Hemoglobin,False
+JALN-PHC-2,63,Hemoglobin,True
+JALN-PHC-2,70,Hemoglobin,False
+JALN-PHC-2,77,Hemoglobin,True
+JALN-PHC-2,84,Hemoglobin,True
+JALN-PHC-2,0,Malaria RDT,True
+JALN-PHC-2,7,Malaria RDT,False
+JALN-PHC-2,14,Malaria RDT,True
+JALN-PHC-2,21,Malaria RDT,False
+JALN-PHC-2,28,Malaria RDT,True
+JALN-PHC-2,35,Malaria RDT,True
+JALN-PHC-2,42,Malaria RDT,True
+JALN-PHC-2,49,Malaria RDT,False
+JALN-PHC-2,56,Malaria RDT,True
+JALN-PHC-2,63,Malaria RDT,True
+JALN-PHC-2,70,Malaria RDT,False
+JALN-PHC-2,77,Malaria RDT,True
+JALN-PHC-2,84,Malaria RDT,False
+JALN-PHC-2,0,Pregnancy Test,True
+JALN-PHC-2,7,Pregnancy Test,True
+JALN-PHC-2,14,Pregnancy Test,False
+JALN-PHC-2,21,Pregnancy Test,True
+JALN-PHC-2,28,Pregnancy Test,False
+JALN-PHC-2,35,Pregnancy Test,True
+JALN-PHC-2,42,Pregnancy Test,False
+JALN-PHC-2,49,Pregnancy Test,True
+JALN-PHC-2,56,Pregnancy Test,False
+JALN-PHC-2,63,Pregnancy Test,False
+JALN-PHC-2,70,Pregnancy Test,False
+JALN-PHC-2,77,Pregnancy Test,False
+JALN-PHC-2,84,Pregnancy Test,True
+JALN-PHC-2,0,TB Sputum,False
+JALN-PHC-2,7,TB Sputum,False
+JALN-PHC-2,14,TB Sputum,False
+JALN-PHC-2,21,TB Sputum,True
+JALN-PHC-2,28,TB Sputum,True
+JALN-PHC-2,35,TB Sputum,True
+JALN-PHC-2,42,TB Sputum,False
+JALN-PHC-2,49,TB Sputum,False
+JALN-PHC-2,56,TB Sputum,True
+JALN-PHC-2,63,TB Sputum,False
+JALN-PHC-2,70,TB Sputum,False
+JALN-PHC-2,77,TB Sputum,False
+JALN-PHC-2,84,TB Sputum,True
+JALN-PHC-2,0,X-Ray,True
+JALN-PHC-2,7,X-Ray,False
+JALN-PHC-2,14,X-Ray,False
+JALN-PHC-2,21,X-Ray,True
+JALN-PHC-2,28,X-Ray,False
+JALN-PHC-2,35,X-Ray,False
+JALN-PHC-2,42,X-Ray,True
+JALN-PHC-2,49,X-Ray,True
+JALN-PHC-2,56,X-Ray,True
+JALN-PHC-2,63,X-Ray,True
+JALN-PHC-2,70,X-Ray,True
+JALN-PHC-2,77,X-Ray,False
+JALN-PHC-2,84,X-Ray,False
+JALN-PHC-3,0,Blood Glucose,False
+JALN-PHC-3,7,Blood Glucose,False
+JALN-PHC-3,14,Blood Glucose,True
+JALN-PHC-3,21,Blood Glucose,False
+JALN-PHC-3,28,Blood Glucose,False
+JALN-PHC-3,35,Blood Glucose,True
+JALN-PHC-3,42,Blood Glucose,True
+JALN-PHC-3,49,Blood Glucose,True
+JALN-PHC-3,56,Blood Glucose,True
+JALN-PHC-3,63,Blood Glucose,False
+JALN-PHC-3,70,Blood Glucose,True
+JALN-PHC-3,77,Blood Glucose,False
+JALN-PHC-3,84,Blood Glucose,False
+JALN-PHC-3,0,Hemoglobin,False
+JALN-PHC-3,7,Hemoglobin,True
+JALN-PHC-3,14,Hemoglobin,True
+JALN-PHC-3,21,Hemoglobin,False
+JALN-PHC-3,28,Hemoglobin,False
+JALN-PHC-3,35,Hemoglobin,False
+JALN-PHC-3,42,Hemoglobin,False
+JALN-PHC-3,49,Hemoglobin,True
+JALN-PHC-3,56,Hemoglobin,True
+JALN-PHC-3,63,Hemoglobin,True
+JALN-PHC-3,70,Hemoglobin,False
+JALN-PHC-3,77,Hemoglobin,True
+JALN-PHC-3,84,Hemoglobin,False
+JALN-PHC-3,0,Malaria RDT,True
+JALN-PHC-3,7,Malaria RDT,True
+JALN-PHC-3,14,Malaria RDT,True
+JALN-PHC-3,21,Malaria RDT,False
+JALN-PHC-3,28,Malaria RDT,False
+JALN-PHC-3,35,Malaria RDT,True
+JALN-PHC-3,42,Malaria RDT,True
+JALN-PHC-3,49,Malaria RDT,True
+JALN-PHC-3,56,Malaria RDT,True
+JALN-PHC-3,63,Malaria RDT,True
+JALN-PHC-3,70,Malaria RDT,False
+JALN-PHC-3,77,Malaria RDT,False
+JALN-PHC-3,84,Malaria RDT,True
+JALN-PHC-3,0,Pregnancy Test,True
+JALN-PHC-3,7,Pregnancy Test,True
+JALN-PHC-3,14,Pregnancy Test,True
+JALN-PHC-3,21,Pregnancy Test,True
+JALN-PHC-3,28,Pregnancy Test,False
+JALN-PHC-3,35,Pregnancy Test,True
+JALN-PHC-3,42,Pregnancy Test,False
+JALN-PHC-3,49,Pregnancy Test,False
+JALN-PHC-3,56,Pregnancy Test,True
+JALN-PHC-3,63,Pregnancy Test,True
+JALN-PHC-3,70,Pregnancy Test,True
+JALN-PHC-3,77,Pregnancy Test,False
+JALN-PHC-3,84,Pregnancy Test,False
+JALN-PHC-3,0,TB Sputum,True
+JALN-PHC-3,7,TB Sputum,True
+JALN-PHC-3,14,TB Sputum,False
+JALN-PHC-3,21,TB Sputum,False
+JALN-PHC-3,28,TB Sputum,True
+JALN-PHC-3,35,TB Sputum,True
+JALN-PHC-3,42,TB Sputum,False
+JALN-PHC-3,49,TB Sputum,True
+JALN-PHC-3,56,TB Sputum,False
+JALN-PHC-3,63,TB Sputum,False
+JALN-PHC-3,70,TB Sputum,True
+JALN-PHC-3,77,TB Sputum,True
+JALN-PHC-3,84,TB Sputum,True
+JALN-PHC-3,0,X-Ray,True
+JALN-PHC-3,7,X-Ray,True
+JALN-PHC-3,14,X-Ray,False
+JALN-PHC-3,21,X-Ray,True
+JALN-PHC-3,28,X-Ray,True
+JALN-PHC-3,35,X-Ray,False
+JALN-PHC-3,42,X-Ray,True
+JALN-PHC-3,49,X-Ray,False
+JALN-PHC-3,56,X-Ray,False
+JALN-PHC-3,63,X-Ray,False
+JALN-PHC-3,70,X-Ray,False
+JALN-PHC-3,77,X-Ray,True
+JALN-PHC-3,84,X-Ray,False
+JALN-PHC-4,0,Blood Glucose,False
+JALN-PHC-4,7,Blood Glucose,True
+JALN-PHC-4,14,Blood Glucose,True
+JALN-PHC-4,21,Blood Glucose,False
+JALN-PHC-4,28,Blood Glucose,False
+JALN-PHC-4,35,Blood Glucose,True
+JALN-PHC-4,42,Blood Glucose,True
+JALN-PHC-4,49,Blood Glucose,False
+JALN-PHC-4,56,Blood Glucose,False
+JALN-PHC-4,63,Blood Glucose,True
+JALN-PHC-4,70,Blood Glucose,False
+JALN-PHC-4,77,Blood Glucose,True
+JALN-PHC-4,84,Blood Glucose,False
+JALN-PHC-4,0,Hemoglobin,True
+JALN-PHC-4,7,Hemoglobin,True
+JALN-PHC-4,14,Hemoglobin,False
+JALN-PHC-4,21,Hemoglobin,True
+JALN-PHC-4,28,Hemoglobin,True
+JALN-PHC-4,35,Hemoglobin,False
+JALN-PHC-4,42,Hemoglobin,True
+JALN-PHC-4,49,Hemoglobin,False
+JALN-PHC-4,56,Hemoglobin,False
+JALN-PHC-4,63,Hemoglobin,True
+JALN-PHC-4,70,Hemoglobin,True
+JALN-PHC-4,77,Hemoglobin,True
+JALN-PHC-4,84,Hemoglobin,False
+JALN-PHC-4,0,Malaria RDT,True
+JALN-PHC-4,7,Malaria RDT,True
+JALN-PHC-4,14,Malaria RDT,False
+JALN-PHC-4,21,Malaria RDT,True
+JALN-PHC-4,28,Malaria RDT,True
+JALN-PHC-4,35,Malaria RDT,False
+JALN-PHC-4,42,Malaria RDT,False
+JALN-PHC-4,49,Malaria RDT,False
+JALN-PHC-4,56,Malaria RDT,False
+JALN-PHC-4,63,Malaria RDT,False
+JALN-PHC-4,70,Malaria RDT,True
+JALN-PHC-4,77,Malaria RDT,True
+JALN-PHC-4,84,Malaria RDT,False
+JALN-PHC-4,0,Pregnancy Test,False
+JALN-PHC-4,7,Pregnancy Test,True
+JALN-PHC-4,14,Pregnancy Test,True
+JALN-PHC-4,21,Pregnancy Test,True
+JALN-PHC-4,28,Pregnancy Test,True
+JALN-PHC-4,35,Pregnancy Test,True
+JALN-PHC-4,42,Pregnancy Test,False
+JALN-PHC-4,49,Pregnancy Test,False
+JALN-PHC-4,56,Pregnancy Test,False
+JALN-PHC-4,63,Pregnancy Test,True
+JALN-PHC-4,70,Pregnancy Test,False
+JALN-PHC-4,77,Pregnancy Test,True
+JALN-PHC-4,84,Pregnancy Test,True
+JALN-PHC-4,0,TB Sputum,True
+JALN-PHC-4,7,TB Sputum,False
+JALN-PHC-4,14,TB Sputum,False
+JALN-PHC-4,21,TB Sputum,True
+JALN-PHC-4,28,TB Sputum,False
+JALN-PHC-4,35,TB Sputum,True
+JALN-PHC-4,42,TB Sputum,False
+JALN-PHC-4,49,TB Sputum,True
+JALN-PHC-4,56,TB Sputum,True
+JALN-PHC-4,63,TB Sputum,False
+JALN-PHC-4,70,TB Sputum,False
+JALN-PHC-4,77,TB Sputum,True
+JALN-PHC-4,84,TB Sputum,True
+JALN-PHC-4,0,X-Ray,False
+JALN-PHC-4,7,X-Ray,False
+JALN-PHC-4,14,X-Ray,False
+JALN-PHC-4,21,X-Ray,False
+JALN-PHC-4,28,X-Ray,False
+JALN-PHC-4,35,X-Ray,True
+JALN-PHC-4,42,X-Ray,True
+JALN-PHC-4,49,X-Ray,False
+JALN-PHC-4,56,X-Ray,True
+JALN-PHC-4,63,X-Ray,False
+JALN-PHC-4,70,X-Ray,False
+JALN-PHC-4,77,X-Ray,True
+JALN-PHC-4,84,X-Ray,True
+BARA-CHC-1,0,Blood Glucose,False
+BARA-CHC-1,7,Blood Glucose,True
+BARA-CHC-1,14,Blood Glucose,True
+BARA-CHC-1,21,Blood Glucose,False
+BARA-CHC-1,28,Blood Glucose,False
+BARA-CHC-1,35,Blood Glucose,True
+BARA-CHC-1,42,Blood Glucose,True
+BARA-CHC-1,49,Blood Glucose,False
+BARA-CHC-1,56,Blood Glucose,True
+BARA-CHC-1,63,Blood Glucose,True
+BARA-CHC-1,70,Blood Glucose,False
+BARA-CHC-1,77,Blood Glucose,True
+BARA-CHC-1,84,Blood Glucose,False
+BARA-CHC-1,0,Hemoglobin,False
+BARA-CHC-1,7,Hemoglobin,False
+BARA-CHC-1,14,Hemoglobin,False
+BARA-CHC-1,21,Hemoglobin,True
+BARA-CHC-1,28,Hemoglobin,True
+BARA-CHC-1,35,Hemoglobin,False
+BARA-CHC-1,42,Hemoglobin,True
+BARA-CHC-1,49,Hemoglobin,False
+BARA-CHC-1,56,Hemoglobin,True
+BARA-CHC-1,63,Hemoglobin,True
+BARA-CHC-1,70,Hemoglobin,False
+BARA-CHC-1,77,Hemoglobin,False
+BARA-CHC-1,84,Hemoglobin,False
+BARA-CHC-1,0,Malaria RDT,False
+BARA-CHC-1,7,Malaria RDT,True
+BARA-CHC-1,14,Malaria RDT,False
+BARA-CHC-1,21,Malaria RDT,True
+BARA-CHC-1,28,Malaria RDT,True
+BARA-CHC-1,35,Malaria RDT,False
+BARA-CHC-1,42,Malaria RDT,False
+BARA-CHC-1,49,Malaria RDT,True
+BARA-CHC-1,56,Malaria RDT,True
+BARA-CHC-1,63,Malaria RDT,False
+BARA-CHC-1,70,Malaria RDT,False
+BARA-CHC-1,77,Malaria RDT,False
+BARA-CHC-1,84,Malaria RDT,False
+BARA-CHC-1,0,Pregnancy Test,False
+BARA-CHC-1,7,Pregnancy Test,True
+BARA-CHC-1,14,Pregnancy Test,True
+BARA-CHC-1,21,Pregnancy Test,True
+BARA-CHC-1,28,Pregnancy Test,False
+BARA-CHC-1,35,Pregnancy Test,False
+BARA-CHC-1,42,Pregnancy Test,True
+BARA-CHC-1,49,Pregnancy Test,True
+BARA-CHC-1,56,Pregnancy Test,True
+BARA-CHC-1,63,Pregnancy Test,False
+BARA-CHC-1,70,Pregnancy Test,True
+BARA-CHC-1,77,Pregnancy Test,False
+BARA-CHC-1,84,Pregnancy Test,True
+BARA-CHC-1,0,TB Sputum,True
+BARA-CHC-1,7,TB Sputum,False
+BARA-CHC-1,14,TB Sputum,True
+BARA-CHC-1,21,TB Sputum,False
+BARA-CHC-1,28,TB Sputum,False
+BARA-CHC-1,35,TB Sputum,False
+BARA-CHC-1,42,TB Sputum,False
+BARA-CHC-1,49,TB Sputum,True
+BARA-CHC-1,56,TB Sputum,True
+BARA-CHC-1,63,TB Sputum,True
+BARA-CHC-1,70,TB Sputum,False
+BARA-CHC-1,77,TB Sputum,True
+BARA-CHC-1,84,TB Sputum,True
+BARA-CHC-1,0,X-Ray,True
+BARA-CHC-1,7,X-Ray,False
+BARA-CHC-1,14,X-Ray,True
+BARA-CHC-1,21,X-Ray,False
+BARA-CHC-1,28,X-Ray,False
+BARA-CHC-1,35,X-Ray,False
+BARA-CHC-1,42,X-Ray,True
+BARA-CHC-1,49,X-Ray,True
+BARA-CHC-1,56,X-Ray,True
+BARA-CHC-1,63,X-Ray,True
+BARA-CHC-1,70,X-Ray,True
+BARA-CHC-1,77,X-Ray,False
+BARA-CHC-1,84,X-Ray,True
+BARA-PHC-2,0,Blood Glucose,True
+BARA-PHC-2,7,Blood Glucose,True
+BARA-PHC-2,14,Blood Glucose,False
+BARA-PHC-2,21,Blood Glucose,True
+BARA-PHC-2,28,Blood Glucose,False
+BARA-PHC-2,35,Blood Glucose,False
+BARA-PHC-2,42,Blood Glucose,True
+BARA-PHC-2,49,Blood Glucose,True
+BARA-PHC-2,56,Blood Glucose,False
+BARA-PHC-2,63,Blood Glucose,False
+BARA-PHC-2,70,Blood Glucose,False
+BARA-PHC-2,77,Blood Glucose,False
+BARA-PHC-2,84,Blood Glucose,False
+BARA-PHC-2,0,Hemoglobin,True
+BARA-PHC-2,7,Hemoglobin,False
+BARA-PHC-2,14,Hemoglobin,False
+BARA-PHC-2,21,Hemoglobin,False
+BARA-PHC-2,28,Hemoglobin,True
+BARA-PHC-2,35,Hemoglobin,False
+BARA-PHC-2,42,Hemoglobin,True
+BARA-PHC-2,49,Hemoglobin,False
+BARA-PHC-2,56,Hemoglobin,False
+BARA-PHC-2,63,Hemoglobin,False
+BARA-PHC-2,70,Hemoglobin,True
+BARA-PHC-2,77,Hemoglobin,True
+BARA-PHC-2,84,Hemoglobin,False
+BARA-PHC-2,0,Malaria RDT,True
+BARA-PHC-2,7,Malaria RDT,False
+BARA-PHC-2,14,Malaria RDT,False
+BARA-PHC-2,21,Malaria RDT,True
+BARA-PHC-2,28,Malaria RDT,False
+BARA-PHC-2,35,Malaria RDT,True
+BARA-PHC-2,42,Malaria RDT,False
+BARA-PHC-2,49,Malaria RDT,True
+BARA-PHC-2,56,Malaria RDT,False
+BARA-PHC-2,63,Malaria RDT,True
+BARA-PHC-2,70,Malaria RDT,True
+BARA-PHC-2,77,Malaria RDT,False
+BARA-PHC-2,84,Malaria RDT,True
+BARA-PHC-2,0,Pregnancy Test,True
+BARA-PHC-2,7,Pregnancy Test,False
+BARA-PHC-2,14,Pregnancy Test,True
+BARA-PHC-2,21,Pregnancy Test,False
+BARA-PHC-2,28,Pregnancy Test,False
+BARA-PHC-2,35,Pregnancy Test,False
+BARA-PHC-2,42,Pregnancy Test,False
+BARA-PHC-2,49,Pregnancy Test,False
+BARA-PHC-2,56,Pregnancy Test,False
+BARA-PHC-2,63,Pregnancy Test,True
+BARA-PHC-2,70,Pregnancy Test,False
+BARA-PHC-2,77,Pregnancy Test,True
+BARA-PHC-2,84,Pregnancy Test,True
+BARA-PHC-2,0,TB Sputum,True
+BARA-PHC-2,7,TB Sputum,True
+BARA-PHC-2,14,TB Sputum,True
+BARA-PHC-2,21,TB Sputum,True
+BARA-PHC-2,28,TB Sputum,True
+BARA-PHC-2,35,TB Sputum,False
+BARA-PHC-2,42,TB Sputum,True
+BARA-PHC-2,49,TB Sputum,True
+BARA-PHC-2,56,TB Sputum,True
+BARA-PHC-2,63,TB Sputum,False
+BARA-PHC-2,70,TB Sputum,True
+BARA-PHC-2,77,TB Sputum,True
+BARA-PHC-2,84,TB Sputum,True
+BARA-PHC-2,0,X-Ray,False
+BARA-PHC-2,7,X-Ray,True
+BARA-PHC-2,14,X-Ray,False
+BARA-PHC-2,21,X-Ray,False
+BARA-PHC-2,28,X-Ray,False
+BARA-PHC-2,35,X-Ray,True
+BARA-PHC-2,42,X-Ray,False
+BARA-PHC-2,49,X-Ray,True
+BARA-PHC-2,56,X-Ray,True
+BARA-PHC-2,63,X-Ray,True
+BARA-PHC-2,70,X-Ray,True
+BARA-PHC-2,77,X-Ray,True
+BARA-PHC-2,84,X-Ray,True
+BARA-PHC-3,0,Blood Glucose,True
+BARA-PHC-3,7,Blood Glucose,True
+BARA-PHC-3,14,Blood Glucose,True
+BARA-PHC-3,21,Blood Glucose,True
+BARA-PHC-3,28,Blood Glucose,False
+BARA-PHC-3,35,Blood Glucose,False
+BARA-PHC-3,42,Blood Glucose,True
+BARA-PHC-3,49,Blood Glucose,False
+BARA-PHC-3,56,Blood Glucose,True
+BARA-PHC-3,63,Blood Glucose,True
+BARA-PHC-3,70,Blood Glucose,True
+BARA-PHC-3,77,Blood Glucose,True
+BARA-PHC-3,84,Blood Glucose,True
+BARA-PHC-3,0,Hemoglobin,False
+BARA-PHC-3,7,Hemoglobin,False
+BARA-PHC-3,14,Hemoglobin,True
+BARA-PHC-3,21,Hemoglobin,True
+BARA-PHC-3,28,Hemoglobin,True
+BARA-PHC-3,35,Hemoglobin,True
+BARA-PHC-3,42,Hemoglobin,True
+BARA-PHC-3,49,Hemoglobin,True
+BARA-PHC-3,56,Hemoglobin,False
+BARA-PHC-3,63,Hemoglobin,True
+BARA-PHC-3,70,Hemoglobin,True
+BARA-PHC-3,77,Hemoglobin,True
+BARA-PHC-3,84,Hemoglobin,True
+BARA-PHC-3,0,Malaria RDT,True
+BARA-PHC-3,7,Malaria RDT,True
+BARA-PHC-3,14,Malaria RDT,False
+BARA-PHC-3,21,Malaria RDT,True
+BARA-PHC-3,28,Malaria RDT,True
+BARA-PHC-3,35,Malaria RDT,True
+BARA-PHC-3,42,Malaria RDT,True
+BARA-PHC-3,49,Malaria RDT,True
+BARA-PHC-3,56,Malaria RDT,True
+BARA-PHC-3,63,Malaria RDT,True
+BARA-PHC-3,70,Malaria RDT,False
+BARA-PHC-3,77,Malaria RDT,False
+BARA-PHC-3,84,Malaria RDT,True
+BARA-PHC-3,0,Pregnancy Test,True
+BARA-PHC-3,7,Pregnancy Test,True
+BARA-PHC-3,14,Pregnancy Test,True
+BARA-PHC-3,21,Pregnancy Test,True
+BARA-PHC-3,28,Pregnancy Test,True
+BARA-PHC-3,35,Pregnancy Test,False
+BARA-PHC-3,42,Pregnancy Test,True
+BARA-PHC-3,49,Pregnancy Test,True
+BARA-PHC-3,56,Pregnancy Test,True
+BARA-PHC-3,63,Pregnancy Test,True
+BARA-PHC-3,70,Pregnancy Test,True
+BARA-PHC-3,77,Pregnancy Test,False
+BARA-PHC-3,84,Pregnancy Test,True
+BARA-PHC-3,0,TB Sputum,False
+BARA-PHC-3,7,TB Sputum,True
+BARA-PHC-3,14,TB Sputum,False
+BARA-PHC-3,21,TB Sputum,True
+BARA-PHC-3,28,TB Sputum,True
+BARA-PHC-3,35,TB Sputum,False
+BARA-PHC-3,42,TB Sputum,True
+BARA-PHC-3,49,TB Sputum,False
+BARA-PHC-3,56,TB Sputum,True
+BARA-PHC-3,63,TB Sputum,True
+BARA-PHC-3,70,TB Sputum,True
+BARA-PHC-3,77,TB Sputum,True
+BARA-PHC-3,84,TB Sputum,True
+BARA-PHC-3,0,X-Ray,True
+BARA-PHC-3,7,X-Ray,True
+BARA-PHC-3,14,X-Ray,False
+BARA-PHC-3,21,X-Ray,False
+BARA-PHC-3,28,X-Ray,True
+BARA-PHC-3,35,X-Ray,False
+BARA-PHC-3,42,X-Ray,False
+BARA-PHC-3,49,X-Ray,True
+BARA-PHC-3,56,X-Ray,False
+BARA-PHC-3,63,X-Ray,False
+BARA-PHC-3,70,X-Ray,False
+BARA-PHC-3,77,X-Ray,True
+BARA-PHC-3,84,X-Ray,True
+BARA-PHC-4,0,Blood Glucose,False
+BARA-PHC-4,7,Blood Glucose,False
+BARA-PHC-4,14,Blood Glucose,False
+BARA-PHC-4,21,Blood Glucose,False
+BARA-PHC-4,28,Blood Glucose,True
+BARA-PHC-4,35,Blood Glucose,False
+BARA-PHC-4,42,Blood Glucose,False
+BARA-PHC-4,49,Blood Glucose,False
+BARA-PHC-4,56,Blood Glucose,False
+BARA-PHC-4,63,Blood Glucose,False
+BARA-PHC-4,70,Blood Glucose,False
+BARA-PHC-4,77,Blood Glucose,True
+BARA-PHC-4,84,Blood Glucose,True
+BARA-PHC-4,0,Hemoglobin,True
+BARA-PHC-4,7,Hemoglobin,False
+BARA-PHC-4,14,Hemoglobin,True
+BARA-PHC-4,21,Hemoglobin,False
+BARA-PHC-4,28,Hemoglobin,True
+BARA-PHC-4,35,Hemoglobin,True
+BARA-PHC-4,42,Hemoglobin,True
+BARA-PHC-4,49,Hemoglobin,True
+BARA-PHC-4,56,Hemoglobin,False
+BARA-PHC-4,63,Hemoglobin,False
+BARA-PHC-4,70,Hemoglobin,True
+BARA-PHC-4,77,Hemoglobin,False
+BARA-PHC-4,84,Hemoglobin,False
+BARA-PHC-4,0,Malaria RDT,True
+BARA-PHC-4,7,Malaria RDT,False
+BARA-PHC-4,14,Malaria RDT,False
+BARA-PHC-4,21,Malaria RDT,True
+BARA-PHC-4,28,Malaria RDT,False
+BARA-PHC-4,35,Malaria RDT,True
+BARA-PHC-4,42,Malaria RDT,False
+BARA-PHC-4,49,Malaria RDT,False
+BARA-PHC-4,56,Malaria RDT,True
+BARA-PHC-4,63,Malaria RDT,False
+BARA-PHC-4,70,Malaria RDT,True
+BARA-PHC-4,77,Malaria RDT,True
+BARA-PHC-4,84,Malaria RDT,True
+BARA-PHC-4,0,Pregnancy Test,False
+BARA-PHC-4,7,Pregnancy Test,True
+BARA-PHC-4,14,Pregnancy Test,True
+BARA-PHC-4,21,Pregnancy Test,False
+BARA-PHC-4,28,Pregnancy Test,True
+BARA-PHC-4,35,Pregnancy Test,False
+BARA-PHC-4,42,Pregnancy Test,False
+BARA-PHC-4,49,Pregnancy Test,True
+BARA-PHC-4,56,Pregnancy Test,True
+BARA-PHC-4,63,Pregnancy Test,False
+BARA-PHC-4,70,Pregnancy Test,False
+BARA-PHC-4,77,Pregnancy Test,True
+BARA-PHC-4,84,Pregnancy Test,True
+BARA-PHC-4,0,TB Sputum,False
+BARA-PHC-4,7,TB Sputum,False
+BARA-PHC-4,14,TB Sputum,False
+BARA-PHC-4,21,TB Sputum,True
+BARA-PHC-4,28,TB Sputum,False
+BARA-PHC-4,35,TB Sputum,False
+BARA-PHC-4,42,TB Sputum,False
+BARA-PHC-4,49,TB Sputum,True
+BARA-PHC-4,56,TB Sputum,True
+BARA-PHC-4,63,TB Sputum,True
+BARA-PHC-4,70,TB Sputum,True
+BARA-PHC-4,77,TB Sputum,False
+BARA-PHC-4,84,TB Sputum,True
+BARA-PHC-4,0,X-Ray,True
+BARA-PHC-4,7,X-Ray,False
+BARA-PHC-4,14,X-Ray,True
+BARA-PHC-4,21,X-Ray,True
+BARA-PHC-4,28,X-Ray,False
+BARA-PHC-4,35,X-Ray,False
+BARA-PHC-4,42,X-Ray,False
+BARA-PHC-4,49,X-Ray,True
+BARA-PHC-4,56,X-Ray,True
+BARA-PHC-4,63,X-Ray,False
+BARA-PHC-4,70,X-Ray,True
+BARA-PHC-4,77,X-Ray,False
+BARA-PHC-4,84,X-Ray,False
+ARAR-CHC-1,0,Blood Glucose,True
+ARAR-CHC-1,7,Blood Glucose,True
+ARAR-CHC-1,14,Blood Glucose,False
+ARAR-CHC-1,21,Blood Glucose,True
+ARAR-CHC-1,28,Blood Glucose,True
+ARAR-CHC-1,35,Blood Glucose,True
+ARAR-CHC-1,42,Blood Glucose,True
+ARAR-CHC-1,49,Blood Glucose,True
+ARAR-CHC-1,56,Blood Glucose,True
+ARAR-CHC-1,63,Blood Glucose,True
+ARAR-CHC-1,70,Blood Glucose,False
+ARAR-CHC-1,77,Blood Glucose,False
+ARAR-CHC-1,84,Blood Glucose,False
+ARAR-CHC-1,0,Hemoglobin,True
+ARAR-CHC-1,7,Hemoglobin,False
+ARAR-CHC-1,14,Hemoglobin,True
+ARAR-CHC-1,21,Hemoglobin,False
+ARAR-CHC-1,28,Hemoglobin,False
+ARAR-CHC-1,35,Hemoglobin,False
+ARAR-CHC-1,42,Hemoglobin,True
+ARAR-CHC-1,49,Hemoglobin,True
+ARAR-CHC-1,56,Hemoglobin,True
+ARAR-CHC-1,63,Hemoglobin,True
+ARAR-CHC-1,70,Hemoglobin,False
+ARAR-CHC-1,77,Hemoglobin,False
+ARAR-CHC-1,84,Hemoglobin,True
+ARAR-CHC-1,0,Malaria RDT,True
+ARAR-CHC-1,7,Malaria RDT,False
+ARAR-CHC-1,14,Malaria RDT,False
+ARAR-CHC-1,21,Malaria RDT,True
+ARAR-CHC-1,28,Malaria RDT,True
+ARAR-CHC-1,35,Malaria RDT,True
+ARAR-CHC-1,42,Malaria RDT,False
+ARAR-CHC-1,49,Malaria RDT,True
+ARAR-CHC-1,56,Malaria RDT,True
+ARAR-CHC-1,63,Malaria RDT,True
+ARAR-CHC-1,70,Malaria RDT,False
+ARAR-CHC-1,77,Malaria RDT,False
+ARAR-CHC-1,84,Malaria RDT,True
+ARAR-CHC-1,0,Pregnancy Test,True
+ARAR-CHC-1,7,Pregnancy Test,True
+ARAR-CHC-1,14,Pregnancy Test,True
+ARAR-CHC-1,21,Pregnancy Test,False
+ARAR-CHC-1,28,Pregnancy Test,True
+ARAR-CHC-1,35,Pregnancy Test,True
+ARAR-CHC-1,42,Pregnancy Test,True
+ARAR-CHC-1,49,Pregnancy Test,True
+ARAR-CHC-1,56,Pregnancy Test,True
+ARAR-CHC-1,63,Pregnancy Test,False
+ARAR-CHC-1,70,Pregnancy Test,False
+ARAR-CHC-1,77,Pregnancy Test,False
+ARAR-CHC-1,84,Pregnancy Test,True
+ARAR-CHC-1,0,TB Sputum,True
+ARAR-CHC-1,7,TB Sputum,False
+ARAR-CHC-1,14,TB Sputum,True
+ARAR-CHC-1,21,TB Sputum,True
+ARAR-CHC-1,28,TB Sputum,True
+ARAR-CHC-1,35,TB Sputum,False
+ARAR-CHC-1,42,TB Sputum,False
+ARAR-CHC-1,49,TB Sputum,True
+ARAR-CHC-1,56,TB Sputum,True
+ARAR-CHC-1,63,TB Sputum,True
+ARAR-CHC-1,70,TB Sputum,False
+ARAR-CHC-1,77,TB Sputum,True
+ARAR-CHC-1,84,TB Sputum,False
+ARAR-CHC-1,0,X-Ray,False
+ARAR-CHC-1,7,X-Ray,True
+ARAR-CHC-1,14,X-Ray,True
+ARAR-CHC-1,21,X-Ray,False
+ARAR-CHC-1,28,X-Ray,False
+ARAR-CHC-1,35,X-Ray,False
+ARAR-CHC-1,42,X-Ray,False
+ARAR-CHC-1,49,X-Ray,True
+ARAR-CHC-1,56,X-Ray,False
+ARAR-CHC-1,63,X-Ray,False
+ARAR-CHC-1,70,X-Ray,False
+ARAR-CHC-1,77,X-Ray,False
+ARAR-CHC-1,84,X-Ray,True
+ARAR-PHC-2,0,Blood Glucose,False
+ARAR-PHC-2,7,Blood Glucose,False
+ARAR-PHC-2,14,Blood Glucose,False
+ARAR-PHC-2,21,Blood Glucose,False
+ARAR-PHC-2,28,Blood Glucose,True
+ARAR-PHC-2,35,Blood Glucose,True
+ARAR-PHC-2,42,Blood Glucose,False
+ARAR-PHC-2,49,Blood Glucose,False
+ARAR-PHC-2,56,Blood Glucose,True
+ARAR-PHC-2,63,Blood Glucose,False
+ARAR-PHC-2,70,Blood Glucose,False
+ARAR-PHC-2,77,Blood Glucose,False
+ARAR-PHC-2,84,Blood Glucose,False
+ARAR-PHC-2,0,Hemoglobin,False
+ARAR-PHC-2,7,Hemoglobin,True
+ARAR-PHC-2,14,Hemoglobin,False
+ARAR-PHC-2,21,Hemoglobin,False
+ARAR-PHC-2,28,Hemoglobin,True
+ARAR-PHC-2,35,Hemoglobin,True
+ARAR-PHC-2,42,Hemoglobin,False
+ARAR-PHC-2,49,Hemoglobin,True
+ARAR-PHC-2,56,Hemoglobin,False
+ARAR-PHC-2,63,Hemoglobin,False
+ARAR-PHC-2,70,Hemoglobin,True
+ARAR-PHC-2,77,Hemoglobin,False
+ARAR-PHC-2,84,Hemoglobin,False
+ARAR-PHC-2,0,Malaria RDT,True
+ARAR-PHC-2,7,Malaria RDT,False
+ARAR-PHC-2,14,Malaria RDT,False
+ARAR-PHC-2,21,Malaria RDT,False
+ARAR-PHC-2,28,Malaria RDT,True
+ARAR-PHC-2,35,Malaria RDT,True
+ARAR-PHC-2,42,Malaria RDT,False
+ARAR-PHC-2,49,Malaria RDT,True
+ARAR-PHC-2,56,Malaria RDT,False
+ARAR-PHC-2,63,Malaria RDT,True
+ARAR-PHC-2,70,Malaria RDT,True
+ARAR-PHC-2,77,Malaria RDT,True
+ARAR-PHC-2,84,Malaria RDT,True
+ARAR-PHC-2,0,Pregnancy Test,False
+ARAR-PHC-2,7,Pregnancy Test,True
+ARAR-PHC-2,14,Pregnancy Test,True
+ARAR-PHC-2,21,Pregnancy Test,False
+ARAR-PHC-2,28,Pregnancy Test,True
+ARAR-PHC-2,35,Pregnancy Test,True
+ARAR-PHC-2,42,Pregnancy Test,True
+ARAR-PHC-2,49,Pregnancy Test,False
+ARAR-PHC-2,56,Pregnancy Test,True
+ARAR-PHC-2,63,Pregnancy Test,True
+ARAR-PHC-2,70,Pregnancy Test,False
+ARAR-PHC-2,77,Pregnancy Test,True
+ARAR-PHC-2,84,Pregnancy Test,True
+ARAR-PHC-2,0,TB Sputum,False
+ARAR-PHC-2,7,TB Sputum,True
+ARAR-PHC-2,14,TB Sputum,False
+ARAR-PHC-2,21,TB Sputum,True
+ARAR-PHC-2,28,TB Sputum,False
+ARAR-PHC-2,35,TB Sputum,True
+ARAR-PHC-2,42,TB Sputum,False
+ARAR-PHC-2,49,TB Sputum,False
+ARAR-PHC-2,56,TB Sputum,False
+ARAR-PHC-2,63,TB Sputum,False
+ARAR-PHC-2,70,TB Sputum,True
+ARAR-PHC-2,77,TB Sputum,False
+ARAR-PHC-2,84,TB Sputum,False
+ARAR-PHC-2,0,X-Ray,True
+ARAR-PHC-2,7,X-Ray,True
+ARAR-PHC-2,14,X-Ray,True
+ARAR-PHC-2,21,X-Ray,True
+ARAR-PHC-2,28,X-Ray,False
+ARAR-PHC-2,35,X-Ray,True
+ARAR-PHC-2,42,X-Ray,False
+ARAR-PHC-2,49,X-Ray,False
+ARAR-PHC-2,56,X-Ray,True
+ARAR-PHC-2,63,X-Ray,True
+ARAR-PHC-2,70,X-Ray,False
+ARAR-PHC-2,77,X-Ray,False
+ARAR-PHC-2,84,X-Ray,True
+ARAR-PHC-3,0,Blood Glucose,True
+ARAR-PHC-3,7,Blood Glucose,True
+ARAR-PHC-3,14,Blood Glucose,False
+ARAR-PHC-3,21,Blood Glucose,False
+ARAR-PHC-3,28,Blood Glucose,False
+ARAR-PHC-3,35,Blood Glucose,False
+ARAR-PHC-3,42,Blood Glucose,True
+ARAR-PHC-3,49,Blood Glucose,False
+ARAR-PHC-3,56,Blood Glucose,True
+ARAR-PHC-3,63,Blood Glucose,False
+ARAR-PHC-3,70,Blood Glucose,True
+ARAR-PHC-3,77,Blood Glucose,False
+ARAR-PHC-3,84,Blood Glucose,False
+ARAR-PHC-3,0,Hemoglobin,True
+ARAR-PHC-3,7,Hemoglobin,False
+ARAR-PHC-3,14,Hemoglobin,True
+ARAR-PHC-3,21,Hemoglobin,True
+ARAR-PHC-3,28,Hemoglobin,False
+ARAR-PHC-3,35,Hemoglobin,True
+ARAR-PHC-3,42,Hemoglobin,True
+ARAR-PHC-3,49,Hemoglobin,False
+ARAR-PHC-3,56,Hemoglobin,False
+ARAR-PHC-3,63,Hemoglobin,False
+ARAR-PHC-3,70,Hemoglobin,False
+ARAR-PHC-3,77,Hemoglobin,False
+ARAR-PHC-3,84,Hemoglobin,False
+ARAR-PHC-3,0,Malaria RDT,False
+ARAR-PHC-3,7,Malaria RDT,False
+ARAR-PHC-3,14,Malaria RDT,False
+ARAR-PHC-3,21,Malaria RDT,False
+ARAR-PHC-3,28,Malaria RDT,True
+ARAR-PHC-3,35,Malaria RDT,False
+ARAR-PHC-3,42,Malaria RDT,True
+ARAR-PHC-3,49,Malaria RDT,False
+ARAR-PHC-3,56,Malaria RDT,False
+ARAR-PHC-3,63,Malaria RDT,False
+ARAR-PHC-3,70,Malaria RDT,True
+ARAR-PHC-3,77,Malaria RDT,True
+ARAR-PHC-3,84,Malaria RDT,False
+ARAR-PHC-3,0,Pregnancy Test,False
+ARAR-PHC-3,7,Pregnancy Test,False
+ARAR-PHC-3,14,Pregnancy Test,True
+ARAR-PHC-3,21,Pregnancy Test,True
+ARAR-PHC-3,28,Pregnancy Test,False
+ARAR-PHC-3,35,Pregnancy Test,True
+ARAR-PHC-3,42,Pregnancy Test,True
+ARAR-PHC-3,49,Pregnancy Test,False
+ARAR-PHC-3,56,Pregnancy Test,False
+ARAR-PHC-3,63,Pregnancy Test,True
+ARAR-PHC-3,70,Pregnancy Test,True
+ARAR-PHC-3,77,Pregnancy Test,True
+ARAR-PHC-3,84,Pregnancy Test,True
+ARAR-PHC-3,0,TB Sputum,True
+ARAR-PHC-3,7,TB Sputum,True
+ARAR-PHC-3,14,TB Sputum,False
+ARAR-PHC-3,21,TB Sputum,False
+ARAR-PHC-3,28,TB Sputum,False
+ARAR-PHC-3,35,TB Sputum,True
+ARAR-PHC-3,42,TB Sputum,True
+ARAR-PHC-3,49,TB Sputum,True
+ARAR-PHC-3,56,TB Sputum,False
+ARAR-PHC-3,63,TB Sputum,True
+ARAR-PHC-3,70,TB Sputum,True
+ARAR-PHC-3,77,TB Sputum,True
+ARAR-PHC-3,84,TB Sputum,True
+ARAR-PHC-3,0,X-Ray,True
+ARAR-PHC-3,7,X-Ray,True
+ARAR-PHC-3,14,X-Ray,False
+ARAR-PHC-3,21,X-Ray,True
+ARAR-PHC-3,28,X-Ray,True
+ARAR-PHC-3,35,X-Ray,True
+ARAR-PHC-3,42,X-Ray,False
+ARAR-PHC-3,49,X-Ray,True
+ARAR-PHC-3,56,X-Ray,False
+ARAR-PHC-3,63,X-Ray,True
+ARAR-PHC-3,70,X-Ray,True
+ARAR-PHC-3,77,X-Ray,True
+ARAR-PHC-3,84,X-Ray,True
+ARAR-PHC-4,0,Blood Glucose,True
+ARAR-PHC-4,7,Blood Glucose,True
+ARAR-PHC-4,14,Blood Glucose,True
+ARAR-PHC-4,21,Blood Glucose,True
+ARAR-PHC-4,28,Blood Glucose,False
+ARAR-PHC-4,35,Blood Glucose,False
+ARAR-PHC-4,42,Blood Glucose,True
+ARAR-PHC-4,49,Blood Glucose,False
+ARAR-PHC-4,56,Blood Glucose,True
+ARAR-PHC-4,63,Blood Glucose,True
+ARAR-PHC-4,70,Blood Glucose,True
+ARAR-PHC-4,77,Blood Glucose,True
+ARAR-PHC-4,84,Blood Glucose,True
+ARAR-PHC-4,0,Hemoglobin,False
+ARAR-PHC-4,7,Hemoglobin,False
+ARAR-PHC-4,14,Hemoglobin,False
+ARAR-PHC-4,21,Hemoglobin,False
+ARAR-PHC-4,28,Hemoglobin,True
+ARAR-PHC-4,35,Hemoglobin,False
+ARAR-PHC-4,42,Hemoglobin,True
+ARAR-PHC-4,49,Hemoglobin,False
+ARAR-PHC-4,56,Hemoglobin,True
+ARAR-PHC-4,63,Hemoglobin,True
+ARAR-PHC-4,70,Hemoglobin,False
+ARAR-PHC-4,77,Hemoglobin,True
+ARAR-PHC-4,84,Hemoglobin,True
+ARAR-PHC-4,0,Malaria RDT,True
+ARAR-PHC-4,7,Malaria RDT,False
+ARAR-PHC-4,14,Malaria RDT,True
+ARAR-PHC-4,21,Malaria RDT,False
+ARAR-PHC-4,28,Malaria RDT,True
+ARAR-PHC-4,35,Malaria RDT,True
+ARAR-PHC-4,42,Malaria RDT,True
+ARAR-PHC-4,49,Malaria RDT,True
+ARAR-PHC-4,56,Malaria RDT,True
+ARAR-PHC-4,63,Malaria RDT,True
+ARAR-PHC-4,70,Malaria RDT,False
+ARAR-PHC-4,77,Malaria RDT,False
+ARAR-PHC-4,84,Malaria RDT,True
+ARAR-PHC-4,0,Pregnancy Test,True
+ARAR-PHC-4,7,Pregnancy Test,True
+ARAR-PHC-4,14,Pregnancy Test,False
+ARAR-PHC-4,21,Pregnancy Test,False
+ARAR-PHC-4,28,Pregnancy Test,False
+ARAR-PHC-4,35,Pregnancy Test,True
+ARAR-PHC-4,42,Pregnancy Test,False
+ARAR-PHC-4,49,Pregnancy Test,False
+ARAR-PHC-4,56,Pregnancy Test,False
+ARAR-PHC-4,63,Pregnancy Test,False
+ARAR-PHC-4,70,Pregnancy Test,False
+ARAR-PHC-4,77,Pregnancy Test,True
+ARAR-PHC-4,84,Pregnancy Test,False
+ARAR-PHC-4,0,TB Sputum,True
+ARAR-PHC-4,7,TB Sputum,True
+ARAR-PHC-4,14,TB Sputum,False
+ARAR-PHC-4,21,TB Sputum,True
+ARAR-PHC-4,28,TB Sputum,True
+ARAR-PHC-4,35,TB Sputum,False
+ARAR-PHC-4,42,TB Sputum,False
+ARAR-PHC-4,49,TB Sputum,False
+ARAR-PHC-4,56,TB Sputum,False
+ARAR-PHC-4,63,TB Sputum,False
+ARAR-PHC-4,70,TB Sputum,False
+ARAR-PHC-4,77,TB Sputum,False
+ARAR-PHC-4,84,TB Sputum,True
+ARAR-PHC-4,0,X-Ray,True
+ARAR-PHC-4,7,X-Ray,True
+ARAR-PHC-4,14,X-Ray,True
+ARAR-PHC-4,21,X-Ray,True
+ARAR-PHC-4,28,X-Ray,True
+ARAR-PHC-4,35,X-Ray,False
+ARAR-PHC-4,42,X-Ray,True
+ARAR-PHC-4,49,X-Ray,False
+ARAR-PHC-4,56,X-Ray,True
+ARAR-PHC-4,63,X-Ray,True
+ARAR-PHC-4,70,X-Ray,True
+ARAR-PHC-4,77,X-Ray,False
+ARAR-PHC-4,84,X-Ray,False
+DARB-CHC-1,0,Blood Glucose,False
+DARB-CHC-1,7,Blood Glucose,False
+DARB-CHC-1,14,Blood Glucose,False
+DARB-CHC-1,21,Blood Glucose,True
+DARB-CHC-1,28,Blood Glucose,False
+DARB-CHC-1,35,Blood Glucose,True
+DARB-CHC-1,42,Blood Glucose,False
+DARB-CHC-1,49,Blood Glucose,False
+DARB-CHC-1,56,Blood Glucose,True
+DARB-CHC-1,63,Blood Glucose,False
+DARB-CHC-1,70,Blood Glucose,True
+DARB-CHC-1,77,Blood Glucose,True
+DARB-CHC-1,84,Blood Glucose,False
+DARB-CHC-1,0,Hemoglobin,True
+DARB-CHC-1,7,Hemoglobin,False
+DARB-CHC-1,14,Hemoglobin,True
+DARB-CHC-1,21,Hemoglobin,False
+DARB-CHC-1,28,Hemoglobin,False
+DARB-CHC-1,35,Hemoglobin,True
+DARB-CHC-1,42,Hemoglobin,True
+DARB-CHC-1,49,Hemoglobin,True
+DARB-CHC-1,56,Hemoglobin,True
+DARB-CHC-1,63,Hemoglobin,True
+DARB-CHC-1,70,Hemoglobin,True
+DARB-CHC-1,77,Hemoglobin,False
+DARB-CHC-1,84,Hemoglobin,False
+DARB-CHC-1,0,Malaria RDT,False
+DARB-CHC-1,7,Malaria RDT,True
+DARB-CHC-1,14,Malaria RDT,False
+DARB-CHC-1,21,Malaria RDT,False
+DARB-CHC-1,28,Malaria RDT,True
+DARB-CHC-1,35,Malaria RDT,False
+DARB-CHC-1,42,Malaria RDT,True
+DARB-CHC-1,49,Malaria RDT,False
+DARB-CHC-1,56,Malaria RDT,True
+DARB-CHC-1,63,Malaria RDT,False
+DARB-CHC-1,70,Malaria RDT,False
+DARB-CHC-1,77,Malaria RDT,True
+DARB-CHC-1,84,Malaria RDT,True
+DARB-CHC-1,0,Pregnancy Test,True
+DARB-CHC-1,7,Pregnancy Test,False
+DARB-CHC-1,14,Pregnancy Test,True
+DARB-CHC-1,21,Pregnancy Test,False
+DARB-CHC-1,28,Pregnancy Test,False
+DARB-CHC-1,35,Pregnancy Test,False
+DARB-CHC-1,42,Pregnancy Test,False
+DARB-CHC-1,49,Pregnancy Test,True
+DARB-CHC-1,56,Pregnancy Test,True
+DARB-CHC-1,63,Pregnancy Test,True
+DARB-CHC-1,70,Pregnancy Test,True
+DARB-CHC-1,77,Pregnancy Test,True
+DARB-CHC-1,84,Pregnancy Test,True
+DARB-CHC-1,0,TB Sputum,True
+DARB-CHC-1,7,TB Sputum,True
+DARB-CHC-1,14,TB Sputum,True
+DARB-CHC-1,21,TB Sputum,False
+DARB-CHC-1,28,TB Sputum,True
+DARB-CHC-1,35,TB Sputum,True
+DARB-CHC-1,42,TB Sputum,True
+DARB-CHC-1,49,TB Sputum,True
+DARB-CHC-1,56,TB Sputum,False
+DARB-CHC-1,63,TB Sputum,True
+DARB-CHC-1,70,TB Sputum,True
+DARB-CHC-1,77,TB Sputum,False
+DARB-CHC-1,84,TB Sputum,True
+DARB-CHC-1,0,X-Ray,True
+DARB-CHC-1,7,X-Ray,True
+DARB-CHC-1,14,X-Ray,False
+DARB-CHC-1,21,X-Ray,True
+DARB-CHC-1,28,X-Ray,False
+DARB-CHC-1,35,X-Ray,True
+DARB-CHC-1,42,X-Ray,True
+DARB-CHC-1,49,X-Ray,True
+DARB-CHC-1,56,X-Ray,True
+DARB-CHC-1,63,X-Ray,True
+DARB-CHC-1,70,X-Ray,True
+DARB-CHC-1,77,X-Ray,False
+DARB-CHC-1,84,X-Ray,True
+DARB-PHC-2,0,Blood Glucose,False
+DARB-PHC-2,7,Blood Glucose,True
+DARB-PHC-2,14,Blood Glucose,True
+DARB-PHC-2,21,Blood Glucose,False
+DARB-PHC-2,28,Blood Glucose,False
+DARB-PHC-2,35,Blood Glucose,True
+DARB-PHC-2,42,Blood Glucose,True
+DARB-PHC-2,49,Blood Glucose,True
+DARB-PHC-2,56,Blood Glucose,False
+DARB-PHC-2,63,Blood Glucose,True
+DARB-PHC-2,70,Blood Glucose,True
+DARB-PHC-2,77,Blood Glucose,True
+DARB-PHC-2,84,Blood Glucose,True
+DARB-PHC-2,0,Hemoglobin,True
+DARB-PHC-2,7,Hemoglobin,True
+DARB-PHC-2,14,Hemoglobin,True
+DARB-PHC-2,21,Hemoglobin,True
+DARB-PHC-2,28,Hemoglobin,False
+DARB-PHC-2,35,Hemoglobin,False
+DARB-PHC-2,42,Hemoglobin,False
+DARB-PHC-2,49,Hemoglobin,True
+DARB-PHC-2,56,Hemoglobin,True
+DARB-PHC-2,63,Hemoglobin,True
+DARB-PHC-2,70,Hemoglobin,False
+DARB-PHC-2,77,Hemoglobin,True
+DARB-PHC-2,84,Hemoglobin,True
+DARB-PHC-2,0,Malaria RDT,False
+DARB-PHC-2,7,Malaria RDT,False
+DARB-PHC-2,14,Malaria RDT,False
+DARB-PHC-2,21,Malaria RDT,True
+DARB-PHC-2,28,Malaria RDT,False
+DARB-PHC-2,35,Malaria RDT,False
+DARB-PHC-2,42,Malaria RDT,True
+DARB-PHC-2,49,Malaria RDT,True
+DARB-PHC-2,56,Malaria RDT,False
+DARB-PHC-2,63,Malaria RDT,False
+DARB-PHC-2,70,Malaria RDT,True
+DARB-PHC-2,77,Malaria RDT,True
+DARB-PHC-2,84,Malaria RDT,True
+DARB-PHC-2,0,Pregnancy Test,False
+DARB-PHC-2,7,Pregnancy Test,True
+DARB-PHC-2,14,Pregnancy Test,True
+DARB-PHC-2,21,Pregnancy Test,True
+DARB-PHC-2,28,Pregnancy Test,True
+DARB-PHC-2,35,Pregnancy Test,True
+DARB-PHC-2,42,Pregnancy Test,False
+DARB-PHC-2,49,Pregnancy Test,True
+DARB-PHC-2,56,Pregnancy Test,False
+DARB-PHC-2,63,Pregnancy Test,True
+DARB-PHC-2,70,Pregnancy Test,False
+DARB-PHC-2,77,Pregnancy Test,True
+DARB-PHC-2,84,Pregnancy Test,True
+DARB-PHC-2,0,TB Sputum,False
+DARB-PHC-2,7,TB Sputum,True
+DARB-PHC-2,14,TB Sputum,True
+DARB-PHC-2,21,TB Sputum,False
+DARB-PHC-2,28,TB Sputum,True
+DARB-PHC-2,35,TB Sputum,True
+DARB-PHC-2,42,TB Sputum,False
+DARB-PHC-2,49,TB Sputum,False
+DARB-PHC-2,56,TB Sputum,True
+DARB-PHC-2,63,TB Sputum,True
+DARB-PHC-2,70,TB Sputum,True
+DARB-PHC-2,77,TB Sputum,False
+DARB-PHC-2,84,TB Sputum,True
+DARB-PHC-2,0,X-Ray,False
+DARB-PHC-2,7,X-Ray,True
+DARB-PHC-2,14,X-Ray,True
+DARB-PHC-2,21,X-Ray,True
+DARB-PHC-2,28,X-Ray,False
+DARB-PHC-2,35,X-Ray,False
+DARB-PHC-2,42,X-Ray,False
+DARB-PHC-2,49,X-Ray,True
+DARB-PHC-2,56,X-Ray,True
+DARB-PHC-2,63,X-Ray,True
+DARB-PHC-2,70,X-Ray,True
+DARB-PHC-2,77,X-Ray,False
+DARB-PHC-2,84,X-Ray,False
+DARB-PHC-3,0,Blood Glucose,False
+DARB-PHC-3,7,Blood Glucose,True
+DARB-PHC-3,14,Blood Glucose,True
+DARB-PHC-3,21,Blood Glucose,False
+DARB-PHC-3,28,Blood Glucose,True
+DARB-PHC-3,35,Blood Glucose,True
+DARB-PHC-3,42,Blood Glucose,False
+DARB-PHC-3,49,Blood Glucose,True
+DARB-PHC-3,56,Blood Glucose,True
+DARB-PHC-3,63,Blood Glucose,True
+DARB-PHC-3,70,Blood Glucose,True
+DARB-PHC-3,77,Blood Glucose,True
+DARB-PHC-3,84,Blood Glucose,True
+DARB-PHC-3,0,Hemoglobin,True
+DARB-PHC-3,7,Hemoglobin,False
+DARB-PHC-3,14,Hemoglobin,False
+DARB-PHC-3,21,Hemoglobin,True
+DARB-PHC-3,28,Hemoglobin,False
+DARB-PHC-3,35,Hemoglobin,False
+DARB-PHC-3,42,Hemoglobin,False
+DARB-PHC-3,49,Hemoglobin,True
+DARB-PHC-3,56,Hemoglobin,False
+DARB-PHC-3,63,Hemoglobin,True
+DARB-PHC-3,70,Hemoglobin,False
+DARB-PHC-3,77,Hemoglobin,True
+DARB-PHC-3,84,Hemoglobin,False
+DARB-PHC-3,0,Malaria RDT,True
+DARB-PHC-3,7,Malaria RDT,True
+DARB-PHC-3,14,Malaria RDT,True
+DARB-PHC-3,21,Malaria RDT,True
+DARB-PHC-3,28,Malaria RDT,True
+DARB-PHC-3,35,Malaria RDT,False
+DARB-PHC-3,42,Malaria RDT,True
+DARB-PHC-3,49,Malaria RDT,True
+DARB-PHC-3,56,Malaria RDT,True
+DARB-PHC-3,63,Malaria RDT,True
+DARB-PHC-3,70,Malaria RDT,False
+DARB-PHC-3,77,Malaria RDT,True
+DARB-PHC-3,84,Malaria RDT,True
+DARB-PHC-3,0,Pregnancy Test,True
+DARB-PHC-3,7,Pregnancy Test,True
+DARB-PHC-3,14,Pregnancy Test,True
+DARB-PHC-3,21,Pregnancy Test,False
+DARB-PHC-3,28,Pregnancy Test,True
+DARB-PHC-3,35,Pregnancy Test,True
+DARB-PHC-3,42,Pregnancy Test,True
+DARB-PHC-3,49,Pregnancy Test,False
+DARB-PHC-3,56,Pregnancy Test,True
+DARB-PHC-3,63,Pregnancy Test,True
+DARB-PHC-3,70,Pregnancy Test,False
+DARB-PHC-3,77,Pregnancy Test,False
+DARB-PHC-3,84,Pregnancy Test,False
+DARB-PHC-3,0,TB Sputum,True
+DARB-PHC-3,7,TB Sputum,True
+DARB-PHC-3,14,TB Sputum,False
+DARB-PHC-3,21,TB Sputum,True
+DARB-PHC-3,28,TB Sputum,True
+DARB-PHC-3,35,TB Sputum,True
+DARB-PHC-3,42,TB Sputum,True
+DARB-PHC-3,49,TB Sputum,True
+DARB-PHC-3,56,TB Sputum,False
+DARB-PHC-3,63,TB Sputum,True
+DARB-PHC-3,70,TB Sputum,True
+DARB-PHC-3,77,TB Sputum,False
+DARB-PHC-3,84,TB Sputum,True
+DARB-PHC-3,0,X-Ray,True
+DARB-PHC-3,7,X-Ray,True
+DARB-PHC-3,14,X-Ray,True
+DARB-PHC-3,21,X-Ray,False
+DARB-PHC-3,28,X-Ray,True
+DARB-PHC-3,35,X-Ray,True
+DARB-PHC-3,42,X-Ray,False
+DARB-PHC-3,49,X-Ray,True
+DARB-PHC-3,56,X-Ray,True
+DARB-PHC-3,63,X-Ray,False
+DARB-PHC-3,70,X-Ray,False
+DARB-PHC-3,77,X-Ray,False
+DARB-PHC-3,84,X-Ray,False
+DARB-PHC-4,0,Blood Glucose,True
+DARB-PHC-4,7,Blood Glucose,True
+DARB-PHC-4,14,Blood Glucose,True
+DARB-PHC-4,21,Blood Glucose,False
+DARB-PHC-4,28,Blood Glucose,True
+DARB-PHC-4,35,Blood Glucose,True
+DARB-PHC-4,42,Blood Glucose,False
+DARB-PHC-4,49,Blood Glucose,True
+DARB-PHC-4,56,Blood Glucose,True
+DARB-PHC-4,63,Blood Glucose,True
+DARB-PHC-4,70,Blood Glucose,False
+DARB-PHC-4,77,Blood Glucose,True
+DARB-PHC-4,84,Blood Glucose,False
+DARB-PHC-4,0,Hemoglobin,False
+DARB-PHC-4,7,Hemoglobin,False
+DARB-PHC-4,14,Hemoglobin,True
+DARB-PHC-4,21,Hemoglobin,False
+DARB-PHC-4,28,Hemoglobin,False
+DARB-PHC-4,35,Hemoglobin,True
+DARB-PHC-4,42,Hemoglobin,True
+DARB-PHC-4,49,Hemoglobin,False
+DARB-PHC-4,56,Hemoglobin,True
+DARB-PHC-4,63,Hemoglobin,True
+DARB-PHC-4,70,Hemoglobin,False
+DARB-PHC-4,77,Hemoglobin,False
+DARB-PHC-4,84,Hemoglobin,True
+DARB-PHC-4,0,Malaria RDT,True
+DARB-PHC-4,7,Malaria RDT,True
+DARB-PHC-4,14,Malaria RDT,True
+DARB-PHC-4,21,Malaria RDT,False
+DARB-PHC-4,28,Malaria RDT,True
+DARB-PHC-4,35,Malaria RDT,False
+DARB-PHC-4,42,Malaria RDT,True
+DARB-PHC-4,49,Malaria RDT,True
+DARB-PHC-4,56,Malaria RDT,False
+DARB-PHC-4,63,Malaria RDT,False
+DARB-PHC-4,70,Malaria RDT,False
+DARB-PHC-4,77,Malaria RDT,False
+DARB-PHC-4,84,Malaria RDT,True
+DARB-PHC-4,0,Pregnancy Test,False
+DARB-PHC-4,7,Pregnancy Test,True
+DARB-PHC-4,14,Pregnancy Test,False
+DARB-PHC-4,21,Pregnancy Test,True
+DARB-PHC-4,28,Pregnancy Test,False
+DARB-PHC-4,35,Pregnancy Test,False
+DARB-PHC-4,42,Pregnancy Test,False
+DARB-PHC-4,49,Pregnancy Test,False
+DARB-PHC-4,56,Pregnancy Test,True
+DARB-PHC-4,63,Pregnancy Test,True
+DARB-PHC-4,70,Pregnancy Test,False
+DARB-PHC-4,77,Pregnancy Test,True
+DARB-PHC-4,84,Pregnancy Test,True
+DARB-PHC-4,0,TB Sputum,False
+DARB-PHC-4,7,TB Sputum,True
+DARB-PHC-4,14,TB Sputum,True
+DARB-PHC-4,21,TB Sputum,True
+DARB-PHC-4,28,TB Sputum,True
+DARB-PHC-4,35,TB Sputum,False
+DARB-PHC-4,42,TB Sputum,True
+DARB-PHC-4,49,TB Sputum,True
+DARB-PHC-4,56,TB Sputum,False
+DARB-PHC-4,63,TB Sputum,True
+DARB-PHC-4,70,TB Sputum,False
+DARB-PHC-4,77,TB Sputum,True
+DARB-PHC-4,84,TB Sputum,True
+DARB-PHC-4,0,X-Ray,True
+DARB-PHC-4,7,X-Ray,True
+DARB-PHC-4,14,X-Ray,True
+DARB-PHC-4,21,X-Ray,True
+DARB-PHC-4,28,X-Ray,True
+DARB-PHC-4,35,X-Ray,True
+DARB-PHC-4,42,X-Ray,True
+DARB-PHC-4,49,X-Ray,False
+DARB-PHC-4,56,X-Ray,False
+DARB-PHC-4,63,X-Ray,True
+DARB-PHC-4,70,X-Ray,False
+DARB-PHC-4,77,X-Ray,True
+DARB-PHC-4,84,X-Ray,True
+VADO-CHC-1,0,Blood Glucose,True
+VADO-CHC-1,7,Blood Glucose,True
+VADO-CHC-1,14,Blood Glucose,False
+VADO-CHC-1,21,Blood Glucose,True
+VADO-CHC-1,28,Blood Glucose,True
+VADO-CHC-1,35,Blood Glucose,False
+VADO-CHC-1,42,Blood Glucose,True
+VADO-CHC-1,49,Blood Glucose,True
+VADO-CHC-1,56,Blood Glucose,True
+VADO-CHC-1,63,Blood Glucose,True
+VADO-CHC-1,70,Blood Glucose,False
+VADO-CHC-1,77,Blood Glucose,True
+VADO-CHC-1,84,Blood Glucose,True
+VADO-CHC-1,0,Hemoglobin,True
+VADO-CHC-1,7,Hemoglobin,False
+VADO-CHC-1,14,Hemoglobin,True
+VADO-CHC-1,21,Hemoglobin,True
+VADO-CHC-1,28,Hemoglobin,True
+VADO-CHC-1,35,Hemoglobin,True
+VADO-CHC-1,42,Hemoglobin,True
+VADO-CHC-1,49,Hemoglobin,False
+VADO-CHC-1,56,Hemoglobin,True
+VADO-CHC-1,63,Hemoglobin,True
+VADO-CHC-1,70,Hemoglobin,True
+VADO-CHC-1,77,Hemoglobin,True
+VADO-CHC-1,84,Hemoglobin,False
+VADO-CHC-1,0,Malaria RDT,True
+VADO-CHC-1,7,Malaria RDT,False
+VADO-CHC-1,14,Malaria RDT,False
+VADO-CHC-1,21,Malaria RDT,True
+VADO-CHC-1,28,Malaria RDT,True
+VADO-CHC-1,35,Malaria RDT,True
+VADO-CHC-1,42,Malaria RDT,True
+VADO-CHC-1,49,Malaria RDT,True
+VADO-CHC-1,56,Malaria RDT,True
+VADO-CHC-1,63,Malaria RDT,False
+VADO-CHC-1,70,Malaria RDT,False
+VADO-CHC-1,77,Malaria RDT,False
+VADO-CHC-1,84,Malaria RDT,True
+VADO-CHC-1,0,Pregnancy Test,True
+VADO-CHC-1,7,Pregnancy Test,False
+VADO-CHC-1,14,Pregnancy Test,True
+VADO-CHC-1,21,Pregnancy Test,True
+VADO-CHC-1,28,Pregnancy Test,False
+VADO-CHC-1,35,Pregnancy Test,True
+VADO-CHC-1,42,Pregnancy Test,False
+VADO-CHC-1,49,Pregnancy Test,True
+VADO-CHC-1,56,Pregnancy Test,True
+VADO-CHC-1,63,Pregnancy Test,False
+VADO-CHC-1,70,Pregnancy Test,False
+VADO-CHC-1,77,Pregnancy Test,False
+VADO-CHC-1,84,Pregnancy Test,True
+VADO-CHC-1,0,TB Sputum,False
+VADO-CHC-1,7,TB Sputum,True
+VADO-CHC-1,14,TB Sputum,True
+VADO-CHC-1,21,TB Sputum,False
+VADO-CHC-1,28,TB Sputum,True
+VADO-CHC-1,35,TB Sputum,True
+VADO-CHC-1,42,TB Sputum,True
+VADO-CHC-1,49,TB Sputum,False
+VADO-CHC-1,56,TB Sputum,True
+VADO-CHC-1,63,TB Sputum,False
+VADO-CHC-1,70,TB Sputum,True
+VADO-CHC-1,77,TB Sputum,False
+VADO-CHC-1,84,TB Sputum,False
+VADO-CHC-1,0,X-Ray,True
+VADO-CHC-1,7,X-Ray,True
+VADO-CHC-1,14,X-Ray,False
+VADO-CHC-1,21,X-Ray,True
+VADO-CHC-1,28,X-Ray,True
+VADO-CHC-1,35,X-Ray,True
+VADO-CHC-1,42,X-Ray,True
+VADO-CHC-1,49,X-Ray,True
+VADO-CHC-1,56,X-Ray,True
+VADO-CHC-1,63,X-Ray,True
+VADO-CHC-1,70,X-Ray,True
+VADO-CHC-1,77,X-Ray,True
+VADO-CHC-1,84,X-Ray,False
+VADO-PHC-2,0,Blood Glucose,True
+VADO-PHC-2,7,Blood Glucose,True
+VADO-PHC-2,14,Blood Glucose,True
+VADO-PHC-2,21,Blood Glucose,True
+VADO-PHC-2,28,Blood Glucose,False
+VADO-PHC-2,35,Blood Glucose,False
+VADO-PHC-2,42,Blood Glucose,True
+VADO-PHC-2,49,Blood Glucose,False
+VADO-PHC-2,56,Blood Glucose,True
+VADO-PHC-2,63,Blood Glucose,True
+VADO-PHC-2,70,Blood Glucose,False
+VADO-PHC-2,77,Blood Glucose,False
+VADO-PHC-2,84,Blood Glucose,True
+VADO-PHC-2,0,Hemoglobin,True
+VADO-PHC-2,7,Hemoglobin,True
+VADO-PHC-2,14,Hemoglobin,True
+VADO-PHC-2,21,Hemoglobin,True
+VADO-PHC-2,28,Hemoglobin,True
+VADO-PHC-2,35,Hemoglobin,True
+VADO-PHC-2,42,Hemoglobin,True
+VADO-PHC-2,49,Hemoglobin,True
+VADO-PHC-2,56,Hemoglobin,True
+VADO-PHC-2,63,Hemoglobin,False
+VADO-PHC-2,70,Hemoglobin,True
+VADO-PHC-2,77,Hemoglobin,True
+VADO-PHC-2,84,Hemoglobin,True
+VADO-PHC-2,0,Malaria RDT,False
+VADO-PHC-2,7,Malaria RDT,False
+VADO-PHC-2,14,Malaria RDT,False
+VADO-PHC-2,21,Malaria RDT,False
+VADO-PHC-2,28,Malaria RDT,True
+VADO-PHC-2,35,Malaria RDT,False
+VADO-PHC-2,42,Malaria RDT,True
+VADO-PHC-2,49,Malaria RDT,True
+VADO-PHC-2,56,Malaria RDT,False
+VADO-PHC-2,63,Malaria RDT,True
+VADO-PHC-2,70,Malaria RDT,False
+VADO-PHC-2,77,Malaria RDT,True
+VADO-PHC-2,84,Malaria RDT,True
+VADO-PHC-2,0,Pregnancy Test,True
+VADO-PHC-2,7,Pregnancy Test,True
+VADO-PHC-2,14,Pregnancy Test,False
+VADO-PHC-2,21,Pregnancy Test,True
+VADO-PHC-2,28,Pregnancy Test,True
+VADO-PHC-2,35,Pregnancy Test,True
+VADO-PHC-2,42,Pregnancy Test,False
+VADO-PHC-2,49,Pregnancy Test,False
+VADO-PHC-2,56,Pregnancy Test,True
+VADO-PHC-2,63,Pregnancy Test,True
+VADO-PHC-2,70,Pregnancy Test,True
+VADO-PHC-2,77,Pregnancy Test,False
+VADO-PHC-2,84,Pregnancy Test,True
+VADO-PHC-2,0,TB Sputum,True
+VADO-PHC-2,7,TB Sputum,True
+VADO-PHC-2,14,TB Sputum,True
+VADO-PHC-2,21,TB Sputum,True
+VADO-PHC-2,28,TB Sputum,True
+VADO-PHC-2,35,TB Sputum,True
+VADO-PHC-2,42,TB Sputum,True
+VADO-PHC-2,49,TB Sputum,True
+VADO-PHC-2,56,TB Sputum,False
+VADO-PHC-2,63,TB Sputum,True
+VADO-PHC-2,70,TB Sputum,True
+VADO-PHC-2,77,TB Sputum,False
+VADO-PHC-2,84,TB Sputum,True
+VADO-PHC-2,0,X-Ray,True
+VADO-PHC-2,7,X-Ray,True
+VADO-PHC-2,14,X-Ray,True
+VADO-PHC-2,21,X-Ray,False
+VADO-PHC-2,28,X-Ray,False
+VADO-PHC-2,35,X-Ray,True
+VADO-PHC-2,42,X-Ray,True
+VADO-PHC-2,49,X-Ray,True
+VADO-PHC-2,56,X-Ray,False
+VADO-PHC-2,63,X-Ray,True
+VADO-PHC-2,70,X-Ray,True
+VADO-PHC-2,77,X-Ray,False
+VADO-PHC-2,84,X-Ray,True
+VADO-PHC-3,0,Blood Glucose,False
+VADO-PHC-3,7,Blood Glucose,True
+VADO-PHC-3,14,Blood Glucose,True
+VADO-PHC-3,21,Blood Glucose,True
+VADO-PHC-3,28,Blood Glucose,True
+VADO-PHC-3,35,Blood Glucose,True
+VADO-PHC-3,42,Blood Glucose,True
+VADO-PHC-3,49,Blood Glucose,True
+VADO-PHC-3,56,Blood Glucose,True
+VADO-PHC-3,63,Blood Glucose,True
+VADO-PHC-3,70,Blood Glucose,True
+VADO-PHC-3,77,Blood Glucose,True
+VADO-PHC-3,84,Blood Glucose,True
+VADO-PHC-3,0,Hemoglobin,True
+VADO-PHC-3,7,Hemoglobin,True
+VADO-PHC-3,14,Hemoglobin,True
+VADO-PHC-3,21,Hemoglobin,True
+VADO-PHC-3,28,Hemoglobin,False
+VADO-PHC-3,35,Hemoglobin,True
+VADO-PHC-3,42,Hemoglobin,True
+VADO-PHC-3,49,Hemoglobin,False
+VADO-PHC-3,56,Hemoglobin,False
+VADO-PHC-3,63,Hemoglobin,True
+VADO-PHC-3,70,Hemoglobin,False
+VADO-PHC-3,77,Hemoglobin,True
+VADO-PHC-3,84,Hemoglobin,True
+VADO-PHC-3,0,Malaria RDT,False
+VADO-PHC-3,7,Malaria RDT,False
+VADO-PHC-3,14,Malaria RDT,False
+VADO-PHC-3,21,Malaria RDT,True
+VADO-PHC-3,28,Malaria RDT,False
+VADO-PHC-3,35,Malaria RDT,True
+VADO-PHC-3,42,Malaria RDT,True
+VADO-PHC-3,49,Malaria RDT,True
+VADO-PHC-3,56,Malaria RDT,True
+VADO-PHC-3,63,Malaria RDT,True
+VADO-PHC-3,70,Malaria RDT,True
+VADO-PHC-3,77,Malaria RDT,True
+VADO-PHC-3,84,Malaria RDT,True
+VADO-PHC-3,0,Pregnancy Test,False
+VADO-PHC-3,7,Pregnancy Test,True
+VADO-PHC-3,14,Pregnancy Test,True
+VADO-PHC-3,21,Pregnancy Test,True
+VADO-PHC-3,28,Pregnancy Test,False
+VADO-PHC-3,35,Pregnancy Test,True
+VADO-PHC-3,42,Pregnancy Test,False
+VADO-PHC-3,49,Pregnancy Test,False
+VADO-PHC-3,56,Pregnancy Test,False
+VADO-PHC-3,63,Pregnancy Test,False
+VADO-PHC-3,70,Pregnancy Test,True
+VADO-PHC-3,77,Pregnancy Test,True
+VADO-PHC-3,84,Pregnancy Test,False
+VADO-PHC-3,0,TB Sputum,True
+VADO-PHC-3,7,TB Sputum,True
+VADO-PHC-3,14,TB Sputum,True
+VADO-PHC-3,21,TB Sputum,True
+VADO-PHC-3,28,TB Sputum,True
+VADO-PHC-3,35,TB Sputum,True
+VADO-PHC-3,42,TB Sputum,True
+VADO-PHC-3,49,TB Sputum,True
+VADO-PHC-3,56,TB Sputum,False
+VADO-PHC-3,63,TB Sputum,False
+VADO-PHC-3,70,TB Sputum,True
+VADO-PHC-3,77,TB Sputum,True
+VADO-PHC-3,84,TB Sputum,False
+VADO-PHC-3,0,X-Ray,True
+VADO-PHC-3,7,X-Ray,True
+VADO-PHC-3,14,X-Ray,False
+VADO-PHC-3,21,X-Ray,True
+VADO-PHC-3,28,X-Ray,True
+VADO-PHC-3,35,X-Ray,True
+VADO-PHC-3,42,X-Ray,True
+VADO-PHC-3,49,X-Ray,False
+VADO-PHC-3,56,X-Ray,False
+VADO-PHC-3,63,X-Ray,False
+VADO-PHC-3,70,X-Ray,True
+VADO-PHC-3,77,X-Ray,True
+VADO-PHC-3,84,X-Ray,True
+VADO-PHC-4,0,Blood Glucose,True
+VADO-PHC-4,7,Blood Glucose,True
+VADO-PHC-4,14,Blood Glucose,False
+VADO-PHC-4,21,Blood Glucose,True
+VADO-PHC-4,28,Blood Glucose,True
+VADO-PHC-4,35,Blood Glucose,True
+VADO-PHC-4,42,Blood Glucose,False
+VADO-PHC-4,49,Blood Glucose,False
+VADO-PHC-4,56,Blood Glucose,True
+VADO-PHC-4,63,Blood Glucose,True
+VADO-PHC-4,70,Blood Glucose,False
+VADO-PHC-4,77,Blood Glucose,True
+VADO-PHC-4,84,Blood Glucose,False
+VADO-PHC-4,0,Hemoglobin,True
+VADO-PHC-4,7,Hemoglobin,True
+VADO-PHC-4,14,Hemoglobin,True
+VADO-PHC-4,21,Hemoglobin,False
+VADO-PHC-4,28,Hemoglobin,True
+VADO-PHC-4,35,Hemoglobin,True
+VADO-PHC-4,42,Hemoglobin,True
+VADO-PHC-4,49,Hemoglobin,True
+VADO-PHC-4,56,Hemoglobin,True
+VADO-PHC-4,63,Hemoglobin,True
+VADO-PHC-4,70,Hemoglobin,True
+VADO-PHC-4,77,Hemoglobin,True
+VADO-PHC-4,84,Hemoglobin,False
+VADO-PHC-4,0,Malaria RDT,False
+VADO-PHC-4,7,Malaria RDT,True
+VADO-PHC-4,14,Malaria RDT,True
+VADO-PHC-4,21,Malaria RDT,True
+VADO-PHC-4,28,Malaria RDT,False
+VADO-PHC-4,35,Malaria RDT,True
+VADO-PHC-4,42,Malaria RDT,True
+VADO-PHC-4,49,Malaria RDT,True
+VADO-PHC-4,56,Malaria RDT,True
+VADO-PHC-4,63,Malaria RDT,True
+VADO-PHC-4,70,Malaria RDT,True
+VADO-PHC-4,77,Malaria RDT,True
+VADO-PHC-4,84,Malaria RDT,True
+VADO-PHC-4,0,Pregnancy Test,True
+VADO-PHC-4,7,Pregnancy Test,False
+VADO-PHC-4,14,Pregnancy Test,True
+VADO-PHC-4,21,Pregnancy Test,True
+VADO-PHC-4,28,Pregnancy Test,True
+VADO-PHC-4,35,Pregnancy Test,True
+VADO-PHC-4,42,Pregnancy Test,True
+VADO-PHC-4,49,Pregnancy Test,True
+VADO-PHC-4,56,Pregnancy Test,True
+VADO-PHC-4,63,Pregnancy Test,True
+VADO-PHC-4,70,Pregnancy Test,True
+VADO-PHC-4,77,Pregnancy Test,False
+VADO-PHC-4,84,Pregnancy Test,False
+VADO-PHC-4,0,TB Sputum,False
+VADO-PHC-4,7,TB Sputum,True
+VADO-PHC-4,14,TB Sputum,True
+VADO-PHC-4,21,TB Sputum,True
+VADO-PHC-4,28,TB Sputum,False
+VADO-PHC-4,35,TB Sputum,True
+VADO-PHC-4,42,TB Sputum,True
+VADO-PHC-4,49,TB Sputum,True
+VADO-PHC-4,56,TB Sputum,True
+VADO-PHC-4,63,TB Sputum,True
+VADO-PHC-4,70,TB Sputum,True
+VADO-PHC-4,77,TB Sputum,False
+VADO-PHC-4,84,TB Sputum,True
+VADO-PHC-4,0,X-Ray,True
+VADO-PHC-4,7,X-Ray,True
+VADO-PHC-4,14,X-Ray,False
+VADO-PHC-4,21,X-Ray,True
+VADO-PHC-4,28,X-Ray,True
+VADO-PHC-4,35,X-Ray,True
+VADO-PHC-4,42,X-Ray,True
+VADO-PHC-4,49,X-Ray,True
+VADO-PHC-4,56,X-Ray,True
+VADO-PHC-4,63,X-Ray,True
+VADO-PHC-4,70,X-Ray,False
+VADO-PHC-4,77,X-Ray,True
+VADO-PHC-4,84,X-Ray,False
+GHAZ-CHC-1,0,Blood Glucose,True
+GHAZ-CHC-1,7,Blood Glucose,False
+GHAZ-CHC-1,14,Blood Glucose,True
+GHAZ-CHC-1,21,Blood Glucose,True
+GHAZ-CHC-1,28,Blood Glucose,True
+GHAZ-CHC-1,35,Blood Glucose,False
+GHAZ-CHC-1,42,Blood Glucose,True
+GHAZ-CHC-1,49,Blood Glucose,True
+GHAZ-CHC-1,56,Blood Glucose,True
+GHAZ-CHC-1,63,Blood Glucose,False
+GHAZ-CHC-1,70,Blood Glucose,True
+GHAZ-CHC-1,77,Blood Glucose,False
+GHAZ-CHC-1,84,Blood Glucose,True
+GHAZ-CHC-1,0,Hemoglobin,True
+GHAZ-CHC-1,7,Hemoglobin,True
+GHAZ-CHC-1,14,Hemoglobin,False
+GHAZ-CHC-1,21,Hemoglobin,True
+GHAZ-CHC-1,28,Hemoglobin,False
+GHAZ-CHC-1,35,Hemoglobin,True
+GHAZ-CHC-1,42,Hemoglobin,False
+GHAZ-CHC-1,49,Hemoglobin,False
+GHAZ-CHC-1,56,Hemoglobin,True
+GHAZ-CHC-1,63,Hemoglobin,True
+GHAZ-CHC-1,70,Hemoglobin,True
+GHAZ-CHC-1,77,Hemoglobin,False
+GHAZ-CHC-1,84,Hemoglobin,False
+GHAZ-CHC-1,0,Malaria RDT,False
+GHAZ-CHC-1,7,Malaria RDT,True
+GHAZ-CHC-1,14,Malaria RDT,True
+GHAZ-CHC-1,21,Malaria RDT,True
+GHAZ-CHC-1,28,Malaria RDT,True
+GHAZ-CHC-1,35,Malaria RDT,True
+GHAZ-CHC-1,42,Malaria RDT,True
+GHAZ-CHC-1,49,Malaria RDT,False
+GHAZ-CHC-1,56,Malaria RDT,True
+GHAZ-CHC-1,63,Malaria RDT,True
+GHAZ-CHC-1,70,Malaria RDT,False
+GHAZ-CHC-1,77,Malaria RDT,False
+GHAZ-CHC-1,84,Malaria RDT,False
+GHAZ-CHC-1,0,Pregnancy Test,True
+GHAZ-CHC-1,7,Pregnancy Test,True
+GHAZ-CHC-1,14,Pregnancy Test,False
+GHAZ-CHC-1,21,Pregnancy Test,True
+GHAZ-CHC-1,28,Pregnancy Test,True
+GHAZ-CHC-1,35,Pregnancy Test,True
+GHAZ-CHC-1,42,Pregnancy Test,True
+GHAZ-CHC-1,49,Pregnancy Test,False
+GHAZ-CHC-1,56,Pregnancy Test,True
+GHAZ-CHC-1,63,Pregnancy Test,False
+GHAZ-CHC-1,70,Pregnancy Test,True
+GHAZ-CHC-1,77,Pregnancy Test,False
+GHAZ-CHC-1,84,Pregnancy Test,True
+GHAZ-CHC-1,0,TB Sputum,True
+GHAZ-CHC-1,7,TB Sputum,True
+GHAZ-CHC-1,14,TB Sputum,False
+GHAZ-CHC-1,21,TB Sputum,True
+GHAZ-CHC-1,28,TB Sputum,True
+GHAZ-CHC-1,35,TB Sputum,True
+GHAZ-CHC-1,42,TB Sputum,True
+GHAZ-CHC-1,49,TB Sputum,True
+GHAZ-CHC-1,56,TB Sputum,True
+GHAZ-CHC-1,63,TB Sputum,False
+GHAZ-CHC-1,70,TB Sputum,False
+GHAZ-CHC-1,77,TB Sputum,True
+GHAZ-CHC-1,84,TB Sputum,True
+GHAZ-CHC-1,0,X-Ray,True
+GHAZ-CHC-1,7,X-Ray,True
+GHAZ-CHC-1,14,X-Ray,True
+GHAZ-CHC-1,21,X-Ray,True
+GHAZ-CHC-1,28,X-Ray,True
+GHAZ-CHC-1,35,X-Ray,True
+GHAZ-CHC-1,42,X-Ray,True
+GHAZ-CHC-1,49,X-Ray,True
+GHAZ-CHC-1,56,X-Ray,True
+GHAZ-CHC-1,63,X-Ray,True
+GHAZ-CHC-1,70,X-Ray,False
+GHAZ-CHC-1,77,X-Ray,True
+GHAZ-CHC-1,84,X-Ray,False
+GHAZ-PHC-2,0,Blood Glucose,True
+GHAZ-PHC-2,7,Blood Glucose,True
+GHAZ-PHC-2,14,Blood Glucose,True
+GHAZ-PHC-2,21,Blood Glucose,True
+GHAZ-PHC-2,28,Blood Glucose,True
+GHAZ-PHC-2,35,Blood Glucose,True
+GHAZ-PHC-2,42,Blood Glucose,True
+GHAZ-PHC-2,49,Blood Glucose,True
+GHAZ-PHC-2,56,Blood Glucose,False
+GHAZ-PHC-2,63,Blood Glucose,True
+GHAZ-PHC-2,70,Blood Glucose,True
+GHAZ-PHC-2,77,Blood Glucose,False
+GHAZ-PHC-2,84,Blood Glucose,True
+GHAZ-PHC-2,0,Hemoglobin,True
+GHAZ-PHC-2,7,Hemoglobin,True
+GHAZ-PHC-2,14,Hemoglobin,True
+GHAZ-PHC-2,21,Hemoglobin,True
+GHAZ-PHC-2,28,Hemoglobin,True
+GHAZ-PHC-2,35,Hemoglobin,True
+GHAZ-PHC-2,42,Hemoglobin,False
+GHAZ-PHC-2,49,Hemoglobin,True
+GHAZ-PHC-2,56,Hemoglobin,True
+GHAZ-PHC-2,63,Hemoglobin,True
+GHAZ-PHC-2,70,Hemoglobin,True
+GHAZ-PHC-2,77,Hemoglobin,True
+GHAZ-PHC-2,84,Hemoglobin,False
+GHAZ-PHC-2,0,Malaria RDT,False
+GHAZ-PHC-2,7,Malaria RDT,True
+GHAZ-PHC-2,14,Malaria RDT,False
+GHAZ-PHC-2,21,Malaria RDT,True
+GHAZ-PHC-2,28,Malaria RDT,True
+GHAZ-PHC-2,35,Malaria RDT,True
+GHAZ-PHC-2,42,Malaria RDT,False
+GHAZ-PHC-2,49,Malaria RDT,False
+GHAZ-PHC-2,56,Malaria RDT,False
+GHAZ-PHC-2,63,Malaria RDT,True
+GHAZ-PHC-2,70,Malaria RDT,True
+GHAZ-PHC-2,77,Malaria RDT,True
+GHAZ-PHC-2,84,Malaria RDT,False
+GHAZ-PHC-2,0,Pregnancy Test,True
+GHAZ-PHC-2,7,Pregnancy Test,True
+GHAZ-PHC-2,14,Pregnancy Test,True
+GHAZ-PHC-2,21,Pregnancy Test,False
+GHAZ-PHC-2,28,Pregnancy Test,True
+GHAZ-PHC-2,35,Pregnancy Test,True
+GHAZ-PHC-2,42,Pregnancy Test,True
+GHAZ-PHC-2,49,Pregnancy Test,True
+GHAZ-PHC-2,56,Pregnancy Test,True
+GHAZ-PHC-2,63,Pregnancy Test,True
+GHAZ-PHC-2,70,Pregnancy Test,True
+GHAZ-PHC-2,77,Pregnancy Test,True
+GHAZ-PHC-2,84,Pregnancy Test,True
+GHAZ-PHC-2,0,TB Sputum,True
+GHAZ-PHC-2,7,TB Sputum,True
+GHAZ-PHC-2,14,TB Sputum,False
+GHAZ-PHC-2,21,TB Sputum,True
+GHAZ-PHC-2,28,TB Sputum,True
+GHAZ-PHC-2,35,TB Sputum,True
+GHAZ-PHC-2,42,TB Sputum,True
+GHAZ-PHC-2,49,TB Sputum,True
+GHAZ-PHC-2,56,TB Sputum,True
+GHAZ-PHC-2,63,TB Sputum,False
+GHAZ-PHC-2,70,TB Sputum,True
+GHAZ-PHC-2,77,TB Sputum,True
+GHAZ-PHC-2,84,TB Sputum,True
+GHAZ-PHC-2,0,X-Ray,False
+GHAZ-PHC-2,7,X-Ray,False
+GHAZ-PHC-2,14,X-Ray,True
+GHAZ-PHC-2,21,X-Ray,False
+GHAZ-PHC-2,28,X-Ray,True
+GHAZ-PHC-2,35,X-Ray,True
+GHAZ-PHC-2,42,X-Ray,True
+GHAZ-PHC-2,49,X-Ray,True
+GHAZ-PHC-2,56,X-Ray,False
+GHAZ-PHC-2,63,X-Ray,True
+GHAZ-PHC-2,70,X-Ray,True
+GHAZ-PHC-2,77,X-Ray,True
+GHAZ-PHC-2,84,X-Ray,True
+GHAZ-PHC-3,0,Blood Glucose,True
+GHAZ-PHC-3,7,Blood Glucose,True
+GHAZ-PHC-3,14,Blood Glucose,True
+GHAZ-PHC-3,21,Blood Glucose,False
+GHAZ-PHC-3,28,Blood Glucose,True
+GHAZ-PHC-3,35,Blood Glucose,True
+GHAZ-PHC-3,42,Blood Glucose,True
+GHAZ-PHC-3,49,Blood Glucose,False
+GHAZ-PHC-3,56,Blood Glucose,True
+GHAZ-PHC-3,63,Blood Glucose,True
+GHAZ-PHC-3,70,Blood Glucose,False
+GHAZ-PHC-3,77,Blood Glucose,True
+GHAZ-PHC-3,84,Blood Glucose,True
+GHAZ-PHC-3,0,Hemoglobin,True
+GHAZ-PHC-3,7,Hemoglobin,True
+GHAZ-PHC-3,14,Hemoglobin,True
+GHAZ-PHC-3,21,Hemoglobin,True
+GHAZ-PHC-3,28,Hemoglobin,False
+GHAZ-PHC-3,35,Hemoglobin,False
+GHAZ-PHC-3,42,Hemoglobin,False
+GHAZ-PHC-3,49,Hemoglobin,True
+GHAZ-PHC-3,56,Hemoglobin,True
+GHAZ-PHC-3,63,Hemoglobin,True
+GHAZ-PHC-3,70,Hemoglobin,True
+GHAZ-PHC-3,77,Hemoglobin,True
+GHAZ-PHC-3,84,Hemoglobin,True
+GHAZ-PHC-3,0,Malaria RDT,False
+GHAZ-PHC-3,7,Malaria RDT,False
+GHAZ-PHC-3,14,Malaria RDT,False
+GHAZ-PHC-3,21,Malaria RDT,True
+GHAZ-PHC-3,28,Malaria RDT,True
+GHAZ-PHC-3,35,Malaria RDT,True
+GHAZ-PHC-3,42,Malaria RDT,True
+GHAZ-PHC-3,49,Malaria RDT,False
+GHAZ-PHC-3,56,Malaria RDT,False
+GHAZ-PHC-3,63,Malaria RDT,True
+GHAZ-PHC-3,70,Malaria RDT,True
+GHAZ-PHC-3,77,Malaria RDT,True
+GHAZ-PHC-3,84,Malaria RDT,True
+GHAZ-PHC-3,0,Pregnancy Test,False
+GHAZ-PHC-3,7,Pregnancy Test,False
+GHAZ-PHC-3,14,Pregnancy Test,True
+GHAZ-PHC-3,21,Pregnancy Test,True
+GHAZ-PHC-3,28,Pregnancy Test,True
+GHAZ-PHC-3,35,Pregnancy Test,False
+GHAZ-PHC-3,42,Pregnancy Test,True
+GHAZ-PHC-3,49,Pregnancy Test,False
+GHAZ-PHC-3,56,Pregnancy Test,False
+GHAZ-PHC-3,63,Pregnancy Test,True
+GHAZ-PHC-3,70,Pregnancy Test,True
+GHAZ-PHC-3,77,Pregnancy Test,True
+GHAZ-PHC-3,84,Pregnancy Test,True
+GHAZ-PHC-3,0,TB Sputum,False
+GHAZ-PHC-3,7,TB Sputum,True
+GHAZ-PHC-3,14,TB Sputum,False
+GHAZ-PHC-3,21,TB Sputum,True
+GHAZ-PHC-3,28,TB Sputum,True
+GHAZ-PHC-3,35,TB Sputum,True
+GHAZ-PHC-3,42,TB Sputum,True
+GHAZ-PHC-3,49,TB Sputum,True
+GHAZ-PHC-3,56,TB Sputum,True
+GHAZ-PHC-3,63,TB Sputum,False
+GHAZ-PHC-3,70,TB Sputum,False
+GHAZ-PHC-3,77,TB Sputum,False
+GHAZ-PHC-3,84,TB Sputum,True
+GHAZ-PHC-3,0,X-Ray,True
+GHAZ-PHC-3,7,X-Ray,True
+GHAZ-PHC-3,14,X-Ray,True
+GHAZ-PHC-3,21,X-Ray,True
+GHAZ-PHC-3,28,X-Ray,True
+GHAZ-PHC-3,35,X-Ray,True
+GHAZ-PHC-3,42,X-Ray,True
+GHAZ-PHC-3,49,X-Ray,False
+GHAZ-PHC-3,56,X-Ray,False
+GHAZ-PHC-3,63,X-Ray,True
+GHAZ-PHC-3,70,X-Ray,True
+GHAZ-PHC-3,77,X-Ray,True
+GHAZ-PHC-3,84,X-Ray,True
+GHAZ-PHC-4,0,Blood Glucose,False
+GHAZ-PHC-4,7,Blood Glucose,True
+GHAZ-PHC-4,14,Blood Glucose,True
+GHAZ-PHC-4,21,Blood Glucose,True
+GHAZ-PHC-4,28,Blood Glucose,True
+GHAZ-PHC-4,35,Blood Glucose,False
+GHAZ-PHC-4,42,Blood Glucose,False
+GHAZ-PHC-4,49,Blood Glucose,True
+GHAZ-PHC-4,56,Blood Glucose,True
+GHAZ-PHC-4,63,Blood Glucose,True
+GHAZ-PHC-4,70,Blood Glucose,False
+GHAZ-PHC-4,77,Blood Glucose,True
+GHAZ-PHC-4,84,Blood Glucose,False
+GHAZ-PHC-4,0,Hemoglobin,True
+GHAZ-PHC-4,7,Hemoglobin,True
+GHAZ-PHC-4,14,Hemoglobin,True
+GHAZ-PHC-4,21,Hemoglobin,True
+GHAZ-PHC-4,28,Hemoglobin,True
+GHAZ-PHC-4,35,Hemoglobin,True
+GHAZ-PHC-4,42,Hemoglobin,True
+GHAZ-PHC-4,49,Hemoglobin,True
+GHAZ-PHC-4,56,Hemoglobin,True
+GHAZ-PHC-4,63,Hemoglobin,False
+GHAZ-PHC-4,70,Hemoglobin,True
+GHAZ-PHC-4,77,Hemoglobin,False
+GHAZ-PHC-4,84,Hemoglobin,True
+GHAZ-PHC-4,0,Malaria RDT,False
+GHAZ-PHC-4,7,Malaria RDT,False
+GHAZ-PHC-4,14,Malaria RDT,True
+GHAZ-PHC-4,21,Malaria RDT,True
+GHAZ-PHC-4,28,Malaria RDT,True
+GHAZ-PHC-4,35,Malaria RDT,True
+GHAZ-PHC-4,42,Malaria RDT,True
+GHAZ-PHC-4,49,Malaria RDT,True
+GHAZ-PHC-4,56,Malaria RDT,False
+GHAZ-PHC-4,63,Malaria RDT,False
+GHAZ-PHC-4,70,Malaria RDT,False
+GHAZ-PHC-4,77,Malaria RDT,True
+GHAZ-PHC-4,84,Malaria RDT,True
+GHAZ-PHC-4,0,Pregnancy Test,True
+GHAZ-PHC-4,7,Pregnancy Test,True
+GHAZ-PHC-4,14,Pregnancy Test,True
+GHAZ-PHC-4,21,Pregnancy Test,True
+GHAZ-PHC-4,28,Pregnancy Test,False
+GHAZ-PHC-4,35,Pregnancy Test,False
+GHAZ-PHC-4,42,Pregnancy Test,False
+GHAZ-PHC-4,49,Pregnancy Test,False
+GHAZ-PHC-4,56,Pregnancy Test,True
+GHAZ-PHC-4,63,Pregnancy Test,True
+GHAZ-PHC-4,70,Pregnancy Test,False
+GHAZ-PHC-4,77,Pregnancy Test,True
+GHAZ-PHC-4,84,Pregnancy Test,True
+GHAZ-PHC-4,0,TB Sputum,True
+GHAZ-PHC-4,7,TB Sputum,False
+GHAZ-PHC-4,14,TB Sputum,True
+GHAZ-PHC-4,21,TB Sputum,True
+GHAZ-PHC-4,28,TB Sputum,True
+GHAZ-PHC-4,35,TB Sputum,True
+GHAZ-PHC-4,42,TB Sputum,False
+GHAZ-PHC-4,49,TB Sputum,True
+GHAZ-PHC-4,56,TB Sputum,False
+GHAZ-PHC-4,63,TB Sputum,False
+GHAZ-PHC-4,70,TB Sputum,False
+GHAZ-PHC-4,77,TB Sputum,False
+GHAZ-PHC-4,84,TB Sputum,True
+GHAZ-PHC-4,0,X-Ray,True
+GHAZ-PHC-4,7,X-Ray,True
+GHAZ-PHC-4,14,X-Ray,True
+GHAZ-PHC-4,21,X-Ray,True
+GHAZ-PHC-4,28,X-Ray,False
+GHAZ-PHC-4,35,X-Ray,False
+GHAZ-PHC-4,42,X-Ray,False
+GHAZ-PHC-4,49,X-Ray,True
+GHAZ-PHC-4,56,X-Ray,True
+GHAZ-PHC-4,63,X-Ray,False
+GHAZ-PHC-4,70,X-Ray,True
+GHAZ-PHC-4,77,X-Ray,True
+GHAZ-PHC-4,84,X-Ray,True
+AZAM-CHC-1,0,Blood Glucose,True
+AZAM-CHC-1,7,Blood Glucose,True
+AZAM-CHC-1,14,Blood Glucose,True
+AZAM-CHC-1,21,Blood Glucose,False
+AZAM-CHC-1,28,Blood Glucose,True
+AZAM-CHC-1,35,Blood Glucose,True
+AZAM-CHC-1,42,Blood Glucose,True
+AZAM-CHC-1,49,Blood Glucose,True
+AZAM-CHC-1,56,Blood Glucose,False
+AZAM-CHC-1,63,Blood Glucose,False
+AZAM-CHC-1,70,Blood Glucose,True
+AZAM-CHC-1,77,Blood Glucose,True
+AZAM-CHC-1,84,Blood Glucose,True
+AZAM-CHC-1,0,Hemoglobin,False
+AZAM-CHC-1,7,Hemoglobin,True
+AZAM-CHC-1,14,Hemoglobin,True
+AZAM-CHC-1,21,Hemoglobin,True
+AZAM-CHC-1,28,Hemoglobin,True
+AZAM-CHC-1,35,Hemoglobin,True
+AZAM-CHC-1,42,Hemoglobin,True
+AZAM-CHC-1,49,Hemoglobin,True
+AZAM-CHC-1,56,Hemoglobin,False
+AZAM-CHC-1,63,Hemoglobin,True
+AZAM-CHC-1,70,Hemoglobin,True
+AZAM-CHC-1,77,Hemoglobin,False
+AZAM-CHC-1,84,Hemoglobin,True
+AZAM-CHC-1,0,Malaria RDT,True
+AZAM-CHC-1,7,Malaria RDT,True
+AZAM-CHC-1,14,Malaria RDT,False
+AZAM-CHC-1,21,Malaria RDT,True
+AZAM-CHC-1,28,Malaria RDT,True
+AZAM-CHC-1,35,Malaria RDT,True
+AZAM-CHC-1,42,Malaria RDT,True
+AZAM-CHC-1,49,Malaria RDT,False
+AZAM-CHC-1,56,Malaria RDT,False
+AZAM-CHC-1,63,Malaria RDT,False
+AZAM-CHC-1,70,Malaria RDT,True
+AZAM-CHC-1,77,Malaria RDT,False
+AZAM-CHC-1,84,Malaria RDT,True
+AZAM-CHC-1,0,Pregnancy Test,False
+AZAM-CHC-1,7,Pregnancy Test,True
+AZAM-CHC-1,14,Pregnancy Test,True
+AZAM-CHC-1,21,Pregnancy Test,False
+AZAM-CHC-1,28,Pregnancy Test,False
+AZAM-CHC-1,35,Pregnancy Test,True
+AZAM-CHC-1,42,Pregnancy Test,True
+AZAM-CHC-1,49,Pregnancy Test,True
+AZAM-CHC-1,56,Pregnancy Test,True
+AZAM-CHC-1,63,Pregnancy Test,False
+AZAM-CHC-1,70,Pregnancy Test,True
+AZAM-CHC-1,77,Pregnancy Test,True
+AZAM-CHC-1,84,Pregnancy Test,False
+AZAM-CHC-1,0,TB Sputum,True
+AZAM-CHC-1,7,TB Sputum,True
+AZAM-CHC-1,14,TB Sputum,False
+AZAM-CHC-1,21,TB Sputum,True
+AZAM-CHC-1,28,TB Sputum,False
+AZAM-CHC-1,35,TB Sputum,True
+AZAM-CHC-1,42,TB Sputum,True
+AZAM-CHC-1,49,TB Sputum,True
+AZAM-CHC-1,56,TB Sputum,False
+AZAM-CHC-1,63,TB Sputum,True
+AZAM-CHC-1,70,TB Sputum,True
+AZAM-CHC-1,77,TB Sputum,True
+AZAM-CHC-1,84,TB Sputum,True
+AZAM-CHC-1,0,X-Ray,True
+AZAM-CHC-1,7,X-Ray,False
+AZAM-CHC-1,14,X-Ray,True
+AZAM-CHC-1,21,X-Ray,False
+AZAM-CHC-1,28,X-Ray,False
+AZAM-CHC-1,35,X-Ray,False
+AZAM-CHC-1,42,X-Ray,True
+AZAM-CHC-1,49,X-Ray,False
+AZAM-CHC-1,56,X-Ray,True
+AZAM-CHC-1,63,X-Ray,True
+AZAM-CHC-1,70,X-Ray,True
+AZAM-CHC-1,77,X-Ray,True
+AZAM-CHC-1,84,X-Ray,True
+AZAM-PHC-2,0,Blood Glucose,False
+AZAM-PHC-2,7,Blood Glucose,True
+AZAM-PHC-2,14,Blood Glucose,True
+AZAM-PHC-2,21,Blood Glucose,True
+AZAM-PHC-2,28,Blood Glucose,True
+AZAM-PHC-2,35,Blood Glucose,True
+AZAM-PHC-2,42,Blood Glucose,True
+AZAM-PHC-2,49,Blood Glucose,False
+AZAM-PHC-2,56,Blood Glucose,True
+AZAM-PHC-2,63,Blood Glucose,True
+AZAM-PHC-2,70,Blood Glucose,True
+AZAM-PHC-2,77,Blood Glucose,True
+AZAM-PHC-2,84,Blood Glucose,True
+AZAM-PHC-2,0,Hemoglobin,True
+AZAM-PHC-2,7,Hemoglobin,True
+AZAM-PHC-2,14,Hemoglobin,True
+AZAM-PHC-2,21,Hemoglobin,True
+AZAM-PHC-2,28,Hemoglobin,False
+AZAM-PHC-2,35,Hemoglobin,True
+AZAM-PHC-2,42,Hemoglobin,True
+AZAM-PHC-2,49,Hemoglobin,False
+AZAM-PHC-2,56,Hemoglobin,False
+AZAM-PHC-2,63,Hemoglobin,False
+AZAM-PHC-2,70,Hemoglobin,True
+AZAM-PHC-2,77,Hemoglobin,True
+AZAM-PHC-2,84,Hemoglobin,True
+AZAM-PHC-2,0,Malaria RDT,False
+AZAM-PHC-2,7,Malaria RDT,True
+AZAM-PHC-2,14,Malaria RDT,True
+AZAM-PHC-2,21,Malaria RDT,False
+AZAM-PHC-2,28,Malaria RDT,True
+AZAM-PHC-2,35,Malaria RDT,True
+AZAM-PHC-2,42,Malaria RDT,True
+AZAM-PHC-2,49,Malaria RDT,False
+AZAM-PHC-2,56,Malaria RDT,True
+AZAM-PHC-2,63,Malaria RDT,False
+AZAM-PHC-2,70,Malaria RDT,True
+AZAM-PHC-2,77,Malaria RDT,True
+AZAM-PHC-2,84,Malaria RDT,True
+AZAM-PHC-2,0,Pregnancy Test,False
+AZAM-PHC-2,7,Pregnancy Test,True
+AZAM-PHC-2,14,Pregnancy Test,True
+AZAM-PHC-2,21,Pregnancy Test,True
+AZAM-PHC-2,28,Pregnancy Test,False
+AZAM-PHC-2,35,Pregnancy Test,False
+AZAM-PHC-2,42,Pregnancy Test,True
+AZAM-PHC-2,49,Pregnancy Test,False
+AZAM-PHC-2,56,Pregnancy Test,False
+AZAM-PHC-2,63,Pregnancy Test,True
+AZAM-PHC-2,70,Pregnancy Test,True
+AZAM-PHC-2,77,Pregnancy Test,True
+AZAM-PHC-2,84,Pregnancy Test,True
+AZAM-PHC-2,0,TB Sputum,True
+AZAM-PHC-2,7,TB Sputum,True
+AZAM-PHC-2,14,TB Sputum,False
+AZAM-PHC-2,21,TB Sputum,True
+AZAM-PHC-2,28,TB Sputum,False
+AZAM-PHC-2,35,TB Sputum,False
+AZAM-PHC-2,42,TB Sputum,False
+AZAM-PHC-2,49,TB Sputum,False
+AZAM-PHC-2,56,TB Sputum,False
+AZAM-PHC-2,63,TB Sputum,True
+AZAM-PHC-2,70,TB Sputum,True
+AZAM-PHC-2,77,TB Sputum,True
+AZAM-PHC-2,84,TB Sputum,True
+AZAM-PHC-2,0,X-Ray,True
+AZAM-PHC-2,7,X-Ray,True
+AZAM-PHC-2,14,X-Ray,True
+AZAM-PHC-2,21,X-Ray,True
+AZAM-PHC-2,28,X-Ray,True
+AZAM-PHC-2,35,X-Ray,True
+AZAM-PHC-2,42,X-Ray,False
+AZAM-PHC-2,49,X-Ray,True
+AZAM-PHC-2,56,X-Ray,True
+AZAM-PHC-2,63,X-Ray,True
+AZAM-PHC-2,70,X-Ray,True
+AZAM-PHC-2,77,X-Ray,True
+AZAM-PHC-2,84,X-Ray,True
+AZAM-PHC-3,0,Blood Glucose,True
+AZAM-PHC-3,7,Blood Glucose,False
+AZAM-PHC-3,14,Blood Glucose,False
+AZAM-PHC-3,21,Blood Glucose,False
+AZAM-PHC-3,28,Blood Glucose,False
+AZAM-PHC-3,35,Blood Glucose,True
+AZAM-PHC-3,42,Blood Glucose,True
+AZAM-PHC-3,49,Blood Glucose,False
+AZAM-PHC-3,56,Blood Glucose,True
+AZAM-PHC-3,63,Blood Glucose,True
+AZAM-PHC-3,70,Blood Glucose,True
+AZAM-PHC-3,77,Blood Glucose,True
+AZAM-PHC-3,84,Blood Glucose,False
+AZAM-PHC-3,0,Hemoglobin,False
+AZAM-PHC-3,7,Hemoglobin,False
+AZAM-PHC-3,14,Hemoglobin,True
+AZAM-PHC-3,21,Hemoglobin,True
+AZAM-PHC-3,28,Hemoglobin,False
+AZAM-PHC-3,35,Hemoglobin,True
+AZAM-PHC-3,42,Hemoglobin,True
+AZAM-PHC-3,49,Hemoglobin,False
+AZAM-PHC-3,56,Hemoglobin,True
+AZAM-PHC-3,63,Hemoglobin,True
+AZAM-PHC-3,70,Hemoglobin,True
+AZAM-PHC-3,77,Hemoglobin,False
+AZAM-PHC-3,84,Hemoglobin,True
+AZAM-PHC-3,0,Malaria RDT,False
+AZAM-PHC-3,7,Malaria RDT,True
+AZAM-PHC-3,14,Malaria RDT,False
+AZAM-PHC-3,21,Malaria RDT,False
+AZAM-PHC-3,28,Malaria RDT,True
+AZAM-PHC-3,35,Malaria RDT,True
+AZAM-PHC-3,42,Malaria RDT,True
+AZAM-PHC-3,49,Malaria RDT,True
+AZAM-PHC-3,56,Malaria RDT,True
+AZAM-PHC-3,63,Malaria RDT,True
+AZAM-PHC-3,70,Malaria RDT,False
+AZAM-PHC-3,77,Malaria RDT,True
+AZAM-PHC-3,84,Malaria RDT,False
+AZAM-PHC-3,0,Pregnancy Test,True
+AZAM-PHC-3,7,Pregnancy Test,False
+AZAM-PHC-3,14,Pregnancy Test,True
+AZAM-PHC-3,21,Pregnancy Test,False
+AZAM-PHC-3,28,Pregnancy Test,True
+AZAM-PHC-3,35,Pregnancy Test,True
+AZAM-PHC-3,42,Pregnancy Test,True
+AZAM-PHC-3,49,Pregnancy Test,True
+AZAM-PHC-3,56,Pregnancy Test,True
+AZAM-PHC-3,63,Pregnancy Test,False
+AZAM-PHC-3,70,Pregnancy Test,False
+AZAM-PHC-3,77,Pregnancy Test,False
+AZAM-PHC-3,84,Pregnancy Test,False
+AZAM-PHC-3,0,TB Sputum,True
+AZAM-PHC-3,7,TB Sputum,False
+AZAM-PHC-3,14,TB Sputum,True
+AZAM-PHC-3,21,TB Sputum,True
+AZAM-PHC-3,28,TB Sputum,False
+AZAM-PHC-3,35,TB Sputum,True
+AZAM-PHC-3,42,TB Sputum,True
+AZAM-PHC-3,49,TB Sputum,True
+AZAM-PHC-3,56,TB Sputum,True
+AZAM-PHC-3,63,TB Sputum,True
+AZAM-PHC-3,70,TB Sputum,True
+AZAM-PHC-3,77,TB Sputum,True
+AZAM-PHC-3,84,TB Sputum,True
+AZAM-PHC-3,0,X-Ray,True
+AZAM-PHC-3,7,X-Ray,True
+AZAM-PHC-3,14,X-Ray,True
+AZAM-PHC-3,21,X-Ray,True
+AZAM-PHC-3,28,X-Ray,True
+AZAM-PHC-3,35,X-Ray,True
+AZAM-PHC-3,42,X-Ray,True
+AZAM-PHC-3,49,X-Ray,True
+AZAM-PHC-3,56,X-Ray,False
+AZAM-PHC-3,63,X-Ray,True
+AZAM-PHC-3,70,X-Ray,True
+AZAM-PHC-3,77,X-Ray,True
+AZAM-PHC-3,84,X-Ray,False
+AZAM-PHC-4,0,Blood Glucose,True
+AZAM-PHC-4,7,Blood Glucose,True
+AZAM-PHC-4,14,Blood Glucose,True
+AZAM-PHC-4,21,Blood Glucose,False
+AZAM-PHC-4,28,Blood Glucose,False
+AZAM-PHC-4,35,Blood Glucose,True
+AZAM-PHC-4,42,Blood Glucose,False
+AZAM-PHC-4,49,Blood Glucose,True
+AZAM-PHC-4,56,Blood Glucose,True
+AZAM-PHC-4,63,Blood Glucose,False
+AZAM-PHC-4,70,Blood Glucose,False
+AZAM-PHC-4,77,Blood Glucose,False
+AZAM-PHC-4,84,Blood Glucose,False
+AZAM-PHC-4,0,Hemoglobin,True
+AZAM-PHC-4,7,Hemoglobin,True
+AZAM-PHC-4,14,Hemoglobin,True
+AZAM-PHC-4,21,Hemoglobin,True
+AZAM-PHC-4,28,Hemoglobin,True
+AZAM-PHC-4,35,Hemoglobin,False
+AZAM-PHC-4,42,Hemoglobin,False
+AZAM-PHC-4,49,Hemoglobin,True
+AZAM-PHC-4,56,Hemoglobin,True
+AZAM-PHC-4,63,Hemoglobin,True
+AZAM-PHC-4,70,Hemoglobin,True
+AZAM-PHC-4,77,Hemoglobin,True
+AZAM-PHC-4,84,Hemoglobin,False
+AZAM-PHC-4,0,Malaria RDT,True
+AZAM-PHC-4,7,Malaria RDT,True
+AZAM-PHC-4,14,Malaria RDT,True
+AZAM-PHC-4,21,Malaria RDT,True
+AZAM-PHC-4,28,Malaria RDT,False
+AZAM-PHC-4,35,Malaria RDT,False
+AZAM-PHC-4,42,Malaria RDT,True
+AZAM-PHC-4,49,Malaria RDT,False
+AZAM-PHC-4,56,Malaria RDT,True
+AZAM-PHC-4,63,Malaria RDT,True
+AZAM-PHC-4,70,Malaria RDT,True
+AZAM-PHC-4,77,Malaria RDT,True
+AZAM-PHC-4,84,Malaria RDT,True
+AZAM-PHC-4,0,Pregnancy Test,True
+AZAM-PHC-4,7,Pregnancy Test,False
+AZAM-PHC-4,14,Pregnancy Test,False
+AZAM-PHC-4,21,Pregnancy Test,True
+AZAM-PHC-4,28,Pregnancy Test,False
+AZAM-PHC-4,35,Pregnancy Test,True
+AZAM-PHC-4,42,Pregnancy Test,False
+AZAM-PHC-4,49,Pregnancy Test,False
+AZAM-PHC-4,56,Pregnancy Test,False
+AZAM-PHC-4,63,Pregnancy Test,False
+AZAM-PHC-4,70,Pregnancy Test,True
+AZAM-PHC-4,77,Pregnancy Test,True
+AZAM-PHC-4,84,Pregnancy Test,True
+AZAM-PHC-4,0,TB Sputum,False
+AZAM-PHC-4,7,TB Sputum,True
+AZAM-PHC-4,14,TB Sputum,True
+AZAM-PHC-4,21,TB Sputum,True
+AZAM-PHC-4,28,TB Sputum,True
+AZAM-PHC-4,35,TB Sputum,False
+AZAM-PHC-4,42,TB Sputum,False
+AZAM-PHC-4,49,TB Sputum,True
+AZAM-PHC-4,56,TB Sputum,True
+AZAM-PHC-4,63,TB Sputum,False
+AZAM-PHC-4,70,TB Sputum,True
+AZAM-PHC-4,77,TB Sputum,False
+AZAM-PHC-4,84,TB Sputum,True
+AZAM-PHC-4,0,X-Ray,True
+AZAM-PHC-4,7,X-Ray,False
+AZAM-PHC-4,14,X-Ray,True
+AZAM-PHC-4,21,X-Ray,True
+AZAM-PHC-4,28,X-Ray,False
+AZAM-PHC-4,35,X-Ray,True
+AZAM-PHC-4,42,X-Ray,True
+AZAM-PHC-4,49,X-Ray,True
+AZAM-PHC-4,56,X-Ray,False
+AZAM-PHC-4,63,X-Ray,True
+AZAM-PHC-4,70,X-Ray,True
+AZAM-PHC-4,77,X-Ray,True
+AZAM-PHC-4,84,X-Ray,False
+PUDU-CHC-1,0,Blood Glucose,True
+PUDU-CHC-1,7,Blood Glucose,True
+PUDU-CHC-1,14,Blood Glucose,True
+PUDU-CHC-1,21,Blood Glucose,True
+PUDU-CHC-1,28,Blood Glucose,False
+PUDU-CHC-1,35,Blood Glucose,True
+PUDU-CHC-1,42,Blood Glucose,True
+PUDU-CHC-1,49,Blood Glucose,True
+PUDU-CHC-1,56,Blood Glucose,True
+PUDU-CHC-1,63,Blood Glucose,False
+PUDU-CHC-1,70,Blood Glucose,True
+PUDU-CHC-1,77,Blood Glucose,True
+PUDU-CHC-1,84,Blood Glucose,True
+PUDU-CHC-1,0,Hemoglobin,True
+PUDU-CHC-1,7,Hemoglobin,True
+PUDU-CHC-1,14,Hemoglobin,False
+PUDU-CHC-1,21,Hemoglobin,True
+PUDU-CHC-1,28,Hemoglobin,True
+PUDU-CHC-1,35,Hemoglobin,False
+PUDU-CHC-1,42,Hemoglobin,True
+PUDU-CHC-1,49,Hemoglobin,True
+PUDU-CHC-1,56,Hemoglobin,False
+PUDU-CHC-1,63,Hemoglobin,True
+PUDU-CHC-1,70,Hemoglobin,True
+PUDU-CHC-1,77,Hemoglobin,False
+PUDU-CHC-1,84,Hemoglobin,True
+PUDU-CHC-1,0,Malaria RDT,True
+PUDU-CHC-1,7,Malaria RDT,False
+PUDU-CHC-1,14,Malaria RDT,False
+PUDU-CHC-1,21,Malaria RDT,True
+PUDU-CHC-1,28,Malaria RDT,True
+PUDU-CHC-1,35,Malaria RDT,True
+PUDU-CHC-1,42,Malaria RDT,True
+PUDU-CHC-1,49,Malaria RDT,True
+PUDU-CHC-1,56,Malaria RDT,True
+PUDU-CHC-1,63,Malaria RDT,True
+PUDU-CHC-1,70,Malaria RDT,True
+PUDU-CHC-1,77,Malaria RDT,True
+PUDU-CHC-1,84,Malaria RDT,True
+PUDU-CHC-1,0,Pregnancy Test,True
+PUDU-CHC-1,7,Pregnancy Test,True
+PUDU-CHC-1,14,Pregnancy Test,False
+PUDU-CHC-1,21,Pregnancy Test,True
+PUDU-CHC-1,28,Pregnancy Test,False
+PUDU-CHC-1,35,Pregnancy Test,True
+PUDU-CHC-1,42,Pregnancy Test,True
+PUDU-CHC-1,49,Pregnancy Test,True
+PUDU-CHC-1,56,Pregnancy Test,True
+PUDU-CHC-1,63,Pregnancy Test,True
+PUDU-CHC-1,70,Pregnancy Test,True
+PUDU-CHC-1,77,Pregnancy Test,True
+PUDU-CHC-1,84,Pregnancy Test,False
+PUDU-CHC-1,0,TB Sputum,True
+PUDU-CHC-1,7,TB Sputum,True
+PUDU-CHC-1,14,TB Sputum,True
+PUDU-CHC-1,21,TB Sputum,True
+PUDU-CHC-1,28,TB Sputum,False
+PUDU-CHC-1,35,TB Sputum,True
+PUDU-CHC-1,42,TB Sputum,True
+PUDU-CHC-1,49,TB Sputum,True
+PUDU-CHC-1,56,TB Sputum,True
+PUDU-CHC-1,63,TB Sputum,True
+PUDU-CHC-1,70,TB Sputum,True
+PUDU-CHC-1,77,TB Sputum,False
+PUDU-CHC-1,84,TB Sputum,True
+PUDU-CHC-1,0,X-Ray,True
+PUDU-CHC-1,7,X-Ray,True
+PUDU-CHC-1,14,X-Ray,True
+PUDU-CHC-1,21,X-Ray,True
+PUDU-CHC-1,28,X-Ray,True
+PUDU-CHC-1,35,X-Ray,True
+PUDU-CHC-1,42,X-Ray,True
+PUDU-CHC-1,49,X-Ray,True
+PUDU-CHC-1,56,X-Ray,True
+PUDU-CHC-1,63,X-Ray,True
+PUDU-CHC-1,70,X-Ray,True
+PUDU-CHC-1,77,X-Ray,True
+PUDU-CHC-1,84,X-Ray,True
+PUDU-PHC-2,0,Blood Glucose,False
+PUDU-PHC-2,7,Blood Glucose,True
+PUDU-PHC-2,14,Blood Glucose,False
+PUDU-PHC-2,21,Blood Glucose,False
+PUDU-PHC-2,28,Blood Glucose,True
+PUDU-PHC-2,35,Blood Glucose,True
+PUDU-PHC-2,42,Blood Glucose,True
+PUDU-PHC-2,49,Blood Glucose,True
+PUDU-PHC-2,56,Blood Glucose,False
+PUDU-PHC-2,63,Blood Glucose,True
+PUDU-PHC-2,70,Blood Glucose,True
+PUDU-PHC-2,77,Blood Glucose,True
+PUDU-PHC-2,84,Blood Glucose,True
+PUDU-PHC-2,0,Hemoglobin,True
+PUDU-PHC-2,7,Hemoglobin,True
+PUDU-PHC-2,14,Hemoglobin,True
+PUDU-PHC-2,21,Hemoglobin,False
+PUDU-PHC-2,28,Hemoglobin,True
+PUDU-PHC-2,35,Hemoglobin,True
+PUDU-PHC-2,42,Hemoglobin,True
+PUDU-PHC-2,49,Hemoglobin,True
+PUDU-PHC-2,56,Hemoglobin,True
+PUDU-PHC-2,63,Hemoglobin,True
+PUDU-PHC-2,70,Hemoglobin,False
+PUDU-PHC-2,77,Hemoglobin,True
+PUDU-PHC-2,84,Hemoglobin,False
+PUDU-PHC-2,0,Malaria RDT,False
+PUDU-PHC-2,7,Malaria RDT,True
+PUDU-PHC-2,14,Malaria RDT,True
+PUDU-PHC-2,21,Malaria RDT,True
+PUDU-PHC-2,28,Malaria RDT,True
+PUDU-PHC-2,35,Malaria RDT,False
+PUDU-PHC-2,42,Malaria RDT,False
+PUDU-PHC-2,49,Malaria RDT,True
+PUDU-PHC-2,56,Malaria RDT,True
+PUDU-PHC-2,63,Malaria RDT,True
+PUDU-PHC-2,70,Malaria RDT,True
+PUDU-PHC-2,77,Malaria RDT,True
+PUDU-PHC-2,84,Malaria RDT,True
+PUDU-PHC-2,0,Pregnancy Test,True
+PUDU-PHC-2,7,Pregnancy Test,True
+PUDU-PHC-2,14,Pregnancy Test,True
+PUDU-PHC-2,21,Pregnancy Test,True
+PUDU-PHC-2,28,Pregnancy Test,True
+PUDU-PHC-2,35,Pregnancy Test,True
+PUDU-PHC-2,42,Pregnancy Test,False
+PUDU-PHC-2,49,Pregnancy Test,True
+PUDU-PHC-2,56,Pregnancy Test,False
+PUDU-PHC-2,63,Pregnancy Test,True
+PUDU-PHC-2,70,Pregnancy Test,True
+PUDU-PHC-2,77,Pregnancy Test,True
+PUDU-PHC-2,84,Pregnancy Test,True
+PUDU-PHC-2,0,TB Sputum,True
+PUDU-PHC-2,7,TB Sputum,True
+PUDU-PHC-2,14,TB Sputum,False
+PUDU-PHC-2,21,TB Sputum,True
+PUDU-PHC-2,28,TB Sputum,True
+PUDU-PHC-2,35,TB Sputum,True
+PUDU-PHC-2,42,TB Sputum,False
+PUDU-PHC-2,49,TB Sputum,True
+PUDU-PHC-2,56,TB Sputum,True
+PUDU-PHC-2,63,TB Sputum,True
+PUDU-PHC-2,70,TB Sputum,True
+PUDU-PHC-2,77,TB Sputum,True
+PUDU-PHC-2,84,TB Sputum,False
+PUDU-PHC-2,0,X-Ray,True
+PUDU-PHC-2,7,X-Ray,True
+PUDU-PHC-2,14,X-Ray,True
+PUDU-PHC-2,21,X-Ray,False
+PUDU-PHC-2,28,X-Ray,True
+PUDU-PHC-2,35,X-Ray,True
+PUDU-PHC-2,42,X-Ray,True
+PUDU-PHC-2,49,X-Ray,False
+PUDU-PHC-2,56,X-Ray,True
+PUDU-PHC-2,63,X-Ray,False
+PUDU-PHC-2,70,X-Ray,True
+PUDU-PHC-2,77,X-Ray,False
+PUDU-PHC-2,84,X-Ray,True
+PUDU-PHC-3,0,Blood Glucose,False
+PUDU-PHC-3,7,Blood Glucose,False
+PUDU-PHC-3,14,Blood Glucose,True
+PUDU-PHC-3,21,Blood Glucose,True
+PUDU-PHC-3,28,Blood Glucose,True
+PUDU-PHC-3,35,Blood Glucose,True
+PUDU-PHC-3,42,Blood Glucose,True
+PUDU-PHC-3,49,Blood Glucose,True
+PUDU-PHC-3,56,Blood Glucose,True
+PUDU-PHC-3,63,Blood Glucose,True
+PUDU-PHC-3,70,Blood Glucose,True
+PUDU-PHC-3,77,Blood Glucose,True
+PUDU-PHC-3,84,Blood Glucose,True
+PUDU-PHC-3,0,Hemoglobin,True
+PUDU-PHC-3,7,Hemoglobin,True
+PUDU-PHC-3,14,Hemoglobin,True
+PUDU-PHC-3,21,Hemoglobin,True
+PUDU-PHC-3,28,Hemoglobin,True
+PUDU-PHC-3,35,Hemoglobin,False
+PUDU-PHC-3,42,Hemoglobin,True
+PUDU-PHC-3,49,Hemoglobin,True
+PUDU-PHC-3,56,Hemoglobin,True
+PUDU-PHC-3,63,Hemoglobin,True
+PUDU-PHC-3,70,Hemoglobin,True
+PUDU-PHC-3,77,Hemoglobin,False
+PUDU-PHC-3,84,Hemoglobin,True
+PUDU-PHC-3,0,Malaria RDT,True
+PUDU-PHC-3,7,Malaria RDT,True
+PUDU-PHC-3,14,Malaria RDT,False
+PUDU-PHC-3,21,Malaria RDT,True
+PUDU-PHC-3,28,Malaria RDT,True
+PUDU-PHC-3,35,Malaria RDT,True
+PUDU-PHC-3,42,Malaria RDT,True
+PUDU-PHC-3,49,Malaria RDT,True
+PUDU-PHC-3,56,Malaria RDT,False
+PUDU-PHC-3,63,Malaria RDT,True
+PUDU-PHC-3,70,Malaria RDT,False
+PUDU-PHC-3,77,Malaria RDT,True
+PUDU-PHC-3,84,Malaria RDT,True
+PUDU-PHC-3,0,Pregnancy Test,True
+PUDU-PHC-3,7,Pregnancy Test,False
+PUDU-PHC-3,14,Pregnancy Test,True
+PUDU-PHC-3,21,Pregnancy Test,True
+PUDU-PHC-3,28,Pregnancy Test,True
+PUDU-PHC-3,35,Pregnancy Test,True
+PUDU-PHC-3,42,Pregnancy Test,True
+PUDU-PHC-3,49,Pregnancy Test,True
+PUDU-PHC-3,56,Pregnancy Test,True
+PUDU-PHC-3,63,Pregnancy Test,True
+PUDU-PHC-3,70,Pregnancy Test,False
+PUDU-PHC-3,77,Pregnancy Test,False
+PUDU-PHC-3,84,Pregnancy Test,True
+PUDU-PHC-3,0,TB Sputum,True
+PUDU-PHC-3,7,TB Sputum,True
+PUDU-PHC-3,14,TB Sputum,True
+PUDU-PHC-3,21,TB Sputum,True
+PUDU-PHC-3,28,TB Sputum,True
+PUDU-PHC-3,35,TB Sputum,True
+PUDU-PHC-3,42,TB Sputum,True
+PUDU-PHC-3,49,TB Sputum,True
+PUDU-PHC-3,56,TB Sputum,True
+PUDU-PHC-3,63,TB Sputum,False
+PUDU-PHC-3,70,TB Sputum,True
+PUDU-PHC-3,77,TB Sputum,True
+PUDU-PHC-3,84,TB Sputum,True
+PUDU-PHC-3,0,X-Ray,False
+PUDU-PHC-3,7,X-Ray,True
+PUDU-PHC-3,14,X-Ray,True
+PUDU-PHC-3,21,X-Ray,True
+PUDU-PHC-3,28,X-Ray,True
+PUDU-PHC-3,35,X-Ray,True
+PUDU-PHC-3,42,X-Ray,False
+PUDU-PHC-3,49,X-Ray,True
+PUDU-PHC-3,56,X-Ray,True
+PUDU-PHC-3,63,X-Ray,True
+PUDU-PHC-3,70,X-Ray,True
+PUDU-PHC-3,77,X-Ray,True
+PUDU-PHC-3,84,X-Ray,True
+PUDU-PHC-4,0,Blood Glucose,True
+PUDU-PHC-4,7,Blood Glucose,False
+PUDU-PHC-4,14,Blood Glucose,True
+PUDU-PHC-4,21,Blood Glucose,True
+PUDU-PHC-4,28,Blood Glucose,True
+PUDU-PHC-4,35,Blood Glucose,False
+PUDU-PHC-4,42,Blood Glucose,True
+PUDU-PHC-4,49,Blood Glucose,True
+PUDU-PHC-4,56,Blood Glucose,False
+PUDU-PHC-4,63,Blood Glucose,True
+PUDU-PHC-4,70,Blood Glucose,True
+PUDU-PHC-4,77,Blood Glucose,True
+PUDU-PHC-4,84,Blood Glucose,False
+PUDU-PHC-4,0,Hemoglobin,True
+PUDU-PHC-4,7,Hemoglobin,False
+PUDU-PHC-4,14,Hemoglobin,True
+PUDU-PHC-4,21,Hemoglobin,True
+PUDU-PHC-4,28,Hemoglobin,True
+PUDU-PHC-4,35,Hemoglobin,True
+PUDU-PHC-4,42,Hemoglobin,True
+PUDU-PHC-4,49,Hemoglobin,False
+PUDU-PHC-4,56,Hemoglobin,True
+PUDU-PHC-4,63,Hemoglobin,True
+PUDU-PHC-4,70,Hemoglobin,True
+PUDU-PHC-4,77,Hemoglobin,True
+PUDU-PHC-4,84,Hemoglobin,True
+PUDU-PHC-4,0,Malaria RDT,True
+PUDU-PHC-4,7,Malaria RDT,True
+PUDU-PHC-4,14,Malaria RDT,False
+PUDU-PHC-4,21,Malaria RDT,True
+PUDU-PHC-4,28,Malaria RDT,True
+PUDU-PHC-4,35,Malaria RDT,True
+PUDU-PHC-4,42,Malaria RDT,False
+PUDU-PHC-4,49,Malaria RDT,True
+PUDU-PHC-4,56,Malaria RDT,False
+PUDU-PHC-4,63,Malaria RDT,True
+PUDU-PHC-4,70,Malaria RDT,True
+PUDU-PHC-4,77,Malaria RDT,True
+PUDU-PHC-4,84,Malaria RDT,False
+PUDU-PHC-4,0,Pregnancy Test,True
+PUDU-PHC-4,7,Pregnancy Test,True
+PUDU-PHC-4,14,Pregnancy Test,True
+PUDU-PHC-4,21,Pregnancy Test,False
+PUDU-PHC-4,28,Pregnancy Test,False
+PUDU-PHC-4,35,Pregnancy Test,True
+PUDU-PHC-4,42,Pregnancy Test,True
+PUDU-PHC-4,49,Pregnancy Test,True
+PUDU-PHC-4,56,Pregnancy Test,True
+PUDU-PHC-4,63,Pregnancy Test,True
+PUDU-PHC-4,70,Pregnancy Test,True
+PUDU-PHC-4,77,Pregnancy Test,True
+PUDU-PHC-4,84,Pregnancy Test,False
+PUDU-PHC-4,0,TB Sputum,True
+PUDU-PHC-4,7,TB Sputum,True
+PUDU-PHC-4,14,TB Sputum,True
+PUDU-PHC-4,21,TB Sputum,True
+PUDU-PHC-4,28,TB Sputum,True
+PUDU-PHC-4,35,TB Sputum,True
+PUDU-PHC-4,42,TB Sputum,True
+PUDU-PHC-4,49,TB Sputum,True
+PUDU-PHC-4,56,TB Sputum,True
+PUDU-PHC-4,63,TB Sputum,True
+PUDU-PHC-4,70,TB Sputum,True
+PUDU-PHC-4,77,TB Sputum,False
+PUDU-PHC-4,84,TB Sputum,True
+PUDU-PHC-4,0,X-Ray,True
+PUDU-PHC-4,7,X-Ray,True
+PUDU-PHC-4,14,X-Ray,True
+PUDU-PHC-4,21,X-Ray,True
+PUDU-PHC-4,28,X-Ray,True
+PUDU-PHC-4,35,X-Ray,True
+PUDU-PHC-4,42,X-Ray,True
+PUDU-PHC-4,49,X-Ray,True
+PUDU-PHC-4,56,X-Ray,True
+PUDU-PHC-4,63,X-Ray,True
+PUDU-PHC-4,70,X-Ray,True
+PUDU-PHC-4,77,X-Ray,True
+PUDU-PHC-4,84,X-Ray,True
+SANG-CHC-1,0,Blood Glucose,False
+SANG-CHC-1,7,Blood Glucose,True
+SANG-CHC-1,14,Blood Glucose,False
+SANG-CHC-1,21,Blood Glucose,True
+SANG-CHC-1,28,Blood Glucose,True
+SANG-CHC-1,35,Blood Glucose,True
+SANG-CHC-1,42,Blood Glucose,True
+SANG-CHC-1,49,Blood Glucose,False
+SANG-CHC-1,56,Blood Glucose,True
+SANG-CHC-1,63,Blood Glucose,False
+SANG-CHC-1,70,Blood Glucose,True
+SANG-CHC-1,77,Blood Glucose,True
+SANG-CHC-1,84,Blood Glucose,True
+SANG-CHC-1,0,Hemoglobin,True
+SANG-CHC-1,7,Hemoglobin,False
+SANG-CHC-1,14,Hemoglobin,True
+SANG-CHC-1,21,Hemoglobin,True
+SANG-CHC-1,28,Hemoglobin,False
+SANG-CHC-1,35,Hemoglobin,True
+SANG-CHC-1,42,Hemoglobin,True
+SANG-CHC-1,49,Hemoglobin,True
+SANG-CHC-1,56,Hemoglobin,True
+SANG-CHC-1,63,Hemoglobin,True
+SANG-CHC-1,70,Hemoglobin,True
+SANG-CHC-1,77,Hemoglobin,True
+SANG-CHC-1,84,Hemoglobin,False
+SANG-CHC-1,0,Malaria RDT,True
+SANG-CHC-1,7,Malaria RDT,False
+SANG-CHC-1,14,Malaria RDT,False
+SANG-CHC-1,21,Malaria RDT,True
+SANG-CHC-1,28,Malaria RDT,True
+SANG-CHC-1,35,Malaria RDT,True
+SANG-CHC-1,42,Malaria RDT,True
+SANG-CHC-1,49,Malaria RDT,False
+SANG-CHC-1,56,Malaria RDT,True
+SANG-CHC-1,63,Malaria RDT,True
+SANG-CHC-1,70,Malaria RDT,False
+SANG-CHC-1,77,Malaria RDT,True
+SANG-CHC-1,84,Malaria RDT,True
+SANG-CHC-1,0,Pregnancy Test,True
+SANG-CHC-1,7,Pregnancy Test,True
+SANG-CHC-1,14,Pregnancy Test,True
+SANG-CHC-1,21,Pregnancy Test,True
+SANG-CHC-1,28,Pregnancy Test,True
+SANG-CHC-1,35,Pregnancy Test,True
+SANG-CHC-1,42,Pregnancy Test,True
+SANG-CHC-1,49,Pregnancy Test,True
+SANG-CHC-1,56,Pregnancy Test,True
+SANG-CHC-1,63,Pregnancy Test,False
+SANG-CHC-1,70,Pregnancy Test,False
+SANG-CHC-1,77,Pregnancy Test,False
+SANG-CHC-1,84,Pregnancy Test,False
+SANG-CHC-1,0,TB Sputum,True
+SANG-CHC-1,7,TB Sputum,True
+SANG-CHC-1,14,TB Sputum,True
+SANG-CHC-1,21,TB Sputum,True
+SANG-CHC-1,28,TB Sputum,True
+SANG-CHC-1,35,TB Sputum,True
+SANG-CHC-1,42,TB Sputum,True
+SANG-CHC-1,49,TB Sputum,True
+SANG-CHC-1,56,TB Sputum,True
+SANG-CHC-1,63,TB Sputum,False
+SANG-CHC-1,70,TB Sputum,True
+SANG-CHC-1,77,TB Sputum,True
+SANG-CHC-1,84,TB Sputum,True
+SANG-CHC-1,0,X-Ray,True
+SANG-CHC-1,7,X-Ray,False
+SANG-CHC-1,14,X-Ray,True
+SANG-CHC-1,21,X-Ray,True
+SANG-CHC-1,28,X-Ray,True
+SANG-CHC-1,35,X-Ray,True
+SANG-CHC-1,42,X-Ray,True
+SANG-CHC-1,49,X-Ray,True
+SANG-CHC-1,56,X-Ray,True
+SANG-CHC-1,63,X-Ray,False
+SANG-CHC-1,70,X-Ray,True
+SANG-CHC-1,77,X-Ray,True
+SANG-CHC-1,84,X-Ray,False
+SANG-PHC-2,0,Blood Glucose,True
+SANG-PHC-2,7,Blood Glucose,True
+SANG-PHC-2,14,Blood Glucose,True
+SANG-PHC-2,21,Blood Glucose,False
+SANG-PHC-2,28,Blood Glucose,True
+SANG-PHC-2,35,Blood Glucose,False
+SANG-PHC-2,42,Blood Glucose,True
+SANG-PHC-2,49,Blood Glucose,True
+SANG-PHC-2,56,Blood Glucose,True
+SANG-PHC-2,63,Blood Glucose,False
+SANG-PHC-2,70,Blood Glucose,True
+SANG-PHC-2,77,Blood Glucose,True
+SANG-PHC-2,84,Blood Glucose,True
+SANG-PHC-2,0,Hemoglobin,True
+SANG-PHC-2,7,Hemoglobin,True
+SANG-PHC-2,14,Hemoglobin,True
+SANG-PHC-2,21,Hemoglobin,True
+SANG-PHC-2,28,Hemoglobin,True
+SANG-PHC-2,35,Hemoglobin,True
+SANG-PHC-2,42,Hemoglobin,True
+SANG-PHC-2,49,Hemoglobin,True
+SANG-PHC-2,56,Hemoglobin,False
+SANG-PHC-2,63,Hemoglobin,True
+SANG-PHC-2,70,Hemoglobin,False
+SANG-PHC-2,77,Hemoglobin,True
+SANG-PHC-2,84,Hemoglobin,False
+SANG-PHC-2,0,Malaria RDT,True
+SANG-PHC-2,7,Malaria RDT,True
+SANG-PHC-2,14,Malaria RDT,False
+SANG-PHC-2,21,Malaria RDT,True
+SANG-PHC-2,28,Malaria RDT,True
+SANG-PHC-2,35,Malaria RDT,True
+SANG-PHC-2,42,Malaria RDT,True
+SANG-PHC-2,49,Malaria RDT,True
+SANG-PHC-2,56,Malaria RDT,True
+SANG-PHC-2,63,Malaria RDT,True
+SANG-PHC-2,70,Malaria RDT,False
+SANG-PHC-2,77,Malaria RDT,True
+SANG-PHC-2,84,Malaria RDT,True
+SANG-PHC-2,0,Pregnancy Test,True
+SANG-PHC-2,7,Pregnancy Test,True
+SANG-PHC-2,14,Pregnancy Test,True
+SANG-PHC-2,21,Pregnancy Test,True
+SANG-PHC-2,28,Pregnancy Test,True
+SANG-PHC-2,35,Pregnancy Test,True
+SANG-PHC-2,42,Pregnancy Test,True
+SANG-PHC-2,49,Pregnancy Test,True
+SANG-PHC-2,56,Pregnancy Test,True
+SANG-PHC-2,63,Pregnancy Test,True
+SANG-PHC-2,70,Pregnancy Test,True
+SANG-PHC-2,77,Pregnancy Test,True
+SANG-PHC-2,84,Pregnancy Test,True
+SANG-PHC-2,0,TB Sputum,True
+SANG-PHC-2,7,TB Sputum,True
+SANG-PHC-2,14,TB Sputum,True
+SANG-PHC-2,21,TB Sputum,False
+SANG-PHC-2,28,TB Sputum,True
+SANG-PHC-2,35,TB Sputum,True
+SANG-PHC-2,42,TB Sputum,False
+SANG-PHC-2,49,TB Sputum,True
+SANG-PHC-2,56,TB Sputum,False
+SANG-PHC-2,63,TB Sputum,True
+SANG-PHC-2,70,TB Sputum,True
+SANG-PHC-2,77,TB Sputum,True
+SANG-PHC-2,84,TB Sputum,True
+SANG-PHC-2,0,X-Ray,False
+SANG-PHC-2,7,X-Ray,True
+SANG-PHC-2,14,X-Ray,True
+SANG-PHC-2,21,X-Ray,True
+SANG-PHC-2,28,X-Ray,False
+SANG-PHC-2,35,X-Ray,True
+SANG-PHC-2,42,X-Ray,True
+SANG-PHC-2,49,X-Ray,False
+SANG-PHC-2,56,X-Ray,True
+SANG-PHC-2,63,X-Ray,True
+SANG-PHC-2,70,X-Ray,True
+SANG-PHC-2,77,X-Ray,True
+SANG-PHC-2,84,X-Ray,True
+SANG-PHC-3,0,Blood Glucose,True
+SANG-PHC-3,7,Blood Glucose,True
+SANG-PHC-3,14,Blood Glucose,True
+SANG-PHC-3,21,Blood Glucose,True
+SANG-PHC-3,28,Blood Glucose,True
+SANG-PHC-3,35,Blood Glucose,True
+SANG-PHC-3,42,Blood Glucose,False
+SANG-PHC-3,49,Blood Glucose,True
+SANG-PHC-3,56,Blood Glucose,True
+SANG-PHC-3,63,Blood Glucose,True
+SANG-PHC-3,70,Blood Glucose,True
+SANG-PHC-3,77,Blood Glucose,True
+SANG-PHC-3,84,Blood Glucose,True
+SANG-PHC-3,0,Hemoglobin,True
+SANG-PHC-3,7,Hemoglobin,True
+SANG-PHC-3,14,Hemoglobin,False
+SANG-PHC-3,21,Hemoglobin,False
+SANG-PHC-3,28,Hemoglobin,True
+SANG-PHC-3,35,Hemoglobin,True
+SANG-PHC-3,42,Hemoglobin,False
+SANG-PHC-3,49,Hemoglobin,False
+SANG-PHC-3,56,Hemoglobin,True
+SANG-PHC-3,63,Hemoglobin,True
+SANG-PHC-3,70,Hemoglobin,False
+SANG-PHC-3,77,Hemoglobin,True
+SANG-PHC-3,84,Hemoglobin,True
+SANG-PHC-3,0,Malaria RDT,True
+SANG-PHC-3,7,Malaria RDT,False
+SANG-PHC-3,14,Malaria RDT,True
+SANG-PHC-3,21,Malaria RDT,True
+SANG-PHC-3,28,Malaria RDT,False
+SANG-PHC-3,35,Malaria RDT,False
+SANG-PHC-3,42,Malaria RDT,True
+SANG-PHC-3,49,Malaria RDT,True
+SANG-PHC-3,56,Malaria RDT,True
+SANG-PHC-3,63,Malaria RDT,True
+SANG-PHC-3,70,Malaria RDT,True
+SANG-PHC-3,77,Malaria RDT,False
+SANG-PHC-3,84,Malaria RDT,True
+SANG-PHC-3,0,Pregnancy Test,True
+SANG-PHC-3,7,Pregnancy Test,True
+SANG-PHC-3,14,Pregnancy Test,True
+SANG-PHC-3,21,Pregnancy Test,True
+SANG-PHC-3,28,Pregnancy Test,True
+SANG-PHC-3,35,Pregnancy Test,True
+SANG-PHC-3,42,Pregnancy Test,True
+SANG-PHC-3,49,Pregnancy Test,True
+SANG-PHC-3,56,Pregnancy Test,True
+SANG-PHC-3,63,Pregnancy Test,True
+SANG-PHC-3,70,Pregnancy Test,True
+SANG-PHC-3,77,Pregnancy Test,False
+SANG-PHC-3,84,Pregnancy Test,False
+SANG-PHC-3,0,TB Sputum,True
+SANG-PHC-3,7,TB Sputum,True
+SANG-PHC-3,14,TB Sputum,True
+SANG-PHC-3,21,TB Sputum,True
+SANG-PHC-3,28,TB Sputum,False
+SANG-PHC-3,35,TB Sputum,True
+SANG-PHC-3,42,TB Sputum,False
+SANG-PHC-3,49,TB Sputum,True
+SANG-PHC-3,56,TB Sputum,True
+SANG-PHC-3,63,TB Sputum,True
+SANG-PHC-3,70,TB Sputum,True
+SANG-PHC-3,77,TB Sputum,True
+SANG-PHC-3,84,TB Sputum,False
+SANG-PHC-3,0,X-Ray,True
+SANG-PHC-3,7,X-Ray,False
+SANG-PHC-3,14,X-Ray,True
+SANG-PHC-3,21,X-Ray,True
+SANG-PHC-3,28,X-Ray,True
+SANG-PHC-3,35,X-Ray,True
+SANG-PHC-3,42,X-Ray,True
+SANG-PHC-3,49,X-Ray,True
+SANG-PHC-3,56,X-Ray,True
+SANG-PHC-3,63,X-Ray,True
+SANG-PHC-3,70,X-Ray,True
+SANG-PHC-3,77,X-Ray,True
+SANG-PHC-3,84,X-Ray,True
+SANG-PHC-4,0,Blood Glucose,True
+SANG-PHC-4,7,Blood Glucose,False
+SANG-PHC-4,14,Blood Glucose,True
+SANG-PHC-4,21,Blood Glucose,False
+SANG-PHC-4,28,Blood Glucose,True
+SANG-PHC-4,35,Blood Glucose,True
+SANG-PHC-4,42,Blood Glucose,True
+SANG-PHC-4,49,Blood Glucose,True
+SANG-PHC-4,56,Blood Glucose,False
+SANG-PHC-4,63,Blood Glucose,False
+SANG-PHC-4,70,Blood Glucose,False
+SANG-PHC-4,77,Blood Glucose,True
+SANG-PHC-4,84,Blood Glucose,True
+SANG-PHC-4,0,Hemoglobin,True
+SANG-PHC-4,7,Hemoglobin,False
+SANG-PHC-4,14,Hemoglobin,True
+SANG-PHC-4,21,Hemoglobin,True
+SANG-PHC-4,28,Hemoglobin,True
+SANG-PHC-4,35,Hemoglobin,False
+SANG-PHC-4,42,Hemoglobin,True
+SANG-PHC-4,49,Hemoglobin,True
+SANG-PHC-4,56,Hemoglobin,True
+SANG-PHC-4,63,Hemoglobin,False
+SANG-PHC-4,70,Hemoglobin,False
+SANG-PHC-4,77,Hemoglobin,False
+SANG-PHC-4,84,Hemoglobin,True
+SANG-PHC-4,0,Malaria RDT,True
+SANG-PHC-4,7,Malaria RDT,True
+SANG-PHC-4,14,Malaria RDT,True
+SANG-PHC-4,21,Malaria RDT,True
+SANG-PHC-4,28,Malaria RDT,True
+SANG-PHC-4,35,Malaria RDT,True
+SANG-PHC-4,42,Malaria RDT,True
+SANG-PHC-4,49,Malaria RDT,True
+SANG-PHC-4,56,Malaria RDT,True
+SANG-PHC-4,63,Malaria RDT,True
+SANG-PHC-4,70,Malaria RDT,True
+SANG-PHC-4,77,Malaria RDT,False
+SANG-PHC-4,84,Malaria RDT,True
+SANG-PHC-4,0,Pregnancy Test,True
+SANG-PHC-4,7,Pregnancy Test,False
+SANG-PHC-4,14,Pregnancy Test,False
+SANG-PHC-4,21,Pregnancy Test,True
+SANG-PHC-4,28,Pregnancy Test,True
+SANG-PHC-4,35,Pregnancy Test,False
+SANG-PHC-4,42,Pregnancy Test,True
+SANG-PHC-4,49,Pregnancy Test,True
+SANG-PHC-4,56,Pregnancy Test,False
+SANG-PHC-4,63,Pregnancy Test,False
+SANG-PHC-4,70,Pregnancy Test,True
+SANG-PHC-4,77,Pregnancy Test,True
+SANG-PHC-4,84,Pregnancy Test,True
+SANG-PHC-4,0,TB Sputum,True
+SANG-PHC-4,7,TB Sputum,True
+SANG-PHC-4,14,TB Sputum,True
+SANG-PHC-4,21,TB Sputum,True
+SANG-PHC-4,28,TB Sputum,True
+SANG-PHC-4,35,TB Sputum,True
+SANG-PHC-4,42,TB Sputum,True
+SANG-PHC-4,49,TB Sputum,True
+SANG-PHC-4,56,TB Sputum,False
+SANG-PHC-4,63,TB Sputum,True
+SANG-PHC-4,70,TB Sputum,True
+SANG-PHC-4,77,TB Sputum,True
+SANG-PHC-4,84,TB Sputum,True
+SANG-PHC-4,0,X-Ray,True
+SANG-PHC-4,7,X-Ray,False
+SANG-PHC-4,14,X-Ray,True
+SANG-PHC-4,21,X-Ray,True
+SANG-PHC-4,28,X-Ray,True
+SANG-PHC-4,35,X-Ray,True
+SANG-PHC-4,42,X-Ray,False
+SANG-PHC-4,49,X-Ray,True
+SANG-PHC-4,56,X-Ray,True
+SANG-PHC-4,63,X-Ray,True
+SANG-PHC-4,70,X-Ray,False
+SANG-PHC-4,77,X-Ray,True
+SANG-PHC-4,84,X-Ray,True
+SRI-CHC-1,0,Blood Glucose,True
+SRI-CHC-1,7,Blood Glucose,True
+SRI-CHC-1,14,Blood Glucose,False
+SRI-CHC-1,21,Blood Glucose,True
+SRI-CHC-1,28,Blood Glucose,True
+SRI-CHC-1,35,Blood Glucose,True
+SRI-CHC-1,42,Blood Glucose,True
+SRI-CHC-1,49,Blood Glucose,True
+SRI-CHC-1,56,Blood Glucose,False
+SRI-CHC-1,63,Blood Glucose,True
+SRI-CHC-1,70,Blood Glucose,True
+SRI-CHC-1,77,Blood Glucose,True
+SRI-CHC-1,84,Blood Glucose,False
+SRI-CHC-1,0,Hemoglobin,False
+SRI-CHC-1,7,Hemoglobin,True
+SRI-CHC-1,14,Hemoglobin,True
+SRI-CHC-1,21,Hemoglobin,True
+SRI-CHC-1,28,Hemoglobin,True
+SRI-CHC-1,35,Hemoglobin,True
+SRI-CHC-1,42,Hemoglobin,True
+SRI-CHC-1,49,Hemoglobin,True
+SRI-CHC-1,56,Hemoglobin,True
+SRI-CHC-1,63,Hemoglobin,True
+SRI-CHC-1,70,Hemoglobin,True
+SRI-CHC-1,77,Hemoglobin,True
+SRI-CHC-1,84,Hemoglobin,True
+SRI-CHC-1,0,Malaria RDT,True
+SRI-CHC-1,7,Malaria RDT,True
+SRI-CHC-1,14,Malaria RDT,True
+SRI-CHC-1,21,Malaria RDT,True
+SRI-CHC-1,28,Malaria RDT,True
+SRI-CHC-1,35,Malaria RDT,False
+SRI-CHC-1,42,Malaria RDT,True
+SRI-CHC-1,49,Malaria RDT,True
+SRI-CHC-1,56,Malaria RDT,True
+SRI-CHC-1,63,Malaria RDT,False
+SRI-CHC-1,70,Malaria RDT,True
+SRI-CHC-1,77,Malaria RDT,True
+SRI-CHC-1,84,Malaria RDT,True
+SRI-CHC-1,0,Pregnancy Test,True
+SRI-CHC-1,7,Pregnancy Test,True
+SRI-CHC-1,14,Pregnancy Test,True
+SRI-CHC-1,21,Pregnancy Test,True
+SRI-CHC-1,28,Pregnancy Test,True
+SRI-CHC-1,35,Pregnancy Test,True
+SRI-CHC-1,42,Pregnancy Test,True
+SRI-CHC-1,49,Pregnancy Test,True
+SRI-CHC-1,56,Pregnancy Test,True
+SRI-CHC-1,63,Pregnancy Test,True
+SRI-CHC-1,70,Pregnancy Test,False
+SRI-CHC-1,77,Pregnancy Test,False
+SRI-CHC-1,84,Pregnancy Test,True
+SRI-CHC-1,0,TB Sputum,False
+SRI-CHC-1,7,TB Sputum,True
+SRI-CHC-1,14,TB Sputum,True
+SRI-CHC-1,21,TB Sputum,True
+SRI-CHC-1,28,TB Sputum,False
+SRI-CHC-1,35,TB Sputum,True
+SRI-CHC-1,42,TB Sputum,True
+SRI-CHC-1,49,TB Sputum,False
+SRI-CHC-1,56,TB Sputum,True
+SRI-CHC-1,63,TB Sputum,True
+SRI-CHC-1,70,TB Sputum,True
+SRI-CHC-1,77,TB Sputum,True
+SRI-CHC-1,84,TB Sputum,True
+SRI-CHC-1,0,X-Ray,True
+SRI-CHC-1,7,X-Ray,True
+SRI-CHC-1,14,X-Ray,True
+SRI-CHC-1,21,X-Ray,True
+SRI-CHC-1,28,X-Ray,False
+SRI-CHC-1,35,X-Ray,False
+SRI-CHC-1,42,X-Ray,True
+SRI-CHC-1,49,X-Ray,False
+SRI-CHC-1,56,X-Ray,False
+SRI-CHC-1,63,X-Ray,True
+SRI-CHC-1,70,X-Ray,False
+SRI-CHC-1,77,X-Ray,True
+SRI-CHC-1,84,X-Ray,True
+SRI-PHC-2,0,Blood Glucose,True
+SRI-PHC-2,7,Blood Glucose,True
+SRI-PHC-2,14,Blood Glucose,True
+SRI-PHC-2,21,Blood Glucose,True
+SRI-PHC-2,28,Blood Glucose,False
+SRI-PHC-2,35,Blood Glucose,True
+SRI-PHC-2,42,Blood Glucose,True
+SRI-PHC-2,49,Blood Glucose,False
+SRI-PHC-2,56,Blood Glucose,False
+SRI-PHC-2,63,Blood Glucose,True
+SRI-PHC-2,70,Blood Glucose,True
+SRI-PHC-2,77,Blood Glucose,True
+SRI-PHC-2,84,Blood Glucose,False
+SRI-PHC-2,0,Hemoglobin,False
+SRI-PHC-2,7,Hemoglobin,True
+SRI-PHC-2,14,Hemoglobin,True
+SRI-PHC-2,21,Hemoglobin,True
+SRI-PHC-2,28,Hemoglobin,True
+SRI-PHC-2,35,Hemoglobin,True
+SRI-PHC-2,42,Hemoglobin,True
+SRI-PHC-2,49,Hemoglobin,True
+SRI-PHC-2,56,Hemoglobin,True
+SRI-PHC-2,63,Hemoglobin,True
+SRI-PHC-2,70,Hemoglobin,True
+SRI-PHC-2,77,Hemoglobin,True
+SRI-PHC-2,84,Hemoglobin,True
+SRI-PHC-2,0,Malaria RDT,False
+SRI-PHC-2,7,Malaria RDT,True
+SRI-PHC-2,14,Malaria RDT,True
+SRI-PHC-2,21,Malaria RDT,False
+SRI-PHC-2,28,Malaria RDT,False
+SRI-PHC-2,35,Malaria RDT,True
+SRI-PHC-2,42,Malaria RDT,False
+SRI-PHC-2,49,Malaria RDT,True
+SRI-PHC-2,56,Malaria RDT,True
+SRI-PHC-2,63,Malaria RDT,True
+SRI-PHC-2,70,Malaria RDT,True
+SRI-PHC-2,77,Malaria RDT,True
+SRI-PHC-2,84,Malaria RDT,True
+SRI-PHC-2,0,Pregnancy Test,True
+SRI-PHC-2,7,Pregnancy Test,False
+SRI-PHC-2,14,Pregnancy Test,True
+SRI-PHC-2,21,Pregnancy Test,True
+SRI-PHC-2,28,Pregnancy Test,True
+SRI-PHC-2,35,Pregnancy Test,False
+SRI-PHC-2,42,Pregnancy Test,True
+SRI-PHC-2,49,Pregnancy Test,False
+SRI-PHC-2,56,Pregnancy Test,True
+SRI-PHC-2,63,Pregnancy Test,True
+SRI-PHC-2,70,Pregnancy Test,True
+SRI-PHC-2,77,Pregnancy Test,True
+SRI-PHC-2,84,Pregnancy Test,False
+SRI-PHC-2,0,TB Sputum,True
+SRI-PHC-2,7,TB Sputum,True
+SRI-PHC-2,14,TB Sputum,True
+SRI-PHC-2,21,TB Sputum,True
+SRI-PHC-2,28,TB Sputum,True
+SRI-PHC-2,35,TB Sputum,False
+SRI-PHC-2,42,TB Sputum,True
+SRI-PHC-2,49,TB Sputum,True
+SRI-PHC-2,56,TB Sputum,False
+SRI-PHC-2,63,TB Sputum,False
+SRI-PHC-2,70,TB Sputum,True
+SRI-PHC-2,77,TB Sputum,True
+SRI-PHC-2,84,TB Sputum,True
+SRI-PHC-2,0,X-Ray,True
+SRI-PHC-2,7,X-Ray,False
+SRI-PHC-2,14,X-Ray,True
+SRI-PHC-2,21,X-Ray,True
+SRI-PHC-2,28,X-Ray,True
+SRI-PHC-2,35,X-Ray,True
+SRI-PHC-2,42,X-Ray,True
+SRI-PHC-2,49,X-Ray,True
+SRI-PHC-2,56,X-Ray,True
+SRI-PHC-2,63,X-Ray,True
+SRI-PHC-2,70,X-Ray,True
+SRI-PHC-2,77,X-Ray,True
+SRI-PHC-2,84,X-Ray,False
+SRI-PHC-3,0,Blood Glucose,True
+SRI-PHC-3,7,Blood Glucose,True
+SRI-PHC-3,14,Blood Glucose,False
+SRI-PHC-3,21,Blood Glucose,True
+SRI-PHC-3,28,Blood Glucose,True
+SRI-PHC-3,35,Blood Glucose,True
+SRI-PHC-3,42,Blood Glucose,False
+SRI-PHC-3,49,Blood Glucose,True
+SRI-PHC-3,56,Blood Glucose,True
+SRI-PHC-3,63,Blood Glucose,True
+SRI-PHC-3,70,Blood Glucose,False
+SRI-PHC-3,77,Blood Glucose,True
+SRI-PHC-3,84,Blood Glucose,True
+SRI-PHC-3,0,Hemoglobin,True
+SRI-PHC-3,7,Hemoglobin,True
+SRI-PHC-3,14,Hemoglobin,False
+SRI-PHC-3,21,Hemoglobin,True
+SRI-PHC-3,28,Hemoglobin,True
+SRI-PHC-3,35,Hemoglobin,False
+SRI-PHC-3,42,Hemoglobin,True
+SRI-PHC-3,49,Hemoglobin,True
+SRI-PHC-3,56,Hemoglobin,True
+SRI-PHC-3,63,Hemoglobin,True
+SRI-PHC-3,70,Hemoglobin,False
+SRI-PHC-3,77,Hemoglobin,True
+SRI-PHC-3,84,Hemoglobin,False
+SRI-PHC-3,0,Malaria RDT,True
+SRI-PHC-3,7,Malaria RDT,True
+SRI-PHC-3,14,Malaria RDT,True
+SRI-PHC-3,21,Malaria RDT,True
+SRI-PHC-3,28,Malaria RDT,False
+SRI-PHC-3,35,Malaria RDT,True
+SRI-PHC-3,42,Malaria RDT,True
+SRI-PHC-3,49,Malaria RDT,True
+SRI-PHC-3,56,Malaria RDT,True
+SRI-PHC-3,63,Malaria RDT,True
+SRI-PHC-3,70,Malaria RDT,True
+SRI-PHC-3,77,Malaria RDT,True
+SRI-PHC-3,84,Malaria RDT,False
+SRI-PHC-3,0,Pregnancy Test,True
+SRI-PHC-3,7,Pregnancy Test,True
+SRI-PHC-3,14,Pregnancy Test,True
+SRI-PHC-3,21,Pregnancy Test,True
+SRI-PHC-3,28,Pregnancy Test,True
+SRI-PHC-3,35,Pregnancy Test,True
+SRI-PHC-3,42,Pregnancy Test,False
+SRI-PHC-3,49,Pregnancy Test,True
+SRI-PHC-3,56,Pregnancy Test,True
+SRI-PHC-3,63,Pregnancy Test,True
+SRI-PHC-3,70,Pregnancy Test,False
+SRI-PHC-3,77,Pregnancy Test,True
+SRI-PHC-3,84,Pregnancy Test,True
+SRI-PHC-3,0,TB Sputum,False
+SRI-PHC-3,7,TB Sputum,True
+SRI-PHC-3,14,TB Sputum,True
+SRI-PHC-3,21,TB Sputum,True
+SRI-PHC-3,28,TB Sputum,True
+SRI-PHC-3,35,TB Sputum,False
+SRI-PHC-3,42,TB Sputum,True
+SRI-PHC-3,49,TB Sputum,True
+SRI-PHC-3,56,TB Sputum,False
+SRI-PHC-3,63,TB Sputum,True
+SRI-PHC-3,70,TB Sputum,True
+SRI-PHC-3,77,TB Sputum,True
+SRI-PHC-3,84,TB Sputum,False
+SRI-PHC-3,0,X-Ray,True
+SRI-PHC-3,7,X-Ray,True
+SRI-PHC-3,14,X-Ray,True
+SRI-PHC-3,21,X-Ray,False
+SRI-PHC-3,28,X-Ray,True
+SRI-PHC-3,35,X-Ray,False
+SRI-PHC-3,42,X-Ray,True
+SRI-PHC-3,49,X-Ray,True
+SRI-PHC-3,56,X-Ray,True
+SRI-PHC-3,63,X-Ray,True
+SRI-PHC-3,70,X-Ray,True
+SRI-PHC-3,77,X-Ray,True
+SRI-PHC-3,84,X-Ray,True
+SRI-PHC-4,0,Blood Glucose,False
+SRI-PHC-4,7,Blood Glucose,False
+SRI-PHC-4,14,Blood Glucose,True
+SRI-PHC-4,21,Blood Glucose,True
+SRI-PHC-4,28,Blood Glucose,True
+SRI-PHC-4,35,Blood Glucose,True
+SRI-PHC-4,42,Blood Glucose,True
+SRI-PHC-4,49,Blood Glucose,True
+SRI-PHC-4,56,Blood Glucose,False
+SRI-PHC-4,63,Blood Glucose,True
+SRI-PHC-4,70,Blood Glucose,True
+SRI-PHC-4,77,Blood Glucose,False
+SRI-PHC-4,84,Blood Glucose,True
+SRI-PHC-4,0,Hemoglobin,False
+SRI-PHC-4,7,Hemoglobin,False
+SRI-PHC-4,14,Hemoglobin,False
+SRI-PHC-4,21,Hemoglobin,False
+SRI-PHC-4,28,Hemoglobin,True
+SRI-PHC-4,35,Hemoglobin,True
+SRI-PHC-4,42,Hemoglobin,True
+SRI-PHC-4,49,Hemoglobin,False
+SRI-PHC-4,56,Hemoglobin,False
+SRI-PHC-4,63,Hemoglobin,False
+SRI-PHC-4,70,Hemoglobin,False
+SRI-PHC-4,77,Hemoglobin,True
+SRI-PHC-4,84,Hemoglobin,True
+SRI-PHC-4,0,Malaria RDT,True
+SRI-PHC-4,7,Malaria RDT,True
+SRI-PHC-4,14,Malaria RDT,False
+SRI-PHC-4,21,Malaria RDT,False
+SRI-PHC-4,28,Malaria RDT,True
+SRI-PHC-4,35,Malaria RDT,False
+SRI-PHC-4,42,Malaria RDT,True
+SRI-PHC-4,49,Malaria RDT,False
+SRI-PHC-4,56,Malaria RDT,True
+SRI-PHC-4,63,Malaria RDT,True
+SRI-PHC-4,70,Malaria RDT,False
+SRI-PHC-4,77,Malaria RDT,True
+SRI-PHC-4,84,Malaria RDT,True
+SRI-PHC-4,0,Pregnancy Test,False
+SRI-PHC-4,7,Pregnancy Test,False
+SRI-PHC-4,14,Pregnancy Test,True
+SRI-PHC-4,21,Pregnancy Test,True
+SRI-PHC-4,28,Pregnancy Test,True
+SRI-PHC-4,35,Pregnancy Test,True
+SRI-PHC-4,42,Pregnancy Test,True
+SRI-PHC-4,49,Pregnancy Test,True
+SRI-PHC-4,56,Pregnancy Test,False
+SRI-PHC-4,63,Pregnancy Test,False
+SRI-PHC-4,70,Pregnancy Test,True
+SRI-PHC-4,77,Pregnancy Test,True
+SRI-PHC-4,84,Pregnancy Test,True
+SRI-PHC-4,0,TB Sputum,False
+SRI-PHC-4,7,TB Sputum,True
+SRI-PHC-4,14,TB Sputum,False
+SRI-PHC-4,21,TB Sputum,True
+SRI-PHC-4,28,TB Sputum,True
+SRI-PHC-4,35,TB Sputum,True
+SRI-PHC-4,42,TB Sputum,True
+SRI-PHC-4,49,TB Sputum,True
+SRI-PHC-4,56,TB Sputum,True
+SRI-PHC-4,63,TB Sputum,True
+SRI-PHC-4,70,TB Sputum,True
+SRI-PHC-4,77,TB Sputum,True
+SRI-PHC-4,84,TB Sputum,False
+SRI-PHC-4,0,X-Ray,True
+SRI-PHC-4,7,X-Ray,False
+SRI-PHC-4,14,X-Ray,False
+SRI-PHC-4,21,X-Ray,False
+SRI-PHC-4,28,X-Ray,False
+SRI-PHC-4,35,X-Ray,False
+SRI-PHC-4,42,X-Ray,False
+SRI-PHC-4,49,X-Ray,True
+SRI-PHC-4,56,X-Ray,True
+SRI-PHC-4,63,X-Ray,True
+SRI-PHC-4,70,X-Ray,False
+SRI-PHC-4,77,X-Ray,False
+SRI-PHC-4,84,X-Ray,True
+ALLA-CHC-1,0,Blood Glucose,True
+ALLA-CHC-1,7,Blood Glucose,True
+ALLA-CHC-1,14,Blood Glucose,True
+ALLA-CHC-1,21,Blood Glucose,True
+ALLA-CHC-1,28,Blood Glucose,True
+ALLA-CHC-1,35,Blood Glucose,True
+ALLA-CHC-1,42,Blood Glucose,True
+ALLA-CHC-1,49,Blood Glucose,False
+ALLA-CHC-1,56,Blood Glucose,True
+ALLA-CHC-1,63,Blood Glucose,True
+ALLA-CHC-1,70,Blood Glucose,True
+ALLA-CHC-1,77,Blood Glucose,False
+ALLA-CHC-1,84,Blood Glucose,False
+ALLA-CHC-1,0,Hemoglobin,True
+ALLA-CHC-1,7,Hemoglobin,True
+ALLA-CHC-1,14,Hemoglobin,False
+ALLA-CHC-1,21,Hemoglobin,False
+ALLA-CHC-1,28,Hemoglobin,True
+ALLA-CHC-1,35,Hemoglobin,True
+ALLA-CHC-1,42,Hemoglobin,False
+ALLA-CHC-1,49,Hemoglobin,False
+ALLA-CHC-1,56,Hemoglobin,True
+ALLA-CHC-1,63,Hemoglobin,True
+ALLA-CHC-1,70,Hemoglobin,True
+ALLA-CHC-1,77,Hemoglobin,True
+ALLA-CHC-1,84,Hemoglobin,True
+ALLA-CHC-1,0,Malaria RDT,True
+ALLA-CHC-1,7,Malaria RDT,False
+ALLA-CHC-1,14,Malaria RDT,True
+ALLA-CHC-1,21,Malaria RDT,True
+ALLA-CHC-1,28,Malaria RDT,False
+ALLA-CHC-1,35,Malaria RDT,True
+ALLA-CHC-1,42,Malaria RDT,True
+ALLA-CHC-1,49,Malaria RDT,True
+ALLA-CHC-1,56,Malaria RDT,True
+ALLA-CHC-1,63,Malaria RDT,True
+ALLA-CHC-1,70,Malaria RDT,False
+ALLA-CHC-1,77,Malaria RDT,False
+ALLA-CHC-1,84,Malaria RDT,False
+ALLA-CHC-1,0,Pregnancy Test,True
+ALLA-CHC-1,7,Pregnancy Test,True
+ALLA-CHC-1,14,Pregnancy Test,False
+ALLA-CHC-1,21,Pregnancy Test,True
+ALLA-CHC-1,28,Pregnancy Test,True
+ALLA-CHC-1,35,Pregnancy Test,True
+ALLA-CHC-1,42,Pregnancy Test,True
+ALLA-CHC-1,49,Pregnancy Test,True
+ALLA-CHC-1,56,Pregnancy Test,False
+ALLA-CHC-1,63,Pregnancy Test,True
+ALLA-CHC-1,70,Pregnancy Test,False
+ALLA-CHC-1,77,Pregnancy Test,True
+ALLA-CHC-1,84,Pregnancy Test,False
+ALLA-CHC-1,0,TB Sputum,True
+ALLA-CHC-1,7,TB Sputum,False
+ALLA-CHC-1,14,TB Sputum,True
+ALLA-CHC-1,21,TB Sputum,True
+ALLA-CHC-1,28,TB Sputum,True
+ALLA-CHC-1,35,TB Sputum,False
+ALLA-CHC-1,42,TB Sputum,True
+ALLA-CHC-1,49,TB Sputum,True
+ALLA-CHC-1,56,TB Sputum,True
+ALLA-CHC-1,63,TB Sputum,True
+ALLA-CHC-1,70,TB Sputum,True
+ALLA-CHC-1,77,TB Sputum,False
+ALLA-CHC-1,84,TB Sputum,True
+ALLA-CHC-1,0,X-Ray,True
+ALLA-CHC-1,7,X-Ray,False
+ALLA-CHC-1,14,X-Ray,True
+ALLA-CHC-1,21,X-Ray,True
+ALLA-CHC-1,28,X-Ray,True
+ALLA-CHC-1,35,X-Ray,False
+ALLA-CHC-1,42,X-Ray,True
+ALLA-CHC-1,49,X-Ray,True
+ALLA-CHC-1,56,X-Ray,True
+ALLA-CHC-1,63,X-Ray,True
+ALLA-CHC-1,70,X-Ray,False
+ALLA-CHC-1,77,X-Ray,True
+ALLA-CHC-1,84,X-Ray,True
+ALLA-PHC-2,0,Blood Glucose,True
+ALLA-PHC-2,7,Blood Glucose,True
+ALLA-PHC-2,14,Blood Glucose,True
+ALLA-PHC-2,21,Blood Glucose,True
+ALLA-PHC-2,28,Blood Glucose,False
+ALLA-PHC-2,35,Blood Glucose,False
+ALLA-PHC-2,42,Blood Glucose,False
+ALLA-PHC-2,49,Blood Glucose,False
+ALLA-PHC-2,56,Blood Glucose,True
+ALLA-PHC-2,63,Blood Glucose,True
+ALLA-PHC-2,70,Blood Glucose,True
+ALLA-PHC-2,77,Blood Glucose,False
+ALLA-PHC-2,84,Blood Glucose,True
+ALLA-PHC-2,0,Hemoglobin,False
+ALLA-PHC-2,7,Hemoglobin,False
+ALLA-PHC-2,14,Hemoglobin,False
+ALLA-PHC-2,21,Hemoglobin,False
+ALLA-PHC-2,28,Hemoglobin,False
+ALLA-PHC-2,35,Hemoglobin,False
+ALLA-PHC-2,42,Hemoglobin,True
+ALLA-PHC-2,49,Hemoglobin,False
+ALLA-PHC-2,56,Hemoglobin,True
+ALLA-PHC-2,63,Hemoglobin,True
+ALLA-PHC-2,70,Hemoglobin,True
+ALLA-PHC-2,77,Hemoglobin,True
+ALLA-PHC-2,84,Hemoglobin,True
+ALLA-PHC-2,0,Malaria RDT,True
+ALLA-PHC-2,7,Malaria RDT,True
+ALLA-PHC-2,14,Malaria RDT,True
+ALLA-PHC-2,21,Malaria RDT,False
+ALLA-PHC-2,28,Malaria RDT,True
+ALLA-PHC-2,35,Malaria RDT,True
+ALLA-PHC-2,42,Malaria RDT,True
+ALLA-PHC-2,49,Malaria RDT,True
+ALLA-PHC-2,56,Malaria RDT,False
+ALLA-PHC-2,63,Malaria RDT,False
+ALLA-PHC-2,70,Malaria RDT,True
+ALLA-PHC-2,77,Malaria RDT,True
+ALLA-PHC-2,84,Malaria RDT,True
+ALLA-PHC-2,0,Pregnancy Test,True
+ALLA-PHC-2,7,Pregnancy Test,True
+ALLA-PHC-2,14,Pregnancy Test,False
+ALLA-PHC-2,21,Pregnancy Test,True
+ALLA-PHC-2,28,Pregnancy Test,True
+ALLA-PHC-2,35,Pregnancy Test,False
+ALLA-PHC-2,42,Pregnancy Test,False
+ALLA-PHC-2,49,Pregnancy Test,True
+ALLA-PHC-2,56,Pregnancy Test,True
+ALLA-PHC-2,63,Pregnancy Test,False
+ALLA-PHC-2,70,Pregnancy Test,True
+ALLA-PHC-2,77,Pregnancy Test,True
+ALLA-PHC-2,84,Pregnancy Test,True
+ALLA-PHC-2,0,TB Sputum,True
+ALLA-PHC-2,7,TB Sputum,True
+ALLA-PHC-2,14,TB Sputum,False
+ALLA-PHC-2,21,TB Sputum,True
+ALLA-PHC-2,28,TB Sputum,True
+ALLA-PHC-2,35,TB Sputum,True
+ALLA-PHC-2,42,TB Sputum,True
+ALLA-PHC-2,49,TB Sputum,True
+ALLA-PHC-2,56,TB Sputum,True
+ALLA-PHC-2,63,TB Sputum,True
+ALLA-PHC-2,70,TB Sputum,True
+ALLA-PHC-2,77,TB Sputum,True
+ALLA-PHC-2,84,TB Sputum,False
+ALLA-PHC-2,0,X-Ray,True
+ALLA-PHC-2,7,X-Ray,True
+ALLA-PHC-2,14,X-Ray,True
+ALLA-PHC-2,21,X-Ray,False
+ALLA-PHC-2,28,X-Ray,True
+ALLA-PHC-2,35,X-Ray,True
+ALLA-PHC-2,42,X-Ray,True
+ALLA-PHC-2,49,X-Ray,False
+ALLA-PHC-2,56,X-Ray,True
+ALLA-PHC-2,63,X-Ray,True
+ALLA-PHC-2,70,X-Ray,True
+ALLA-PHC-2,77,X-Ray,True
+ALLA-PHC-2,84,X-Ray,True
+ALLA-PHC-3,0,Blood Glucose,True
+ALLA-PHC-3,7,Blood Glucose,True
+ALLA-PHC-3,14,Blood Glucose,True
+ALLA-PHC-3,21,Blood Glucose,True
+ALLA-PHC-3,28,Blood Glucose,False
+ALLA-PHC-3,35,Blood Glucose,False
+ALLA-PHC-3,42,Blood Glucose,True
+ALLA-PHC-3,49,Blood Glucose,False
+ALLA-PHC-3,56,Blood Glucose,True
+ALLA-PHC-3,63,Blood Glucose,False
+ALLA-PHC-3,70,Blood Glucose,True
+ALLA-PHC-3,77,Blood Glucose,True
+ALLA-PHC-3,84,Blood Glucose,False
+ALLA-PHC-3,0,Hemoglobin,True
+ALLA-PHC-3,7,Hemoglobin,True
+ALLA-PHC-3,14,Hemoglobin,True
+ALLA-PHC-3,21,Hemoglobin,True
+ALLA-PHC-3,28,Hemoglobin,False
+ALLA-PHC-3,35,Hemoglobin,False
+ALLA-PHC-3,42,Hemoglobin,True
+ALLA-PHC-3,49,Hemoglobin,True
+ALLA-PHC-3,56,Hemoglobin,False
+ALLA-PHC-3,63,Hemoglobin,True
+ALLA-PHC-3,70,Hemoglobin,False
+ALLA-PHC-3,77,Hemoglobin,False
+ALLA-PHC-3,84,Hemoglobin,True
+ALLA-PHC-3,0,Malaria RDT,True
+ALLA-PHC-3,7,Malaria RDT,True
+ALLA-PHC-3,14,Malaria RDT,True
+ALLA-PHC-3,21,Malaria RDT,False
+ALLA-PHC-3,28,Malaria RDT,True
+ALLA-PHC-3,35,Malaria RDT,True
+ALLA-PHC-3,42,Malaria RDT,True
+ALLA-PHC-3,49,Malaria RDT,True
+ALLA-PHC-3,56,Malaria RDT,True
+ALLA-PHC-3,63,Malaria RDT,False
+ALLA-PHC-3,70,Malaria RDT,True
+ALLA-PHC-3,77,Malaria RDT,False
+ALLA-PHC-3,84,Malaria RDT,True
+ALLA-PHC-3,0,Pregnancy Test,True
+ALLA-PHC-3,7,Pregnancy Test,True
+ALLA-PHC-3,14,Pregnancy Test,True
+ALLA-PHC-3,21,Pregnancy Test,True
+ALLA-PHC-3,28,Pregnancy Test,True
+ALLA-PHC-3,35,Pregnancy Test,True
+ALLA-PHC-3,42,Pregnancy Test,True
+ALLA-PHC-3,49,Pregnancy Test,True
+ALLA-PHC-3,56,Pregnancy Test,True
+ALLA-PHC-3,63,Pregnancy Test,False
+ALLA-PHC-3,70,Pregnancy Test,True
+ALLA-PHC-3,77,Pregnancy Test,True
+ALLA-PHC-3,84,Pregnancy Test,True
+ALLA-PHC-3,0,TB Sputum,True
+ALLA-PHC-3,7,TB Sputum,True
+ALLA-PHC-3,14,TB Sputum,False
+ALLA-PHC-3,21,TB Sputum,True
+ALLA-PHC-3,28,TB Sputum,True
+ALLA-PHC-3,35,TB Sputum,True
+ALLA-PHC-3,42,TB Sputum,True
+ALLA-PHC-3,49,TB Sputum,True
+ALLA-PHC-3,56,TB Sputum,True
+ALLA-PHC-3,63,TB Sputum,True
+ALLA-PHC-3,70,TB Sputum,False
+ALLA-PHC-3,77,TB Sputum,False
+ALLA-PHC-3,84,TB Sputum,False
+ALLA-PHC-3,0,X-Ray,False
+ALLA-PHC-3,7,X-Ray,True
+ALLA-PHC-3,14,X-Ray,True
+ALLA-PHC-3,21,X-Ray,False
+ALLA-PHC-3,28,X-Ray,True
+ALLA-PHC-3,35,X-Ray,True
+ALLA-PHC-3,42,X-Ray,True
+ALLA-PHC-3,49,X-Ray,True
+ALLA-PHC-3,56,X-Ray,False
+ALLA-PHC-3,63,X-Ray,True
+ALLA-PHC-3,70,X-Ray,False
+ALLA-PHC-3,77,X-Ray,False
+ALLA-PHC-3,84,X-Ray,False
+ALLA-PHC-4,0,Blood Glucose,True
+ALLA-PHC-4,7,Blood Glucose,True
+ALLA-PHC-4,14,Blood Glucose,True
+ALLA-PHC-4,21,Blood Glucose,True
+ALLA-PHC-4,28,Blood Glucose,True
+ALLA-PHC-4,35,Blood Glucose,True
+ALLA-PHC-4,42,Blood Glucose,True
+ALLA-PHC-4,49,Blood Glucose,True
+ALLA-PHC-4,56,Blood Glucose,True
+ALLA-PHC-4,63,Blood Glucose,False
+ALLA-PHC-4,70,Blood Glucose,True
+ALLA-PHC-4,77,Blood Glucose,True
+ALLA-PHC-4,84,Blood Glucose,True
+ALLA-PHC-4,0,Hemoglobin,True
+ALLA-PHC-4,7,Hemoglobin,True
+ALLA-PHC-4,14,Hemoglobin,True
+ALLA-PHC-4,21,Hemoglobin,True
+ALLA-PHC-4,28,Hemoglobin,True
+ALLA-PHC-4,35,Hemoglobin,True
+ALLA-PHC-4,42,Hemoglobin,True
+ALLA-PHC-4,49,Hemoglobin,False
+ALLA-PHC-4,56,Hemoglobin,True
+ALLA-PHC-4,63,Hemoglobin,True
+ALLA-PHC-4,70,Hemoglobin,True
+ALLA-PHC-4,77,Hemoglobin,True
+ALLA-PHC-4,84,Hemoglobin,False
+ALLA-PHC-4,0,Malaria RDT,True
+ALLA-PHC-4,7,Malaria RDT,True
+ALLA-PHC-4,14,Malaria RDT,True
+ALLA-PHC-4,21,Malaria RDT,False
+ALLA-PHC-4,28,Malaria RDT,True
+ALLA-PHC-4,35,Malaria RDT,False
+ALLA-PHC-4,42,Malaria RDT,False
+ALLA-PHC-4,49,Malaria RDT,True
+ALLA-PHC-4,56,Malaria RDT,True
+ALLA-PHC-4,63,Malaria RDT,True
+ALLA-PHC-4,70,Malaria RDT,True
+ALLA-PHC-4,77,Malaria RDT,True
+ALLA-PHC-4,84,Malaria RDT,True
+ALLA-PHC-4,0,Pregnancy Test,True
+ALLA-PHC-4,7,Pregnancy Test,True
+ALLA-PHC-4,14,Pregnancy Test,False
+ALLA-PHC-4,21,Pregnancy Test,True
+ALLA-PHC-4,28,Pregnancy Test,True
+ALLA-PHC-4,35,Pregnancy Test,True
+ALLA-PHC-4,42,Pregnancy Test,True
+ALLA-PHC-4,49,Pregnancy Test,True
+ALLA-PHC-4,56,Pregnancy Test,True
+ALLA-PHC-4,63,Pregnancy Test,False
+ALLA-PHC-4,70,Pregnancy Test,True
+ALLA-PHC-4,77,Pregnancy Test,True
+ALLA-PHC-4,84,Pregnancy Test,True
+ALLA-PHC-4,0,TB Sputum,True
+ALLA-PHC-4,7,TB Sputum,True
+ALLA-PHC-4,14,TB Sputum,True
+ALLA-PHC-4,21,TB Sputum,True
+ALLA-PHC-4,28,TB Sputum,False
+ALLA-PHC-4,35,TB Sputum,False
+ALLA-PHC-4,42,TB Sputum,False
+ALLA-PHC-4,49,TB Sputum,False
+ALLA-PHC-4,56,TB Sputum,True
+ALLA-PHC-4,63,TB Sputum,False
+ALLA-PHC-4,70,TB Sputum,False
+ALLA-PHC-4,77,TB Sputum,True
+ALLA-PHC-4,84,TB Sputum,True
+ALLA-PHC-4,0,X-Ray,True
+ALLA-PHC-4,7,X-Ray,False
+ALLA-PHC-4,14,X-Ray,True
+ALLA-PHC-4,21,X-Ray,False
+ALLA-PHC-4,28,X-Ray,True
+ALLA-PHC-4,35,X-Ray,True
+ALLA-PHC-4,42,X-Ray,True
+ALLA-PHC-4,49,X-Ray,True
+ALLA-PHC-4,56,X-Ray,True
+ALLA-PHC-4,63,X-Ray,False
+ALLA-PHC-4,70,X-Ray,False
+ALLA-PHC-4,77,X-Ray,True
+ALLA-PHC-4,84,X-Ray,False
+SHIM-CHC-1,0,Blood Glucose,True
+SHIM-CHC-1,7,Blood Glucose,True
+SHIM-CHC-1,14,Blood Glucose,True
+SHIM-CHC-1,21,Blood Glucose,False
+SHIM-CHC-1,28,Blood Glucose,False
+SHIM-CHC-1,35,Blood Glucose,False
+SHIM-CHC-1,42,Blood Glucose,True
+SHIM-CHC-1,49,Blood Glucose,True
+SHIM-CHC-1,56,Blood Glucose,True
+SHIM-CHC-1,63,Blood Glucose,True
+SHIM-CHC-1,70,Blood Glucose,True
+SHIM-CHC-1,77,Blood Glucose,True
+SHIM-CHC-1,84,Blood Glucose,False
+SHIM-CHC-1,0,Hemoglobin,True
+SHIM-CHC-1,7,Hemoglobin,True
+SHIM-CHC-1,14,Hemoglobin,True
+SHIM-CHC-1,21,Hemoglobin,True
+SHIM-CHC-1,28,Hemoglobin,True
+SHIM-CHC-1,35,Hemoglobin,True
+SHIM-CHC-1,42,Hemoglobin,True
+SHIM-CHC-1,49,Hemoglobin,False
+SHIM-CHC-1,56,Hemoglobin,True
+SHIM-CHC-1,63,Hemoglobin,True
+SHIM-CHC-1,70,Hemoglobin,False
+SHIM-CHC-1,77,Hemoglobin,True
+SHIM-CHC-1,84,Hemoglobin,True
+SHIM-CHC-1,0,Malaria RDT,False
+SHIM-CHC-1,7,Malaria RDT,True
+SHIM-CHC-1,14,Malaria RDT,True
+SHIM-CHC-1,21,Malaria RDT,False
+SHIM-CHC-1,28,Malaria RDT,True
+SHIM-CHC-1,35,Malaria RDT,True
+SHIM-CHC-1,42,Malaria RDT,True
+SHIM-CHC-1,49,Malaria RDT,True
+SHIM-CHC-1,56,Malaria RDT,False
+SHIM-CHC-1,63,Malaria RDT,True
+SHIM-CHC-1,70,Malaria RDT,True
+SHIM-CHC-1,77,Malaria RDT,True
+SHIM-CHC-1,84,Malaria RDT,False
+SHIM-CHC-1,0,Pregnancy Test,True
+SHIM-CHC-1,7,Pregnancy Test,True
+SHIM-CHC-1,14,Pregnancy Test,True
+SHIM-CHC-1,21,Pregnancy Test,True
+SHIM-CHC-1,28,Pregnancy Test,True
+SHIM-CHC-1,35,Pregnancy Test,True
+SHIM-CHC-1,42,Pregnancy Test,True
+SHIM-CHC-1,49,Pregnancy Test,True
+SHIM-CHC-1,56,Pregnancy Test,True
+SHIM-CHC-1,63,Pregnancy Test,True
+SHIM-CHC-1,70,Pregnancy Test,True
+SHIM-CHC-1,77,Pregnancy Test,True
+SHIM-CHC-1,84,Pregnancy Test,True
+SHIM-CHC-1,0,TB Sputum,False
+SHIM-CHC-1,7,TB Sputum,True
+SHIM-CHC-1,14,TB Sputum,False
+SHIM-CHC-1,21,TB Sputum,True
+SHIM-CHC-1,28,TB Sputum,True
+SHIM-CHC-1,35,TB Sputum,True
+SHIM-CHC-1,42,TB Sputum,True
+SHIM-CHC-1,49,TB Sputum,False
+SHIM-CHC-1,56,TB Sputum,True
+SHIM-CHC-1,63,TB Sputum,True
+SHIM-CHC-1,70,TB Sputum,True
+SHIM-CHC-1,77,TB Sputum,True
+SHIM-CHC-1,84,TB Sputum,True
+SHIM-CHC-1,0,X-Ray,True
+SHIM-CHC-1,7,X-Ray,True
+SHIM-CHC-1,14,X-Ray,True
+SHIM-CHC-1,21,X-Ray,True
+SHIM-CHC-1,28,X-Ray,True
+SHIM-CHC-1,35,X-Ray,True
+SHIM-CHC-1,42,X-Ray,True
+SHIM-CHC-1,49,X-Ray,True
+SHIM-CHC-1,56,X-Ray,True
+SHIM-CHC-1,63,X-Ray,False
+SHIM-CHC-1,70,X-Ray,True
+SHIM-CHC-1,77,X-Ray,True
+SHIM-CHC-1,84,X-Ray,True
+SHIM-PHC-2,0,Blood Glucose,True
+SHIM-PHC-2,7,Blood Glucose,True
+SHIM-PHC-2,14,Blood Glucose,False
+SHIM-PHC-2,21,Blood Glucose,True
+SHIM-PHC-2,28,Blood Glucose,True
+SHIM-PHC-2,35,Blood Glucose,True
+SHIM-PHC-2,42,Blood Glucose,True
+SHIM-PHC-2,49,Blood Glucose,True
+SHIM-PHC-2,56,Blood Glucose,True
+SHIM-PHC-2,63,Blood Glucose,False
+SHIM-PHC-2,70,Blood Glucose,True
+SHIM-PHC-2,77,Blood Glucose,True
+SHIM-PHC-2,84,Blood Glucose,True
+SHIM-PHC-2,0,Hemoglobin,True
+SHIM-PHC-2,7,Hemoglobin,True
+SHIM-PHC-2,14,Hemoglobin,False
+SHIM-PHC-2,21,Hemoglobin,True
+SHIM-PHC-2,28,Hemoglobin,True
+SHIM-PHC-2,35,Hemoglobin,False
+SHIM-PHC-2,42,Hemoglobin,True
+SHIM-PHC-2,49,Hemoglobin,True
+SHIM-PHC-2,56,Hemoglobin,False
+SHIM-PHC-2,63,Hemoglobin,True
+SHIM-PHC-2,70,Hemoglobin,True
+SHIM-PHC-2,77,Hemoglobin,True
+SHIM-PHC-2,84,Hemoglobin,True
+SHIM-PHC-2,0,Malaria RDT,True
+SHIM-PHC-2,7,Malaria RDT,False
+SHIM-PHC-2,14,Malaria RDT,True
+SHIM-PHC-2,21,Malaria RDT,True
+SHIM-PHC-2,28,Malaria RDT,True
+SHIM-PHC-2,35,Malaria RDT,True
+SHIM-PHC-2,42,Malaria RDT,True
+SHIM-PHC-2,49,Malaria RDT,True
+SHIM-PHC-2,56,Malaria RDT,True
+SHIM-PHC-2,63,Malaria RDT,True
+SHIM-PHC-2,70,Malaria RDT,True
+SHIM-PHC-2,77,Malaria RDT,True
+SHIM-PHC-2,84,Malaria RDT,True
+SHIM-PHC-2,0,Pregnancy Test,True
+SHIM-PHC-2,7,Pregnancy Test,True
+SHIM-PHC-2,14,Pregnancy Test,True
+SHIM-PHC-2,21,Pregnancy Test,True
+SHIM-PHC-2,28,Pregnancy Test,True
+SHIM-PHC-2,35,Pregnancy Test,True
+SHIM-PHC-2,42,Pregnancy Test,False
+SHIM-PHC-2,49,Pregnancy Test,True
+SHIM-PHC-2,56,Pregnancy Test,True
+SHIM-PHC-2,63,Pregnancy Test,True
+SHIM-PHC-2,70,Pregnancy Test,True
+SHIM-PHC-2,77,Pregnancy Test,True
+SHIM-PHC-2,84,Pregnancy Test,False
+SHIM-PHC-2,0,TB Sputum,True
+SHIM-PHC-2,7,TB Sputum,True
+SHIM-PHC-2,14,TB Sputum,False
+SHIM-PHC-2,21,TB Sputum,True
+SHIM-PHC-2,28,TB Sputum,False
+SHIM-PHC-2,35,TB Sputum,True
+SHIM-PHC-2,42,TB Sputum,True
+SHIM-PHC-2,49,TB Sputum,True
+SHIM-PHC-2,56,TB Sputum,True
+SHIM-PHC-2,63,TB Sputum,True
+SHIM-PHC-2,70,TB Sputum,True
+SHIM-PHC-2,77,TB Sputum,False
+SHIM-PHC-2,84,TB Sputum,True
+SHIM-PHC-2,0,X-Ray,True
+SHIM-PHC-2,7,X-Ray,True
+SHIM-PHC-2,14,X-Ray,True
+SHIM-PHC-2,21,X-Ray,False
+SHIM-PHC-2,28,X-Ray,True
+SHIM-PHC-2,35,X-Ray,True
+SHIM-PHC-2,42,X-Ray,True
+SHIM-PHC-2,49,X-Ray,True
+SHIM-PHC-2,56,X-Ray,True
+SHIM-PHC-2,63,X-Ray,False
+SHIM-PHC-2,70,X-Ray,True
+SHIM-PHC-2,77,X-Ray,True
+SHIM-PHC-2,84,X-Ray,True
+SHIM-PHC-3,0,Blood Glucose,True
+SHIM-PHC-3,7,Blood Glucose,True
+SHIM-PHC-3,14,Blood Glucose,True
+SHIM-PHC-3,21,Blood Glucose,False
+SHIM-PHC-3,28,Blood Glucose,True
+SHIM-PHC-3,35,Blood Glucose,False
+SHIM-PHC-3,42,Blood Glucose,True
+SHIM-PHC-3,49,Blood Glucose,True
+SHIM-PHC-3,56,Blood Glucose,True
+SHIM-PHC-3,63,Blood Glucose,True
+SHIM-PHC-3,70,Blood Glucose,True
+SHIM-PHC-3,77,Blood Glucose,True
+SHIM-PHC-3,84,Blood Glucose,True
+SHIM-PHC-3,0,Hemoglobin,True
+SHIM-PHC-3,7,Hemoglobin,True
+SHIM-PHC-3,14,Hemoglobin,True
+SHIM-PHC-3,21,Hemoglobin,True
+SHIM-PHC-3,28,Hemoglobin,True
+SHIM-PHC-3,35,Hemoglobin,False
+SHIM-PHC-3,42,Hemoglobin,True
+SHIM-PHC-3,49,Hemoglobin,True
+SHIM-PHC-3,56,Hemoglobin,True
+SHIM-PHC-3,63,Hemoglobin,True
+SHIM-PHC-3,70,Hemoglobin,True
+SHIM-PHC-3,77,Hemoglobin,True
+SHIM-PHC-3,84,Hemoglobin,True
+SHIM-PHC-3,0,Malaria RDT,True
+SHIM-PHC-3,7,Malaria RDT,True
+SHIM-PHC-3,14,Malaria RDT,True
+SHIM-PHC-3,21,Malaria RDT,True
+SHIM-PHC-3,28,Malaria RDT,True
+SHIM-PHC-3,35,Malaria RDT,True
+SHIM-PHC-3,42,Malaria RDT,False
+SHIM-PHC-3,49,Malaria RDT,True
+SHIM-PHC-3,56,Malaria RDT,True
+SHIM-PHC-3,63,Malaria RDT,True
+SHIM-PHC-3,70,Malaria RDT,True
+SHIM-PHC-3,77,Malaria RDT,True
+SHIM-PHC-3,84,Malaria RDT,True
+SHIM-PHC-3,0,Pregnancy Test,False
+SHIM-PHC-3,7,Pregnancy Test,True
+SHIM-PHC-3,14,Pregnancy Test,True
+SHIM-PHC-3,21,Pregnancy Test,True
+SHIM-PHC-3,28,Pregnancy Test,True
+SHIM-PHC-3,35,Pregnancy Test,False
+SHIM-PHC-3,42,Pregnancy Test,True
+SHIM-PHC-3,49,Pregnancy Test,True
+SHIM-PHC-3,56,Pregnancy Test,True
+SHIM-PHC-3,63,Pregnancy Test,True
+SHIM-PHC-3,70,Pregnancy Test,True
+SHIM-PHC-3,77,Pregnancy Test,True
+SHIM-PHC-3,84,Pregnancy Test,True
+SHIM-PHC-3,0,TB Sputum,True
+SHIM-PHC-3,7,TB Sputum,True
+SHIM-PHC-3,14,TB Sputum,True
+SHIM-PHC-3,21,TB Sputum,True
+SHIM-PHC-3,28,TB Sputum,True
+SHIM-PHC-3,35,TB Sputum,True
+SHIM-PHC-3,42,TB Sputum,False
+SHIM-PHC-3,49,TB Sputum,True
+SHIM-PHC-3,56,TB Sputum,False
+SHIM-PHC-3,63,TB Sputum,True
+SHIM-PHC-3,70,TB Sputum,True
+SHIM-PHC-3,77,TB Sputum,True
+SHIM-PHC-3,84,TB Sputum,True
+SHIM-PHC-3,0,X-Ray,True
+SHIM-PHC-3,7,X-Ray,True
+SHIM-PHC-3,14,X-Ray,True
+SHIM-PHC-3,21,X-Ray,True
+SHIM-PHC-3,28,X-Ray,True
+SHIM-PHC-3,35,X-Ray,True
+SHIM-PHC-3,42,X-Ray,True
+SHIM-PHC-3,49,X-Ray,True
+SHIM-PHC-3,56,X-Ray,True
+SHIM-PHC-3,63,X-Ray,True
+SHIM-PHC-3,70,X-Ray,True
+SHIM-PHC-3,77,X-Ray,True
+SHIM-PHC-3,84,X-Ray,True
+SHIM-PHC-4,0,Blood Glucose,True
+SHIM-PHC-4,7,Blood Glucose,True
+SHIM-PHC-4,14,Blood Glucose,True
+SHIM-PHC-4,21,Blood Glucose,True
+SHIM-PHC-4,28,Blood Glucose,True
+SHIM-PHC-4,35,Blood Glucose,False
+SHIM-PHC-4,42,Blood Glucose,True
+SHIM-PHC-4,49,Blood Glucose,True
+SHIM-PHC-4,56,Blood Glucose,True
+SHIM-PHC-4,63,Blood Glucose,True
+SHIM-PHC-4,70,Blood Glucose,True
+SHIM-PHC-4,77,Blood Glucose,True
+SHIM-PHC-4,84,Blood Glucose,True
+SHIM-PHC-4,0,Hemoglobin,True
+SHIM-PHC-4,7,Hemoglobin,True
+SHIM-PHC-4,14,Hemoglobin,True
+SHIM-PHC-4,21,Hemoglobin,True
+SHIM-PHC-4,28,Hemoglobin,True
+SHIM-PHC-4,35,Hemoglobin,False
+SHIM-PHC-4,42,Hemoglobin,True
+SHIM-PHC-4,49,Hemoglobin,True
+SHIM-PHC-4,56,Hemoglobin,True
+SHIM-PHC-4,63,Hemoglobin,True
+SHIM-PHC-4,70,Hemoglobin,True
+SHIM-PHC-4,77,Hemoglobin,True
+SHIM-PHC-4,84,Hemoglobin,True
+SHIM-PHC-4,0,Malaria RDT,True
+SHIM-PHC-4,7,Malaria RDT,True
+SHIM-PHC-4,14,Malaria RDT,True
+SHIM-PHC-4,21,Malaria RDT,True
+SHIM-PHC-4,28,Malaria RDT,True
+SHIM-PHC-4,35,Malaria RDT,False
+SHIM-PHC-4,42,Malaria RDT,True
+SHIM-PHC-4,49,Malaria RDT,True
+SHIM-PHC-4,56,Malaria RDT,True
+SHIM-PHC-4,63,Malaria RDT,True
+SHIM-PHC-4,70,Malaria RDT,True
+SHIM-PHC-4,77,Malaria RDT,True
+SHIM-PHC-4,84,Malaria RDT,True
+SHIM-PHC-4,0,Pregnancy Test,True
+SHIM-PHC-4,7,Pregnancy Test,True
+SHIM-PHC-4,14,Pregnancy Test,True
+SHIM-PHC-4,21,Pregnancy Test,True
+SHIM-PHC-4,28,Pregnancy Test,True
+SHIM-PHC-4,35,Pregnancy Test,True
+SHIM-PHC-4,42,Pregnancy Test,True
+SHIM-PHC-4,49,Pregnancy Test,True
+SHIM-PHC-4,56,Pregnancy Test,True
+SHIM-PHC-4,63,Pregnancy Test,True
+SHIM-PHC-4,70,Pregnancy Test,True
+SHIM-PHC-4,77,Pregnancy Test,True
+SHIM-PHC-4,84,Pregnancy Test,False
+SHIM-PHC-4,0,TB Sputum,False
+SHIM-PHC-4,7,TB Sputum,True
+SHIM-PHC-4,14,TB Sputum,True
+SHIM-PHC-4,21,TB Sputum,True
+SHIM-PHC-4,28,TB Sputum,True
+SHIM-PHC-4,35,TB Sputum,True
+SHIM-PHC-4,42,TB Sputum,True
+SHIM-PHC-4,49,TB Sputum,True
+SHIM-PHC-4,56,TB Sputum,False
+SHIM-PHC-4,63,TB Sputum,True
+SHIM-PHC-4,70,TB Sputum,True
+SHIM-PHC-4,77,TB Sputum,True
+SHIM-PHC-4,84,TB Sputum,True
+SHIM-PHC-4,0,X-Ray,True
+SHIM-PHC-4,7,X-Ray,True
+SHIM-PHC-4,14,X-Ray,True
+SHIM-PHC-4,21,X-Ray,True
+SHIM-PHC-4,28,X-Ray,False
+SHIM-PHC-4,35,X-Ray,True
+SHIM-PHC-4,42,X-Ray,True
+SHIM-PHC-4,49,X-Ray,True
+SHIM-PHC-4,56,X-Ray,True
+SHIM-PHC-4,63,X-Ray,True
+SHIM-PHC-4,70,X-Ray,True
+SHIM-PHC-4,77,X-Ray,True
+SHIM-PHC-4,84,X-Ray,True
+UTTA-CHC-1,0,Blood Glucose,True
+UTTA-CHC-1,7,Blood Glucose,True
+UTTA-CHC-1,14,Blood Glucose,True
+UTTA-CHC-1,21,Blood Glucose,False
+UTTA-CHC-1,28,Blood Glucose,True
+UTTA-CHC-1,35,Blood Glucose,True
+UTTA-CHC-1,42,Blood Glucose,True
+UTTA-CHC-1,49,Blood Glucose,True
+UTTA-CHC-1,56,Blood Glucose,True
+UTTA-CHC-1,63,Blood Glucose,True
+UTTA-CHC-1,70,Blood Glucose,True
+UTTA-CHC-1,77,Blood Glucose,True
+UTTA-CHC-1,84,Blood Glucose,True
+UTTA-CHC-1,0,Hemoglobin,True
+UTTA-CHC-1,7,Hemoglobin,True
+UTTA-CHC-1,14,Hemoglobin,True
+UTTA-CHC-1,21,Hemoglobin,True
+UTTA-CHC-1,28,Hemoglobin,True
+UTTA-CHC-1,35,Hemoglobin,True
+UTTA-CHC-1,42,Hemoglobin,True
+UTTA-CHC-1,49,Hemoglobin,True
+UTTA-CHC-1,56,Hemoglobin,True
+UTTA-CHC-1,63,Hemoglobin,True
+UTTA-CHC-1,70,Hemoglobin,True
+UTTA-CHC-1,77,Hemoglobin,True
+UTTA-CHC-1,84,Hemoglobin,True
+UTTA-CHC-1,0,Malaria RDT,True
+UTTA-CHC-1,7,Malaria RDT,True
+UTTA-CHC-1,14,Malaria RDT,True
+UTTA-CHC-1,21,Malaria RDT,True
+UTTA-CHC-1,28,Malaria RDT,True
+UTTA-CHC-1,35,Malaria RDT,True
+UTTA-CHC-1,42,Malaria RDT,True
+UTTA-CHC-1,49,Malaria RDT,True
+UTTA-CHC-1,56,Malaria RDT,True
+UTTA-CHC-1,63,Malaria RDT,True
+UTTA-CHC-1,70,Malaria RDT,True
+UTTA-CHC-1,77,Malaria RDT,True
+UTTA-CHC-1,84,Malaria RDT,True
+UTTA-CHC-1,0,Pregnancy Test,True
+UTTA-CHC-1,7,Pregnancy Test,True
+UTTA-CHC-1,14,Pregnancy Test,True
+UTTA-CHC-1,21,Pregnancy Test,True
+UTTA-CHC-1,28,Pregnancy Test,True
+UTTA-CHC-1,35,Pregnancy Test,False
+UTTA-CHC-1,42,Pregnancy Test,False
+UTTA-CHC-1,49,Pregnancy Test,True
+UTTA-CHC-1,56,Pregnancy Test,True
+UTTA-CHC-1,63,Pregnancy Test,True
+UTTA-CHC-1,70,Pregnancy Test,False
+UTTA-CHC-1,77,Pregnancy Test,True
+UTTA-CHC-1,84,Pregnancy Test,True
+UTTA-CHC-1,0,TB Sputum,True
+UTTA-CHC-1,7,TB Sputum,False
+UTTA-CHC-1,14,TB Sputum,True
+UTTA-CHC-1,21,TB Sputum,True
+UTTA-CHC-1,28,TB Sputum,True
+UTTA-CHC-1,35,TB Sputum,True
+UTTA-CHC-1,42,TB Sputum,True
+UTTA-CHC-1,49,TB Sputum,True
+UTTA-CHC-1,56,TB Sputum,True
+UTTA-CHC-1,63,TB Sputum,True
+UTTA-CHC-1,70,TB Sputum,True
+UTTA-CHC-1,77,TB Sputum,True
+UTTA-CHC-1,84,TB Sputum,True
+UTTA-CHC-1,0,X-Ray,True
+UTTA-CHC-1,7,X-Ray,True
+UTTA-CHC-1,14,X-Ray,True
+UTTA-CHC-1,21,X-Ray,True
+UTTA-CHC-1,28,X-Ray,False
+UTTA-CHC-1,35,X-Ray,True
+UTTA-CHC-1,42,X-Ray,True
+UTTA-CHC-1,49,X-Ray,False
+UTTA-CHC-1,56,X-Ray,True
+UTTA-CHC-1,63,X-Ray,True
+UTTA-CHC-1,70,X-Ray,True
+UTTA-CHC-1,77,X-Ray,True
+UTTA-CHC-1,84,X-Ray,True
+UTTA-PHC-2,0,Blood Glucose,True
+UTTA-PHC-2,7,Blood Glucose,True
+UTTA-PHC-2,14,Blood Glucose,True
+UTTA-PHC-2,21,Blood Glucose,True
+UTTA-PHC-2,28,Blood Glucose,True
+UTTA-PHC-2,35,Blood Glucose,True
+UTTA-PHC-2,42,Blood Glucose,True
+UTTA-PHC-2,49,Blood Glucose,True
+UTTA-PHC-2,56,Blood Glucose,False
+UTTA-PHC-2,63,Blood Glucose,True
+UTTA-PHC-2,70,Blood Glucose,True
+UTTA-PHC-2,77,Blood Glucose,True
+UTTA-PHC-2,84,Blood Glucose,True
+UTTA-PHC-2,0,Hemoglobin,True
+UTTA-PHC-2,7,Hemoglobin,False
+UTTA-PHC-2,14,Hemoglobin,True
+UTTA-PHC-2,21,Hemoglobin,True
+UTTA-PHC-2,28,Hemoglobin,True
+UTTA-PHC-2,35,Hemoglobin,True
+UTTA-PHC-2,42,Hemoglobin,True
+UTTA-PHC-2,49,Hemoglobin,True
+UTTA-PHC-2,56,Hemoglobin,True
+UTTA-PHC-2,63,Hemoglobin,True
+UTTA-PHC-2,70,Hemoglobin,True
+UTTA-PHC-2,77,Hemoglobin,True
+UTTA-PHC-2,84,Hemoglobin,True
+UTTA-PHC-2,0,Malaria RDT,True
+UTTA-PHC-2,7,Malaria RDT,True
+UTTA-PHC-2,14,Malaria RDT,False
+UTTA-PHC-2,21,Malaria RDT,True
+UTTA-PHC-2,28,Malaria RDT,True
+UTTA-PHC-2,35,Malaria RDT,True
+UTTA-PHC-2,42,Malaria RDT,False
+UTTA-PHC-2,49,Malaria RDT,True
+UTTA-PHC-2,56,Malaria RDT,True
+UTTA-PHC-2,63,Malaria RDT,True
+UTTA-PHC-2,70,Malaria RDT,True
+UTTA-PHC-2,77,Malaria RDT,True
+UTTA-PHC-2,84,Malaria RDT,True
+UTTA-PHC-2,0,Pregnancy Test,True
+UTTA-PHC-2,7,Pregnancy Test,True
+UTTA-PHC-2,14,Pregnancy Test,True
+UTTA-PHC-2,21,Pregnancy Test,False
+UTTA-PHC-2,28,Pregnancy Test,True
+UTTA-PHC-2,35,Pregnancy Test,True
+UTTA-PHC-2,42,Pregnancy Test,True
+UTTA-PHC-2,49,Pregnancy Test,True
+UTTA-PHC-2,56,Pregnancy Test,True
+UTTA-PHC-2,63,Pregnancy Test,True
+UTTA-PHC-2,70,Pregnancy Test,True
+UTTA-PHC-2,77,Pregnancy Test,True
+UTTA-PHC-2,84,Pregnancy Test,True
+UTTA-PHC-2,0,TB Sputum,True
+UTTA-PHC-2,7,TB Sputum,True
+UTTA-PHC-2,14,TB Sputum,False
+UTTA-PHC-2,21,TB Sputum,True
+UTTA-PHC-2,28,TB Sputum,True
+UTTA-PHC-2,35,TB Sputum,True
+UTTA-PHC-2,42,TB Sputum,True
+UTTA-PHC-2,49,TB Sputum,True
+UTTA-PHC-2,56,TB Sputum,True
+UTTA-PHC-2,63,TB Sputum,True
+UTTA-PHC-2,70,TB Sputum,True
+UTTA-PHC-2,77,TB Sputum,True
+UTTA-PHC-2,84,TB Sputum,False
+UTTA-PHC-2,0,X-Ray,True
+UTTA-PHC-2,7,X-Ray,True
+UTTA-PHC-2,14,X-Ray,True
+UTTA-PHC-2,21,X-Ray,True
+UTTA-PHC-2,28,X-Ray,True
+UTTA-PHC-2,35,X-Ray,True
+UTTA-PHC-2,42,X-Ray,True
+UTTA-PHC-2,49,X-Ray,False
+UTTA-PHC-2,56,X-Ray,True
+UTTA-PHC-2,63,X-Ray,True
+UTTA-PHC-2,70,X-Ray,True
+UTTA-PHC-2,77,X-Ray,True
+UTTA-PHC-2,84,X-Ray,True
+UTTA-PHC-3,0,Blood Glucose,False
+UTTA-PHC-3,7,Blood Glucose,True
+UTTA-PHC-3,14,Blood Glucose,True
+UTTA-PHC-3,21,Blood Glucose,True
+UTTA-PHC-3,28,Blood Glucose,True
+UTTA-PHC-3,35,Blood Glucose,True
+UTTA-PHC-3,42,Blood Glucose,True
+UTTA-PHC-3,49,Blood Glucose,True
+UTTA-PHC-3,56,Blood Glucose,True
+UTTA-PHC-3,63,Blood Glucose,True
+UTTA-PHC-3,70,Blood Glucose,True
+UTTA-PHC-3,77,Blood Glucose,False
+UTTA-PHC-3,84,Blood Glucose,True
+UTTA-PHC-3,0,Hemoglobin,True
+UTTA-PHC-3,7,Hemoglobin,True
+UTTA-PHC-3,14,Hemoglobin,True
+UTTA-PHC-3,21,Hemoglobin,True
+UTTA-PHC-3,28,Hemoglobin,False
+UTTA-PHC-3,35,Hemoglobin,True
+UTTA-PHC-3,42,Hemoglobin,True
+UTTA-PHC-3,49,Hemoglobin,True
+UTTA-PHC-3,56,Hemoglobin,True
+UTTA-PHC-3,63,Hemoglobin,True
+UTTA-PHC-3,70,Hemoglobin,False
+UTTA-PHC-3,77,Hemoglobin,True
+UTTA-PHC-3,84,Hemoglobin,True
+UTTA-PHC-3,0,Malaria RDT,True
+UTTA-PHC-3,7,Malaria RDT,True
+UTTA-PHC-3,14,Malaria RDT,True
+UTTA-PHC-3,21,Malaria RDT,True
+UTTA-PHC-3,28,Malaria RDT,True
+UTTA-PHC-3,35,Malaria RDT,False
+UTTA-PHC-3,42,Malaria RDT,True
+UTTA-PHC-3,49,Malaria RDT,True
+UTTA-PHC-3,56,Malaria RDT,False
+UTTA-PHC-3,63,Malaria RDT,True
+UTTA-PHC-3,70,Malaria RDT,False
+UTTA-PHC-3,77,Malaria RDT,True
+UTTA-PHC-3,84,Malaria RDT,True
+UTTA-PHC-3,0,Pregnancy Test,True
+UTTA-PHC-3,7,Pregnancy Test,True
+UTTA-PHC-3,14,Pregnancy Test,True
+UTTA-PHC-3,21,Pregnancy Test,True
+UTTA-PHC-3,28,Pregnancy Test,True
+UTTA-PHC-3,35,Pregnancy Test,True
+UTTA-PHC-3,42,Pregnancy Test,True
+UTTA-PHC-3,49,Pregnancy Test,True
+UTTA-PHC-3,56,Pregnancy Test,True
+UTTA-PHC-3,63,Pregnancy Test,True
+UTTA-PHC-3,70,Pregnancy Test,True
+UTTA-PHC-3,77,Pregnancy Test,True
+UTTA-PHC-3,84,Pregnancy Test,True
+UTTA-PHC-3,0,TB Sputum,True
+UTTA-PHC-3,7,TB Sputum,False
+UTTA-PHC-3,14,TB Sputum,True
+UTTA-PHC-3,21,TB Sputum,True
+UTTA-PHC-3,28,TB Sputum,True
+UTTA-PHC-3,35,TB Sputum,True
+UTTA-PHC-3,42,TB Sputum,True
+UTTA-PHC-3,49,TB Sputum,True
+UTTA-PHC-3,56,TB Sputum,True
+UTTA-PHC-3,63,TB Sputum,False
+UTTA-PHC-3,70,TB Sputum,True
+UTTA-PHC-3,77,TB Sputum,True
+UTTA-PHC-3,84,TB Sputum,True
+UTTA-PHC-3,0,X-Ray,True
+UTTA-PHC-3,7,X-Ray,True
+UTTA-PHC-3,14,X-Ray,True
+UTTA-PHC-3,21,X-Ray,True
+UTTA-PHC-3,28,X-Ray,True
+UTTA-PHC-3,35,X-Ray,False
+UTTA-PHC-3,42,X-Ray,True
+UTTA-PHC-3,49,X-Ray,True
+UTTA-PHC-3,56,X-Ray,True
+UTTA-PHC-3,63,X-Ray,True
+UTTA-PHC-3,70,X-Ray,True
+UTTA-PHC-3,77,X-Ray,True
+UTTA-PHC-3,84,X-Ray,True
+UTTA-PHC-4,0,Blood Glucose,True
+UTTA-PHC-4,7,Blood Glucose,True
+UTTA-PHC-4,14,Blood Glucose,True
+UTTA-PHC-4,21,Blood Glucose,True
+UTTA-PHC-4,28,Blood Glucose,True
+UTTA-PHC-4,35,Blood Glucose,True
+UTTA-PHC-4,42,Blood Glucose,True
+UTTA-PHC-4,49,Blood Glucose,True
+UTTA-PHC-4,56,Blood Glucose,True
+UTTA-PHC-4,63,Blood Glucose,True
+UTTA-PHC-4,70,Blood Glucose,True
+UTTA-PHC-4,77,Blood Glucose,True
+UTTA-PHC-4,84,Blood Glucose,True
+UTTA-PHC-4,0,Hemoglobin,True
+UTTA-PHC-4,7,Hemoglobin,True
+UTTA-PHC-4,14,Hemoglobin,True
+UTTA-PHC-4,21,Hemoglobin,True
+UTTA-PHC-4,28,Hemoglobin,True
+UTTA-PHC-4,35,Hemoglobin,True
+UTTA-PHC-4,42,Hemoglobin,True
+UTTA-PHC-4,49,Hemoglobin,True
+UTTA-PHC-4,56,Hemoglobin,False
+UTTA-PHC-4,63,Hemoglobin,False
+UTTA-PHC-4,70,Hemoglobin,True
+UTTA-PHC-4,77,Hemoglobin,True
+UTTA-PHC-4,84,Hemoglobin,True
+UTTA-PHC-4,0,Malaria RDT,True
+UTTA-PHC-4,7,Malaria RDT,True
+UTTA-PHC-4,14,Malaria RDT,False
+UTTA-PHC-4,21,Malaria RDT,True
+UTTA-PHC-4,28,Malaria RDT,True
+UTTA-PHC-4,35,Malaria RDT,True
+UTTA-PHC-4,42,Malaria RDT,False
+UTTA-PHC-4,49,Malaria RDT,True
+UTTA-PHC-4,56,Malaria RDT,True
+UTTA-PHC-4,63,Malaria RDT,True
+UTTA-PHC-4,70,Malaria RDT,True
+UTTA-PHC-4,77,Malaria RDT,True
+UTTA-PHC-4,84,Malaria RDT,True
+UTTA-PHC-4,0,Pregnancy Test,True
+UTTA-PHC-4,7,Pregnancy Test,True
+UTTA-PHC-4,14,Pregnancy Test,True
+UTTA-PHC-4,21,Pregnancy Test,True
+UTTA-PHC-4,28,Pregnancy Test,True
+UTTA-PHC-4,35,Pregnancy Test,True
+UTTA-PHC-4,42,Pregnancy Test,True
+UTTA-PHC-4,49,Pregnancy Test,True
+UTTA-PHC-4,56,Pregnancy Test,True
+UTTA-PHC-4,63,Pregnancy Test,True
+UTTA-PHC-4,70,Pregnancy Test,True
+UTTA-PHC-4,77,Pregnancy Test,True
+UTTA-PHC-4,84,Pregnancy Test,True
+UTTA-PHC-4,0,TB Sputum,True
+UTTA-PHC-4,7,TB Sputum,False
+UTTA-PHC-4,14,TB Sputum,True
+UTTA-PHC-4,21,TB Sputum,True
+UTTA-PHC-4,28,TB Sputum,True
+UTTA-PHC-4,35,TB Sputum,True
+UTTA-PHC-4,42,TB Sputum,True
+UTTA-PHC-4,49,TB Sputum,True
+UTTA-PHC-4,56,TB Sputum,True
+UTTA-PHC-4,63,TB Sputum,False
+UTTA-PHC-4,70,TB Sputum,True
+UTTA-PHC-4,77,TB Sputum,False
+UTTA-PHC-4,84,TB Sputum,False
+UTTA-PHC-4,0,X-Ray,True
+UTTA-PHC-4,7,X-Ray,True
+UTTA-PHC-4,14,X-Ray,True
+UTTA-PHC-4,21,X-Ray,True
+UTTA-PHC-4,28,X-Ray,True
+UTTA-PHC-4,35,X-Ray,False
+UTTA-PHC-4,42,X-Ray,True
+UTTA-PHC-4,49,X-Ray,True
+UTTA-PHC-4,56,X-Ray,True
+UTTA-PHC-4,63,X-Ray,True
+UTTA-PHC-4,70,X-Ray,False
+UTTA-PHC-4,77,X-Ray,True
+UTTA-PHC-4,84,X-Ray,True
+KOZH-CHC-1,0,Blood Glucose,True
+KOZH-CHC-1,7,Blood Glucose,True
+KOZH-CHC-1,14,Blood Glucose,True
+KOZH-CHC-1,21,Blood Glucose,True
+KOZH-CHC-1,28,Blood Glucose,True
+KOZH-CHC-1,35,Blood Glucose,True
+KOZH-CHC-1,42,Blood Glucose,True
+KOZH-CHC-1,49,Blood Glucose,True
+KOZH-CHC-1,56,Blood Glucose,True
+KOZH-CHC-1,63,Blood Glucose,True
+KOZH-CHC-1,70,Blood Glucose,True
+KOZH-CHC-1,77,Blood Glucose,True
+KOZH-CHC-1,84,Blood Glucose,True
+KOZH-CHC-1,0,Hemoglobin,True
+KOZH-CHC-1,7,Hemoglobin,True
+KOZH-CHC-1,14,Hemoglobin,True
+KOZH-CHC-1,21,Hemoglobin,True
+KOZH-CHC-1,28,Hemoglobin,True
+KOZH-CHC-1,35,Hemoglobin,True
+KOZH-CHC-1,42,Hemoglobin,True
+KOZH-CHC-1,49,Hemoglobin,True
+KOZH-CHC-1,56,Hemoglobin,True
+KOZH-CHC-1,63,Hemoglobin,True
+KOZH-CHC-1,70,Hemoglobin,True
+KOZH-CHC-1,77,Hemoglobin,True
+KOZH-CHC-1,84,Hemoglobin,False
+KOZH-CHC-1,0,Malaria RDT,True
+KOZH-CHC-1,7,Malaria RDT,True
+KOZH-CHC-1,14,Malaria RDT,True
+KOZH-CHC-1,21,Malaria RDT,True
+KOZH-CHC-1,28,Malaria RDT,True
+KOZH-CHC-1,35,Malaria RDT,True
+KOZH-CHC-1,42,Malaria RDT,True
+KOZH-CHC-1,49,Malaria RDT,True
+KOZH-CHC-1,56,Malaria RDT,True
+KOZH-CHC-1,63,Malaria RDT,True
+KOZH-CHC-1,70,Malaria RDT,True
+KOZH-CHC-1,77,Malaria RDT,True
+KOZH-CHC-1,84,Malaria RDT,True
+KOZH-CHC-1,0,Pregnancy Test,True
+KOZH-CHC-1,7,Pregnancy Test,False
+KOZH-CHC-1,14,Pregnancy Test,True
+KOZH-CHC-1,21,Pregnancy Test,True
+KOZH-CHC-1,28,Pregnancy Test,True
+KOZH-CHC-1,35,Pregnancy Test,True
+KOZH-CHC-1,42,Pregnancy Test,True
+KOZH-CHC-1,49,Pregnancy Test,True
+KOZH-CHC-1,56,Pregnancy Test,True
+KOZH-CHC-1,63,Pregnancy Test,True
+KOZH-CHC-1,70,Pregnancy Test,True
+KOZH-CHC-1,77,Pregnancy Test,True
+KOZH-CHC-1,84,Pregnancy Test,True
+KOZH-CHC-1,0,TB Sputum,True
+KOZH-CHC-1,7,TB Sputum,True
+KOZH-CHC-1,14,TB Sputum,True
+KOZH-CHC-1,21,TB Sputum,False
+KOZH-CHC-1,28,TB Sputum,False
+KOZH-CHC-1,35,TB Sputum,True
+KOZH-CHC-1,42,TB Sputum,True
+KOZH-CHC-1,49,TB Sputum,True
+KOZH-CHC-1,56,TB Sputum,True
+KOZH-CHC-1,63,TB Sputum,True
+KOZH-CHC-1,70,TB Sputum,True
+KOZH-CHC-1,77,TB Sputum,True
+KOZH-CHC-1,84,TB Sputum,True
+KOZH-CHC-1,0,X-Ray,False
+KOZH-CHC-1,7,X-Ray,True
+KOZH-CHC-1,14,X-Ray,True
+KOZH-CHC-1,21,X-Ray,True
+KOZH-CHC-1,28,X-Ray,True
+KOZH-CHC-1,35,X-Ray,True
+KOZH-CHC-1,42,X-Ray,True
+KOZH-CHC-1,49,X-Ray,True
+KOZH-CHC-1,56,X-Ray,True
+KOZH-CHC-1,63,X-Ray,True
+KOZH-CHC-1,70,X-Ray,True
+KOZH-CHC-1,77,X-Ray,True
+KOZH-CHC-1,84,X-Ray,True
+KOZH-PHC-2,0,Blood Glucose,True
+KOZH-PHC-2,7,Blood Glucose,False
+KOZH-PHC-2,14,Blood Glucose,True
+KOZH-PHC-2,21,Blood Glucose,True
+KOZH-PHC-2,28,Blood Glucose,True
+KOZH-PHC-2,35,Blood Glucose,True
+KOZH-PHC-2,42,Blood Glucose,True
+KOZH-PHC-2,49,Blood Glucose,True
+KOZH-PHC-2,56,Blood Glucose,True
+KOZH-PHC-2,63,Blood Glucose,True
+KOZH-PHC-2,70,Blood Glucose,True
+KOZH-PHC-2,77,Blood Glucose,True
+KOZH-PHC-2,84,Blood Glucose,False
+KOZH-PHC-2,0,Hemoglobin,True
+KOZH-PHC-2,7,Hemoglobin,True
+KOZH-PHC-2,14,Hemoglobin,True
+KOZH-PHC-2,21,Hemoglobin,True
+KOZH-PHC-2,28,Hemoglobin,False
+KOZH-PHC-2,35,Hemoglobin,True
+KOZH-PHC-2,42,Hemoglobin,True
+KOZH-PHC-2,49,Hemoglobin,True
+KOZH-PHC-2,56,Hemoglobin,True
+KOZH-PHC-2,63,Hemoglobin,True
+KOZH-PHC-2,70,Hemoglobin,True
+KOZH-PHC-2,77,Hemoglobin,True
+KOZH-PHC-2,84,Hemoglobin,True
+KOZH-PHC-2,0,Malaria RDT,True
+KOZH-PHC-2,7,Malaria RDT,True
+KOZH-PHC-2,14,Malaria RDT,True
+KOZH-PHC-2,21,Malaria RDT,True
+KOZH-PHC-2,28,Malaria RDT,True
+KOZH-PHC-2,35,Malaria RDT,True
+KOZH-PHC-2,42,Malaria RDT,True
+KOZH-PHC-2,49,Malaria RDT,True
+KOZH-PHC-2,56,Malaria RDT,False
+KOZH-PHC-2,63,Malaria RDT,True
+KOZH-PHC-2,70,Malaria RDT,True
+KOZH-PHC-2,77,Malaria RDT,True
+KOZH-PHC-2,84,Malaria RDT,False
+KOZH-PHC-2,0,Pregnancy Test,True
+KOZH-PHC-2,7,Pregnancy Test,True
+KOZH-PHC-2,14,Pregnancy Test,True
+KOZH-PHC-2,21,Pregnancy Test,True
+KOZH-PHC-2,28,Pregnancy Test,True
+KOZH-PHC-2,35,Pregnancy Test,True
+KOZH-PHC-2,42,Pregnancy Test,True
+KOZH-PHC-2,49,Pregnancy Test,True
+KOZH-PHC-2,56,Pregnancy Test,True
+KOZH-PHC-2,63,Pregnancy Test,True
+KOZH-PHC-2,70,Pregnancy Test,True
+KOZH-PHC-2,77,Pregnancy Test,True
+KOZH-PHC-2,84,Pregnancy Test,False
+KOZH-PHC-2,0,TB Sputum,True
+KOZH-PHC-2,7,TB Sputum,True
+KOZH-PHC-2,14,TB Sputum,True
+KOZH-PHC-2,21,TB Sputum,True
+KOZH-PHC-2,28,TB Sputum,False
+KOZH-PHC-2,35,TB Sputum,True
+KOZH-PHC-2,42,TB Sputum,True
+KOZH-PHC-2,49,TB Sputum,True
+KOZH-PHC-2,56,TB Sputum,True
+KOZH-PHC-2,63,TB Sputum,True
+KOZH-PHC-2,70,TB Sputum,True
+KOZH-PHC-2,77,TB Sputum,True
+KOZH-PHC-2,84,TB Sputum,True
+KOZH-PHC-2,0,X-Ray,True
+KOZH-PHC-2,7,X-Ray,True
+KOZH-PHC-2,14,X-Ray,True
+KOZH-PHC-2,21,X-Ray,True
+KOZH-PHC-2,28,X-Ray,True
+KOZH-PHC-2,35,X-Ray,True
+KOZH-PHC-2,42,X-Ray,False
+KOZH-PHC-2,49,X-Ray,False
+KOZH-PHC-2,56,X-Ray,True
+KOZH-PHC-2,63,X-Ray,True
+KOZH-PHC-2,70,X-Ray,True
+KOZH-PHC-2,77,X-Ray,False
+KOZH-PHC-2,84,X-Ray,True
+KOZH-PHC-3,0,Blood Glucose,True
+KOZH-PHC-3,7,Blood Glucose,False
+KOZH-PHC-3,14,Blood Glucose,True
+KOZH-PHC-3,21,Blood Glucose,True
+KOZH-PHC-3,28,Blood Glucose,True
+KOZH-PHC-3,35,Blood Glucose,False
+KOZH-PHC-3,42,Blood Glucose,False
+KOZH-PHC-3,49,Blood Glucose,True
+KOZH-PHC-3,56,Blood Glucose,False
+KOZH-PHC-3,63,Blood Glucose,True
+KOZH-PHC-3,70,Blood Glucose,True
+KOZH-PHC-3,77,Blood Glucose,True
+KOZH-PHC-3,84,Blood Glucose,True
+KOZH-PHC-3,0,Hemoglobin,True
+KOZH-PHC-3,7,Hemoglobin,True
+KOZH-PHC-3,14,Hemoglobin,True
+KOZH-PHC-3,21,Hemoglobin,True
+KOZH-PHC-3,28,Hemoglobin,True
+KOZH-PHC-3,35,Hemoglobin,True
+KOZH-PHC-3,42,Hemoglobin,True
+KOZH-PHC-3,49,Hemoglobin,True
+KOZH-PHC-3,56,Hemoglobin,True
+KOZH-PHC-3,63,Hemoglobin,True
+KOZH-PHC-3,70,Hemoglobin,True
+KOZH-PHC-3,77,Hemoglobin,True
+KOZH-PHC-3,84,Hemoglobin,True
+KOZH-PHC-3,0,Malaria RDT,True
+KOZH-PHC-3,7,Malaria RDT,True
+KOZH-PHC-3,14,Malaria RDT,True
+KOZH-PHC-3,21,Malaria RDT,True
+KOZH-PHC-3,28,Malaria RDT,True
+KOZH-PHC-3,35,Malaria RDT,True
+KOZH-PHC-3,42,Malaria RDT,True
+KOZH-PHC-3,49,Malaria RDT,True
+KOZH-PHC-3,56,Malaria RDT,True
+KOZH-PHC-3,63,Malaria RDT,True
+KOZH-PHC-3,70,Malaria RDT,False
+KOZH-PHC-3,77,Malaria RDT,True
+KOZH-PHC-3,84,Malaria RDT,True
+KOZH-PHC-3,0,Pregnancy Test,True
+KOZH-PHC-3,7,Pregnancy Test,True
+KOZH-PHC-3,14,Pregnancy Test,True
+KOZH-PHC-3,21,Pregnancy Test,True
+KOZH-PHC-3,28,Pregnancy Test,True
+KOZH-PHC-3,35,Pregnancy Test,True
+KOZH-PHC-3,42,Pregnancy Test,True
+KOZH-PHC-3,49,Pregnancy Test,True
+KOZH-PHC-3,56,Pregnancy Test,True
+KOZH-PHC-3,63,Pregnancy Test,True
+KOZH-PHC-3,70,Pregnancy Test,True
+KOZH-PHC-3,77,Pregnancy Test,True
+KOZH-PHC-3,84,Pregnancy Test,True
+KOZH-PHC-3,0,TB Sputum,True
+KOZH-PHC-3,7,TB Sputum,True
+KOZH-PHC-3,14,TB Sputum,True
+KOZH-PHC-3,21,TB Sputum,False
+KOZH-PHC-3,28,TB Sputum,True
+KOZH-PHC-3,35,TB Sputum,True
+KOZH-PHC-3,42,TB Sputum,True
+KOZH-PHC-3,49,TB Sputum,True
+KOZH-PHC-3,56,TB Sputum,True
+KOZH-PHC-3,63,TB Sputum,False
+KOZH-PHC-3,70,TB Sputum,True
+KOZH-PHC-3,77,TB Sputum,True
+KOZH-PHC-3,84,TB Sputum,False
+KOZH-PHC-3,0,X-Ray,True
+KOZH-PHC-3,7,X-Ray,True
+KOZH-PHC-3,14,X-Ray,True
+KOZH-PHC-3,21,X-Ray,True
+KOZH-PHC-3,28,X-Ray,True
+KOZH-PHC-3,35,X-Ray,True
+KOZH-PHC-3,42,X-Ray,True
+KOZH-PHC-3,49,X-Ray,True
+KOZH-PHC-3,56,X-Ray,True
+KOZH-PHC-3,63,X-Ray,True
+KOZH-PHC-3,70,X-Ray,True
+KOZH-PHC-3,77,X-Ray,True
+KOZH-PHC-3,84,X-Ray,True
+KOZH-PHC-4,0,Blood Glucose,True
+KOZH-PHC-4,7,Blood Glucose,True
+KOZH-PHC-4,14,Blood Glucose,True
+KOZH-PHC-4,21,Blood Glucose,True
+KOZH-PHC-4,28,Blood Glucose,True
+KOZH-PHC-4,35,Blood Glucose,True
+KOZH-PHC-4,42,Blood Glucose,True
+KOZH-PHC-4,49,Blood Glucose,True
+KOZH-PHC-4,56,Blood Glucose,True
+KOZH-PHC-4,63,Blood Glucose,True
+KOZH-PHC-4,70,Blood Glucose,True
+KOZH-PHC-4,77,Blood Glucose,True
+KOZH-PHC-4,84,Blood Glucose,True
+KOZH-PHC-4,0,Hemoglobin,True
+KOZH-PHC-4,7,Hemoglobin,True
+KOZH-PHC-4,14,Hemoglobin,False
+KOZH-PHC-4,21,Hemoglobin,True
+KOZH-PHC-4,28,Hemoglobin,False
+KOZH-PHC-4,35,Hemoglobin,True
+KOZH-PHC-4,42,Hemoglobin,True
+KOZH-PHC-4,49,Hemoglobin,True
+KOZH-PHC-4,56,Hemoglobin,True
+KOZH-PHC-4,63,Hemoglobin,True
+KOZH-PHC-4,70,Hemoglobin,True
+KOZH-PHC-4,77,Hemoglobin,True
+KOZH-PHC-4,84,Hemoglobin,True
+KOZH-PHC-4,0,Malaria RDT,True
+KOZH-PHC-4,7,Malaria RDT,True
+KOZH-PHC-4,14,Malaria RDT,True
+KOZH-PHC-4,21,Malaria RDT,True
+KOZH-PHC-4,28,Malaria RDT,True
+KOZH-PHC-4,35,Malaria RDT,True
+KOZH-PHC-4,42,Malaria RDT,True
+KOZH-PHC-4,49,Malaria RDT,True
+KOZH-PHC-4,56,Malaria RDT,True
+KOZH-PHC-4,63,Malaria RDT,True
+KOZH-PHC-4,70,Malaria RDT,False
+KOZH-PHC-4,77,Malaria RDT,True
+KOZH-PHC-4,84,Malaria RDT,False
+KOZH-PHC-4,0,Pregnancy Test,True
+KOZH-PHC-4,7,Pregnancy Test,True
+KOZH-PHC-4,14,Pregnancy Test,False
+KOZH-PHC-4,21,Pregnancy Test,True
+KOZH-PHC-4,28,Pregnancy Test,True
+KOZH-PHC-4,35,Pregnancy Test,True
+KOZH-PHC-4,42,Pregnancy Test,True
+KOZH-PHC-4,49,Pregnancy Test,True
+KOZH-PHC-4,56,Pregnancy Test,True
+KOZH-PHC-4,63,Pregnancy Test,True
+KOZH-PHC-4,70,Pregnancy Test,True
+KOZH-PHC-4,77,Pregnancy Test,True
+KOZH-PHC-4,84,Pregnancy Test,False
+KOZH-PHC-4,0,TB Sputum,True
+KOZH-PHC-4,7,TB Sputum,True
+KOZH-PHC-4,14,TB Sputum,True
+KOZH-PHC-4,21,TB Sputum,True
+KOZH-PHC-4,28,TB Sputum,True
+KOZH-PHC-4,35,TB Sputum,True
+KOZH-PHC-4,42,TB Sputum,True
+KOZH-PHC-4,49,TB Sputum,True
+KOZH-PHC-4,56,TB Sputum,True
+KOZH-PHC-4,63,TB Sputum,True
+KOZH-PHC-4,70,TB Sputum,True
+KOZH-PHC-4,77,TB Sputum,True
+KOZH-PHC-4,84,TB Sputum,True
+KOZH-PHC-4,0,X-Ray,True
+KOZH-PHC-4,7,X-Ray,False
+KOZH-PHC-4,14,X-Ray,True
+KOZH-PHC-4,21,X-Ray,True
+KOZH-PHC-4,28,X-Ray,True
+KOZH-PHC-4,35,X-Ray,True
+KOZH-PHC-4,42,X-Ray,True
+KOZH-PHC-4,49,X-Ray,True
+KOZH-PHC-4,56,X-Ray,True
+KOZH-PHC-4,63,X-Ray,True
+KOZH-PHC-4,70,X-Ray,True
+KOZH-PHC-4,77,X-Ray,True
+KOZH-PHC-4,84,X-Ray,True
+JODH-CHC-1,0,Blood Glucose,False
+JODH-CHC-1,7,Blood Glucose,True
+JODH-CHC-1,14,Blood Glucose,True
+JODH-CHC-1,21,Blood Glucose,True
+JODH-CHC-1,28,Blood Glucose,True
+JODH-CHC-1,35,Blood Glucose,True
+JODH-CHC-1,42,Blood Glucose,False
+JODH-CHC-1,49,Blood Glucose,True
+JODH-CHC-1,56,Blood Glucose,True
+JODH-CHC-1,63,Blood Glucose,False
+JODH-CHC-1,70,Blood Glucose,True
+JODH-CHC-1,77,Blood Glucose,False
+JODH-CHC-1,84,Blood Glucose,True
+JODH-CHC-1,0,Hemoglobin,True
+JODH-CHC-1,7,Hemoglobin,False
+JODH-CHC-1,14,Hemoglobin,True
+JODH-CHC-1,21,Hemoglobin,True
+JODH-CHC-1,28,Hemoglobin,True
+JODH-CHC-1,35,Hemoglobin,True
+JODH-CHC-1,42,Hemoglobin,True
+JODH-CHC-1,49,Hemoglobin,True
+JODH-CHC-1,56,Hemoglobin,True
+JODH-CHC-1,63,Hemoglobin,True
+JODH-CHC-1,70,Hemoglobin,True
+JODH-CHC-1,77,Hemoglobin,False
+JODH-CHC-1,84,Hemoglobin,True
+JODH-CHC-1,0,Malaria RDT,True
+JODH-CHC-1,7,Malaria RDT,True
+JODH-CHC-1,14,Malaria RDT,True
+JODH-CHC-1,21,Malaria RDT,True
+JODH-CHC-1,28,Malaria RDT,True
+JODH-CHC-1,35,Malaria RDT,True
+JODH-CHC-1,42,Malaria RDT,True
+JODH-CHC-1,49,Malaria RDT,True
+JODH-CHC-1,56,Malaria RDT,True
+JODH-CHC-1,63,Malaria RDT,True
+JODH-CHC-1,70,Malaria RDT,True
+JODH-CHC-1,77,Malaria RDT,True
+JODH-CHC-1,84,Malaria RDT,True
+JODH-CHC-1,0,Pregnancy Test,False
+JODH-CHC-1,7,Pregnancy Test,True
+JODH-CHC-1,14,Pregnancy Test,True
+JODH-CHC-1,21,Pregnancy Test,True
+JODH-CHC-1,28,Pregnancy Test,True
+JODH-CHC-1,35,Pregnancy Test,True
+JODH-CHC-1,42,Pregnancy Test,True
+JODH-CHC-1,49,Pregnancy Test,False
+JODH-CHC-1,56,Pregnancy Test,True
+JODH-CHC-1,63,Pregnancy Test,True
+JODH-CHC-1,70,Pregnancy Test,True
+JODH-CHC-1,77,Pregnancy Test,False
+JODH-CHC-1,84,Pregnancy Test,True
+JODH-CHC-1,0,TB Sputum,True
+JODH-CHC-1,7,TB Sputum,False
+JODH-CHC-1,14,TB Sputum,True
+JODH-CHC-1,21,TB Sputum,False
+JODH-CHC-1,28,TB Sputum,True
+JODH-CHC-1,35,TB Sputum,False
+JODH-CHC-1,42,TB Sputum,True
+JODH-CHC-1,49,TB Sputum,False
+JODH-CHC-1,56,TB Sputum,True
+JODH-CHC-1,63,TB Sputum,False
+JODH-CHC-1,70,TB Sputum,True
+JODH-CHC-1,77,TB Sputum,True
+JODH-CHC-1,84,TB Sputum,True
+JODH-CHC-1,0,X-Ray,True
+JODH-CHC-1,7,X-Ray,True
+JODH-CHC-1,14,X-Ray,True
+JODH-CHC-1,21,X-Ray,True
+JODH-CHC-1,28,X-Ray,True
+JODH-CHC-1,35,X-Ray,True
+JODH-CHC-1,42,X-Ray,True
+JODH-CHC-1,49,X-Ray,True
+JODH-CHC-1,56,X-Ray,True
+JODH-CHC-1,63,X-Ray,True
+JODH-CHC-1,70,X-Ray,True
+JODH-CHC-1,77,X-Ray,True
+JODH-CHC-1,84,X-Ray,True
+JODH-PHC-2,0,Blood Glucose,True
+JODH-PHC-2,7,Blood Glucose,False
+JODH-PHC-2,14,Blood Glucose,True
+JODH-PHC-2,21,Blood Glucose,True
+JODH-PHC-2,28,Blood Glucose,True
+JODH-PHC-2,35,Blood Glucose,True
+JODH-PHC-2,42,Blood Glucose,True
+JODH-PHC-2,49,Blood Glucose,True
+JODH-PHC-2,56,Blood Glucose,True
+JODH-PHC-2,63,Blood Glucose,True
+JODH-PHC-2,70,Blood Glucose,False
+JODH-PHC-2,77,Blood Glucose,True
+JODH-PHC-2,84,Blood Glucose,True
+JODH-PHC-2,0,Hemoglobin,True
+JODH-PHC-2,7,Hemoglobin,True
+JODH-PHC-2,14,Hemoglobin,True
+JODH-PHC-2,21,Hemoglobin,True
+JODH-PHC-2,28,Hemoglobin,True
+JODH-PHC-2,35,Hemoglobin,False
+JODH-PHC-2,42,Hemoglobin,True
+JODH-PHC-2,49,Hemoglobin,True
+JODH-PHC-2,56,Hemoglobin,True
+JODH-PHC-2,63,Hemoglobin,True
+JODH-PHC-2,70,Hemoglobin,True
+JODH-PHC-2,77,Hemoglobin,True
+JODH-PHC-2,84,Hemoglobin,True
+JODH-PHC-2,0,Malaria RDT,False
+JODH-PHC-2,7,Malaria RDT,True
+JODH-PHC-2,14,Malaria RDT,True
+JODH-PHC-2,21,Malaria RDT,True
+JODH-PHC-2,28,Malaria RDT,True
+JODH-PHC-2,35,Malaria RDT,True
+JODH-PHC-2,42,Malaria RDT,True
+JODH-PHC-2,49,Malaria RDT,True
+JODH-PHC-2,56,Malaria RDT,False
+JODH-PHC-2,63,Malaria RDT,True
+JODH-PHC-2,70,Malaria RDT,True
+JODH-PHC-2,77,Malaria RDT,True
+JODH-PHC-2,84,Malaria RDT,False
+JODH-PHC-2,0,Pregnancy Test,True
+JODH-PHC-2,7,Pregnancy Test,True
+JODH-PHC-2,14,Pregnancy Test,True
+JODH-PHC-2,21,Pregnancy Test,True
+JODH-PHC-2,28,Pregnancy Test,True
+JODH-PHC-2,35,Pregnancy Test,True
+JODH-PHC-2,42,Pregnancy Test,True
+JODH-PHC-2,49,Pregnancy Test,True
+JODH-PHC-2,56,Pregnancy Test,True
+JODH-PHC-2,63,Pregnancy Test,True
+JODH-PHC-2,70,Pregnancy Test,True
+JODH-PHC-2,77,Pregnancy Test,True
+JODH-PHC-2,84,Pregnancy Test,True
+JODH-PHC-2,0,TB Sputum,True
+JODH-PHC-2,7,TB Sputum,True
+JODH-PHC-2,14,TB Sputum,False
+JODH-PHC-2,21,TB Sputum,True
+JODH-PHC-2,28,TB Sputum,False
+JODH-PHC-2,35,TB Sputum,True
+JODH-PHC-2,42,TB Sputum,True
+JODH-PHC-2,49,TB Sputum,True
+JODH-PHC-2,56,TB Sputum,True
+JODH-PHC-2,63,TB Sputum,True
+JODH-PHC-2,70,TB Sputum,True
+JODH-PHC-2,77,TB Sputum,True
+JODH-PHC-2,84,TB Sputum,True
+JODH-PHC-2,0,X-Ray,True
+JODH-PHC-2,7,X-Ray,True
+JODH-PHC-2,14,X-Ray,True
+JODH-PHC-2,21,X-Ray,True
+JODH-PHC-2,28,X-Ray,True
+JODH-PHC-2,35,X-Ray,True
+JODH-PHC-2,42,X-Ray,True
+JODH-PHC-2,49,X-Ray,True
+JODH-PHC-2,56,X-Ray,True
+JODH-PHC-2,63,X-Ray,True
+JODH-PHC-2,70,X-Ray,True
+JODH-PHC-2,77,X-Ray,True
+JODH-PHC-2,84,X-Ray,True
+JODH-PHC-3,0,Blood Glucose,True
+JODH-PHC-3,7,Blood Glucose,True
+JODH-PHC-3,14,Blood Glucose,True
+JODH-PHC-3,21,Blood Glucose,True
+JODH-PHC-3,28,Blood Glucose,True
+JODH-PHC-3,35,Blood Glucose,True
+JODH-PHC-3,42,Blood Glucose,True
+JODH-PHC-3,49,Blood Glucose,True
+JODH-PHC-3,56,Blood Glucose,True
+JODH-PHC-3,63,Blood Glucose,True
+JODH-PHC-3,70,Blood Glucose,True
+JODH-PHC-3,77,Blood Glucose,True
+JODH-PHC-3,84,Blood Glucose,True
+JODH-PHC-3,0,Hemoglobin,True
+JODH-PHC-3,7,Hemoglobin,True
+JODH-PHC-3,14,Hemoglobin,True
+JODH-PHC-3,21,Hemoglobin,True
+JODH-PHC-3,28,Hemoglobin,True
+JODH-PHC-3,35,Hemoglobin,True
+JODH-PHC-3,42,Hemoglobin,False
+JODH-PHC-3,49,Hemoglobin,True
+JODH-PHC-3,56,Hemoglobin,True
+JODH-PHC-3,63,Hemoglobin,True
+JODH-PHC-3,70,Hemoglobin,True
+JODH-PHC-3,77,Hemoglobin,True
+JODH-PHC-3,84,Hemoglobin,True
+JODH-PHC-3,0,Malaria RDT,True
+JODH-PHC-3,7,Malaria RDT,True
+JODH-PHC-3,14,Malaria RDT,True
+JODH-PHC-3,21,Malaria RDT,True
+JODH-PHC-3,28,Malaria RDT,True
+JODH-PHC-3,35,Malaria RDT,True
+JODH-PHC-3,42,Malaria RDT,True
+JODH-PHC-3,49,Malaria RDT,True
+JODH-PHC-3,56,Malaria RDT,True
+JODH-PHC-3,63,Malaria RDT,True
+JODH-PHC-3,70,Malaria RDT,True
+JODH-PHC-3,77,Malaria RDT,True
+JODH-PHC-3,84,Malaria RDT,True
+JODH-PHC-3,0,Pregnancy Test,False
+JODH-PHC-3,7,Pregnancy Test,True
+JODH-PHC-3,14,Pregnancy Test,True
+JODH-PHC-3,21,Pregnancy Test,True
+JODH-PHC-3,28,Pregnancy Test,True
+JODH-PHC-3,35,Pregnancy Test,True
+JODH-PHC-3,42,Pregnancy Test,False
+JODH-PHC-3,49,Pregnancy Test,True
+JODH-PHC-3,56,Pregnancy Test,True
+JODH-PHC-3,63,Pregnancy Test,True
+JODH-PHC-3,70,Pregnancy Test,True
+JODH-PHC-3,77,Pregnancy Test,True
+JODH-PHC-3,84,Pregnancy Test,True
+JODH-PHC-3,0,TB Sputum,True
+JODH-PHC-3,7,TB Sputum,True
+JODH-PHC-3,14,TB Sputum,True
+JODH-PHC-3,21,TB Sputum,True
+JODH-PHC-3,28,TB Sputum,True
+JODH-PHC-3,35,TB Sputum,True
+JODH-PHC-3,42,TB Sputum,True
+JODH-PHC-3,49,TB Sputum,False
+JODH-PHC-3,56,TB Sputum,True
+JODH-PHC-3,63,TB Sputum,True
+JODH-PHC-3,70,TB Sputum,True
+JODH-PHC-3,77,TB Sputum,True
+JODH-PHC-3,84,TB Sputum,True
+JODH-PHC-3,0,X-Ray,True
+JODH-PHC-3,7,X-Ray,False
+JODH-PHC-3,14,X-Ray,True
+JODH-PHC-3,21,X-Ray,True
+JODH-PHC-3,28,X-Ray,True
+JODH-PHC-3,35,X-Ray,True
+JODH-PHC-3,42,X-Ray,False
+JODH-PHC-3,49,X-Ray,True
+JODH-PHC-3,56,X-Ray,True
+JODH-PHC-3,63,X-Ray,True
+JODH-PHC-3,70,X-Ray,True
+JODH-PHC-3,77,X-Ray,False
+JODH-PHC-3,84,X-Ray,False
+JODH-PHC-4,0,Blood Glucose,False
+JODH-PHC-4,7,Blood Glucose,False
+JODH-PHC-4,14,Blood Glucose,False
+JODH-PHC-4,21,Blood Glucose,True
+JODH-PHC-4,28,Blood Glucose,True
+JODH-PHC-4,35,Blood Glucose,True
+JODH-PHC-4,42,Blood Glucose,True
+JODH-PHC-4,49,Blood Glucose,False
+JODH-PHC-4,56,Blood Glucose,True
+JODH-PHC-4,63,Blood Glucose,True
+JODH-PHC-4,70,Blood Glucose,True
+JODH-PHC-4,77,Blood Glucose,False
+JODH-PHC-4,84,Blood Glucose,True
+JODH-PHC-4,0,Hemoglobin,True
+JODH-PHC-4,7,Hemoglobin,True
+JODH-PHC-4,14,Hemoglobin,True
+JODH-PHC-4,21,Hemoglobin,False
+JODH-PHC-4,28,Hemoglobin,True
+JODH-PHC-4,35,Hemoglobin,True
+JODH-PHC-4,42,Hemoglobin,True
+JODH-PHC-4,49,Hemoglobin,False
+JODH-PHC-4,56,Hemoglobin,True
+JODH-PHC-4,63,Hemoglobin,True
+JODH-PHC-4,70,Hemoglobin,True
+JODH-PHC-4,77,Hemoglobin,True
+JODH-PHC-4,84,Hemoglobin,True
+JODH-PHC-4,0,Malaria RDT,True
+JODH-PHC-4,7,Malaria RDT,True
+JODH-PHC-4,14,Malaria RDT,False
+JODH-PHC-4,21,Malaria RDT,True
+JODH-PHC-4,28,Malaria RDT,True
+JODH-PHC-4,35,Malaria RDT,True
+JODH-PHC-4,42,Malaria RDT,True
+JODH-PHC-4,49,Malaria RDT,True
+JODH-PHC-4,56,Malaria RDT,True
+JODH-PHC-4,63,Malaria RDT,False
+JODH-PHC-4,70,Malaria RDT,False
+JODH-PHC-4,77,Malaria RDT,True
+JODH-PHC-4,84,Malaria RDT,True
+JODH-PHC-4,0,Pregnancy Test,True
+JODH-PHC-4,7,Pregnancy Test,True
+JODH-PHC-4,14,Pregnancy Test,True
+JODH-PHC-4,21,Pregnancy Test,True
+JODH-PHC-4,28,Pregnancy Test,True
+JODH-PHC-4,35,Pregnancy Test,True
+JODH-PHC-4,42,Pregnancy Test,True
+JODH-PHC-4,49,Pregnancy Test,True
+JODH-PHC-4,56,Pregnancy Test,True
+JODH-PHC-4,63,Pregnancy Test,False
+JODH-PHC-4,70,Pregnancy Test,True
+JODH-PHC-4,77,Pregnancy Test,True
+JODH-PHC-4,84,Pregnancy Test,False
+JODH-PHC-4,0,TB Sputum,True
+JODH-PHC-4,7,TB Sputum,False
+JODH-PHC-4,14,TB Sputum,True
+JODH-PHC-4,21,TB Sputum,True
+JODH-PHC-4,28,TB Sputum,False
+JODH-PHC-4,35,TB Sputum,True
+JODH-PHC-4,42,TB Sputum,True
+JODH-PHC-4,49,TB Sputum,True
+JODH-PHC-4,56,TB Sputum,True
+JODH-PHC-4,63,TB Sputum,True
+JODH-PHC-4,70,TB Sputum,True
+JODH-PHC-4,77,TB Sputum,True
+JODH-PHC-4,84,TB Sputum,False
+JODH-PHC-4,0,X-Ray,False
+JODH-PHC-4,7,X-Ray,True
+JODH-PHC-4,14,X-Ray,True
+JODH-PHC-4,21,X-Ray,True
+JODH-PHC-4,28,X-Ray,True
+JODH-PHC-4,35,X-Ray,True
+JODH-PHC-4,42,X-Ray,False
+JODH-PHC-4,49,X-Ray,True
+JODH-PHC-4,56,X-Ray,True
+JODH-PHC-4,63,X-Ray,True
+JODH-PHC-4,70,X-Ray,True
+JODH-PHC-4,77,X-Ray,True
+JODH-PHC-4,84,X-Ray,True

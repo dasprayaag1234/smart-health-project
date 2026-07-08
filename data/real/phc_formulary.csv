@@ -1,0 +1,217 @@
+medicine_name,eml_section,indication,criticality
+Bcg Vaccine,Immunologicals > Vaccines,Need for immunization against tuberculosis,3
+Ebola Vaccine,Immunologicals > Vaccines,Need for immunization against certain single viral diseases,3
+Japanese Encephalitis Vaccine,Immunologicals > Vaccines,Need for immunization against certain single viral diseases,3
+Aclidinium,Antiasthmatic and medicines for chronic obstructive pulmonary disease,Chronic obstructive pulmonary disease,2
+Albendazole,Intestinal anthelminthics,Trichuriasis,1
+Amikacin,Access group antibiotics,Neutropenia (high-risk),3
+Amiloride,Diuretics,Oedema,2
+Amlodipine,Antihypertensive medicines,Essential hypertension,2
+Amoxicillin,Access group antibiotics,Acute pharyngitis,3
+Amoxicillin + Clavulanic Acid,Access group antibiotics,Bacterial pneumonia (Community-acquired pneumonia - severe) [children],3
+Amphotericin B,Antifungal medicines,Candidosis,1
+Ampicillin,Access group antibiotics,Bacterial pneumonia (Community-acquired pneumonia - severe) [children],3
+Anidulafungin,Antifungal medicines,Systemic or invasive candidosis,1
+Artemether,Antimalarial medicines > Medicines for curative treatment,Malaria due to Plasmodium falciparum,3
+Artemether + Lumefantrine,Antimalarial medicines > Medicines for curative treatment,Malaria due to Plasmodium falciparum,3
+Artesunate,Antimalarial medicines > Medicines for curative treatment,Malaria due to Plasmodium falciparum,3
+Artesunate + Amodiaquine,Antimalarial medicines > Medicines for curative treatment,Malaria due to Plasmodium falciparum,3
+Artesunate + Mefloquine,Antimalarial medicines > Medicines for curative treatment,Malaria due to Plasmodium falciparum,3
+Artesunate + Pyronaridine,Antimalarial medicines > Medicines for curative treatment,Malaria due to Plasmodium falciparum,3
+Artesunate - Sulfadoxine + Pyrimethamine,Antimalarial medicines > Medicines for curative treatment,Malaria due to Plasmodium falciparum,3
+Ascorbic Acid,Vitamins and minerals,Scurvy,1
+Atenolol,Antihypertensive medicines,Essential hypertension,2
+Atropine,Diagnostic agents > Ophthalmic medicines,Cycloplegic drug,1
+Beclometasone,Antiasthmatic and medicines for chronic obstructive pulmonary disease,Asthma,2
+Beclometasone + Formoterol,Antiasthmatic and medicines for chronic obstructive pulmonary disease,Asthma,2
+Bedaquiline,Antituberculosis medicines,Multi-drug resistant Mycobacterium tuberculosis,3
+Benzathine Benzylpenicillin,Access group antibiotics,Congenital syphilis [children],3
+Benzylpenicillin,Access group antibiotics,Bacterial pneumonia (Community-acquired pneumonia - severe) [children],3
+Bisoprolol,Antihypertensive medicines,Essential hypertension,2
+Budesonide,Antiasthmatic and medicines for chronic obstructive pulmonary disease,Asthma,2
+Budesonide + Formoterol,Antiasthmatic and medicines for chronic obstructive pulmonary disease,Asthma,2
+Budesonide + Salmeterol,Antiasthmatic and medicines for chronic obstructive pulmonary disease,Asthma,2
+Bumetanide,Diuretics,Anuria or oliguria,2
+Calcium,Vitamins and minerals,Calcium deficiency,1
+Calcium Gluconate,Vitamins and minerals,Tetany due to acute calcium deficiency,1
+Canagliflozin,Hypoglycaemic agents,Type 2 diabetes mellitus,2
+Carbamazepine,Antiseizure medicines,Epilepsy or seizures,2
+Carvedilol,Antihypertensive medicines,Essential hypertension,2
+Caspofungin,Antifungal medicines,Systemic or invasive candidosis,1
+Cefalexin,Access group antibiotics,"Bacterial cellulitis, erysipelas or lymphangitis",3
+Cefazolin,Access group antibiotics,Other specified prophylactic measures,3
+Chloramphenicol,Access group antibiotics,Bacterial meningitis,3
+Chloroquine,Antimalarial medicines > Medicines for curative treatment,Malaria due to Plasmodium vivax,3
+Chlorothiazide,Antihypertensive medicines,Essential hypertension,2
+Chlortalidone,Antihypertensive medicines,Essential hypertension,2
+Cholera Vaccine,Immunologicals > Vaccines,Need for immunization against cholera alone,3
+Ciclesonide,Antiasthmatic and medicines for chronic obstructive pulmonary disease,Asthma,2
+Clindamycin,Access group antibiotics,Necrotising fasciitis,3
+Clofazimine,Antituberculosis medicines,Multi-drug resistant Mycobacterium tuberculosis,3
+Clotrimazole,Antifungal medicines,Vulvovaginal candidosis,1
+Cloxacillin,Access group antibiotics,Osteomyelitis or osteitis,3
+Colecalciferol,Vitamins and minerals,Calcium deficiency,1
+Cyclopentolate,Diagnostic agents > Ophthalmic medicines,Cycloplegic drug,1
+Cycloserine,Antituberculosis medicines,Multi-drug resistant Mycobacterium tuberculosis,3
+Dapagliflozin,Hypoglycaemic agents,Type 2 diabetes mellitus,2
+Darbepoetin Alfa,Antianaemia medicines,Anaemia due to chronic disease,2
+Delamanid,Antituberculosis medicines,Multi-drug resistant Mycobacterium tuberculosis,3
+Dengue Vaccine,Immunologicals > Vaccines,Need for immunization against certain single viral diseases,3
+Diazepam,Antiseizure medicines,Status epilepticus,2
+Dicloxacillin,Access group antibiotics,Osteomyelitis or osteitis,3
+Dihydroartemisinin + Piperaquine,Antimalarial medicines > Medicines for curative treatment,Malaria due to Plasmodium falciparum,3
+Diphtheria Vaccine,Immunologicals > Vaccines,Need for immunization against diphtheria alone,3
+Doxycycline,Access group antibiotics,Cholera,3
+Dulaglutide,Hypoglycaemic agents,Type 2 diabetes mellitus,2
+Empagliflozin,Hypoglycaemic agents,Type 2 diabetes mellitus,2
+Enalapril,Antihypertensive medicines,Essential hypertension,2
+Epinephrine,Antiasthmatic and medicines for chronic obstructive pulmonary disease,Chronic obstructive pulmonary disease,2
+Epoetin Alfa,Antianaemia medicines,Anaemia due to chronic disease,2
+Epoetin Beta,Antianaemia medicines,Anaemia due to chronic disease,2
+Epoetin Theta,Antianaemia medicines,Anaemia due to chronic disease,2
+Ergocalciferol,Vitamins and minerals,Calcium deficiency,1
+Erythropoiesis-Stimulating Agents,Antianaemia medicines,Anaemia due to chronic disease,2
+Ethambutol,Antituberculosis medicines,Tuberculosis,3
+Ethambutol + Isoniazid + Pyrazinamide + Rifampicin,Antituberculosis medicines,Tuberculosis,3
+Ethambutol + Isoniazid + Rifampicin,Antituberculosis medicines,Tuberculosis,3
+Ethionamide,Antituberculosis medicines,Tuberculous meningitis,3
+Ethosuximide,Antiseizure medicines,"Absence seizures, typical",2
+Ferrous Salt,Antianaemia medicines,Iron deficiency anaemia,2
+Ferrous Salt + Folic Acid,Antianaemia medicines,Iron deficiency anaemia,2
+Flucloxacillin,Access group antibiotics,Osteomyelitis or osteitis,3
+Fluconazole,Antifungal medicines,Cryptococcosis,1
+Flucytosine,Antifungal medicines,Cryptococcosis,1
+Fluorescein,Diagnostic agents > Ophthalmic medicines,Fluorescein,1
+Fluticasone,Antiasthmatic and medicines for chronic obstructive pulmonary disease,Asthma,2
+Fluticasone + Formoterol,Antiasthmatic and medicines for chronic obstructive pulmonary disease,Asthma,2
+Fluticasone Furoate + Vilanterol,Antiasthmatic and medicines for chronic obstructive pulmonary disease,Asthma,2
+Folic Acid,Antianaemia medicines,Cephalocele,2
+Furosemide,Diuretics,Anuria or oliguria,2
+Gentamicin,Access group antibiotics,"Acute malnutrition in infants, children or adolescents (complicated) [children]",3
+Gliclazide,Hypoglycaemic agents,Type 2 diabetes mellitus,2
+Glycopyrronium,Antiasthmatic and medicines for chronic obstructive pulmonary disease,Chronic obstructive pulmonary disease,2
+Griseofulvin,Antifungal medicines,Dermatophytosis,1
+Haemophilus Influenzae Type B Vaccine,Immunologicals > Vaccines,Need for immunization against single bacterial diseases,3
+Hepatitis A Vaccine,Immunologicals > Vaccines,Need for immunization against viral hepatitis,3
+Hepatitis B Vaccine,Immunologicals > Vaccines,Need for immunization against viral hepatitis,3
+Hepatitis E Vaccine,Immunologicals > Vaccines,Need for immunization against viral hepatitis,3
+Human Papilloma Virus (Hpv) Vaccine,Immunologicals > Vaccines,Need for immunization against certain single viral diseases,3
+Hydralazine,Antihypertensive medicines,Gestational hypertension,2
+Hydrochlorothiazide,Antihypertensive medicines,Essential hypertension,2
+Hydroxocobalamin,Antianaemia medicines,Megaloblastic anaemia due to vitamin B12 deficiency,2
+Imipenem + Cilastatin,Antituberculosis medicines,Multi-drug resistant Mycobacterium tuberculosis,3
+Indapamide,Antihypertensive medicines,Essential hypertension,2
+Influenza Vaccine (Seasonal),Immunologicals > Vaccines,Need for immunization against influenza,3
+"Insulin (Analogue, Long-Acting)",Insulins,Type 2 diabetes mellitus,3
+"Insulin (Analogue, Rapid-Acting)",Insulins,Type 1 diabetes mellitus,3
+"Insulin (Human, Intermediate-Acting)",Insulins,Type 2 diabetes mellitus,3
+"Insulin (Human, Short-Acting)",Insulins,Type 2 diabetes mellitus,3
+Insulin Aspart,Insulins,Type 1 diabetes mellitus,3
+Insulin Degludec,Insulins,Type 2 diabetes mellitus,3
+Insulin Detemir,Insulins,Type 2 diabetes mellitus,3
+Insulin Glargine,Insulins,Type 2 diabetes mellitus,3
+Insulin Glulisine,Insulins,Type 1 diabetes mellitus,3
+Insulin Lispro,Insulins,Type 1 diabetes mellitus,3
+Iodine,Vitamins and minerals,Iodine deficiency,1
+Ipratropium Bromide,Antiasthmatic and medicines for chronic obstructive pulmonary disease,Chronic obstructive pulmonary disease,2
+Isoniazid,Antituberculosis medicines,Tuberculosis,3
+Isoniazid + Pyrazinamide + Rifampicin,Antituberculosis medicines,Tuberculosis,3
+Isoniazid + Rifampicin,Antituberculosis medicines,Tuberculosis,3
+Isoniazid + Rifapentine,Antituberculosis medicines,Latent tuberculosis,3
+Itraconazole,Antifungal medicines,Chronic pulmonary aspergillosis,1
+Ivermectin,Intestinal anthelminthics,Strongyloidiasis,1
+Lamotrigine,Antiseizure medicines,Epilepsy or seizures,2
+Levamisole,Intestinal anthelminthics,Ascariasis,1
+Levetiracetam,Antiseizure medicines,Epilepsy or seizures,2
+Levofloxacin,Antituberculosis medicines,Multi-drug resistant Mycobacterium tuberculosis,3
+Linezolid,Antituberculosis medicines,Multi-drug resistant Mycobacterium tuberculosis,3
+Liraglutide,Hypoglycaemic agents,Type 2 diabetes mellitus,2
+Lisinopril + Amlodipine,Antihypertensive medicines,Essential hypertension,2
+Lisinopril + Hydrochlorothiazide,Antihypertensive medicines,Essential hypertension,2
+Lorazepam,Antiseizure medicines,Status epilepticus,2
+Losartan,Antihypertensive medicines,Essential hypertension,2
+Magnesium Sulfate,Antiseizure medicines,Severe pre-eclampsia,2
+Malaria Vaccine,Immunologicals > Vaccines,Need for immunization against certain specified single infectious diseases,3
+Mannitol,Diuretics,Ocular hypertension,2
+Measles Vaccine,Immunologicals > Vaccines,Need for immunization against measles alone,3
+Mebendazole,Intestinal anthelminthics,Ascariasis,1
+Meningococcal Meningitis Vaccine,Immunologicals > Vaccines,Need for immunization against single bacterial diseases,3
+Meropenem,Antituberculosis medicines,Multi-drug resistant Mycobacterium tuberculosis,3
+Metformin,Hypoglycaemic agents,Type 2 diabetes mellitus,2
+Methoxy Polyethylene Glycol-Epoetin Beta,Antianaemia medicines,Anaemia due to chronic disease,2
+Methyldopa,Antihypertensive medicines,Gestational hypertension,2
+Meticillin,Access group antibiotics,Osteomyelitis or osteitis,3
+Metoprolol,Antihypertensive medicines,Essential hypertension,2
+Metronidazole,Access group antibiotics,Peritoneal abscess (mild-moderate),3
+Micafungin,Antifungal medicines,Systemic or invasive candidosis,1
+Midazolam,Antiseizure medicines,Status epilepticus,2
+Mometasone,Antiasthmatic and medicines for chronic obstructive pulmonary disease,Asthma,2
+Mometasone + Formoterol,Antiasthmatic and medicines for chronic obstructive pulmonary disease,Asthma,2
+Moxifloxacin,Antituberculosis medicines,Tuberculosis,3
+Mpox Vaccine,Immunologicals > Vaccines,Need for immunization against certain single viral diseases,3
+Multiple Micronutrient Powder,Vitamins and minerals,Iron deficiency anaemia,1
+Mumps Vaccine,Immunologicals > Vaccines,Need for immunization against mumps alone,3
+Mupirocin,Dermatological medicines > Anti-infective medicines,Superficial bacterial folliculitis,1
+Nafcillin,Access group antibiotics,Osteomyelitis or osteitis,3
+Niclosamide,Intestinal anthelminthics,Hymenolepiasis,1
+Nicotinamide,Vitamins and minerals,Pellagra,1
+Nitrofurantoin,Access group antibiotics,Infectious cystitis,3
+Nystatin,Antifungal medicines,Candidosis,1
+Oxacillin,Access group antibiotics,Osteomyelitis or osteitis,3
+P-Aminosalicylate Sodium,Antituberculosis medicines,Multi-drug resistant Mycobacterium tuberculosis,3
+Perindopril + Amlodipine + Indapamide,Antihypertensive medicines,Essential hypertension,2
+Pertussis Vaccine,Immunologicals > Vaccines,Need for immunization against pertussis alone,3
+Phenobarbital,Antiseizure medicines,Status epilepticus,2
+Phenoxymethylpenicillin,Access group antibiotics,Bacterial pneumonia (Community-acquired pneumonia - mild to moderate),3
+Phenytoin,Antiseizure medicines,Epilepsy or seizures,2
+Pneumococcal Vaccine,Immunologicals > Vaccines,Need for immunization against single bacterial diseases,3
+Poliomyelitis Vaccine,Immunologicals > Vaccines,Need for immunization against poliomyelitis,3
+Potassium Iodide,Antifungal medicines,Sporotrichosis,1
+Potassium Permanganate,Dermatological medicines > Anti-infective medicines,Tropical phagedaenic ulcer,1
+Praziquantel,Intestinal anthelminthics,Diphyllobothriasis,1
+Prednisolone,Antiseizure medicines,Infantile spasms,2
+Pretomanid,Antituberculosis medicines,Multi-drug resistant Mycobacterium tuberculosis,3
+Primaquine,Antimalarial medicines > Medicines for curative treatment,Malaria due to Plasmodium ovale,3
+Procaine Benzylpenicillin,Access group antibiotics,Congenital syphilis [children],3
+Protionamide,Antituberculosis medicines,Multi-drug resistant Mycobacterium tuberculosis,3
+Pyrantel,Intestinal anthelminthics,Ascariasis,1
+Pyrazinamide,Antituberculosis medicines,Tuberculosis,3
+Pyridoxine,Vitamins and minerals,Other specified polyneuropathy,1
+Quinine,Antimalarial medicines > Medicines for curative treatment,Malaria due to Plasmodium falciparum,3
+Rabies Vaccine,Immunologicals > Vaccines,Need for immunization against rabies,3
+Respiratory Syncytial Virus Vaccine,Immunologicals > Vaccines,Need for immunization against certain single viral diseases,3
+Retinol,Vitamins and minerals,Vitamin A deficiency,1
+Riboflavin,Vitamins and minerals,Vitamin B2 deficiency,1
+Rifabutin,Antituberculosis medicines,Tuberculosis,3
+Rifampicin,Antituberculosis medicines,Tuberculosis,3
+Rifapentine,Antituberculosis medicines,Tuberculosis,3
+Rotavirus Vaccine,Immunologicals > Vaccines,Need for immunization against certain single viral diseases,3
+Rubella Vaccine,Immunologicals > Vaccines,Need for immunization against rubella alone,3
+Salbutamol,Antiasthmatic and medicines for chronic obstructive pulmonary disease,Chronic obstructive pulmonary disease,2
+Semaglutide,Hypoglycaemic agents,Type 2 diabetes mellitus,2
+Silver Sulfadiazine,Dermatological medicines > Anti-infective medicines,Burns,1
+Sodium Nitroprusside,Antihypertensive medicines,Hypertensive crisis,2
+Spectinomycin,Access group antibiotics,Gonococcal infection,3
+Spironolactone,Diuretics,Oedema,2
+Streptomycin (Injection),Antituberculosis medicines,Multi-drug resistant Mycobacterium tuberculosis,3
+Sulfamethoxazole + Trimethoprim,Access group antibiotics,Infectious cystitis,3
+Telmisartan + Amlodipine,Antihypertensive medicines,Essential hypertension,2
+Telmisartan + Hydrochlorothiazide,Antihypertensive medicines,Essential hypertension,2
+Terbutaline,Antiasthmatic and medicines for chronic obstructive pulmonary disease,Chronic obstructive pulmonary disease,2
+Terizidone,Antituberculosis medicines,Multi-drug resistant Mycobacterium tuberculosis,3
+Tetanus Vaccine,Immunologicals > Vaccines,Need for immunization against tetanus alone,3
+Thiamine,Vitamins and minerals,Vitamin B1 deficiency,1
+Tick-Borne Encephalitis Vaccine,Immunologicals > Vaccines,Need for immunization against arthropod-borne viral encephalitis,3
+Tiotropium Bromide,Antiasthmatic and medicines for chronic obstructive pulmonary disease,Chronic obstructive pulmonary disease,2
+Tirzepatide,Hypoglycaemic agents,Type 2 diabetes mellitus,2
+Torasemide,Diuretics,Anuria or oliguria,2
+Trimethoprim,Access group antibiotics,Infectious cystitis,3
+Tropicamide,Diagnostic agents > Ophthalmic medicines,Cycloplegic drug,1
+Typhoid Vaccine,Immunologicals > Vaccines,Need for immunization against typhoid-paratyphoid alone,3
+Umeclidinium,Antiasthmatic and medicines for chronic obstructive pulmonary disease,Chronic obstructive pulmonary disease,2
+Valproic Acid (Sodium Valproate),Antiseizure medicines,Epilepsy or seizures,2
+Valsartan + Amlodipine + Hydrochlorothiazide,Antihypertensive medicines,Essential hypertension,2
+Varicella Vaccine,Immunologicals > Vaccines,Need for immunization against certain single viral diseases,3
+Voriconazole,Antifungal medicines,Invasive aspergillosis,1
+Yellow Fever Vaccine,Immunologicals > Vaccines,Need for immunization against certain single viral diseases,3
+Zinc Sulfate,Medicines for diarrhoea,Diarrhoea,3

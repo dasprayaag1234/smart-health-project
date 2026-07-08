@@ -1,0 +1,957 @@
+district,medicine,from_facility,to_facility,units_to_transfer,distance_km
+Bhagalpur,Rifapentine,BHAG-PHC-3,BHAG-PHC-4,130.9,1.2
+Bhagalpur,Mpox Vaccine,BHAG-CHC-1,BHAG-PHC-2,183.1,1.7
+Bhagalpur,Mpox Vaccine,BHAG-CHC-1,BHAG-PHC-3,17.5,3.5
+Bhagalpur,Mpox Vaccine,BHAG-CHC-1,BHAG-PHC-4,42.5,2.8
+Bhagalpur,Artesunate + Mefloquine,BHAG-PHC-4,BHAG-PHC-3,64.5,1.2
+Bhagalpur,Valsartan + Amlodipine + Hydrochlorothiazide,BHAG-PHC-3,BHAG-PHC-4,47.2,1.2
+Bhagalpur,Pretomanid,BHAG-PHC-3,BHAG-CHC-1,200.0,3.5
+Bhagalpur,Pretomanid,BHAG-PHC-3,BHAG-PHC-2,16.1,5.1
+Bhagalpur,Pretomanid,BHAG-PHC-3,BHAG-PHC-4,200.0,1.2
+Bhagalpur,Bedaquiline,BHAG-PHC-3,BHAG-PHC-4,17.5,1.2
+Bhagalpur,Meropenem,BHAG-CHC-1,BHAG-PHC-4,40.3,2.8
+Bhagalpur,Meropenem,BHAG-PHC-2,BHAG-PHC-3,30.2,5.1
+Bhagalpur,Meropenem,BHAG-PHC-2,BHAG-PHC-4,200.0,4.6
+Bhagalpur,Clofazimine,BHAG-PHC-3,BHAG-PHC-4,150.7,1.2
+Bhagalpur,Rabies Vaccine,BHAG-PHC-4,BHAG-PHC-3,79.5,1.2
+Bhagalpur,Mebendazole,BHAG-PHC-2,BHAG-CHC-1,133.6,1.7
+Bhagalpur,Phenytoin,BHAG-PHC-2,BHAG-CHC-1,200.0,1.7
+Bhagalpur,Phenytoin,BHAG-PHC-2,BHAG-PHC-3,200.0,5.1
+Bhagalpur,Phenytoin,BHAG-PHC-2,BHAG-PHC-4,135.5,4.6
+Bhagalpur,Umeclidinium,BHAG-CHC-1,BHAG-PHC-2,114.2,1.7
+Bhagalpur,Umeclidinium,BHAG-PHC-4,BHAG-PHC-3,161.5,1.2
+Bhagalpur,Influenza Vaccine (Seasonal),BHAG-PHC-2,BHAG-CHC-1,200.0,1.7
+Bhagalpur,Influenza Vaccine (Seasonal),BHAG-PHC-2,BHAG-PHC-3,200.0,5.1
+Bhagalpur,Influenza Vaccine (Seasonal),BHAG-PHC-2,BHAG-PHC-4,125.6,4.6
+Bhagalpur,Budesonide + Salmeterol,BHAG-CHC-1,BHAG-PHC-2,7.2,1.7
+Bhagalpur,Mometasone + Formoterol,BHAG-CHC-1,BHAG-PHC-2,58.9,1.7
+Bhagalpur,Mometasone + Formoterol,BHAG-PHC-3,BHAG-PHC-2,56.3,5.1
+Bhagalpur,Mometasone + Formoterol,BHAG-PHC-4,BHAG-PHC-2,42.9,4.6
+Bhagalpur,Pertussis Vaccine,BHAG-PHC-3,BHAG-PHC-4,181.1,1.2
+Bhagalpur,Typhoid Vaccine,BHAG-CHC-1,BHAG-PHC-2,61.3,1.7
+Bhagalpur,Typhoid Vaccine,BHAG-CHC-1,BHAG-PHC-3,106.4,3.5
+Bhagalpur,Typhoid Vaccine,BHAG-PHC-4,BHAG-PHC-3,200.0,1.2
+Bhagalpur,Erythropoiesis-Stimulating Agents,BHAG-CHC-1,BHAG-PHC-2,200.0,1.7
+Bhagalpur,Erythropoiesis-Stimulating Agents,BHAG-PHC-4,BHAG-PHC-2,89.6,4.6
+Bhagalpur,Erythropoiesis-Stimulating Agents,BHAG-PHC-4,BHAG-PHC-3,66.6,1.2
+Bhagalpur,"Insulin (Analogue, Long-Acting)",BHAG-PHC-2,BHAG-CHC-1,116.9,1.7
+Bhagalpur,Metronidazole,BHAG-PHC-4,BHAG-CHC-1,59.1,2.8
+Bhagalpur,Metronidazole,BHAG-PHC-4,BHAG-PHC-3,200.0,1.2
+Bhagalpur,Respiratory Syncytial Virus Vaccine,BHAG-PHC-4,BHAG-PHC-3,73.3,1.2
+Jalna,Mpox Vaccine,JALN-CHC-1,JALN-PHC-4,184.8,1.2
+Jalna,Valsartan + Amlodipine + Hydrochlorothiazide,JALN-PHC-2,JALN-CHC-1,100.3,3.6
+Jalna,Valsartan + Amlodipine + Hydrochlorothiazide,JALN-PHC-2,JALN-PHC-3,197.1,1.1
+Jalna,Valsartan + Amlodipine + Hydrochlorothiazide,JALN-PHC-4,JALN-CHC-1,200.0,1.2
+Jalna,Valsartan + Amlodipine + Hydrochlorothiazide,JALN-PHC-4,JALN-PHC-3,200.0,4.0
+Jalna,Imipenem + Cilastatin,JALN-PHC-2,JALN-PHC-3,176.1,1.1
+Jalna,Imipenem + Cilastatin,JALN-PHC-2,JALN-PHC-4,9.1,3.5
+Jalna,Quinine,JALN-PHC-3,JALN-PHC-2,57.2,1.1
+Jalna,Artemether,JALN-PHC-2,JALN-PHC-3,123.6,1.1
+Jalna,Phenytoin,JALN-PHC-2,JALN-CHC-1,111.8,3.6
+Jalna,Phenytoin,JALN-PHC-3,JALN-CHC-1,200.0,4.3
+Jalna,Phenytoin,JALN-PHC-3,JALN-PHC-4,22.7,4.0
+Jalna,Ethionamide,JALN-PHC-3,JALN-CHC-1,200.0,4.3
+Jalna,Ethionamide,JALN-PHC-3,JALN-PHC-2,200.0,1.1
+Jalna,Ethionamide,JALN-PHC-3,JALN-PHC-4,200.0,4.0
+Jalna,Spectinomycin,JALN-PHC-3,JALN-PHC-2,150.5,1.1
+Jalna,Spectinomycin,JALN-PHC-3,JALN-PHC-4,15.9,4.0
+Jalna,Prednisolone,JALN-PHC-3,JALN-PHC-2,107.0,1.1
+Jalna,Prednisolone,JALN-PHC-4,JALN-CHC-1,25.3,1.2
+Jalna,Prednisolone,JALN-PHC-4,JALN-PHC-2,22.9,3.5
+Jalna,Mometasone + Formoterol,JALN-PHC-2,JALN-CHC-1,29.2,3.6
+Jalna,Mometasone + Formoterol,JALN-PHC-3,JALN-CHC-1,200.0,4.3
+Jalna,Mometasone + Formoterol,JALN-PHC-3,JALN-PHC-4,98.4,4.0
+Jalna,Pertussis Vaccine,JALN-PHC-2,JALN-PHC-3,200.0,1.1
+Jalna,Pertussis Vaccine,JALN-PHC-2,JALN-PHC-4,176.5,3.5
+Jalna,Typhoid Vaccine,JALN-PHC-2,JALN-CHC-1,87.0,3.6
+Jalna,Typhoid Vaccine,JALN-PHC-2,JALN-PHC-3,122.4,1.1
+Jalna,Typhoid Vaccine,JALN-PHC-2,JALN-PHC-4,200.0,3.5
+Jalna,"Insulin (Analogue, Long-Acting)",JALN-PHC-2,JALN-CHC-1,200.0,3.6
+Jalna,"Insulin (Analogue, Long-Acting)",JALN-PHC-2,JALN-PHC-4,200.0,3.5
+Jalna,"Insulin (Analogue, Long-Acting)",JALN-PHC-3,JALN-PHC-4,143.0,4.0
+Jalna,Metronidazole,JALN-PHC-2,JALN-PHC-3,154.1,1.1
+Jalna,Metronidazole,JALN-PHC-4,JALN-CHC-1,200.0,1.2
+Jalna,Metronidazole,JALN-PHC-4,JALN-PHC-3,121.0,4.0
+Jalna,Respiratory Syncytial Virus Vaccine,JALN-CHC-1,JALN-PHC-3,200.0,4.3
+Jalna,Respiratory Syncytial Virus Vaccine,JALN-CHC-1,JALN-PHC-4,200.0,1.2
+Jalna,Respiratory Syncytial Virus Vaccine,JALN-PHC-2,JALN-PHC-3,90.9,1.1
+Jalna,Respiratory Syncytial Virus Vaccine,JALN-PHC-2,JALN-PHC-4,194.6,3.5
+Jalna,Micafungin,JALN-PHC-4,JALN-CHC-1,45.1,1.2
+Bara Banki,Artesunate + Mefloquine,BARA-PHC-3,BARA-CHC-1,200.0,1.6
+Bara Banki,Artesunate + Mefloquine,BARA-PHC-3,BARA-PHC-4,58.9,3.3
+Bara Banki,Valsartan + Amlodipine + Hydrochlorothiazide,BARA-CHC-1,BARA-PHC-3,176.1,1.6
+Bara Banki,Pretomanid,BARA-CHC-1,BARA-PHC-2,200.0,2.1
+Bara Banki,Pretomanid,BARA-CHC-1,BARA-PHC-3,151.7,1.6
+Bara Banki,Pretomanid,BARA-CHC-1,BARA-PHC-4,60.0,4.1
+Bara Banki,Bedaquiline,BARA-PHC-2,BARA-CHC-1,200.0,2.1
+Bara Banki,Bedaquiline,BARA-PHC-2,BARA-PHC-3,29.3,3.6
+Bara Banki,Meropenem,BARA-CHC-1,BARA-PHC-3,200.0,1.6
+Bara Banki,Meropenem,BARA-CHC-1,BARA-PHC-4,123.4,4.1
+Bara Banki,Meropenem,BARA-PHC-2,BARA-PHC-3,14.0,3.6
+Bara Banki,Quinine,BARA-CHC-1,BARA-PHC-3,127.9,1.6
+Bara Banki,Artemether,BARA-PHC-2,BARA-CHC-1,95.2,2.1
+Bara Banki,Rabies Vaccine,BARA-CHC-1,BARA-PHC-2,178.4,2.1
+Bara Banki,Rabies Vaccine,BARA-CHC-1,BARA-PHC-3,200.0,1.6
+Bara Banki,Phenytoin,BARA-CHC-1,BARA-PHC-2,74.4,2.1
+Bara Banki,Phenytoin,BARA-PHC-4,BARA-PHC-2,117.5,5.1
+Bara Banki,Phenytoin,BARA-PHC-4,BARA-PHC-3,65.6,3.3
+Bara Banki,Umeclidinium,BARA-PHC-2,BARA-CHC-1,200.0,2.1
+Bara Banki,Umeclidinium,BARA-PHC-2,BARA-PHC-3,10.7,3.6
+Bara Banki,Umeclidinium,BARA-PHC-2,BARA-PHC-4,1.2,5.1
+Bara Banki,Prednisolone,BARA-CHC-1,BARA-PHC-3,72.5,1.6
+Bara Banki,Budesonide + Salmeterol,BARA-PHC-4,BARA-CHC-1,46.4,4.1
+Bara Banki,Mometasone + Formoterol,BARA-CHC-1,BARA-PHC-2,200.0,2.1
+Bara Banki,Mometasone + Formoterol,BARA-CHC-1,BARA-PHC-3,200.0,1.6
+Bara Banki,Mometasone + Formoterol,BARA-CHC-1,BARA-PHC-4,170.4,4.1
+Bara Banki,Typhoid Vaccine,BARA-PHC-4,BARA-PHC-3,35.2,3.3
+Bara Banki,Respiratory Syncytial Virus Vaccine,BARA-PHC-3,BARA-CHC-1,200.0,1.6
+Bara Banki,Respiratory Syncytial Virus Vaccine,BARA-PHC-3,BARA-PHC-4,181.5,3.3
+Araria,Poliomyelitis Vaccine,ARAR-CHC-1,ARAR-PHC-2,142.2,5.9
+Araria,Poliomyelitis Vaccine,ARAR-CHC-1,ARAR-PHC-3,200.0,4.8
+Araria,Poliomyelitis Vaccine,ARAR-CHC-1,ARAR-PHC-4,200.0,1.8
+Araria,Mpox Vaccine,ARAR-PHC-2,ARAR-PHC-3,2.7,1.4
+Araria,Valsartan + Amlodipine + Hydrochlorothiazide,ARAR-PHC-2,ARAR-PHC-3,71.3,1.4
+Araria,Valsartan + Amlodipine + Hydrochlorothiazide,ARAR-PHC-4,ARAR-CHC-1,63.3,1.8
+Araria,Imipenem + Cilastatin,ARAR-PHC-4,ARAR-CHC-1,200.0,1.8
+Araria,Imipenem + Cilastatin,ARAR-PHC-4,ARAR-PHC-2,101.8,4.4
+Araria,Imipenem + Cilastatin,ARAR-PHC-4,ARAR-PHC-3,200.0,3.6
+Araria,Terizidone,ARAR-CHC-1,ARAR-PHC-2,3.1,5.9
+Araria,Terizidone,ARAR-CHC-1,ARAR-PHC-3,200.0,4.8
+Araria,Terizidone,ARAR-CHC-1,ARAR-PHC-4,200.0,1.8
+Araria,Hydralazine,ARAR-PHC-2,ARAR-PHC-3,126.6,1.4
+Araria,Clofazimine,ARAR-PHC-3,ARAR-PHC-2,62.0,1.4
+Araria,Mebendazole,ARAR-PHC-2,ARAR-PHC-3,70.2,1.4
+Araria,Mebendazole,ARAR-PHC-4,ARAR-CHC-1,114.2,1.8
+Araria,Umeclidinium,ARAR-PHC-4,ARAR-CHC-1,70.1,1.8
+Araria,Prednisolone,ARAR-PHC-2,ARAR-PHC-3,38.1,1.4
+Araria,Influenza Vaccine (Seasonal),ARAR-CHC-1,ARAR-PHC-2,154.6,5.9
+Araria,Influenza Vaccine (Seasonal),ARAR-CHC-1,ARAR-PHC-3,200.0,4.8
+Araria,Influenza Vaccine (Seasonal),ARAR-CHC-1,ARAR-PHC-4,200.0,1.8
+Araria,Budesonide + Salmeterol,ARAR-PHC-4,ARAR-CHC-1,200.0,1.8
+Araria,Budesonide + Salmeterol,ARAR-PHC-4,ARAR-PHC-2,10.4,4.4
+Araria,Budesonide + Salmeterol,ARAR-PHC-4,ARAR-PHC-3,167.1,3.6
+Araria,Mometasone + Formoterol,ARAR-PHC-3,ARAR-PHC-2,2.5,1.4
+Araria,Pertussis Vaccine,ARAR-PHC-3,ARAR-PHC-2,49.5,1.4
+Araria,Typhoid Vaccine,ARAR-PHC-4,ARAR-CHC-1,7.7,1.8
+Araria,Haemophilus Influenzae Type B Vaccine,ARAR-PHC-2,ARAR-PHC-3,134.8,1.4
+Araria,Respiratory Syncytial Virus Vaccine,ARAR-CHC-1,ARAR-PHC-3,13.7,4.8
+Araria,Respiratory Syncytial Virus Vaccine,ARAR-CHC-1,ARAR-PHC-4,200.0,1.8
+Araria,Micafungin,ARAR-PHC-3,ARAR-PHC-2,0.9,1.4
+Darbhanga,Poliomyelitis Vaccine,DARB-CHC-1,DARB-PHC-2,130.7,3.4
+Darbhanga,Human Papilloma Virus (Hpv) Vaccine,DARB-PHC-3,DARB-CHC-1,200.0,4.1
+Darbhanga,Human Papilloma Virus (Hpv) Vaccine,DARB-PHC-3,DARB-PHC-2,156.8,6.5
+Darbhanga,Human Papilloma Virus (Hpv) Vaccine,DARB-PHC-3,DARB-PHC-4,45.3,0.6
+Darbhanga,Rifapentine,DARB-PHC-2,DARB-CHC-1,200.0,3.4
+Darbhanga,Rifapentine,DARB-PHC-2,DARB-PHC-3,200.0,6.5
+Darbhanga,Rifapentine,DARB-PHC-2,DARB-PHC-4,200.0,7.1
+Darbhanga,Artesunate + Mefloquine,DARB-PHC-2,DARB-CHC-1,200.0,3.4
+Darbhanga,Artesunate + Mefloquine,DARB-PHC-2,DARB-PHC-3,200.0,6.5
+Darbhanga,Artesunate + Mefloquine,DARB-PHC-2,DARB-PHC-4,175.2,7.1
+Darbhanga,Valsartan + Amlodipine + Hydrochlorothiazide,DARB-PHC-2,DARB-CHC-1,193.8,3.4
+Darbhanga,Valsartan + Amlodipine + Hydrochlorothiazide,DARB-PHC-2,DARB-PHC-4,59.0,7.1
+Darbhanga,Valsartan + Amlodipine + Hydrochlorothiazide,DARB-PHC-3,DARB-PHC-4,82.5,0.6
+Darbhanga,Imipenem + Cilastatin,DARB-PHC-4,DARB-CHC-1,119.1,4.5
+Darbhanga,Imipenem + Cilastatin,DARB-PHC-4,DARB-PHC-3,200.0,0.6
+Darbhanga,Hydralazine,DARB-PHC-4,DARB-CHC-1,195.5,4.5
+Darbhanga,Hydralazine,DARB-PHC-4,DARB-PHC-2,200.0,7.1
+Darbhanga,Hydralazine,DARB-PHC-4,DARB-PHC-3,200.0,0.6
+Darbhanga,Artemether,DARB-PHC-2,DARB-CHC-1,26.1,3.4
+Darbhanga,Mebendazole,DARB-PHC-3,DARB-CHC-1,114.4,4.1
+Darbhanga,Mebendazole,DARB-PHC-3,DARB-PHC-2,10.2,6.5
+Darbhanga,Phenytoin,DARB-PHC-3,DARB-CHC-1,200.0,4.1
+Darbhanga,Phenytoin,DARB-PHC-3,DARB-PHC-2,200.0,6.5
+Darbhanga,Phenytoin,DARB-PHC-4,DARB-CHC-1,123.9,4.5
+Darbhanga,Phenytoin,DARB-PHC-4,DARB-PHC-2,70.6,7.1
+Darbhanga,Ethionamide,DARB-CHC-1,DARB-PHC-2,22.2,3.4
+Darbhanga,Umeclidinium,DARB-PHC-4,DARB-PHC-3,165.4,0.6
+Darbhanga,Prednisolone,DARB-PHC-2,DARB-CHC-1,120.8,3.4
+Darbhanga,Chloroquine,DARB-PHC-4,DARB-PHC-3,93.1,0.6
+Darbhanga,Mometasone + Formoterol,DARB-PHC-4,DARB-PHC-3,157.4,0.6
+Darbhanga,Pertussis Vaccine,DARB-CHC-1,DARB-PHC-2,103.0,3.4
+Darbhanga,Pertussis Vaccine,DARB-PHC-4,DARB-PHC-2,200.0,7.1
+Darbhanga,Pertussis Vaccine,DARB-PHC-4,DARB-PHC-3,200.0,0.6
+Darbhanga,Typhoid Vaccine,DARB-PHC-2,DARB-CHC-1,200.0,3.4
+Darbhanga,Typhoid Vaccine,DARB-PHC-2,DARB-PHC-3,200.0,6.5
+Darbhanga,Typhoid Vaccine,DARB-PHC-2,DARB-PHC-4,51.1,7.1
+Darbhanga,Erythropoiesis-Stimulating Agents,DARB-PHC-2,DARB-CHC-1,200.0,3.4
+Darbhanga,Erythropoiesis-Stimulating Agents,DARB-PHC-2,DARB-PHC-3,37.4,6.5
+Darbhanga,Erythropoiesis-Stimulating Agents,DARB-PHC-2,DARB-PHC-4,200.0,7.1
+Darbhanga,"Insulin (Analogue, Long-Acting)",DARB-PHC-2,DARB-CHC-1,200.0,3.4
+Darbhanga,"Insulin (Analogue, Long-Acting)",DARB-PHC-2,DARB-PHC-3,182.8,6.5
+Darbhanga,Chloramphenicol,DARB-PHC-2,DARB-CHC-1,3.9,3.4
+Darbhanga,"Insulin (Analogue, Rapid-Acting)",DARB-CHC-1,DARB-PHC-2,30.4,3.4
+Darbhanga,"Insulin (Analogue, Rapid-Acting)",DARB-CHC-1,DARB-PHC-3,200.0,4.1
+Darbhanga,"Insulin (Analogue, Rapid-Acting)",DARB-CHC-1,DARB-PHC-4,200.0,4.5
+Darbhanga,Metronidazole,DARB-PHC-3,DARB-CHC-1,28.2,4.1
+Darbhanga,Metronidazole,DARB-PHC-3,DARB-PHC-2,149.6,6.5
+Darbhanga,Metronidazole,DARB-PHC-4,DARB-CHC-1,147.5,4.5
+Darbhanga,Micafungin,DARB-PHC-2,DARB-CHC-1,103.3,3.4
+Vadodara,Poliomyelitis Vaccine,VADO-CHC-1,VADO-PHC-3,12.1,2.1
+Vadodara,Poliomyelitis Vaccine,VADO-PHC-4,VADO-PHC-2,200.0,1.9
+Vadodara,Poliomyelitis Vaccine,VADO-PHC-4,VADO-PHC-3,200.0,3.8
+Vadodara,Human Papilloma Virus (Hpv) Vaccine,VADO-PHC-3,VADO-CHC-1,200.0,2.1
+Vadodara,Human Papilloma Virus (Hpv) Vaccine,VADO-PHC-4,VADO-CHC-1,181.3,4.1
+Vadodara,Human Papilloma Virus (Hpv) Vaccine,VADO-PHC-4,VADO-PHC-2,82.0,1.9
+Vadodara,Rifapentine,VADO-PHC-4,VADO-PHC-2,58.7,1.9
+Vadodara,Mpox Vaccine,VADO-PHC-2,VADO-PHC-4,168.9,1.9
+Vadodara,Mpox Vaccine,VADO-PHC-3,VADO-CHC-1,138.1,2.1
+Vadodara,Artesunate + Mefloquine,VADO-PHC-2,VADO-CHC-1,131.7,3.2
+Vadodara,Artesunate + Mefloquine,VADO-PHC-4,VADO-PHC-3,24.2,3.8
+Vadodara,Valsartan + Amlodipine + Hydrochlorothiazide,VADO-CHC-1,VADO-PHC-3,22.7,2.1
+Vadodara,Bedaquiline,VADO-CHC-1,VADO-PHC-3,70.2,2.1
+Vadodara,Bedaquiline,VADO-PHC-4,VADO-PHC-2,200.0,1.9
+Vadodara,Bedaquiline,VADO-PHC-4,VADO-PHC-3,200.0,3.8
+Vadodara,Flucloxacillin,VADO-PHC-2,VADO-CHC-1,83.0,3.2
+Vadodara,Flucloxacillin,VADO-PHC-2,VADO-PHC-4,200.0,1.9
+Vadodara,Quinine,VADO-CHC-1,VADO-PHC-3,62.6,2.1
+Vadodara,Hydralazine,VADO-CHC-1,VADO-PHC-3,125.4,2.1
+Vadodara,Hydralazine,VADO-PHC-2,VADO-PHC-4,22.4,1.9
+Vadodara,Isoniazid + Pyrazinamide + Rifampicin,VADO-PHC-3,VADO-CHC-1,200.0,2.1
+Vadodara,Isoniazid + Pyrazinamide + Rifampicin,VADO-PHC-3,VADO-PHC-2,200.0,4.1
+Vadodara,Isoniazid + Pyrazinamide + Rifampicin,VADO-PHC-3,VADO-PHC-4,200.0,3.8
+Vadodara,Artemether,VADO-CHC-1,VADO-PHC-2,200.0,3.2
+Vadodara,Artemether,VADO-CHC-1,VADO-PHC-4,200.0,4.1
+Vadodara,Artemether,VADO-PHC-3,VADO-PHC-2,200.0,4.1
+Vadodara,Artemether,VADO-PHC-3,VADO-PHC-4,200.0,3.8
+Vadodara,Mebendazole,VADO-PHC-3,VADO-CHC-1,69.3,2.1
+Vadodara,Phenytoin,VADO-PHC-2,VADO-CHC-1,200.0,3.2
+Vadodara,Phenytoin,VADO-PHC-2,VADO-PHC-3,200.0,4.1
+Vadodara,Phenytoin,VADO-PHC-2,VADO-PHC-4,71.4,1.9
+Vadodara,Ethionamide,VADO-PHC-3,VADO-CHC-1,194.9,2.1
+Vadodara,Ethionamide,VADO-PHC-4,VADO-PHC-2,189.5,1.9
+Vadodara,Umeclidinium,VADO-CHC-1,VADO-PHC-4,0.8,4.1
+Vadodara,Umeclidinium,VADO-PHC-2,VADO-PHC-4,200.0,1.9
+Vadodara,Umeclidinium,VADO-PHC-3,VADO-PHC-4,30.0,3.8
+Vadodara,Prednisolone,VADO-PHC-2,VADO-CHC-1,194.6,3.2
+Vadodara,Prednisolone,VADO-PHC-3,VADO-CHC-1,6.5,2.1
+Vadodara,Chloroquine,VADO-PHC-3,VADO-CHC-1,200.0,2.1
+Vadodara,Chloroquine,VADO-PHC-3,VADO-PHC-2,200.0,4.1
+Vadodara,Chloroquine,VADO-PHC-3,VADO-PHC-4,200.0,3.8
+Vadodara,Budesonide + Salmeterol,VADO-PHC-2,VADO-PHC-4,58.9,1.9
+Vadodara,Budesonide + Salmeterol,VADO-PHC-3,VADO-CHC-1,156.6,2.1
+Vadodara,Budesonide + Salmeterol,VADO-PHC-3,VADO-PHC-4,34.5,3.8
+Vadodara,Mometasone + Formoterol,VADO-CHC-1,VADO-PHC-2,1.5,3.2
+Vadodara,Mometasone + Formoterol,VADO-PHC-3,VADO-PHC-4,21.1,3.8
+Vadodara,"Insulin (Analogue, Long-Acting)",VADO-PHC-3,VADO-CHC-1,200.0,2.1
+Vadodara,"Insulin (Analogue, Long-Acting)",VADO-PHC-3,VADO-PHC-2,73.6,4.1
+Vadodara,"Insulin (Analogue, Long-Acting)",VADO-PHC-3,VADO-PHC-4,200.0,3.8
+Vadodara,Metronidazole,VADO-PHC-3,VADO-CHC-1,200.0,2.1
+Vadodara,Metronidazole,VADO-PHC-4,VADO-CHC-1,43.4,4.1
+Vadodara,Metronidazole,VADO-PHC-4,VADO-PHC-2,3.8,1.9
+Vadodara,Micafungin,VADO-PHC-4,VADO-PHC-2,160.9,1.9
+Ghazipur,Human Papilloma Virus (Hpv) Vaccine,GHAZ-CHC-1,GHAZ-PHC-3,129.0,2.7
+Ghazipur,Artesunate + Mefloquine,GHAZ-PHC-4,GHAZ-PHC-2,188.5,3.4
+Ghazipur,Artesunate + Mefloquine,GHAZ-PHC-4,GHAZ-PHC-3,200.0,2.4
+Ghazipur,Valsartan + Amlodipine + Hydrochlorothiazide,GHAZ-CHC-1,GHAZ-PHC-2,12.9,3.6
+Ghazipur,Valsartan + Amlodipine + Hydrochlorothiazide,GHAZ-PHC-4,GHAZ-PHC-2,200.0,3.4
+Ghazipur,Valsartan + Amlodipine + Hydrochlorothiazide,GHAZ-PHC-4,GHAZ-PHC-3,60.8,2.4
+Ghazipur,Pneumococcal Vaccine,GHAZ-CHC-1,GHAZ-PHC-3,49.8,2.7
+Ghazipur,Bedaquiline,GHAZ-PHC-2,GHAZ-CHC-1,26.8,3.6
+Ghazipur,Bedaquiline,GHAZ-PHC-2,GHAZ-PHC-4,200.0,3.4
+Ghazipur,Imipenem + Cilastatin,GHAZ-PHC-4,GHAZ-PHC-3,56.9,2.4
+Ghazipur,Flucloxacillin,GHAZ-PHC-2,GHAZ-PHC-4,120.5,3.4
+Ghazipur,Terizidone,GHAZ-PHC-2,GHAZ-CHC-1,200.0,3.6
+Ghazipur,Terizidone,GHAZ-PHC-2,GHAZ-PHC-3,147.0,4.7
+Ghazipur,Terizidone,GHAZ-PHC-2,GHAZ-PHC-4,200.0,3.4
+Ghazipur,Meropenem,GHAZ-CHC-1,GHAZ-PHC-4,42.0,3.7
+Ghazipur,Meropenem,GHAZ-PHC-2,GHAZ-PHC-4,200.0,3.4
+Ghazipur,Meropenem,GHAZ-PHC-3,GHAZ-PHC-4,134.3,2.4
+Ghazipur,Quinine,GHAZ-CHC-1,GHAZ-PHC-3,200.0,2.7
+Ghazipur,Quinine,GHAZ-PHC-2,GHAZ-PHC-3,57.4,4.7
+Ghazipur,Quinine,GHAZ-PHC-2,GHAZ-PHC-4,119.2,3.4
+Ghazipur,Hydralazine,GHAZ-PHC-4,GHAZ-CHC-1,94.9,3.7
+Ghazipur,Hydralazine,GHAZ-PHC-4,GHAZ-PHC-2,200.0,3.4
+Ghazipur,Hydralazine,GHAZ-PHC-4,GHAZ-PHC-3,200.0,2.4
+Ghazipur,Clofazimine,GHAZ-PHC-4,GHAZ-PHC-3,8.9,2.4
+Ghazipur,Isoniazid + Pyrazinamide + Rifampicin,GHAZ-PHC-4,GHAZ-CHC-1,22.7,3.7
+Ghazipur,Isoniazid + Pyrazinamide + Rifampicin,GHAZ-PHC-4,GHAZ-PHC-2,200.0,3.4
+Ghazipur,Isoniazid + Pyrazinamide + Rifampicin,GHAZ-PHC-4,GHAZ-PHC-3,198.2,2.4
+Ghazipur,Artemether,GHAZ-PHC-4,GHAZ-CHC-1,200.0,3.7
+Ghazipur,Artemether,GHAZ-PHC-4,GHAZ-PHC-2,167.3,3.4
+Ghazipur,Artemether,GHAZ-PHC-4,GHAZ-PHC-3,200.0,2.4
+Ghazipur,Rabies Vaccine,GHAZ-CHC-1,GHAZ-PHC-3,52.2,2.7
+Ghazipur,Mebendazole,GHAZ-PHC-2,GHAZ-PHC-4,114.0,3.4
+Ghazipur,Mebendazole,GHAZ-PHC-3,GHAZ-PHC-4,80.2,2.4
+Ghazipur,Umeclidinium,GHAZ-CHC-1,GHAZ-PHC-2,159.5,3.6
+Ghazipur,Umeclidinium,GHAZ-PHC-3,GHAZ-PHC-4,86.6,2.4
+Ghazipur,Chloroquine,GHAZ-PHC-3,GHAZ-CHC-1,200.0,2.7
+Ghazipur,Chloroquine,GHAZ-PHC-3,GHAZ-PHC-2,200.0,4.7
+Ghazipur,Chloroquine,GHAZ-PHC-3,GHAZ-PHC-4,117.8,2.4
+Ghazipur,Influenza Vaccine (Seasonal),GHAZ-PHC-3,GHAZ-CHC-1,102.2,2.7
+Ghazipur,Influenza Vaccine (Seasonal),GHAZ-PHC-3,GHAZ-PHC-4,55.3,2.4
+Ghazipur,Budesonide + Salmeterol,GHAZ-PHC-3,GHAZ-CHC-1,200.0,2.7
+Ghazipur,Budesonide + Salmeterol,GHAZ-PHC-3,GHAZ-PHC-2,81.2,4.7
+Ghazipur,Budesonide + Salmeterol,GHAZ-PHC-3,GHAZ-PHC-4,116.3,2.4
+Ghazipur,Mometasone + Formoterol,GHAZ-CHC-1,GHAZ-PHC-3,171.2,2.7
+Ghazipur,Pertussis Vaccine,GHAZ-CHC-1,GHAZ-PHC-2,166.6,3.6
+Ghazipur,Pertussis Vaccine,GHAZ-CHC-1,GHAZ-PHC-4,200.0,3.7
+Ghazipur,Pertussis Vaccine,GHAZ-PHC-3,GHAZ-PHC-4,15.0,2.4
+Ghazipur,Erythropoiesis-Stimulating Agents,GHAZ-PHC-2,GHAZ-CHC-1,70.5,3.6
+Ghazipur,Erythropoiesis-Stimulating Agents,GHAZ-PHC-2,GHAZ-PHC-4,200.0,3.4
+Ghazipur,Erythropoiesis-Stimulating Agents,GHAZ-PHC-3,GHAZ-PHC-4,65.1,2.4
+Ghazipur,"Insulin (Analogue, Long-Acting)",GHAZ-CHC-1,GHAZ-PHC-2,45.1,3.6
+Ghazipur,"Insulin (Analogue, Long-Acting)",GHAZ-CHC-1,GHAZ-PHC-3,200.0,2.7
+Ghazipur,"Insulin (Analogue, Rapid-Acting)",GHAZ-PHC-4,GHAZ-PHC-2,161.8,3.4
+Ghazipur,"Insulin (Analogue, Rapid-Acting)",GHAZ-PHC-4,GHAZ-PHC-3,78.0,2.4
+Ghazipur,Metronidazole,GHAZ-PHC-4,GHAZ-PHC-3,35.9,2.4
+Ghazipur,Respiratory Syncytial Virus Vaccine,GHAZ-PHC-2,GHAZ-PHC-4,124.1,3.4
+Azamgarh,Rifapentine,AZAM-CHC-1,AZAM-PHC-2,200.0,2.3
+Azamgarh,Rifapentine,AZAM-CHC-1,AZAM-PHC-4,55.5,2.7
+Azamgarh,Mpox Vaccine,AZAM-CHC-1,AZAM-PHC-2,150.3,2.3
+Azamgarh,Artesunate + Mefloquine,AZAM-PHC-2,AZAM-CHC-1,200.0,2.3
+Azamgarh,Artesunate + Mefloquine,AZAM-PHC-2,AZAM-PHC-3,200.0,4.1
+Azamgarh,Artesunate + Mefloquine,AZAM-PHC-2,AZAM-PHC-4,200.0,1.9
+Azamgarh,Valsartan + Amlodipine + Hydrochlorothiazide,AZAM-CHC-1,AZAM-PHC-3,74.2,5.9
+Azamgarh,Valsartan + Amlodipine + Hydrochlorothiazide,AZAM-CHC-1,AZAM-PHC-4,57.6,2.7
+Azamgarh,Valsartan + Amlodipine + Hydrochlorothiazide,AZAM-PHC-2,AZAM-PHC-3,200.0,4.1
+Azamgarh,Valsartan + Amlodipine + Hydrochlorothiazide,AZAM-PHC-2,AZAM-PHC-4,200.0,1.9
+Azamgarh,Pneumococcal Vaccine,AZAM-PHC-4,AZAM-CHC-1,160.3,2.7
+Azamgarh,Pneumococcal Vaccine,AZAM-PHC-4,AZAM-PHC-2,200.0,1.9
+Azamgarh,Pneumococcal Vaccine,AZAM-PHC-4,AZAM-PHC-3,200.0,5.8
+Azamgarh,Pretomanid,AZAM-CHC-1,AZAM-PHC-2,9.1,2.3
+Azamgarh,Bedaquiline,AZAM-PHC-4,AZAM-CHC-1,200.0,2.7
+Azamgarh,Bedaquiline,AZAM-PHC-4,AZAM-PHC-2,200.0,1.9
+Azamgarh,Bedaquiline,AZAM-PHC-4,AZAM-PHC-3,171.5,5.8
+Azamgarh,Imipenem + Cilastatin,AZAM-PHC-2,AZAM-PHC-4,197.5,1.9
+Azamgarh,Terizidone,AZAM-PHC-4,AZAM-CHC-1,200.0,2.7
+Azamgarh,Terizidone,AZAM-PHC-4,AZAM-PHC-2,163.3,1.9
+Azamgarh,Terizidone,AZAM-PHC-4,AZAM-PHC-3,200.0,5.8
+Azamgarh,Quinine,AZAM-PHC-4,AZAM-CHC-1,53.0,2.7
+Azamgarh,Quinine,AZAM-PHC-4,AZAM-PHC-2,200.0,1.9
+Azamgarh,Hydralazine,AZAM-CHC-1,AZAM-PHC-2,52.9,2.3
+Azamgarh,Clofazimine,AZAM-CHC-1,AZAM-PHC-3,200.0,5.9
+Azamgarh,Clofazimine,AZAM-CHC-1,AZAM-PHC-4,200.0,2.7
+Azamgarh,Clofazimine,AZAM-PHC-2,AZAM-PHC-4,136.0,1.9
+Azamgarh,Isoniazid + Pyrazinamide + Rifampicin,AZAM-CHC-1,AZAM-PHC-2,98.8,2.3
+Azamgarh,Isoniazid + Pyrazinamide + Rifampicin,AZAM-CHC-1,AZAM-PHC-3,200.0,5.9
+Azamgarh,Isoniazid + Pyrazinamide + Rifampicin,AZAM-CHC-1,AZAM-PHC-4,91.5,2.7
+Azamgarh,Artemether,AZAM-PHC-3,AZAM-PHC-2,29.4,4.1
+Azamgarh,Rabies Vaccine,AZAM-CHC-1,AZAM-PHC-4,27.6,2.7
+Azamgarh,Rabies Vaccine,AZAM-PHC-2,AZAM-PHC-4,162.5,1.9
+Azamgarh,Phenytoin,AZAM-PHC-2,AZAM-CHC-1,167.1,2.3
+Azamgarh,Phenytoin,AZAM-PHC-2,AZAM-PHC-3,38.6,4.1
+Azamgarh,Umeclidinium,AZAM-PHC-4,AZAM-CHC-1,18.1,2.7
+Azamgarh,Umeclidinium,AZAM-PHC-4,AZAM-PHC-2,5.4,1.9
+Azamgarh,Spectinomycin,AZAM-CHC-1,AZAM-PHC-4,73.1,2.7
+Azamgarh,Spectinomycin,AZAM-PHC-3,AZAM-PHC-2,124.0,4.1
+Azamgarh,Spectinomycin,AZAM-PHC-3,AZAM-PHC-4,200.0,5.8
+Azamgarh,Prednisolone,AZAM-CHC-1,AZAM-PHC-4,150.7,2.7
+Azamgarh,Prednisolone,AZAM-PHC-2,AZAM-PHC-4,124.8,1.9
+Azamgarh,Chloroquine,AZAM-CHC-1,AZAM-PHC-3,65.6,5.9
+Azamgarh,Chloroquine,AZAM-PHC-4,AZAM-PHC-2,57.5,1.9
+Azamgarh,Chloroquine,AZAM-PHC-4,AZAM-PHC-3,200.0,5.8
+Azamgarh,Amoxicillin,AZAM-CHC-1,AZAM-PHC-2,81.2,2.3
+Azamgarh,Budesonide + Salmeterol,AZAM-PHC-3,AZAM-PHC-2,156.8,4.1
+Azamgarh,Budesonide + Salmeterol,AZAM-PHC-3,AZAM-PHC-4,14.7,5.8
+Azamgarh,Mometasone + Formoterol,AZAM-CHC-1,AZAM-PHC-4,167.7,2.7
+Azamgarh,Mometasone + Formoterol,AZAM-PHC-2,AZAM-PHC-3,93.9,4.1
+Azamgarh,Mometasone + Formoterol,AZAM-PHC-2,AZAM-PHC-4,11.2,1.9
+Azamgarh,Erythropoiesis-Stimulating Agents,AZAM-PHC-2,AZAM-CHC-1,47.5,2.3
+Azamgarh,Erythropoiesis-Stimulating Agents,AZAM-PHC-2,AZAM-PHC-4,200.0,1.9
+Azamgarh,Erythropoiesis-Stimulating Agents,AZAM-PHC-3,AZAM-PHC-4,3.5,5.8
+Azamgarh,"Insulin (Analogue, Long-Acting)",AZAM-PHC-4,AZAM-CHC-1,63.7,2.7
+Azamgarh,"Insulin (Analogue, Long-Acting)",AZAM-PHC-4,AZAM-PHC-2,200.0,1.9
+Azamgarh,"Insulin (Analogue, Long-Acting)",AZAM-PHC-4,AZAM-PHC-3,200.0,5.8
+Azamgarh,Chloramphenicol,AZAM-PHC-4,AZAM-CHC-1,195.8,2.7
+Azamgarh,Chloramphenicol,AZAM-PHC-4,AZAM-PHC-2,0.7,1.9
+Azamgarh,"Insulin (Analogue, Rapid-Acting)",AZAM-CHC-1,AZAM-PHC-2,200.0,2.3
+Azamgarh,"Insulin (Analogue, Rapid-Acting)",AZAM-CHC-1,AZAM-PHC-3,39.9,5.9
+Azamgarh,"Insulin (Analogue, Rapid-Acting)",AZAM-CHC-1,AZAM-PHC-4,200.0,2.7
+Azamgarh,Metronidazole,AZAM-PHC-2,AZAM-CHC-1,200.0,2.3
+Azamgarh,Metronidazole,AZAM-PHC-2,AZAM-PHC-4,99.7,1.9
+Azamgarh,Metronidazole,AZAM-PHC-3,AZAM-CHC-1,191.9,5.9
+Azamgarh,Haemophilus Influenzae Type B Vaccine,AZAM-CHC-1,AZAM-PHC-2,23.7,2.3
+Azamgarh,Haemophilus Influenzae Type B Vaccine,AZAM-PHC-4,AZAM-PHC-2,9.8,1.9
+Azamgarh,Respiratory Syncytial Virus Vaccine,AZAM-PHC-4,AZAM-PHC-2,64.5,1.9
+Pudukkottai,Rifapentine,PUDU-CHC-1,PUDU-PHC-4,128.5,2.8
+Pudukkottai,Rifapentine,PUDU-PHC-3,PUDU-PHC-2,112.6,2.3
+Pudukkottai,Rifapentine,PUDU-PHC-3,PUDU-PHC-4,200.0,3.1
+Pudukkottai,Mpox Vaccine,PUDU-CHC-1,PUDU-PHC-4,25.9,2.8
+Pudukkottai,Mpox Vaccine,PUDU-PHC-2,PUDU-PHC-3,2.3,2.3
+Pudukkottai,Mpox Vaccine,PUDU-PHC-2,PUDU-PHC-4,52.6,4.4
+Pudukkottai,Artesunate + Mefloquine,PUDU-CHC-1,PUDU-PHC-2,18.3,4.7
+Pudukkottai,Artesunate + Mefloquine,PUDU-CHC-1,PUDU-PHC-4,200.0,2.8
+Pudukkottai,Artesunate + Mefloquine,PUDU-PHC-3,PUDU-PHC-2,200.0,2.3
+Pudukkottai,Artesunate + Mefloquine,PUDU-PHC-3,PUDU-PHC-4,29.1,3.1
+Pudukkottai,Pneumococcal Vaccine,PUDU-PHC-3,PUDU-CHC-1,78.6,4.9
+Pudukkottai,Pneumococcal Vaccine,PUDU-PHC-3,PUDU-PHC-2,200.0,2.3
+Pudukkottai,Pneumococcal Vaccine,PUDU-PHC-3,PUDU-PHC-4,200.0,3.1
+Pudukkottai,Pretomanid,PUDU-PHC-3,PUDU-CHC-1,35.5,4.9
+Pudukkottai,Pretomanid,PUDU-PHC-3,PUDU-PHC-2,200.0,2.3
+Pudukkottai,Pretomanid,PUDU-PHC-3,PUDU-PHC-4,27.9,3.1
+Pudukkottai,Bedaquiline,PUDU-PHC-2,PUDU-CHC-1,133.1,4.7
+Pudukkottai,Bedaquiline,PUDU-PHC-2,PUDU-PHC-3,200.0,2.3
+Pudukkottai,Bedaquiline,PUDU-PHC-4,PUDU-CHC-1,200.0,2.8
+Pudukkottai,Bedaquiline,PUDU-PHC-4,PUDU-PHC-3,87.4,3.1
+Pudukkottai,Imipenem + Cilastatin,PUDU-PHC-2,PUDU-CHC-1,200.0,4.7
+Pudukkottai,Imipenem + Cilastatin,PUDU-PHC-2,PUDU-PHC-3,164.4,2.3
+Pudukkottai,Imipenem + Cilastatin,PUDU-PHC-4,PUDU-CHC-1,23.2,2.8
+Pudukkottai,Flucloxacillin,PUDU-PHC-2,PUDU-PHC-3,84.0,2.3
+Pudukkottai,Flucloxacillin,PUDU-PHC-4,PUDU-PHC-3,122.5,3.1
+Pudukkottai,Terizidone,PUDU-CHC-1,PUDU-PHC-4,200.0,2.8
+Pudukkottai,Terizidone,PUDU-PHC-3,PUDU-PHC-4,107.9,3.1
+Pudukkottai,Meropenem,PUDU-PHC-2,PUDU-PHC-3,23.7,2.3
+Pudukkottai,Quinine,PUDU-CHC-1,PUDU-PHC-3,101.8,4.9
+Pudukkottai,Quinine,PUDU-CHC-1,PUDU-PHC-4,7.0,2.8
+Pudukkottai,Quinine,PUDU-PHC-2,PUDU-PHC-3,200.0,2.3
+Pudukkottai,Quinine,PUDU-PHC-2,PUDU-PHC-4,200.0,4.4
+Pudukkottai,Hydralazine,PUDU-CHC-1,PUDU-PHC-2,29.1,4.7
+Pudukkottai,Hydralazine,PUDU-CHC-1,PUDU-PHC-4,200.0,2.8
+Pudukkottai,Hydralazine,PUDU-PHC-3,PUDU-PHC-2,200.0,2.3
+Pudukkottai,Hydralazine,PUDU-PHC-3,PUDU-PHC-4,24.9,3.1
+Pudukkottai,Clofazimine,PUDU-PHC-3,PUDU-PHC-2,86.5,2.3
+Pudukkottai,Clofazimine,PUDU-PHC-3,PUDU-PHC-4,27.8,3.1
+Pudukkottai,Isoniazid + Pyrazinamide + Rifampicin,PUDU-PHC-4,PUDU-CHC-1,152.0,2.8
+Pudukkottai,Rabies Vaccine,PUDU-PHC-2,PUDU-PHC-3,71.9,2.3
+Pudukkottai,Rabies Vaccine,PUDU-PHC-4,PUDU-PHC-3,194.6,3.1
+Pudukkottai,Phenytoin,PUDU-PHC-3,PUDU-PHC-2,134.9,2.3
+Pudukkottai,Ethionamide,PUDU-PHC-3,PUDU-CHC-1,200.0,4.9
+Pudukkottai,Ethionamide,PUDU-PHC-3,PUDU-PHC-2,200.0,2.3
+Pudukkottai,Ethionamide,PUDU-PHC-3,PUDU-PHC-4,166.5,3.1
+Pudukkottai,Prednisolone,PUDU-PHC-2,PUDU-PHC-3,200.0,2.3
+Pudukkottai,Prednisolone,PUDU-PHC-4,PUDU-PHC-3,54.6,3.1
+Pudukkottai,Influenza Vaccine (Seasonal),PUDU-PHC-3,PUDU-PHC-2,67.2,2.3
+Pudukkottai,Influenza Vaccine (Seasonal),PUDU-PHC-3,PUDU-PHC-4,8.4,3.1
+Pudukkottai,Amoxicillin,PUDU-PHC-2,PUDU-CHC-1,1.0,4.7
+Pudukkottai,Amoxicillin,PUDU-PHC-2,PUDU-PHC-4,200.0,4.4
+Pudukkottai,Amoxicillin,PUDU-PHC-3,PUDU-PHC-4,26.9,3.1
+Pudukkottai,Budesonide + Salmeterol,PUDU-CHC-1,PUDU-PHC-2,15.9,4.7
+Pudukkottai,Budesonide + Salmeterol,PUDU-PHC-3,PUDU-PHC-2,87.0,2.3
+Pudukkottai,Budesonide + Salmeterol,PUDU-PHC-4,PUDU-PHC-2,9.0,4.4
+Pudukkottai,Mometasone + Formoterol,PUDU-CHC-1,PUDU-PHC-4,24.2,2.8
+Pudukkottai,Mometasone + Formoterol,PUDU-PHC-2,PUDU-PHC-4,5.4,4.4
+Pudukkottai,Mometasone + Formoterol,PUDU-PHC-3,PUDU-PHC-4,200.0,3.1
+Pudukkottai,Pertussis Vaccine,PUDU-PHC-2,PUDU-CHC-1,191.0,4.7
+Pudukkottai,Pertussis Vaccine,PUDU-PHC-4,PUDU-CHC-1,51.5,2.8
+Pudukkottai,Typhoid Vaccine,PUDU-PHC-3,PUDU-PHC-2,55.2,2.3
+Pudukkottai,Typhoid Vaccine,PUDU-PHC-4,PUDU-CHC-1,85.6,2.8
+Pudukkottai,Erythropoiesis-Stimulating Agents,PUDU-CHC-1,PUDU-PHC-4,200.0,2.8
+Pudukkottai,Erythropoiesis-Stimulating Agents,PUDU-PHC-2,PUDU-PHC-3,73.7,2.3
+Pudukkottai,Erythropoiesis-Stimulating Agents,PUDU-PHC-2,PUDU-PHC-4,36.7,4.4
+Pudukkottai,Chloramphenicol,PUDU-CHC-1,PUDU-PHC-2,104.9,4.7
+Pudukkottai,Chloramphenicol,PUDU-CHC-1,PUDU-PHC-4,200.0,2.8
+Pudukkottai,"Insulin (Analogue, Rapid-Acting)",PUDU-CHC-1,PUDU-PHC-2,80.0,4.7
+Pudukkottai,"Insulin (Analogue, Rapid-Acting)",PUDU-CHC-1,PUDU-PHC-3,84.4,4.9
+Pudukkottai,"Insulin (Analogue, Rapid-Acting)",PUDU-CHC-1,PUDU-PHC-4,200.0,2.8
+Pudukkottai,Metronidazole,PUDU-PHC-2,PUDU-CHC-1,29.3,4.7
+Pudukkottai,Metronidazole,PUDU-PHC-2,PUDU-PHC-3,200.0,2.3
+Pudukkottai,Metronidazole,PUDU-PHC-2,PUDU-PHC-4,200.0,4.4
+Pudukkottai,Haemophilus Influenzae Type B Vaccine,PUDU-PHC-4,PUDU-CHC-1,200.0,2.8
+Pudukkottai,Haemophilus Influenzae Type B Vaccine,PUDU-PHC-4,PUDU-PHC-2,200.0,4.4
+Pudukkottai,Haemophilus Influenzae Type B Vaccine,PUDU-PHC-4,PUDU-PHC-3,200.0,3.1
+Pudukkottai,Respiratory Syncytial Virus Vaccine,PUDU-CHC-1,PUDU-PHC-2,32.5,4.7
+Pudukkottai,Respiratory Syncytial Virus Vaccine,PUDU-CHC-1,PUDU-PHC-4,200.0,2.8
+Sangareddy,Poliomyelitis Vaccine,SANG-CHC-1,SANG-PHC-2,168.4,15.0
+Sangareddy,Poliomyelitis Vaccine,SANG-CHC-1,SANG-PHC-4,178.7,15.0
+Sangareddy,Human Papilloma Virus (Hpv) Vaccine,SANG-PHC-3,SANG-CHC-1,200.0,15.0
+Sangareddy,Human Papilloma Virus (Hpv) Vaccine,SANG-PHC-3,SANG-PHC-2,39.8,15.0
+Sangareddy,Human Papilloma Virus (Hpv) Vaccine,SANG-PHC-3,SANG-PHC-4,200.0,15.0
+Sangareddy,Rifapentine,SANG-PHC-2,SANG-CHC-1,200.0,15.0
+Sangareddy,Rifapentine,SANG-PHC-2,SANG-PHC-3,200.0,15.0
+Sangareddy,Rifapentine,SANG-PHC-4,SANG-CHC-1,108.6,15.0
+Sangareddy,Rifapentine,SANG-PHC-4,SANG-PHC-3,200.0,15.0
+Sangareddy,Mpox Vaccine,SANG-PHC-3,SANG-CHC-1,200.0,15.0
+Sangareddy,Mpox Vaccine,SANG-PHC-3,SANG-PHC-2,200.0,15.0
+Sangareddy,Mpox Vaccine,SANG-PHC-3,SANG-PHC-4,185.9,15.0
+Sangareddy,Valsartan + Amlodipine + Hydrochlorothiazide,SANG-PHC-4,SANG-PHC-2,165.3,15.0
+Sangareddy,Valsartan + Amlodipine + Hydrochlorothiazide,SANG-PHC-4,SANG-PHC-3,100.9,15.0
+Sangareddy,Pneumococcal Vaccine,SANG-PHC-3,SANG-CHC-1,200.0,15.0
+Sangareddy,Pneumococcal Vaccine,SANG-PHC-3,SANG-PHC-2,200.0,15.0
+Sangareddy,Pneumococcal Vaccine,SANG-PHC-3,SANG-PHC-4,200.0,15.0
+Sangareddy,Pretomanid,SANG-PHC-4,SANG-PHC-3,25.9,15.0
+Sangareddy,Bedaquiline,SANG-PHC-2,SANG-CHC-1,194.9,15.0
+Sangareddy,Bedaquiline,SANG-PHC-2,SANG-PHC-3,59.3,15.0
+Sangareddy,Imipenem + Cilastatin,SANG-CHC-1,SANG-PHC-2,200.0,15.0
+Sangareddy,Imipenem + Cilastatin,SANG-CHC-1,SANG-PHC-3,200.0,15.0
+Sangareddy,Imipenem + Cilastatin,SANG-PHC-4,SANG-PHC-2,200.0,15.0
+Sangareddy,Imipenem + Cilastatin,SANG-PHC-4,SANG-PHC-3,0.7,15.0
+Sangareddy,Flucloxacillin,SANG-PHC-2,SANG-CHC-1,147.9,15.0
+Sangareddy,Flucloxacillin,SANG-PHC-3,SANG-CHC-1,200.0,15.0
+Sangareddy,Terizidone,SANG-PHC-4,SANG-CHC-1,51.3,15.0
+Sangareddy,Terizidone,SANG-PHC-4,SANG-PHC-2,200.0,15.0
+Sangareddy,Terizidone,SANG-PHC-4,SANG-PHC-3,200.0,15.0
+Sangareddy,Meropenem,SANG-CHC-1,SANG-PHC-2,37.6,15.0
+Sangareddy,Meropenem,SANG-PHC-3,SANG-PHC-2,200.0,15.0
+Sangareddy,Quinine,SANG-CHC-1,SANG-PHC-2,174.3,15.0
+Sangareddy,Quinine,SANG-CHC-1,SANG-PHC-3,115.2,15.0
+Sangareddy,Quinine,SANG-PHC-4,SANG-PHC-3,25.3,15.0
+Sangareddy,Hydralazine,SANG-PHC-4,SANG-PHC-3,103.8,15.0
+Sangareddy,Clofazimine,SANG-PHC-2,SANG-CHC-1,65.0,15.0
+Sangareddy,Clofazimine,SANG-PHC-2,SANG-PHC-3,200.0,15.0
+Sangareddy,Clofazimine,SANG-PHC-2,SANG-PHC-4,200.0,15.0
+Sangareddy,Isoniazid + Pyrazinamide + Rifampicin,SANG-PHC-4,SANG-CHC-1,200.0,15.0
+Sangareddy,Isoniazid + Pyrazinamide + Rifampicin,SANG-PHC-4,SANG-PHC-2,200.0,15.0
+Sangareddy,Isoniazid + Pyrazinamide + Rifampicin,SANG-PHC-4,SANG-PHC-3,200.0,15.0
+Sangareddy,Artemether,SANG-PHC-2,SANG-CHC-1,200.0,15.0
+Sangareddy,Artemether,SANG-PHC-2,SANG-PHC-3,110.3,15.0
+Sangareddy,Artemether,SANG-PHC-2,SANG-PHC-4,62.5,15.0
+Sangareddy,Rabies Vaccine,SANG-PHC-2,SANG-CHC-1,8.3,15.0
+Sangareddy,Rabies Vaccine,SANG-PHC-2,SANG-PHC-3,76.7,15.0
+Sangareddy,Rabies Vaccine,SANG-PHC-2,SANG-PHC-4,200.0,15.0
+Sangareddy,Mebendazole,SANG-PHC-4,SANG-PHC-3,125.5,15.0
+Sangareddy,Phenytoin,SANG-CHC-1,SANG-PHC-2,5.9,15.0
+Sangareddy,Phenytoin,SANG-PHC-3,SANG-PHC-2,200.0,15.0
+Sangareddy,Umeclidinium,SANG-PHC-4,SANG-CHC-1,200.0,15.0
+Sangareddy,Umeclidinium,SANG-PHC-4,SANG-PHC-2,158.4,15.0
+Sangareddy,Umeclidinium,SANG-PHC-4,SANG-PHC-3,200.0,15.0
+Sangareddy,Spectinomycin,SANG-PHC-2,SANG-PHC-3,57.3,15.0
+Sangareddy,Spectinomycin,SANG-PHC-2,SANG-PHC-4,200.0,15.0
+Sangareddy,Prednisolone,SANG-PHC-2,SANG-CHC-1,200.0,15.0
+Sangareddy,Prednisolone,SANG-PHC-2,SANG-PHC-4,162.6,15.0
+Sangareddy,Prednisolone,SANG-PHC-3,SANG-CHC-1,42.2,15.0
+Sangareddy,Chloroquine,SANG-PHC-3,SANG-CHC-1,82.5,15.0
+Sangareddy,Chloroquine,SANG-PHC-3,SANG-PHC-2,39.5,15.0
+Sangareddy,Chloroquine,SANG-PHC-3,SANG-PHC-4,200.0,15.0
+Sangareddy,Influenza Vaccine (Seasonal),SANG-CHC-1,SANG-PHC-3,38.5,15.0
+Sangareddy,Influenza Vaccine (Seasonal),SANG-PHC-2,SANG-PHC-3,191.7,15.0
+Sangareddy,Influenza Vaccine (Seasonal),SANG-PHC-4,SANG-PHC-3,35.7,15.0
+Sangareddy,Amoxicillin,SANG-PHC-3,SANG-PHC-2,200.0,15.0
+Sangareddy,Amoxicillin,SANG-PHC-3,SANG-PHC-4,31.3,15.0
+Sangareddy,Budesonide + Salmeterol,SANG-CHC-1,SANG-PHC-2,76.9,15.0
+Sangareddy,Budesonide + Salmeterol,SANG-CHC-1,SANG-PHC-3,151.3,15.0
+Sangareddy,Mometasone + Formoterol,SANG-PHC-2,SANG-CHC-1,200.0,15.0
+Sangareddy,Mometasone + Formoterol,SANG-PHC-2,SANG-PHC-4,200.0,15.0
+Sangareddy,Mometasone + Formoterol,SANG-PHC-3,SANG-CHC-1,2.3,15.0
+Sangareddy,Mometasone + Formoterol,SANG-PHC-3,SANG-PHC-4,8.7,15.0
+Sangareddy,Pertussis Vaccine,SANG-CHC-1,SANG-PHC-3,185.9,15.0
+Sangareddy,Pertussis Vaccine,SANG-CHC-1,SANG-PHC-4,200.0,15.0
+Sangareddy,Typhoid Vaccine,SANG-PHC-2,SANG-CHC-1,200.0,15.0
+Sangareddy,Typhoid Vaccine,SANG-PHC-2,SANG-PHC-3,112.0,15.0
+Sangareddy,Typhoid Vaccine,SANG-PHC-2,SANG-PHC-4,62.4,15.0
+Sangareddy,Erythropoiesis-Stimulating Agents,SANG-CHC-1,SANG-PHC-4,171.7,15.0
+Sangareddy,Erythropoiesis-Stimulating Agents,SANG-PHC-2,SANG-PHC-4,55.4,15.0
+Sangareddy,Chloramphenicol,SANG-PHC-2,SANG-PHC-4,142.1,15.0
+Sangareddy,"Insulin (Analogue, Rapid-Acting)",SANG-PHC-3,SANG-CHC-1,200.0,15.0
+Sangareddy,"Insulin (Analogue, Rapid-Acting)",SANG-PHC-3,SANG-PHC-2,200.0,15.0
+Sangareddy,"Insulin (Analogue, Rapid-Acting)",SANG-PHC-4,SANG-PHC-2,109.6,15.0
+Sangareddy,Metronidazole,SANG-CHC-1,SANG-PHC-4,122.8,15.0
+Sangareddy,Metronidazole,SANG-PHC-3,SANG-PHC-4,200.0,15.0
+Sangareddy,Haemophilus Influenzae Type B Vaccine,SANG-CHC-1,SANG-PHC-2,182.0,15.0
+Sangareddy,Haemophilus Influenzae Type B Vaccine,SANG-CHC-1,SANG-PHC-4,85.1,15.0
+Sangareddy,Haemophilus Influenzae Type B Vaccine,SANG-PHC-3,SANG-PHC-2,200.0,15.0
+Sangareddy,Haemophilus Influenzae Type B Vaccine,SANG-PHC-3,SANG-PHC-4,173.0,15.0
+Sri Potti Sriramulu Nello,Poliomyelitis Vaccine,SRI-PHC-3,SRI-CHC-1,200.0,5.4
+Sri Potti Sriramulu Nello,Poliomyelitis Vaccine,SRI-PHC-3,SRI-PHC-2,193.6,5.2
+Sri Potti Sriramulu Nello,Poliomyelitis Vaccine,SRI-PHC-4,SRI-CHC-1,60.6,6.2
+Sri Potti Sriramulu Nello,Poliomyelitis Vaccine,SRI-PHC-4,SRI-PHC-2,117.5,5.9
+Sri Potti Sriramulu Nello,Human Papilloma Virus (Hpv) Vaccine,SRI-PHC-3,SRI-PHC-2,132.1,5.2
+Sri Potti Sriramulu Nello,Human Papilloma Virus (Hpv) Vaccine,SRI-PHC-3,SRI-PHC-4,200.0,0.9
+Sri Potti Sriramulu Nello,Rifapentine,SRI-CHC-1,SRI-PHC-2,81.3,3.6
+Sri Potti Sriramulu Nello,Rifapentine,SRI-PHC-4,SRI-PHC-2,14.2,5.9
+Sri Potti Sriramulu Nello,Rifapentine,SRI-PHC-4,SRI-PHC-3,119.6,0.9
+Sri Potti Sriramulu Nello,Artesunate + Mefloquine,SRI-CHC-1,SRI-PHC-2,51.3,3.6
+Sri Potti Sriramulu Nello,Valsartan + Amlodipine + Hydrochlorothiazide,SRI-PHC-4,SRI-PHC-3,99.3,0.9
+Sri Potti Sriramulu Nello,Pneumococcal Vaccine,SRI-CHC-1,SRI-PHC-2,169.4,3.6
+Sri Potti Sriramulu Nello,Pretomanid,SRI-PHC-2,SRI-CHC-1,200.0,3.6
+Sri Potti Sriramulu Nello,Pretomanid,SRI-PHC-2,SRI-PHC-4,200.0,5.9
+Sri Potti Sriramulu Nello,Pretomanid,SRI-PHC-3,SRI-CHC-1,82.0,5.4
+Sri Potti Sriramulu Nello,Pretomanid,SRI-PHC-3,SRI-PHC-4,200.0,0.9
+Sri Potti Sriramulu Nello,Bedaquiline,SRI-PHC-3,SRI-CHC-1,200.0,5.4
+Sri Potti Sriramulu Nello,Bedaquiline,SRI-PHC-3,SRI-PHC-2,200.0,5.2
+Sri Potti Sriramulu Nello,Bedaquiline,SRI-PHC-4,SRI-CHC-1,200.0,6.2
+Sri Potti Sriramulu Nello,Bedaquiline,SRI-PHC-4,SRI-PHC-2,56.4,5.9
+Sri Potti Sriramulu Nello,Imipenem + Cilastatin,SRI-CHC-1,SRI-PHC-2,31.6,3.6
+Sri Potti Sriramulu Nello,Flucloxacillin,SRI-PHC-4,SRI-CHC-1,200.0,6.2
+Sri Potti Sriramulu Nello,Flucloxacillin,SRI-PHC-4,SRI-PHC-2,200.0,5.9
+Sri Potti Sriramulu Nello,Flucloxacillin,SRI-PHC-4,SRI-PHC-3,200.0,0.9
+Sri Potti Sriramulu Nello,Terizidone,SRI-CHC-1,SRI-PHC-2,200.0,3.6
+Sri Potti Sriramulu Nello,Terizidone,SRI-CHC-1,SRI-PHC-4,93.0,6.2
+Sri Potti Sriramulu Nello,Terizidone,SRI-PHC-3,SRI-PHC-2,149.9,5.2
+Sri Potti Sriramulu Nello,Terizidone,SRI-PHC-3,SRI-PHC-4,200.0,0.9
+Sri Potti Sriramulu Nello,Meropenem,SRI-PHC-2,SRI-CHC-1,200.0,3.6
+Sri Potti Sriramulu Nello,Meropenem,SRI-PHC-2,SRI-PHC-4,180.8,5.9
+Sri Potti Sriramulu Nello,Meropenem,SRI-PHC-3,SRI-CHC-1,125.1,5.4
+Sri Potti Sriramulu Nello,Meropenem,SRI-PHC-3,SRI-PHC-4,138.1,0.9
+Sri Potti Sriramulu Nello,Hydralazine,SRI-PHC-2,SRI-CHC-1,78.3,3.6
+Sri Potti Sriramulu Nello,Hydralazine,SRI-PHC-2,SRI-PHC-3,9.6,5.2
+Sri Potti Sriramulu Nello,Artemether,SRI-PHC-4,SRI-CHC-1,200.0,6.2
+Sri Potti Sriramulu Nello,Artemether,SRI-PHC-4,SRI-PHC-2,105.6,5.9
+Sri Potti Sriramulu Nello,Artemether,SRI-PHC-4,SRI-PHC-3,200.0,0.9
+Sri Potti Sriramulu Nello,Phenytoin,SRI-CHC-1,SRI-PHC-3,200.0,5.4
+Sri Potti Sriramulu Nello,Phenytoin,SRI-CHC-1,SRI-PHC-4,122.6,6.2
+Sri Potti Sriramulu Nello,Phenytoin,SRI-PHC-2,SRI-PHC-3,23.3,5.2
+Sri Potti Sriramulu Nello,Ethionamide,SRI-CHC-1,SRI-PHC-2,125.5,3.6
+Sri Potti Sriramulu Nello,Ethionamide,SRI-PHC-3,SRI-PHC-4,129.2,0.9
+Sri Potti Sriramulu Nello,Umeclidinium,SRI-CHC-1,SRI-PHC-2,125.6,3.6
+Sri Potti Sriramulu Nello,Umeclidinium,SRI-PHC-4,SRI-PHC-3,59.7,0.9
+Sri Potti Sriramulu Nello,Spectinomycin,SRI-PHC-4,SRI-PHC-3,78.9,0.9
+Sri Potti Sriramulu Nello,Prednisolone,SRI-PHC-4,SRI-CHC-1,200.0,6.2
+Sri Potti Sriramulu Nello,Prednisolone,SRI-PHC-4,SRI-PHC-2,200.0,5.9
+Sri Potti Sriramulu Nello,Prednisolone,SRI-PHC-4,SRI-PHC-3,22.1,0.9
+Sri Potti Sriramulu Nello,Chloroquine,SRI-PHC-4,SRI-CHC-1,200.0,6.2
+Sri Potti Sriramulu Nello,Chloroquine,SRI-PHC-4,SRI-PHC-2,200.0,5.9
+Sri Potti Sriramulu Nello,Chloroquine,SRI-PHC-4,SRI-PHC-3,200.0,0.9
+Sri Potti Sriramulu Nello,Influenza Vaccine (Seasonal),SRI-CHC-1,SRI-PHC-2,124.4,3.6
+Sri Potti Sriramulu Nello,Budesonide + Salmeterol,SRI-PHC-2,SRI-CHC-1,64.3,3.6
+Sri Potti Sriramulu Nello,Mometasone + Formoterol,SRI-PHC-4,SRI-PHC-3,86.0,0.9
+Sri Potti Sriramulu Nello,Pertussis Vaccine,SRI-PHC-2,SRI-CHC-1,110.4,3.6
+Sri Potti Sriramulu Nello,Pertussis Vaccine,SRI-PHC-2,SRI-PHC-3,155.4,5.2
+Sri Potti Sriramulu Nello,Pertussis Vaccine,SRI-PHC-2,SRI-PHC-4,200.0,5.9
+Sri Potti Sriramulu Nello,Typhoid Vaccine,SRI-PHC-3,SRI-CHC-1,200.0,5.4
+Sri Potti Sriramulu Nello,Typhoid Vaccine,SRI-PHC-3,SRI-PHC-2,200.0,5.2
+Sri Potti Sriramulu Nello,Typhoid Vaccine,SRI-PHC-3,SRI-PHC-4,165.6,0.9
+Sri Potti Sriramulu Nello,Erythropoiesis-Stimulating Agents,SRI-PHC-4,SRI-CHC-1,43.2,6.2
+Sri Potti Sriramulu Nello,Erythropoiesis-Stimulating Agents,SRI-PHC-4,SRI-PHC-2,198.1,5.9
+Sri Potti Sriramulu Nello,Erythropoiesis-Stimulating Agents,SRI-PHC-4,SRI-PHC-3,200.0,0.9
+Sri Potti Sriramulu Nello,Chloramphenicol,SRI-PHC-2,SRI-CHC-1,200.0,3.6
+Sri Potti Sriramulu Nello,Chloramphenicol,SRI-PHC-2,SRI-PHC-3,32.6,5.2
+Sri Potti Sriramulu Nello,"Insulin (Analogue, Rapid-Acting)",SRI-CHC-1,SRI-PHC-2,200.0,3.6
+Sri Potti Sriramulu Nello,"Insulin (Analogue, Rapid-Acting)",SRI-CHC-1,SRI-PHC-3,97.9,5.4
+Sri Potti Sriramulu Nello,"Insulin (Analogue, Rapid-Acting)",SRI-CHC-1,SRI-PHC-4,200.0,6.2
+Sri Potti Sriramulu Nello,Metronidazole,SRI-PHC-4,SRI-PHC-2,41.3,5.9
+Sri Potti Sriramulu Nello,Metronidazole,SRI-PHC-4,SRI-PHC-3,200.0,0.9
+Sri Potti Sriramulu Nello,Respiratory Syncytial Virus Vaccine,SRI-PHC-4,SRI-PHC-3,89.8,0.9
+Allahabad,Poliomyelitis Vaccine,ALLA-PHC-2,ALLA-CHC-1,83.9,2.7
+Allahabad,Poliomyelitis Vaccine,ALLA-PHC-3,ALLA-PHC-4,31.0,0.7
+Allahabad,Mpox Vaccine,ALLA-PHC-4,ALLA-CHC-1,200.0,4.6
+Allahabad,Mpox Vaccine,ALLA-PHC-4,ALLA-PHC-2,30.3,7.0
+Allahabad,Mpox Vaccine,ALLA-PHC-4,ALLA-PHC-3,200.0,0.7
+Allahabad,Artesunate + Mefloquine,ALLA-PHC-2,ALLA-CHC-1,19.5,2.7
+Allahabad,Valsartan + Amlodipine + Hydrochlorothiazide,ALLA-PHC-2,ALLA-CHC-1,200.0,2.7
+Allahabad,Valsartan + Amlodipine + Hydrochlorothiazide,ALLA-PHC-2,ALLA-PHC-4,62.7,7.0
+Allahabad,Imipenem + Cilastatin,ALLA-PHC-4,ALLA-CHC-1,62.8,4.6
+Allahabad,Imipenem + Cilastatin,ALLA-PHC-4,ALLA-PHC-3,200.0,0.7
+Allahabad,Flucloxacillin,ALLA-PHC-2,ALLA-CHC-1,28.3,2.7
+Allahabad,Flucloxacillin,ALLA-PHC-3,ALLA-CHC-1,17.5,5.0
+Allahabad,Flucloxacillin,ALLA-PHC-4,ALLA-CHC-1,200.0,4.6
+Allahabad,Quinine,ALLA-PHC-3,ALLA-CHC-1,161.8,5.0
+Allahabad,Quinine,ALLA-PHC-3,ALLA-PHC-2,149.8,7.5
+Allahabad,Quinine,ALLA-PHC-3,ALLA-PHC-4,200.0,0.7
+Allahabad,Hydralazine,ALLA-CHC-1,ALLA-PHC-3,21.4,5.0
+Allahabad,Hydralazine,ALLA-PHC-4,ALLA-PHC-3,200.0,0.7
+Allahabad,Clofazimine,ALLA-PHC-4,ALLA-CHC-1,200.0,4.6
+Allahabad,Clofazimine,ALLA-PHC-4,ALLA-PHC-2,200.0,7.0
+Allahabad,Clofazimine,ALLA-PHC-4,ALLA-PHC-3,200.0,0.7
+Allahabad,Mebendazole,ALLA-CHC-1,ALLA-PHC-2,127.6,2.7
+Allahabad,Phenytoin,ALLA-PHC-2,ALLA-CHC-1,58.3,2.7
+Allahabad,Phenytoin,ALLA-PHC-4,ALLA-CHC-1,169.7,4.6
+Allahabad,Phenytoin,ALLA-PHC-4,ALLA-PHC-3,84.8,0.7
+Allahabad,Ethionamide,ALLA-PHC-3,ALLA-CHC-1,173.6,5.0
+Allahabad,Ethionamide,ALLA-PHC-3,ALLA-PHC-2,200.0,7.5
+Allahabad,Ethionamide,ALLA-PHC-3,ALLA-PHC-4,200.0,0.7
+Allahabad,Umeclidinium,ALLA-CHC-1,ALLA-PHC-3,65.8,5.0
+Allahabad,Umeclidinium,ALLA-CHC-1,ALLA-PHC-4,86.3,4.6
+Allahabad,Spectinomycin,ALLA-CHC-1,ALLA-PHC-2,200.0,2.7
+Allahabad,Spectinomycin,ALLA-CHC-1,ALLA-PHC-4,124.7,4.6
+Allahabad,Prednisolone,ALLA-PHC-2,ALLA-CHC-1,200.0,2.7
+Allahabad,Prednisolone,ALLA-PHC-2,ALLA-PHC-4,200.0,7.0
+Allahabad,Prednisolone,ALLA-PHC-3,ALLA-PHC-4,8.7,0.7
+Allahabad,Chloroquine,ALLA-PHC-3,ALLA-PHC-4,133.3,0.7
+Allahabad,Influenza Vaccine (Seasonal),ALLA-PHC-4,ALLA-CHC-1,6.8,4.6
+Allahabad,Influenza Vaccine (Seasonal),ALLA-PHC-4,ALLA-PHC-3,200.0,0.7
+Allahabad,Amoxicillin,ALLA-CHC-1,ALLA-PHC-2,169.3,2.7
+Allahabad,Amoxicillin,ALLA-CHC-1,ALLA-PHC-3,190.2,5.0
+Allahabad,Amoxicillin,ALLA-CHC-1,ALLA-PHC-4,200.0,4.6
+Allahabad,Budesonide + Salmeterol,ALLA-PHC-2,ALLA-CHC-1,200.0,2.7
+Allahabad,Budesonide + Salmeterol,ALLA-PHC-4,ALLA-CHC-1,42.9,4.6
+Allahabad,Budesonide + Salmeterol,ALLA-PHC-4,ALLA-PHC-3,68.4,0.7
+Allahabad,Mometasone + Formoterol,ALLA-CHC-1,ALLA-PHC-2,200.0,2.7
+Allahabad,Mometasone + Formoterol,ALLA-PHC-4,ALLA-PHC-2,65.3,7.0
+Allahabad,Typhoid Vaccine,ALLA-CHC-1,ALLA-PHC-4,112.1,4.6
+Allahabad,Typhoid Vaccine,ALLA-PHC-2,ALLA-PHC-3,200.0,7.5
+Allahabad,Typhoid Vaccine,ALLA-PHC-2,ALLA-PHC-4,200.0,7.0
+Allahabad,Erythropoiesis-Stimulating Agents,ALLA-PHC-3,ALLA-CHC-1,24.4,5.0
+Allahabad,Erythropoiesis-Stimulating Agents,ALLA-PHC-4,ALLA-CHC-1,200.0,4.6
+Allahabad,Erythropoiesis-Stimulating Agents,ALLA-PHC-4,ALLA-PHC-2,200.0,7.0
+Allahabad,Chloramphenicol,ALLA-PHC-2,ALLA-CHC-1,40.8,2.7
+Allahabad,"Insulin (Analogue, Rapid-Acting)",ALLA-PHC-4,ALLA-PHC-3,90.4,0.7
+Allahabad,Respiratory Syncytial Virus Vaccine,ALLA-CHC-1,ALLA-PHC-3,200.0,5.0
+Allahabad,Respiratory Syncytial Virus Vaccine,ALLA-CHC-1,ALLA-PHC-4,200.0,4.6
+Allahabad,Respiratory Syncytial Virus Vaccine,ALLA-PHC-2,ALLA-PHC-3,58.3,7.5
+Allahabad,Respiratory Syncytial Virus Vaccine,ALLA-PHC-2,ALLA-PHC-4,9.4,7.0
+Shimla,Poliomyelitis Vaccine,SHIM-PHC-3,SHIM-CHC-1,81.6,1.0
+Shimla,Human Papilloma Virus (Hpv) Vaccine,SHIM-CHC-1,SHIM-PHC-3,200.0,1.0
+Shimla,Human Papilloma Virus (Hpv) Vaccine,SHIM-CHC-1,SHIM-PHC-4,47.2,1.3
+Shimla,Human Papilloma Virus (Hpv) Vaccine,SHIM-PHC-2,SHIM-PHC-3,80.8,4.9
+Shimla,Rifapentine,SHIM-CHC-1,SHIM-PHC-3,124.9,1.0
+Shimla,Rifapentine,SHIM-CHC-1,SHIM-PHC-4,119.8,1.3
+Shimla,Rifapentine,SHIM-PHC-2,SHIM-PHC-4,168.1,4.5
+Shimla,Mpox Vaccine,SHIM-PHC-3,SHIM-CHC-1,200.0,1.0
+Shimla,Mpox Vaccine,SHIM-PHC-3,SHIM-PHC-2,89.9,4.9
+Shimla,Mpox Vaccine,SHIM-PHC-4,SHIM-CHC-1,152.2,1.3
+Shimla,Mpox Vaccine,SHIM-PHC-4,SHIM-PHC-2,200.0,4.5
+Shimla,Artesunate + Mefloquine,SHIM-CHC-1,SHIM-PHC-3,65.4,1.0
+Shimla,Artesunate + Mefloquine,SHIM-PHC-2,SHIM-PHC-3,163.9,4.9
+Shimla,Artesunate + Mefloquine,SHIM-PHC-2,SHIM-PHC-4,161.5,4.5
+Shimla,Pneumococcal Vaccine,SHIM-CHC-1,SHIM-PHC-3,42.3,1.0
+Shimla,Pneumococcal Vaccine,SHIM-CHC-1,SHIM-PHC-4,41.6,1.3
+Shimla,Pneumococcal Vaccine,SHIM-PHC-2,SHIM-PHC-4,75.8,4.5
+Shimla,Pretomanid,SHIM-CHC-1,SHIM-PHC-4,101.8,1.3
+Shimla,Pretomanid,SHIM-PHC-2,SHIM-PHC-4,43.2,4.5
+Shimla,Pretomanid,SHIM-PHC-3,SHIM-PHC-4,200.0,1.1
+Shimla,Bedaquiline,SHIM-PHC-4,SHIM-CHC-1,200.0,1.3
+Shimla,Bedaquiline,SHIM-PHC-4,SHIM-PHC-2,200.0,4.5
+Shimla,Bedaquiline,SHIM-PHC-4,SHIM-PHC-3,200.0,1.1
+Shimla,Imipenem + Cilastatin,SHIM-PHC-4,SHIM-CHC-1,125.5,1.3
+Shimla,Imipenem + Cilastatin,SHIM-PHC-4,SHIM-PHC-3,178.9,1.1
+Shimla,Flucloxacillin,SHIM-PHC-2,SHIM-CHC-1,200.0,3.9
+Shimla,Flucloxacillin,SHIM-PHC-2,SHIM-PHC-4,56.5,4.5
+Shimla,Meropenem,SHIM-PHC-3,SHIM-CHC-1,186.6,1.0
+Shimla,Meropenem,SHIM-PHC-4,SHIM-CHC-1,1.8,1.3
+Shimla,Quinine,SHIM-CHC-1,SHIM-PHC-2,200.0,3.9
+Shimla,Quinine,SHIM-PHC-4,SHIM-PHC-2,45.1,4.5
+Shimla,Hydralazine,SHIM-CHC-1,SHIM-PHC-3,62.2,1.0
+Shimla,Clofazimine,SHIM-CHC-1,SHIM-PHC-3,114.9,1.0
+Shimla,Clofazimine,SHIM-CHC-1,SHIM-PHC-4,148.9,1.3
+Shimla,Isoniazid + Pyrazinamide + Rifampicin,SHIM-CHC-1,SHIM-PHC-2,70.2,3.9
+Shimla,Isoniazid + Pyrazinamide + Rifampicin,SHIM-CHC-1,SHIM-PHC-4,87.6,1.3
+Shimla,Isoniazid + Pyrazinamide + Rifampicin,SHIM-PHC-3,SHIM-PHC-2,200.0,4.9
+Shimla,Isoniazid + Pyrazinamide + Rifampicin,SHIM-PHC-3,SHIM-PHC-4,200.0,1.1
+Shimla,Artemether,SHIM-CHC-1,SHIM-PHC-2,15.5,3.9
+Shimla,Artemether,SHIM-CHC-1,SHIM-PHC-3,50.6,1.0
+Shimla,Artemether,SHIM-PHC-4,SHIM-PHC-2,200.0,4.5
+Shimla,Artemether,SHIM-PHC-4,SHIM-PHC-3,200.0,1.1
+Shimla,Rabies Vaccine,SHIM-CHC-1,SHIM-PHC-3,173.7,1.0
+Shimla,Phenytoin,SHIM-CHC-1,SHIM-PHC-2,200.0,3.9
+Shimla,Phenytoin,SHIM-PHC-4,SHIM-PHC-2,28.8,4.5
+Shimla,Ethionamide,SHIM-CHC-1,SHIM-PHC-3,196.1,1.0
+Shimla,Umeclidinium,SHIM-PHC-3,SHIM-CHC-1,9.2,1.0
+Shimla,Umeclidinium,SHIM-PHC-4,SHIM-CHC-1,179.1,1.3
+Shimla,Spectinomycin,SHIM-PHC-2,SHIM-PHC-4,15.4,4.5
+Shimla,Spectinomycin,SHIM-PHC-3,SHIM-CHC-1,180.9,1.0
+Shimla,Spectinomycin,SHIM-PHC-3,SHIM-PHC-4,200.0,1.1
+Shimla,Prednisolone,SHIM-CHC-1,SHIM-PHC-2,143.2,3.9
+Shimla,Chloroquine,SHIM-PHC-2,SHIM-PHC-4,6.8,4.5
+Shimla,Chloroquine,SHIM-PHC-3,SHIM-CHC-1,13.2,1.0
+Shimla,Chloroquine,SHIM-PHC-3,SHIM-PHC-4,200.0,1.1
+Shimla,Influenza Vaccine (Seasonal),SHIM-PHC-4,SHIM-CHC-1,200.0,1.3
+Shimla,Influenza Vaccine (Seasonal),SHIM-PHC-4,SHIM-PHC-2,23.5,4.5
+Shimla,Influenza Vaccine (Seasonal),SHIM-PHC-4,SHIM-PHC-3,103.6,1.1
+Shimla,Amoxicillin,SHIM-CHC-1,SHIM-PHC-3,37.4,1.0
+Shimla,Amoxicillin,SHIM-PHC-2,SHIM-PHC-3,200.0,4.9
+Shimla,Amoxicillin,SHIM-PHC-2,SHIM-PHC-4,114.8,4.5
+Shimla,Mometasone + Formoterol,SHIM-CHC-1,SHIM-PHC-2,200.0,3.9
+Shimla,Mometasone + Formoterol,SHIM-PHC-3,SHIM-PHC-2,15.3,4.9
+Shimla,Mometasone + Formoterol,SHIM-PHC-4,SHIM-PHC-2,5.7,4.5
+Shimla,Typhoid Vaccine,SHIM-CHC-1,SHIM-PHC-2,200.0,3.9
+Shimla,Typhoid Vaccine,SHIM-CHC-1,SHIM-PHC-3,3.3,1.0
+Shimla,Typhoid Vaccine,SHIM-CHC-1,SHIM-PHC-4,200.0,1.3
+Shimla,Erythropoiesis-Stimulating Agents,SHIM-CHC-1,SHIM-PHC-3,91.1,1.0
+Shimla,"Insulin (Analogue, Long-Acting)",SHIM-PHC-2,SHIM-CHC-1,109.8,3.9
+Shimla,Chloramphenicol,SHIM-PHC-3,SHIM-CHC-1,57.0,1.0
+Shimla,Chloramphenicol,SHIM-PHC-3,SHIM-PHC-2,8.3,4.9
+Shimla,Chloramphenicol,SHIM-PHC-3,SHIM-PHC-4,17.6,1.1
+Shimla,"Insulin (Analogue, Rapid-Acting)",SHIM-CHC-1,SHIM-PHC-2,200.0,3.9
+Shimla,"Insulin (Analogue, Rapid-Acting)",SHIM-CHC-1,SHIM-PHC-4,42.2,1.3
+Shimla,"Insulin (Analogue, Rapid-Acting)",SHIM-PHC-3,SHIM-PHC-2,2.0,4.9
+Shimla,"Insulin (Analogue, Rapid-Acting)",SHIM-PHC-3,SHIM-PHC-4,200.0,1.1
+Shimla,Metronidazole,SHIM-PHC-4,SHIM-CHC-1,182.2,1.3
+Shimla,Metronidazole,SHIM-PHC-4,SHIM-PHC-2,138.0,4.5
+Shimla,Metronidazole,SHIM-PHC-4,SHIM-PHC-3,83.9,1.1
+Shimla,Respiratory Syncytial Virus Vaccine,SHIM-CHC-1,SHIM-PHC-4,106.5,1.3
+Shimla,Respiratory Syncytial Virus Vaccine,SHIM-PHC-3,SHIM-PHC-4,100.3,1.1
+Uttar Bastar Kanker,Rifapentine,UTTA-PHC-2,UTTA-CHC-1,19.4,1.4
+Uttar Bastar Kanker,Rifapentine,UTTA-PHC-2,UTTA-PHC-4,133.7,4.1
+Uttar Bastar Kanker,Rifapentine,UTTA-PHC-3,UTTA-PHC-4,200.0,1.8
+Uttar Bastar Kanker,Mpox Vaccine,UTTA-CHC-1,UTTA-PHC-2,114.0,1.4
+Uttar Bastar Kanker,Mpox Vaccine,UTTA-CHC-1,UTTA-PHC-3,19.7,3.6
+Uttar Bastar Kanker,Mpox Vaccine,UTTA-CHC-1,UTTA-PHC-4,200.0,2.9
+Uttar Bastar Kanker,Artesunate + Mefloquine,UTTA-CHC-1,UTTA-PHC-3,178.4,3.6
+Uttar Bastar Kanker,Artesunate + Mefloquine,UTTA-PHC-4,UTTA-PHC-3,200.0,1.8
+Uttar Bastar Kanker,Valsartan + Amlodipine + Hydrochlorothiazide,UTTA-CHC-1,UTTA-PHC-2,29.9,1.4
+Uttar Bastar Kanker,Valsartan + Amlodipine + Hydrochlorothiazide,UTTA-CHC-1,UTTA-PHC-4,120.9,2.9
+Uttar Bastar Kanker,Valsartan + Amlodipine + Hydrochlorothiazide,UTTA-PHC-3,UTTA-PHC-4,76.4,1.8
+Uttar Bastar Kanker,Bedaquiline,UTTA-CHC-1,UTTA-PHC-2,91.3,1.4
+Uttar Bastar Kanker,Imipenem + Cilastatin,UTTA-PHC-2,UTTA-CHC-1,197.2,1.4
+Uttar Bastar Kanker,Imipenem + Cilastatin,UTTA-PHC-2,UTTA-PHC-3,200.0,4.2
+Uttar Bastar Kanker,Imipenem + Cilastatin,UTTA-PHC-4,UTTA-PHC-3,47.4,1.8
+Uttar Bastar Kanker,Flucloxacillin,UTTA-PHC-4,UTTA-PHC-3,79.4,1.8
+Uttar Bastar Kanker,Terizidone,UTTA-CHC-1,UTTA-PHC-2,143.6,1.4
+Uttar Bastar Kanker,Terizidone,UTTA-PHC-4,UTTA-PHC-3,25.3,1.8
+Uttar Bastar Kanker,Meropenem,UTTA-CHC-1,UTTA-PHC-4,89.7,2.9
+Uttar Bastar Kanker,Meropenem,UTTA-PHC-3,UTTA-PHC-4,200.0,1.8
+Uttar Bastar Kanker,Quinine,UTTA-CHC-1,UTTA-PHC-2,200.0,1.4
+Uttar Bastar Kanker,Quinine,UTTA-CHC-1,UTTA-PHC-3,200.0,3.6
+Uttar Bastar Kanker,Quinine,UTTA-CHC-1,UTTA-PHC-4,200.0,2.9
+Uttar Bastar Kanker,Hydralazine,UTTA-PHC-3,UTTA-PHC-4,26.8,1.8
+Uttar Bastar Kanker,Clofazimine,UTTA-PHC-2,UTTA-CHC-1,200.0,1.4
+Uttar Bastar Kanker,Clofazimine,UTTA-PHC-2,UTTA-PHC-4,156.6,4.1
+Uttar Bastar Kanker,Isoniazid + Pyrazinamide + Rifampicin,UTTA-PHC-2,UTTA-CHC-1,149.2,1.4
+Uttar Bastar Kanker,Isoniazid + Pyrazinamide + Rifampicin,UTTA-PHC-2,UTTA-PHC-3,79.1,4.2
+Uttar Bastar Kanker,Isoniazid + Pyrazinamide + Rifampicin,UTTA-PHC-4,UTTA-PHC-3,200.0,1.8
+Uttar Bastar Kanker,Artemether,UTTA-PHC-3,UTTA-CHC-1,183.1,3.6
+Uttar Bastar Kanker,Artemether,UTTA-PHC-3,UTTA-PHC-4,200.0,1.8
+Uttar Bastar Kanker,Rabies Vaccine,UTTA-PHC-4,UTTA-CHC-1,76.5,2.9
+Uttar Bastar Kanker,Rabies Vaccine,UTTA-PHC-4,UTTA-PHC-2,36.7,4.1
+Uttar Bastar Kanker,Rabies Vaccine,UTTA-PHC-4,UTTA-PHC-3,200.0,1.8
+Uttar Bastar Kanker,Phenytoin,UTTA-PHC-2,UTTA-CHC-1,200.0,1.4
+Uttar Bastar Kanker,Phenytoin,UTTA-PHC-4,UTTA-CHC-1,2.4,2.9
+Uttar Bastar Kanker,Phenytoin,UTTA-PHC-4,UTTA-PHC-3,62.8,1.8
+Uttar Bastar Kanker,Ethionamide,UTTA-CHC-1,UTTA-PHC-2,200.0,1.4
+Uttar Bastar Kanker,Ethionamide,UTTA-CHC-1,UTTA-PHC-3,62.6,3.6
+Uttar Bastar Kanker,Ethionamide,UTTA-PHC-4,UTTA-PHC-2,96.6,4.1
+Uttar Bastar Kanker,Ethionamide,UTTA-PHC-4,UTTA-PHC-3,200.0,1.8
+Uttar Bastar Kanker,Umeclidinium,UTTA-CHC-1,UTTA-PHC-3,25.9,3.6
+Uttar Bastar Kanker,Umeclidinium,UTTA-PHC-4,UTTA-PHC-3,53.6,1.8
+Uttar Bastar Kanker,Spectinomycin,UTTA-CHC-1,UTTA-PHC-3,116.0,3.6
+Uttar Bastar Kanker,Spectinomycin,UTTA-PHC-2,UTTA-PHC-3,27.5,4.2
+Uttar Bastar Kanker,Spectinomycin,UTTA-PHC-4,UTTA-PHC-3,45.5,1.8
+Uttar Bastar Kanker,Prednisolone,UTTA-PHC-2,UTTA-CHC-1,96.4,1.4
+Uttar Bastar Kanker,Prednisolone,UTTA-PHC-4,UTTA-CHC-1,57.1,2.9
+Uttar Bastar Kanker,Chloroquine,UTTA-PHC-4,UTTA-CHC-1,142.1,2.9
+Uttar Bastar Kanker,Chloroquine,UTTA-PHC-4,UTTA-PHC-2,33.7,4.1
+Uttar Bastar Kanker,Influenza Vaccine (Seasonal),UTTA-CHC-1,UTTA-PHC-2,58.7,1.4
+Uttar Bastar Kanker,Influenza Vaccine (Seasonal),UTTA-PHC-3,UTTA-PHC-4,33.4,1.8
+Uttar Bastar Kanker,Amoxicillin,UTTA-PHC-4,UTTA-PHC-3,96.0,1.8
+Uttar Bastar Kanker,Mometasone + Formoterol,UTTA-CHC-1,UTTA-PHC-2,200.0,1.4
+Uttar Bastar Kanker,Mometasone + Formoterol,UTTA-PHC-4,UTTA-PHC-2,20.4,4.1
+Uttar Bastar Kanker,Pertussis Vaccine,UTTA-PHC-4,UTTA-CHC-1,71.1,2.9
+Uttar Bastar Kanker,Pertussis Vaccine,UTTA-PHC-4,UTTA-PHC-2,153.9,4.1
+Uttar Bastar Kanker,Typhoid Vaccine,UTTA-CHC-1,UTTA-PHC-2,141.3,1.4
+Uttar Bastar Kanker,Typhoid Vaccine,UTTA-CHC-1,UTTA-PHC-4,165.3,2.9
+Uttar Bastar Kanker,Typhoid Vaccine,UTTA-PHC-3,UTTA-PHC-4,90.7,1.8
+Uttar Bastar Kanker,Erythropoiesis-Stimulating Agents,UTTA-PHC-2,UTTA-CHC-1,23.9,1.4
+Uttar Bastar Kanker,"Insulin (Analogue, Long-Acting)",UTTA-PHC-3,UTTA-CHC-1,70.1,3.6
+Uttar Bastar Kanker,"Insulin (Analogue, Long-Acting)",UTTA-PHC-3,UTTA-PHC-2,5.2,4.2
+Uttar Bastar Kanker,"Insulin (Analogue, Long-Acting)",UTTA-PHC-4,UTTA-CHC-1,200.0,2.9
+Uttar Bastar Kanker,"Insulin (Analogue, Long-Acting)",UTTA-PHC-4,UTTA-PHC-2,200.0,4.1
+Uttar Bastar Kanker,Chloramphenicol,UTTA-CHC-1,UTTA-PHC-4,31.9,2.9
+Uttar Bastar Kanker,Chloramphenicol,UTTA-PHC-2,UTTA-PHC-4,130.4,4.1
+Uttar Bastar Kanker,Chloramphenicol,UTTA-PHC-3,UTTA-PHC-4,31.9,1.8
+Uttar Bastar Kanker,"Insulin (Analogue, Rapid-Acting)",UTTA-CHC-1,UTTA-PHC-2,97.9,1.4
+Uttar Bastar Kanker,"Insulin (Analogue, Rapid-Acting)",UTTA-CHC-1,UTTA-PHC-3,32.4,3.6
+Uttar Bastar Kanker,"Insulin (Analogue, Rapid-Acting)",UTTA-PHC-4,UTTA-PHC-3,200.0,1.8
+Uttar Bastar Kanker,Metronidazole,UTTA-CHC-1,UTTA-PHC-4,168.4,2.9
+Uttar Bastar Kanker,Metronidazole,UTTA-PHC-3,UTTA-PHC-4,29.4,1.8
+Uttar Bastar Kanker,Haemophilus Influenzae Type B Vaccine,UTTA-CHC-1,UTTA-PHC-2,66.2,1.4
+Uttar Bastar Kanker,Haemophilus Influenzae Type B Vaccine,UTTA-PHC-4,UTTA-PHC-2,110.8,4.1
+Uttar Bastar Kanker,Respiratory Syncytial Virus Vaccine,UTTA-CHC-1,UTTA-PHC-2,200.0,1.4
+Uttar Bastar Kanker,Respiratory Syncytial Virus Vaccine,UTTA-CHC-1,UTTA-PHC-3,129.1,3.6
+Uttar Bastar Kanker,Respiratory Syncytial Virus Vaccine,UTTA-CHC-1,UTTA-PHC-4,59.3,2.9
+Uttar Bastar Kanker,Micafungin,UTTA-PHC-2,UTTA-CHC-1,97.2,1.4
+Kozhikode,Poliomyelitis Vaccine,KOZH-PHC-2,KOZH-CHC-1,198.5,3.7
+Kozhikode,Poliomyelitis Vaccine,KOZH-PHC-4,KOZH-CHC-1,35.4,2.8
+Kozhikode,Human Papilloma Virus (Hpv) Vaccine,KOZH-PHC-3,KOZH-CHC-1,29.9,4.2
+Kozhikode,Human Papilloma Virus (Hpv) Vaccine,KOZH-PHC-3,KOZH-PHC-2,200.0,3.6
+Kozhikode,Human Papilloma Virus (Hpv) Vaccine,KOZH-PHC-4,KOZH-CHC-1,200.0,2.8
+Kozhikode,Human Papilloma Virus (Hpv) Vaccine,KOZH-PHC-4,KOZH-PHC-2,130.9,5.7
+Kozhikode,Rifapentine,KOZH-PHC-3,KOZH-CHC-1,48.4,4.2
+Kozhikode,Rifapentine,KOZH-PHC-4,KOZH-CHC-1,200.0,2.8
+Kozhikode,Rifapentine,KOZH-PHC-4,KOZH-PHC-2,17.8,5.7
+Kozhikode,Mpox Vaccine,KOZH-PHC-2,KOZH-CHC-1,16.3,3.7
+Kozhikode,Mpox Vaccine,KOZH-PHC-4,KOZH-CHC-1,200.0,2.8
+Kozhikode,Artesunate + Mefloquine,KOZH-CHC-1,KOZH-PHC-2,61.7,3.7
+Kozhikode,Artesunate + Mefloquine,KOZH-CHC-1,KOZH-PHC-4,200.0,2.8
+Kozhikode,Valsartan + Amlodipine + Hydrochlorothiazide,KOZH-PHC-2,KOZH-PHC-3,200.0,3.6
+Kozhikode,Valsartan + Amlodipine + Hydrochlorothiazide,KOZH-PHC-4,KOZH-PHC-3,12.6,4.1
+Kozhikode,Pretomanid,KOZH-PHC-4,KOZH-CHC-1,137.2,2.8
+Kozhikode,Pretomanid,KOZH-PHC-4,KOZH-PHC-2,200.0,5.7
+Kozhikode,Pretomanid,KOZH-PHC-4,KOZH-PHC-3,61.9,4.1
+Kozhikode,Bedaquiline,KOZH-CHC-1,KOZH-PHC-4,157.6,2.8
+Kozhikode,Bedaquiline,KOZH-PHC-2,KOZH-PHC-3,158.8,3.6
+Kozhikode,Imipenem + Cilastatin,KOZH-CHC-1,KOZH-PHC-4,200.0,2.8
+Kozhikode,Imipenem + Cilastatin,KOZH-PHC-3,KOZH-PHC-4,123.6,4.1
+Kozhikode,Flucloxacillin,KOZH-CHC-1,KOZH-PHC-3,70.1,4.2
+Kozhikode,Flucloxacillin,KOZH-PHC-2,KOZH-PHC-3,24.0,3.6
+Kozhikode,Flucloxacillin,KOZH-PHC-4,KOZH-PHC-3,200.0,4.1
+Kozhikode,Terizidone,KOZH-PHC-2,KOZH-PHC-3,168.2,3.6
+Kozhikode,Meropenem,KOZH-CHC-1,KOZH-PHC-4,25.0,2.8
+Kozhikode,Meropenem,KOZH-PHC-3,KOZH-PHC-4,175.2,4.1
+Kozhikode,Quinine,KOZH-PHC-2,KOZH-CHC-1,69.1,3.7
+Kozhikode,Quinine,KOZH-PHC-4,KOZH-CHC-1,100.4,2.8
+Kozhikode,Clofazimine,KOZH-CHC-1,KOZH-PHC-2,18.1,3.7
+Kozhikode,Clofazimine,KOZH-CHC-1,KOZH-PHC-4,155.1,2.8
+Kozhikode,Isoniazid + Pyrazinamide + Rifampicin,KOZH-CHC-1,KOZH-PHC-2,68.1,3.7
+Kozhikode,Isoniazid + Pyrazinamide + Rifampicin,KOZH-CHC-1,KOZH-PHC-3,160.0,4.2
+Kozhikode,Isoniazid + Pyrazinamide + Rifampicin,KOZH-CHC-1,KOZH-PHC-4,200.0,2.8
+Kozhikode,Artemether,KOZH-PHC-3,KOZH-PHC-2,200.0,3.6
+Kozhikode,Artemether,KOZH-PHC-3,KOZH-PHC-4,113.9,4.1
+Kozhikode,Rabies Vaccine,KOZH-CHC-1,KOZH-PHC-2,55.1,3.7
+Kozhikode,Rabies Vaccine,KOZH-PHC-3,KOZH-PHC-2,200.0,3.6
+Kozhikode,Rabies Vaccine,KOZH-PHC-4,KOZH-PHC-2,77.1,5.7
+Kozhikode,Ethionamide,KOZH-PHC-3,KOZH-PHC-2,13.0,3.6
+Kozhikode,Spectinomycin,KOZH-CHC-1,KOZH-PHC-3,200.0,4.2
+Kozhikode,Spectinomycin,KOZH-CHC-1,KOZH-PHC-4,200.0,2.8
+Kozhikode,Spectinomycin,KOZH-PHC-2,KOZH-PHC-3,4.9,3.6
+Kozhikode,Spectinomycin,KOZH-PHC-2,KOZH-PHC-4,38.6,5.7
+Kozhikode,Mometasone + Formoterol,KOZH-PHC-4,KOZH-CHC-1,101.8,2.8
+Kozhikode,Pertussis Vaccine,KOZH-CHC-1,KOZH-PHC-2,66.1,3.7
+Kozhikode,Pertussis Vaccine,KOZH-CHC-1,KOZH-PHC-4,180.4,2.8
+Kozhikode,Typhoid Vaccine,KOZH-PHC-3,KOZH-PHC-2,136.8,3.6
+Kozhikode,Chloramphenicol,KOZH-PHC-2,KOZH-PHC-3,133.7,3.6
+Kozhikode,Chloramphenicol,KOZH-PHC-4,KOZH-CHC-1,13.1,2.8
+Kozhikode,"Insulin (Analogue, Rapid-Acting)",KOZH-PHC-3,KOZH-CHC-1,200.0,4.2
+Kozhikode,"Insulin (Analogue, Rapid-Acting)",KOZH-PHC-3,KOZH-PHC-2,12.2,3.6
+Kozhikode,"Insulin (Analogue, Rapid-Acting)",KOZH-PHC-3,KOZH-PHC-4,200.0,4.1
+Kozhikode,Metronidazole,KOZH-PHC-2,KOZH-PHC-3,70.4,3.6
+Kozhikode,Metronidazole,KOZH-PHC-4,KOZH-CHC-1,72.3,2.8
+Kozhikode,Metronidazole,KOZH-PHC-4,KOZH-PHC-3,62.5,4.1
+Kozhikode,Haemophilus Influenzae Type B Vaccine,KOZH-PHC-2,KOZH-PHC-3,200.0,3.6
+Kozhikode,Haemophilus Influenzae Type B Vaccine,KOZH-PHC-4,KOZH-CHC-1,17.5,2.8
+Kozhikode,Haemophilus Influenzae Type B Vaccine,KOZH-PHC-4,KOZH-PHC-3,38.2,4.1
+Kozhikode,Respiratory Syncytial Virus Vaccine,KOZH-CHC-1,KOZH-PHC-4,158.1,2.8
+Kozhikode,Respiratory Syncytial Virus Vaccine,KOZH-PHC-3,KOZH-PHC-2,144.5,3.6
+Jodhpur,Poliomyelitis Vaccine,JODH-PHC-2,JODH-CHC-1,112.6,4.5
+Jodhpur,Rifapentine,JODH-PHC-3,JODH-CHC-1,75.9,1.9
+Jodhpur,Mpox Vaccine,JODH-PHC-2,JODH-CHC-1,200.0,4.5
+Jodhpur,Mpox Vaccine,JODH-PHC-2,JODH-PHC-3,60.4,6.4
+Jodhpur,Mpox Vaccine,JODH-PHC-2,JODH-PHC-4,200.0,5.7
+Jodhpur,Valsartan + Amlodipine + Hydrochlorothiazide,JODH-PHC-3,JODH-CHC-1,32.8,1.9
+Jodhpur,Valsartan + Amlodipine + Hydrochlorothiazide,JODH-PHC-4,JODH-CHC-1,49.9,2.5
+Jodhpur,Pneumococcal Vaccine,JODH-PHC-4,JODH-CHC-1,200.0,2.5
+Jodhpur,Pneumococcal Vaccine,JODH-PHC-4,JODH-PHC-2,17.4,5.7
+Jodhpur,Pneumococcal Vaccine,JODH-PHC-4,JODH-PHC-3,200.0,2.5
+Jodhpur,Pretomanid,JODH-PHC-4,JODH-CHC-1,200.0,2.5
+Jodhpur,Pretomanid,JODH-PHC-4,JODH-PHC-2,200.0,5.7
+Jodhpur,Pretomanid,JODH-PHC-4,JODH-PHC-3,200.0,2.5
+Jodhpur,Bedaquiline,JODH-CHC-1,JODH-PHC-2,200.0,4.5
+Jodhpur,Bedaquiline,JODH-CHC-1,JODH-PHC-3,131.7,1.9
+Jodhpur,Bedaquiline,JODH-PHC-4,JODH-PHC-2,30.4,5.7
+Jodhpur,Flucloxacillin,JODH-PHC-3,JODH-CHC-1,44.3,1.9
+Jodhpur,Flucloxacillin,JODH-PHC-4,JODH-CHC-1,91.3,2.5
+Jodhpur,Flucloxacillin,JODH-PHC-4,JODH-PHC-2,73.9,5.7
+Jodhpur,Terizidone,JODH-PHC-2,JODH-CHC-1,200.0,4.5
+Jodhpur,Terizidone,JODH-PHC-2,JODH-PHC-3,47.3,6.4
+Jodhpur,Terizidone,JODH-PHC-2,JODH-PHC-4,26.1,5.7
+Jodhpur,Meropenem,JODH-CHC-1,JODH-PHC-2,91.8,4.5
+Jodhpur,Quinine,JODH-CHC-1,JODH-PHC-2,28.7,4.5
+Jodhpur,Quinine,JODH-CHC-1,JODH-PHC-4,200.0,2.5
+Jodhpur,Quinine,JODH-PHC-3,JODH-PHC-4,45.9,2.5
+Jodhpur,Hydralazine,JODH-CHC-1,JODH-PHC-3,200.0,1.9
+Jodhpur,Hydralazine,JODH-PHC-4,JODH-PHC-3,23.2,2.5
+Jodhpur,Clofazimine,JODH-PHC-2,JODH-CHC-1,200.0,4.5
+Jodhpur,Clofazimine,JODH-PHC-2,JODH-PHC-3,200.0,6.4
+Jodhpur,Clofazimine,JODH-PHC-2,JODH-PHC-4,200.0,5.7
+Jodhpur,Artemether,JODH-PHC-3,JODH-CHC-1,78.5,1.9
+Jodhpur,Rabies Vaccine,JODH-PHC-2,JODH-CHC-1,117.6,4.5
+Jodhpur,Rabies Vaccine,JODH-PHC-2,JODH-PHC-4,85.4,5.7
+Jodhpur,Rabies Vaccine,JODH-PHC-3,JODH-CHC-1,200.0,1.9
+Jodhpur,Rabies Vaccine,JODH-PHC-3,JODH-PHC-4,200.0,2.5
+Jodhpur,Phenytoin,JODH-CHC-1,JODH-PHC-2,128.7,4.5
+Jodhpur,Phenytoin,JODH-CHC-1,JODH-PHC-4,87.1,2.5
+Jodhpur,Ethionamide,JODH-PHC-4,JODH-CHC-1,174.5,2.5
+Jodhpur,Ethionamide,JODH-PHC-4,JODH-PHC-3,67.9,2.5
+Jodhpur,Umeclidinium,JODH-CHC-1,JODH-PHC-2,200.0,4.5
+Jodhpur,Umeclidinium,JODH-PHC-4,JODH-PHC-2,37.3,5.7
+Jodhpur,Spectinomycin,JODH-PHC-3,JODH-CHC-1,200.0,1.9
+Jodhpur,Spectinomycin,JODH-PHC-3,JODH-PHC-2,200.0,6.4
+Jodhpur,Spectinomycin,JODH-PHC-3,JODH-PHC-4,184.3,2.5
+Jodhpur,Prednisolone,JODH-PHC-3,JODH-CHC-1,11.7,1.9
+Jodhpur,Prednisolone,JODH-PHC-3,JODH-PHC-2,64.6,6.4
+Jodhpur,Prednisolone,JODH-PHC-4,JODH-PHC-2,200.0,5.7
+Jodhpur,Amoxicillin,JODH-PHC-3,JODH-CHC-1,103.9,1.9
+Jodhpur,Amoxicillin,JODH-PHC-4,JODH-CHC-1,200.0,2.5
+Jodhpur,Amoxicillin,JODH-PHC-4,JODH-PHC-2,135.4,5.7
+Jodhpur,Budesonide + Salmeterol,JODH-PHC-2,JODH-PHC-3,83.6,6.4
+Jodhpur,Budesonide + Salmeterol,JODH-PHC-4,JODH-CHC-1,191.9,2.5
+Jodhpur,Budesonide + Salmeterol,JODH-PHC-4,JODH-PHC-3,200.0,2.5
+Jodhpur,Mometasone + Formoterol,JODH-CHC-1,JODH-PHC-3,166.2,1.9
+Jodhpur,Mometasone + Formoterol,JODH-CHC-1,JODH-PHC-4,131.8,2.5
+Jodhpur,Pertussis Vaccine,JODH-PHC-4,JODH-CHC-1,89.6,2.5
+Jodhpur,Pertussis Vaccine,JODH-PHC-4,JODH-PHC-2,94.1,5.7
+Jodhpur,Pertussis Vaccine,JODH-PHC-4,JODH-PHC-3,200.0,2.5
+Jodhpur,Typhoid Vaccine,JODH-PHC-3,JODH-CHC-1,147.2,1.9
+Jodhpur,Typhoid Vaccine,JODH-PHC-3,JODH-PHC-2,200.0,6.4
+Jodhpur,Typhoid Vaccine,JODH-PHC-3,JODH-PHC-4,200.0,2.5
+Jodhpur,"Insulin (Analogue, Long-Acting)",JODH-CHC-1,JODH-PHC-2,165.6,4.5
+Jodhpur,"Insulin (Analogue, Long-Acting)",JODH-CHC-1,JODH-PHC-3,187.6,1.9
+Jodhpur,"Insulin (Analogue, Long-Acting)",JODH-CHC-1,JODH-PHC-4,200.0,2.5
+Jodhpur,Chloramphenicol,JODH-PHC-2,JODH-PHC-3,116.3,6.4
+Jodhpur,Chloramphenicol,JODH-PHC-4,JODH-CHC-1,124.2,2.5
+Jodhpur,Chloramphenicol,JODH-PHC-4,JODH-PHC-3,200.0,2.5
+Jodhpur,"Insulin (Analogue, Rapid-Acting)",JODH-PHC-2,JODH-CHC-1,93.0,4.5
+Jodhpur,"Insulin (Analogue, Rapid-Acting)",JODH-PHC-3,JODH-CHC-1,31.6,1.9
+Jodhpur,Metronidazole,JODH-PHC-2,JODH-CHC-1,111.2,4.5
+Jodhpur,Metronidazole,JODH-PHC-3,JODH-CHC-1,193.6,1.9
+Jodhpur,Haemophilus Influenzae Type B Vaccine,JODH-CHC-1,JODH-PHC-2,136.0,4.5
+Jodhpur,Haemophilus Influenzae Type B Vaccine,JODH-PHC-4,JODH-PHC-2,59.8,5.7
